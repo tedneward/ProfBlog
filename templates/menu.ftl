@@ -29,6 +29,7 @@
               </ul>
             </li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archive</a></li>
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/index.html">All Tags</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

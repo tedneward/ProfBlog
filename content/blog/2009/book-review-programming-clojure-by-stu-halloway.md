@@ -1,0 +1,17 @@
++++
+date = "2009-06-27T22:34:56.3740909-07:00"
+draft = false
+title = "Review: \"Programming Clojure\", by Stu Halloway"
+aliases = [
+	"/2009/06/28/Review+QuotProgramming+Clojurequot+By+Stu+Halloway.aspx"
+]
+categories = [
+	".NET","C#","C++","F#","Java/J2EE","Languages","Reading","Review","Ruby","Scala","Visual Basic"
+]
+concepts = ["Languages", "Reading"]
+languages = ["C#", "C++", "F#", "Ruby", "Scala", "Visual Basic"]
+platforms = [".NET", "Java/J2EE"]
+ 
++++
+<blockquote>   <p><em><strong>(Disclaimer:</strong> In the spirit of full disclosure, Stu is a friend, fellow NFJS speaker, and former co-worker of mine from DevelopMentor.)</em></p> </blockquote>  <p>I present this review to you in two parts.</p>  <p><strong>Short version:</strong> If you want to learn Clojure, and you're familiar with at least one programming language, you'll find this a great resource. If you don't already know a programming language, or if you already know Clojure, or if you're looking for &quot;best practices&quot; to cut-and-paste, you're going to be disappointed.</p>  <p><strong>Long version:</strong> Recently, fellow NFJS speaker Stu Halloway decided to take up a new language, and came to Clojure. He found the language interesting enough to write a book on it, something he hasn't done since his Java days, and the result is a nice walk through the language and its environment for experienced Java developers who want to understand Clojure's language, concurrency concepts, and programming model.</p>  <p>Now, let's be 100% honest about this: if you're coming at this book expecting it to be a language reference, you will probably be disappointed (as <a href="http://www.amazon.com/review/R3NM9CKFWYFKAE/ref=cm_cr_rdp_perm" target="_blank">this guy</a> obviously is). Stu's not like that—he's not going to re-create material that's available elsewhere, or that can be found with an easy Google search. Stu will not waste your time that way—he wants to tell you a story, one that takes you from &quot;I'm a Java guy, but clueless about Lisp, dynamic languages, functional programming, concurrency, or macros&quot; to &quot;Wow. I know kung-fu.&quot; in the shortest path possible, but without trying to lobotomize you. He wants—no, <em>expects</em>—the readers of his book to be propping the text open with a cell phone on one side and the dinner plate on the other, craning your neck over to scan the pages and type in the examples into the REPL shell to try them out, see them work, then spend a few minutes experimenting with them before moving on to the next paragraph or page. </p>  <p>(Oh, I suppose you could just cut and paste them from the PDF version of the book, but where's the fun in that?)</p>  <p>The fact is, the <em>concepts</em> behind Clojure make up what's important to learn here, and readers of this book will come away like the panda from the movie, realizing that &quot;There is no Secret Ingredient&quot;, that the power of Clojure comes not from its super-secret language sauce or special libraries, but in the way Clojure programmers approach problems and think about programming. And for that reason, if you're a programmer—even if you don't program on the JVM—you really want to take a look at what Stu's talking about (and Rich Hickey is creating).</p>  <p>Just remember, cellphone and dinner plate. Otherwise you'll be missing out on so much.</p>
+ 

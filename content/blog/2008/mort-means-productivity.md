@@ -1,0 +1,17 @@
++++
+date = "2008-03-15T08:57:39.6368518-07:00"
+draft = false
+title = "Mort means productivity"
+aliases = [
+	"/2008/03/15/Mort+Means+Productivity.aspx"
+]
+categories = [
+	".NET","C++","Development Processes","Java/J2EE","Languages","Ruby"
+]
+concepts = ["Development Processes", "Languages"]
+languages = ["C++", "Ruby"]
+platforms = [".NET", "Java/J2EE"]
+ 
++++
+<p>Recently, a number of folks in the Java space have taken to openly ridiculing Microsoft's use of the "Mort" persona, latching on to the idea that Mort is somehow equivalent to "Visual Basic programmer", which is itself somehow equivalent to "stupid idiot programmer who doesn't understand what's going on and just clicks through the wizards". This would be a mischaracterization, one which I think <a href="http://www.nikhilk.net/Personas.aspx">Nikhilik's definition</a> helps to clear up:</p> <blockquote> <p>Mort, the opportunistic developer, likes to create quick-working solutions for immediate problems and focuses on productivity and learn as needed. Elvis, the pragmatic programmer, likes to create long-lasting solutions addressing the problem domain, and learn while working on the solution. Einstein, the paranoid programmer, likes to create the most efficient solution to a given problem, and typically learn in advance before working on the solution. ....  <p>The description above is only rough summarization of several characteristics collected and documented by our usability folks. During the meeting a program manager on our team applied these personas in the context of server controls rather well (I think), and thought I should share it. Mort would be a developer most comfortable and satisfied if the control could be used as-is and it just worked. Elvis would like to able to customize the control to get the desired behavior through properties and code, or be willing to wire up multiple controls together. Einstein would love to be able to deeply understand the control implementation, and want to be able to extend it to give it different behavior, or go so far as to re-implement it.</p></blockquote> <p>Phrased this way, it's fairly easy to recognize that it's possible that these are more roles than actual categorizations for programmers as individuals--sometimes you want to know how to create the most efficient solution, and sometimes you just want the damn thing (whatever it is) to get out of your way and let you move on. </p> <p>Don Box called this latter approach (which is a tendency on the part of <em>all</em> developers, not just the VB guys) the <em>selective ignorance bit</em>: none of us have the time or energy or intellectual capacity to know how <em>everything</em> works, so for certain topics, a programmer flips the selective ignorance bit and just learns enough to make it work. For myself, a lot of the hardware stuff sees that selective ignorance bit flipped on, as well as a lot of the frou-frou UI stuff like graphics and animation and what-not. Sure, I'm curious, and I'd love to know how it works, but frankly, that's way down the priority list.</p> <p>If trying to find a quick-working solution to a particular problem means labeling yourself as a Mort, then call me Mort. After all, raise your hand if you didn't watch a team of C++ guys argue for months over the most efficient way to create a reusable framework for an application that they ended up not shipping because they couldn't get the framework done in time to actually start work on the application as a whole....</p>
+ 

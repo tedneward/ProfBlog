@@ -10,8 +10,6 @@ The overall pattern catalog. The goals of this enterprise are admittedly audacio
 
 Note that these are "design patterns", meaning they are at the level of software implementation design, not "architectural" patterns (such as what we might find from Martin Fowler's "Patterns of Enterprise Application Architecture").
 
-<!--more-->
-
 This roughly follows the same format as the original Gang-of-Four patterns catalog, but with a few changes.
 
 * The original patterns are not duplicated in their entirety*. This is deliberate, in that I wish to avoid any copyright infringement and I want to encourage those who have not read the original book to procure a copy and do so.
