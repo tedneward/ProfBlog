@@ -6,6 +6,8 @@ status=published
 description=In which I offer up the reasoning why there are no such things as best practices.
 ~~~~~~
 
+<!--more-->
+
 <a href="http://blackbox.cs.fit.edu/blog/james" target="_blank">James Bach</a> recently <a href="http://blackbox.cs.fit.edu/blog/james/archives/000187.html" target="_blank">blogged about something I've been saying</a> in conversations with friends and conference attendees: *there ain't no such thing as a "best practice"*.
 
 He lays out his points in a letter to his blog readers, and I want to comment on a few of them.

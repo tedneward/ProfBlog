@@ -8,6 +8,8 @@ description=In which I talk about the power of dynamic languages and runtimes.
 
 Stu Halloway [has responded](http://www.relevancellc.com/blogs/?p=69) to [my earlier post](http://blogs.tedneward.com/2005/10/05/More+On+The+Dynamic+Language+Wave+But+Leave+The+Poor+Vendors+Alone.aspx) about dynamic languages, and Stu refines his argument. Still wrong, but at least now it's refined. :-)
 
+<!--more-->
+
 Stu writes that we're "talking past one another", and in particular notes that...
 
 > The criticial point is that these abstractions are implemented in the language itself. Developers can (and do!) modify these core abstractions to work in different ways.

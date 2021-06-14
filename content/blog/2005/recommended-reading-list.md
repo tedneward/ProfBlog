@@ -1,4 +1,4 @@
-title=Recommended Reading List (old version)
+title=Recommended Reading List
 date=2005-08-21
 type=post
 tags=reading, review, clr, javaee, j2ee, ruby
@@ -6,9 +6,13 @@ status=published
 description=In which I offer up a list of reading materials for those interested.
 ~~~~~~
 
-(Note that this is a reprint, so to speak, of <A href="http://www.neward.net/ted/weblog/index.jsp?date=20030205#1044497180661">the same entry</A> on the old weblog, but I wanted to kick the Reading category off with a reprise of what I'd written before.)
-
 I've been asked on several occasions (from students, from blog readers, and from a few friends who happen to be in the business) what my recommended reading list is. I've never really put one together formally, instead just sort of relying on impromptu answers that cover some of my absolute favorites and a few that just leap to mind at the time. 
+
+<!--more-->
+
+*(Note that this is a reprint, so to speak, of <A href="http://www.neward.net/ted/weblog/index.jsp?date=20030205#1044497180661">the same entry</A> on the old weblog, but I wanted to kick the Reading category off with a reprise of what I'd written before.)*
+
+*(**UPDATE 2021**: I'm updating this as time goes by. Come back here periodically for new titles and updates.)*
 
 Enough is enough. It's time for me to post my recommended reading list, broken out for both Java and .NET programmers. (If you're of one camp, it's still worth reading books on the other camp's list, since the two environments really are Evil Twin Brothers.) And I've left my own books off the list, because I think it's rather forward of me to recommend them as recommended reading--naturally, I think they're all good, but whether or not they make the cut of "recommended reading" is for others to weigh in on, not me (at least not here). (**Update**: several commenters on the old blog suggested it was not out of line to recommend my own books if I thought they were worth recommending, so I added them.)
 
@@ -61,19 +65,21 @@ Enough is enough. It's time for me to post my recommended reading list, broken o
 * *Principles of Transaction Processing* by Bernstein and Newcomer. 
 * *Transaction Processing: Concepts and Techniques* by Gray and Reuter. What to read when you're done with the Bernstein and Newcomer book and still want to know more about the Zen of Transactional Processing.
 
+
 **Security-related Recommended Reading list**: 
 
-* *Secrets and Lies* by Schneier. 
+* *Rootkits* by McGraw.
+* *Secrets and Lies* by Schneier.
 * Either *Cryptography Decrypted* by (can't remember the name offhand), *Practical Cryptography* by Schneier and Ferguson, or *Applied Cryptography (2nd Ed)* by Schneier. The first is a lightweight introduction to the subject, the second is a more detailed introspection, the third required reading for anybody who wants to be a security wonk. 
 * *The Code Book* by Singh. 
 * *Hacking Exposed (5th Ed)*, by McClure, et al. 
-* *Exploting Software*, by Hogland and McGraw. The most fun book in the list, if you ask me. 
+* *Exploting Software*, by Hogland and McGraw. The most fun book in the list, if you ask me.
 * *Reversing* by Eilam. Who says unmanaged code is "safe from reverse-engineering"?
-* *The Art of Deception*, by Mitnick
+* *The Art of Deception*, by Mitnick.
 
 **Operating System/Platform Reading list**:
 
-* *Windows Internals* (4th Ed) by Russinovich and Solomon. Actually, any of the last three editions (2nd, 3rd, 4th) is awesome, so look for 3rd Ed in a bargain bin and pick up a great bargain. 
+* *Windows Internals* (4th Ed) by Russinovich and Solomon. Actually, any of the last three editions (2nd, 3rd, 4th) is awesome, so look for 3rd Ed in a bargain bin and pick up a great bargain.
 * *Operating Systems* (2nd Ed) by Tanenbaum. The original "Minix" book. Taught me the basics of how an O/S works, and the basic concepts are still applicable to this day.
 
 **Platform-agnostic Recommended Reading list**: 

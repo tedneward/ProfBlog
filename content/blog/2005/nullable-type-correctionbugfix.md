@@ -7,6 +7,8 @@ description=In which I talk about nullable types and nulls.
 ~~~~~~
 This is a bit of old news, but the discussion came up during the Seattle Code Camp, so I thought I'd go through the problem, and use it as an example of the issues that can come up when trying to map language concepts on top of a platform that doesn't support the idea natively. Hopefully, this will cause developers looking to build DSLs or other languages on top of the .NET (or JVM) platform to see some of the edge cases a bit more clearly and a bit sooner. :-)
 
+<!--more-->
+
 To lay down the background first: dealing with NULLs has always been somewhat problematic; the most obvious example of this is the mapping between relational databases, where even an INTEGER column can either have a value, or be empty, or be NULL, each of those being separate and distinct states. Trying to map NULL integer column values to integer values in the language has always been difficult in Java. C++, and C#, since primitive types / value types generally don't support null values, and Anders (among others) decided that it was time to try and integrate nullability more deeply into the language. The .NET team saw an opportunity to support nullability by creating a generic/templatized type to represent the possibility of nullability, and the C# language team took it further to try and make nullability feel "more at home" within the language. It was a bold, if at first seemingly-trivial, step.
 
 Initially, the Nullable<T> type was pretty simple: it captured an instance of T internally, and if T was null it tripped an internal flag such that the IsNull property would return true. So, using a nullable int would work something like this:
