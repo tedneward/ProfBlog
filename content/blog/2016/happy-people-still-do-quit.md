@@ -1,15 +1,3 @@
-+++
-date = "2016-01-08T22:34:22-08:00"
-draft = false
-title = "Happy People Still Do Quit"
-categories = [
-  "Industry", "Management", "Psychology"
-]
-concepts = ["Industry"]
-languages = []
-platforms = []
-
-+++
 title=Happy People Still Do Quit
 date=2016-01-08
 type=post

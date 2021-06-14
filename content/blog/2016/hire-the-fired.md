@@ -1,12 +1,3 @@
-+++
-concepts = ["Industry"]
-date = "2016-02-24T17:48:22-08:00"
-languages = []
-platforms = []
-title = "Hire the Fired"
-
-+++
-
 **tl;dr** A Forbes.com article Q/A recently stated that job-seekers need to hide the fact that they've ever been fired from a position, because of the stigma associated with such an action. I couldn't disagree more.
 
 <!--more-->
