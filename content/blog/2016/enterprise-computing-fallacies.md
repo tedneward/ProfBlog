@@ -1,24 +1,16 @@
-+++
-concepts = ["Architecture", "Cloud", "Containers", "DevOps", "Distributed Systems", "Industry", "Security", "Interoperability"]
-date = "2016-08-24T23:55:16-07:00"
-languages = ["Java", "Scala", "Groovy", "Clojure", "Kotlin", "C#", "F#", "Visual Basic", "Go", "C++", "Swift", "Objective-C", "Haskell", "Ruby", "Python", "JavaScript", "Erlang", "Elixir", "Elm"]
-platforms = ["JVM", "J2EE", "JavaEE", "CLR", "LLVM", "Node", "iOS", "Android", "AWS", "Azure", "GoogleCloud", "Solaris", "Windows", "Mac OS", "Parrot", "Native"]
-title = "The Fallacies of Enterprise Computing"
+title=The Fallacies of Enterprise Computing
+date=2016-08-24
+type=post
+tags=industry, enterprise, architecture, cloud, containers, devops, distributed systems, security, interoperability
+status=published
+description=Another set of classic mistakes everybody makes in enterprise systems.
+~~~~~~
 
-+++
-
-More than a decade ago, I published 
-[Effective Enterprise Java](https://www.amazon.com/Effective-Enterprise-Java-Ted-Neward/dp/0321130006),
-and in the opening chapter I talked about the Ten Fallacies of Enterprise Computing, essentially an
-extension/add-on to Peter Deutsch's Fallacies of Distributed Computing. But in the ten-plus years
-since, I've had time to think about it, and now I'm convinced that Enterprise Fallacies are a different
-list. Now, with the rise of cloud computing stepping in to complement, supplment or replace entirely
-the on-premise enterprise data center, it seemed reasonable to get back to it.
+More than a decade ago, I published [Effective Enterprise Java](https://www.amazon.com/Effective-Enterprise-Java-Ted-Neward/dp/0321130006), and in the opening chapter I talked about the Ten Fallacies of Enterprise Computing, essentially an extension/add-on to Peter Deutsch's Fallacies of Distributed Computing. But in the ten-plus years since, I've had time to think about it, and now I'm convinced that Enterprise Fallacies are a different list. Now, with the rise of cloud computing stepping in to complement, supplment or replace entirely the on-premise enterprise data center, it seemed reasonable to get back to it.
 
 <!--more-->
 
-I'll expand on the items in the list over future blog posts, I imagine, but without further ado,
-here's the Fallacies of Enterprise Computing.
+I'll expand on the items in the list over future blog posts, I imagine, but without further ado, here's the Fallacies of Enterprise Computing.
 
 1. ***New technology is always better than old technology***
 2. ***Enterprise systems are not "distributed systems"***
@@ -30,77 +22,37 @@ here's the Fallacies of Enterprise Computing.
 8. ***Enterprise architecture is the same everywhere***
 9. ***Developers need only worry about development problems***
 
-As Deutsch said, "Essentally everyone, when they first build a [enterprise] system, makes the
-following [nine] assumptions. All prove to be false in the long run and all cause big trouble and
-painful learning experiences."
+As Deutsch said, "Essentally everyone, when they first build a [enterprise] system, makes the following [nine] assumptions. All prove to be false in the long run and all cause big trouble and painful learning experiences."
 
-Naturally, I welcome discussion around these, and I may edit and/or append to this list as time goes
-by, but this is where the past decade has led me.
+Naturally, I welcome discussion around these, and I may edit and/or append to this list as time goes by, but this is where the past decade has led me.
 
 ### New technology is always better than old technology
-After building IT systems for more than sixty years, one would think we as an industry would have
-learned that "newer is not always better". Unfortunately, this is a highly youth-centric industry,
-and the young have this tendency to assume that anything new to them is also new to everybody else.
-And if it's new, it's exciting, and if it's exciting, it must be good, right? And therefore, we
-must throw away all the old, and replace it with the new.
+After building IT systems for more than sixty years, one would think we as an industry would have learned that "newer is not always better". Unfortunately, this is a highly youth-centric industry, and the young have this tendency to assume that anything new to them is also new to everybody else. And if it's new, it's exciting, and if it's exciting, it must be good, right? And therefore, we must throw away all the old, and replace it with the new.
 
 This cannot be emphasized enough: This is fallacious, idiotic, stupid, and brain-dead.
 
-This fallacy is an extension of the old economic "limited market" fallacy: The more gains one entity
-makes in a market, the more that other entities lose. (Essentially, it suggests that the market is
-intrinsically a zero-sum game, despite obvious evidence that markets have grown substantially even
-in just the last hundred years since we started tracking economics as a science.) Thus, for example,
-if the cloud is new, and it has some advantages over its "competitors", then every "win" for the
-cloud must mean an equal "loss" for the alternatives (such as on-prem computing). Never mind that
-the cloud solves different problems than on-prem computing, or that not everything can be solved
-using the cloud (such as computing when connections to the Internet are spotty, nonexistent, or
-worse, extremely slow).
+This fallacy is an extension of the old economic "limited market" fallacy: The more gains one entity makes in a market, the more that other entities lose. (Essentially, it suggests that the market is intrinsically a zero-sum game, despite obvious evidence that markets have grown substantially even in just the last hundred years since we started tracking economics as a science.) Thus, for example, if the cloud is new, and it has some advantages over its "competitors", then every "win" for the cloud must mean an equal "loss" for the alternatives (such as on-prem computing). Never mind that the cloud solves different problems than on-prem computing, or that not everything can be solved using the cloud (such as computing when connections to the Internet are spotty, nonexistent, or worse, extremely slow).
 
-Now, for those of you who have been engaged in the industry for more than just the past half-decade,
-here's the $65,535 question for you: How is "the cloud" any different from "the mainframe", albeit
-much, much faster and with much, much greater storage?
+Now, for those of you who have been engaged in the industry for more than just the past half-decade, here's the $65,535 question for you: How is "the cloud" any different from "the mainframe", albeit much, much faster and with much, much greater storage?
 
 > Those who cannot remember the past are condemned to repeat it. --George Santanyana, Historian
 
-I've seen this play out over and over again, starting with my own entry into the IT universe with
-C++ (which was the "new" over C), and participated in a few system rewrites to C++ from other
-things (Visual Basic being one, C being another, sometimes some specific vertical stuff as well).
-Then I saw it again when Java came around, and companies immediately started rewriting some of
-their C++ systems into Java. This time around, I started to ask, "Why?", and more often than not,
-answers of "We don't want to fall too far behind" or "We need to modernize our software" were the
-fairly vague answers. (When pressed as to why "falling behind" was bad, or why software needed to
-be modernized, I was usually shushed and told not to worry about it.)
+I've seen this play out over and over again, starting with my own entry into the IT universe with C++ (which was the "new" over C), and participated in a few system rewrites to C++ from other things (Visual Basic being one, C being another, sometimes some specific vertical stuff as well). Then I saw it again when Java came around, and companies immediately started rewriting some of their C++ systems into Java. This time around, I started to ask, "Why?", and more often than not, answers of "We don't want to fall too far behind" or "We need to modernize our software" were the fairly vague answers. (When pressed as to why "falling behind" was bad, or why software needed to be modernized, I was usually shushed and told not to worry about it.)
 
-In the years since, I keep thinking that companies have started to get this message more thoroughly,
-but then something comes along and completely disrupts any and all lessons we might have learned.
-After Java, it was Ruby. Or, for those companies that didn't bite on the Java apple, it was .NET.
-Now NodeJS. Or NoSQL. Or "cloud". Or functional programming. Or take your pick of any of another
+In the years since, I keep thinking that companies have started to get this message more thoroughly, but then something comes along and completely disrupts any and all lessons we might have learned. After Java, it was Ruby. Or, for those companies that didn't bite on the Java apple, it was .NET. Now NodeJS. Or NoSQL. Or "cloud". Or functional programming. Or take your pick of any of another
 half-dozen things.
 
-Unfortunately, as much as I wish I could believe that "it's different this time" and we as an
-industry have learned our way through this, I keep seeing signs that no, unfortunately, that's
-too much to hope for. The easy way to mitigate this fallacy is to force those advocating new
-technology to enumerate the benefits in concrete terms---monetary and/or temporal benefits,
-ideally, backed by examples and objective analysis of pros and cons. 
+Unfortunately, as much as I wish I could believe that "it's different this time" and we as an industry have learned our way through this, I keep seeing signs that no, unfortunately, that's too much to hope for. The easy way to mitigate this fallacy is to force those advocating new technology to enumerate the benefits in concrete terms---monetary and/or temporal benefits, ideally, backed by examples and objective analysis of pros and cons. 
 
-By the way, for those who aren't sure if they can spot the fallacy, the easy way to tell if
-somebody is falling into this fallacious trap is to see if their analysis contains both
-positive and negative consequences. No technology is never without its negatives, and a
-practical and objective analysis will point it out. If it's you doing the analysis, then
-force yourself to ask the question, "When would I *not* use this? What circumstances would
-lead me away from it? When is using this going to lead to more pain than it's worth?"
+By the way, for those who aren't sure if they can spot the fallacy, the easy way to tell if somebody is falling into this fallacious trap is to see if their analysis contains both positive and negative consequences. No technology is never without its negatives, and a practical and objective analysis will point it out. If it's you doing the analysis, then force yourself to ask the question, "When would I *not* use this? What circumstances would lead me away from it? When is using this going to lead to more pain than it's worth?"
 
 ### Enterprise systems are not "distributed systems"
-This means, simply, that any enterprise system is subject to the same fallacies as any other
-distributed system. Reliability, latency, bandwidth, security, the whole nine yards (or the whole
-eight fallacies, if you prefer) are all in play with any enterprise system.
+This means, simply, that any enterprise system is subject to the same fallacies as any other distributed system. Reliability, latency, bandwidth, security, the whole nine yards (or the whole eight fallacies, if you prefer) are all in play with any enterprise system.
 
-If you're not familiar with the Eight Fallacies of Distributed Systems, take some time to make
-yourself familiar with them and some of the mitigation strategies.
+If you're not familiar with the Eight Fallacies of Distributed Systems, take some time to make yourself familiar with them and some of the mitigation strategies.
 
 ### Business logic and should be centralized
-*(Note: I wrote this up a long time ago in a blog post as the "Eleventh Fallacy of Distributed Systems",
-but it feels vastly more relevant as an Enterprise Fallacy.)*
+*(Note: I wrote this up a long time ago in a blog post as the "Eleventh Fallacy of Distributed Systems", but it feels vastly more relevant as an Enterprise Fallacy.)*
 
 The reason this is a fallacy is because the term "business logic" is way too nebulous to nail down correctly, and because business logic tends to stretch out across client-, middle- and server- tiers, as well as across the presentation and data access/storage layers.
 
@@ -123,8 +75,7 @@ I have never seen one of these projects ever actually ship. Other architects hav
 
 The problem here is that different parts of the enterprise care about different aspects of a given "entity". Consider the ubiquitous "Person" type, which is almost always one of the first built in the unified model. Sales cares about the Person's sales history, Marketing cares about their demographic data (age, sex, location, etc), HR cares about their company-related information (position, department, salary, benefits status, etc), and Fulfillment (the department that ships your order once purchased) cares about address, credit card information, and the actual order placed.
 
-Now, obviously, trying to keep all of this in one Person entity (the so-called "fat" entity, since it has everything that any possible department could want from it) is going to be problematic over time---if nothing else, fetching a list of all of the Persons from the system for a dropdown will result in downloading orders of magnitude more data than actually required. (This also
-runs afoul of the "Bandwidth is inifite" and "Latency is zero" and "Transport cost is zero" fallacies of Distributed Systems.) Clients will quickly start caching off only the parts they care about, and the centralized data model is essentially decentralized again.
+Now, obviously, trying to keep all of this in one Person entity (the so-called "fat" entity, since it has everything that any possible department could want from it) is going to be problematic over time---if nothing else, fetching a list of all of the Persons from the system for a dropdown will result in downloading orders of magnitude more data than actually required. (This also runs afoul of the "Bandwidth is inifite" and "Latency is zero" and "Transport cost is zero" fallacies of Distributed Systems.) Clients will quickly start caching off only the parts they care about, and the centralized data model is essentially decentralized again.
 
 The next reasonable step is to split Person up into "derived" models, usually (in the relational sense) by creating subsidiary tables for each of the specific parts. This is reasonable, assuming that the cost of doing joins (in the relational sense) across the tables is acceptable. Unfortunately, these sorts of centralized data models are usually supposed to hold the entirety of the enterprise's data in one database, so the costs of doing joins across millions of rows in multiple tables is often prohibitive. But let's leave that alone for a moment.
 
