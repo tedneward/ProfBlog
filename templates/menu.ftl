@@ -23,6 +23,8 @@
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2016/enterprise-computing-fallacies.html">The Fallacies of Enterprise Computing</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2009/sscli-20-internals.html">SSCLI 2.0 Internals</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2016/functional-java.html">Functional Java</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2016/on-finding-learning.html">On Finding learning</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2016/the-value-of-failure.html">The Value of Failure</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Patterns, Revisited</li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/Catalog.html">Catalog</a></li>
