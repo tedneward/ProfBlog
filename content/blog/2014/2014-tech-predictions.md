@@ -5,8 +5,7 @@ tags=predictions
 status=published
 description=Technology and related predictions for 2014.
 ~~~~~~
-Here we go again: the annual review of last year's predictions, and a set of new ones
-for the new year.
+Here we go again: the annual review of last year's predictions, and a set of new ones for the new year.
 
 <!--more-->
 

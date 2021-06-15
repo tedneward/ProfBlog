@@ -1,20 +1,18 @@
-+++
-date = "2013-01-01T01:22:30.4470000-08:00"
-draft = false
-title = "Tech Predictions, 2013"
-aliases = [
-	"/2013/01/01/Tech+Predictions+2013.aspx"
-]
-categories = [
-	".NET","Android","Azure","C#","C++","Conferences","Development Processes","F#","Flash","Industry","iPhone","Java/J2EE","Languages","LLVM","Mac OS","Objective-C","Parrot","Python","Reading","Review","Ruby","Scala","Security","Solaris","Visual Basic","VMWare","WCF","Windows","XML Services","XNA"
-]
-concepts = ["Development Processes", "Industry", "Languages", "Reading", "Security", "XML Services"]
-languages = ["C#", "C++", "F#", "Python", "Ruby", "Scala", "Visual Basic"]
-platforms = [".NET", "Java/J2EE", "LLVM", "Mac OS", "Parrot", "Windows"]
- 
-+++
-<p>Once again, it's time for my annual prognostication and <a href="http://blogs.tedneward.com/2012/01/02/Tech+Predictions+2012+Edition.aspx">review of last year's efforts</a>. For those of you who've been long-time readers, you know what this means, but for those two or three of you who haven't seen this before, let's set the rules: if I got a prediction right from last year, you take a drink, and if I didn't, you take a drink. (Best. Drinking game. EVAR!)</p>
-<p>Let's begin....</p>
+title=2013 Tech Predictions
+date=2013-01-01
+type=post
+tags=predictions
+status=published
+description=Technology and related predictions for 2013.
+~~~~~~
+Here we go again: the annual review of last year's predictions, and a set of new ones for the new year.
+
+<!--more-->
+
+Once again, it's time for my annual prognostication and <a href="http://blogs.tedneward.com/2012/01/02/Tech+Predictions+2012+Edition.aspx">review of last year's efforts</a>. For those of you who've been long-time readers, you know what this means, but for those two or three of you who haven't seen this before, let's set the rules: if I got a prediction right from last year, you take a drink, and if I didn't, you take a drink. (Best. Drinking game. EVAR!)
+
+Let's begin....
+
 <h3 id="recap-2012-predictions">Recap: 2012 Predictions</h3>
 <p><strong>THEN</strong>: <em>Lisps will be the languages to watch.</em></p>
 <blockquote>

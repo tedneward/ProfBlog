@@ -6,9 +6,11 @@ status=published
 description=In which I talk about the benefits of anonymous generic methods.
 ~~~~~~
 
+A good friend of mine and I are looking at taking on a new project together, and as part of the discussion we were exploring some of the differences of taking a relational perspective against an object perspective, and one of the comments she made was that in a relational model, you can always "filter" the data you want based on some predicate. "Ha!", I said, "If that's what you want, I can give you that over objects, too!" 
+
 <!--more-->
 
-A good friend of mine and I are looking at taking on a new project together, and as part of the discussion we were exploring some of the differences of taking a relational perspective against an object perspective, and one of the comments she made was that in a relational model, you can always "filter" the data you want based on some predicate. "Ha!", I said, "If that's what you want, I can give you that over objects, too!" What's more, thanks to generics, I can do this for any collection type in the system without having to introduce it on some kind of base class:
+What's more, thanks to generics, I can do this for any collection type in the system without having to introduce it on some kind of base class:
 
 ```
 static class SetUtils
