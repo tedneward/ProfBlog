@@ -3,7 +3,7 @@ date=2016-07-02
 type=page
 tags=speaking tips
 status=published
-description=A list of links to pages about doing public technical presentations.
+description=Regardless of who you are, what you know, or what you want to speak about, there is a conference out there who wants you to speak at their event.
 ~~~~~~
 This is probably one of the first obstacles most would-be speakers run into when they start thinking about speaking. They look up at the speaker on stage at the international conference and think, "Man, I wish I could be that speaker." After some internal conversations, and maybe a few external conversations with friends and family (all of whom universally encourage them to "go for it" and "follow your passion", which is simultaneously both encouraging and useless), they then work up a few feeble proposals, and submit it to the international conference. Then, when the rejection comes through, they think, "See? Not good enough, not going to work out", and abandon the idea.
 

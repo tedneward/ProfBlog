@@ -1,3 +1,10 @@
+title=Hire the fired
+date=2016-02-24
+type=post
+tags=industry, management
+status=published
+description=In which I examine the question of hiding the fact that you've been fired from a job from potential future employers.
+~~~~~~
 **tl;dr** A Forbes.com article Q/A recently stated that job-seekers need to hide the fact that they've ever been fired from a position, because of the stigma associated with such an action. I couldn't disagree more.
 
 <!--more-->
