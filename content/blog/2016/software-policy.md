@@ -7,6 +7,8 @@ description=In which I talk about the lessons that could be learned from the Par
 ~~~~~~
 As many readers know, I didn't spend my collegiate years studying algorithms; instead, I obtained my degree from [UCDavis in International Relations](http://admissions.ucdavis.edu/majors/major_view.cfm?major=lire) with an emphasis on military strategy and history. That meant a tremendous amount of study in history, pyschology, a little philosophy, and military affairs.
 
+<!--more-->
+
 One of the great books on strategy, [Strategy](http://www.amazon.com/Strategy-Meridian-B-Liddell-Hart/dp/0452010713/ref=sr_1_1), written shortly after the end of World War Two, was widely considered to be Hart's best work on the subject, though he had plenty to say before the book's publication; the great German general Guderian was quoted as having studied Hart prior to the war's outbreak. He's a pretty easy read, too, by the way, as historians and military advisory goes.
 
 Recently (for a variety of reasons) I picked it back up again. The first 75% of the book is about war throughout history, as a means of establishing Hart's backdrop for the theory that he advocates in the latter quarter of the book. The closer he gets to WW2, the more detailed his analysis and history, so it's not really a comprehensive study of military history by a long shot, but it's still more than most students of American education have ever received.

@@ -7,6 +7,8 @@ description=Technology and related predictions for 2015.
 ~~~~~~
 It's that time of year again....
 
+<!--more-->
+
 First, as always, we revisit the predictions <a href="http://blogs.tedneward.com/2014/01/03/Tech+Predictions+2014.aspx">I made last year</a>, and see how well they stacked up. (Because, as I've said before, anybody can make predictions without going back to measure your accuracy; I believe in accountability, even to my own silly blog predictions.)
 
 On 3 January, 2014, I said: 

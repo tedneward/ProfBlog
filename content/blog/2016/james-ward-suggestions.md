@@ -5,8 +5,7 @@ tags=industry, reading, management, reading
 status=published
 description=In which I discuss taking some advice from a colleague about writing speaking abstracts.
 ~~~~~~
-James Ward also wrote an article on how to write abstracts, and I realized after I published that
-I forgot to call out to his article as well. Mea culpa.
+James Ward also wrote an article on how to write abstracts, and I realized after I published that I forgot to call out to his article as well. *Mea culpa.*
 
 <!--more-->
 

@@ -6,10 +6,7 @@ status=published
 description=In which I examine my professional thoughts around the authorities' attempts to coerce Apple into cracking the encryption on an iPhone in an attempt to investigate the San Bernadino shooters.
 ~~~~~~
 
-**tl;dr** By now, everybody has heard that the FBI has issued a request (which is now being backed by a court order
-to comply) to Apple to provide software to unlock the iPhone 5c of one of the San Bernardino shooters. This is a
-massive request, with huge implications for everybody (Apple, Americans, foreigners, I really mean everybody). And
-most of those implications, I believe, are bad.
+**tl;dr** By now, everybody has heard that the FBI has issued a request (which is now being backed by a court order to comply) to Apple to provide software to unlock the iPhone 5c of one of the San Bernardino shooters. This is a massive request, with huge implications for everybody (Apple, Americans, foreigners, I really mean everybody). And most of those implications, I believe, are bad.
 
 <!--more-->
 

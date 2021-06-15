@@ -1,21 +1,19 @@
-+++
-date = "2014-01-03T04:11:17-08:00"
-draft = false
-title = "2014 Tech Predictions"
-aliases = [
-  "/2014/01/03/Tech+Predictions+2014.aspx"
-]
-+++
-
-        <p>
+title=2014 Tech Predictions
+date=2014-01-03
+type=post
+tags=predictions
+status=published
+description=Technology and related predictions for 2014.
+~~~~~~
 Here we go again: the annual review of last year's predictions, and a set of new ones
 for the new year.
-</p>
-        <h3>2013 Retrospective
-</h3>
-        <p>
+
+<!--more-->
+
+### 2013 Retrospective
+
 Without further ado, first we examine last year's Gregorian prognostications: 
-</p>
+
         <ul>
           <li>
             <p>

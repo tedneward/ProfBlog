@@ -3,9 +3,11 @@ date=2015-01-12
 type=post
 tags=industry, management
 status=published
-description=Technology and related predictions for 2015.
+description=In which I write an open letter to software developers regarding what their true purpose is in the world.
 ~~~~~~
-*(**UPDATE**: The original author of "Your Job is Not To Write Code" was not happy at my unauthorized derivative work of her post--it violates her no-reprint policy--and has asked that I remove it. I liked the original intent, however, so I am rewriting/editing this post to reflect the same sentiment but without the derivation. My apologies.)*
+An open letter to software developers all across the world.
+
+<!--more-->
 
 Dear Software Consultants,
 
@@ -72,3 +74,5 @@ Which reminds me, while we're here, remember to embrace the <a href="http://blog
 > If I do not violate this oath, may I enjoy life and art, respected while I live and remembered with affection thereafter. May I always act so as to preserve the finest traditions of my calling and may I long experience the joy of the thanks and praise from those who seek my help.
 
 You're smart. You'll figure it out. Just remember, code is not the goal. It is merely the means to the end, which is to "make the (client's) pain go away".
+
+*(**UPDATE**: The original author of "Your Job is Not To Write Code" was not happy at my unauthorized derivative work of her post--it violates her no-reprint policy--and has asked that I remove it. I liked the original intent, however, so I am rewriting/editing this post to reflect the same sentiment but without the derivation. My apologies.)*
