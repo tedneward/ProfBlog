@@ -6,7 +6,11 @@ status=published
 description=In which I discuss Michael Nygard's definition of "done".
 ~~~~~~
 
-Michael Nygard (author of the <em>great</em> book <em>Release It!</em>), writes that "<a href="http://www.michaelnygard.com/blog/2007/11/a_dozen_levels_of_done.html">[his] definition of 'done' continues to expand</a>". Currently, his definition reads:
+Michael Nygard (author of the <em>great</em> book <em>Release It!</em>), writes that "<a href="http://www.michaelnygard.com/blog/2007/11/a_dozen_levels_of_done.html">[his] definition of 'done' continues to expand</a>".
+
+<!--more-->
+
+Currently, his definition reads:
 
 > A feature is not "done" until all of the following can be said about it:
 > * All unit tests are green.

@@ -8,6 +8,8 @@ description=In which I review the book "Release It!"
 
 This is not a title I convey lightly, but Michael Nygard's *Release It!* deserves the honor. It's the first book I've ever seen that addresses the issues of building software that's Production-friendly and sysadmin-approachable. He describes a series of antipatterns describing a variety of software failures, and offers up a series of solutions (patterns, if you will) to building software systems designed to combat said failures.
 
+<!--more-->
+
 From the back cover:
 
 > Every website project is really an enterprise integration project: the stakes are high and the projects complex. In this world where good marketing can be fatal to yor website, where networks are unreliable, and where astronomically unlikely coincidences happen daily, you need all the help you can get.

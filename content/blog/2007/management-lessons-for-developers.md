@@ -6,7 +6,11 @@ status=published
 description=In which I discuss a very high level of management thinking.
 ~~~~~~
 
-Others may say that developers can't be managers, but I fail to accept that; I just think developers need to get the basics about management in short, easy-to-remember doses. With that, I now offer the "Five-Minute Manager":
+Others may say that developers can't be managers, but I fail to accept that; I just think developers need to get the basics about management in short, easy-to-remember doses.
+
+<!--more-->
+
+With that, I now offer the "Five-Minute Manager":
 
 #### Lesson #1: Communication
 A man is getting into the shower just as his wife is finishing up her shower, when the doorbell rings. The wife quickly wraps herself in a towel and runs downstairs. When she opens the door, there stands Bob, the next-door neighbor.
@@ -40,7 +44,8 @@ On his arrival at the church, the priest rushed to look up Psalm 129. It said, "
 
 **Moral:** If you are not well informed, you might miss a great opportunity.
 
-#### Lesson #3: Politics <p>A sales rep, an administration clerk, and the manager are walking to lunch when they find an antique oil lamp. They rub it and a Genie comes out and says, "I'll give each of you just one wish."
+#### Lesson #3: Politics
+A sales rep, an administration clerk, and the manager are walking to lunch when they find an antique oil lamp. They rub it and a Genie comes out and says, "I'll give each of you just one wish."
 
 "Me first! Me first!" says the admin clerk. "I want to be in the Bahamas, driving a speedboat, without a care in the world."
 
@@ -67,7 +72,8 @@ All of a sudden, a fox appeared, jumped on the rabbit and ate it.
 
 **Moral:** To be sitting and doing nothing, you must be sitting very, very high up.
 
-#### Lesson #5: Sincerity <p>A turkey was chatting with a bull. "I would love to be able to get to the top of that tree," sighed the turkey, "but I haven't got the energy."
+#### Lesson #5: Sincerity
+A turkey was chatting with a bull. "I would love to be able to get to the top of that tree," sighed the turkey, "but I haven't got the energy."
 
 "Well, why don't you nibble on some of my droppings?", replied the bull. "They're packed with nutrients."
 
