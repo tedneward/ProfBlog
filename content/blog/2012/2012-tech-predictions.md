@@ -1,19 +1,15 @@
-+++
-date = "2012-01-01T22:17:28.6610000-08:00"
-draft = false
-title = "Tech Predictions, 2012 Edition"
-aliases = [
-	"/2012/01/02/Tech+Predictions+2012+Edition.aspx"
-]
-categories = [
-	".NET","Android","C#","C++","Conferences","Development Processes","F#","Flash","Industry","iPhone","Java/J2EE","Languages","LLVM","Mac OS","Objective-C","Parrot","Personal","Ruby","Scala","VMWare","Windows"
-]
-concepts = ["Development Processes", "Industry", "Languages"]
-languages = ["C#", "C++", "F#", "Ruby", "Scala"]
-platforms = [".NET", "Java/J2EE", "LLVM", "Mac OS", "Parrot", "Windows"]
- 
-+++
-<p>Well, friends, another year has come and gone, and it's time for me to put my crystal ball into place and see what the upcoming year has for us. But, of course, in the long-standing tradition of these predictions, I also need to put my spectacles on (I did turn 40 last year, after all) and have a look at how well I did <a href="http://blogs.tedneward.com/2011/01/01/Tech+Predictions+2011+Edition.aspx">in this same activity twelve months ago</a>.</span></p>
+title=2012 Tech Predictions
+date=2012-01-01
+type=post
+tags=predictions
+status=published
+description=Technology and related predictions for 2012.
+~~~~~~
+Here we go again: the annual review of last year's predictions, and a set of new ones for the new year.
+
+<!--more-->
+
+<p>Well, friends, another year has come and gone, and it's time for me to put my crystal ball into place and see what the upcoming year has for us. But, of course, in the long-standing tradition of these predictions, I also need to put my spectacles on (I did turn 40 last year, after all) and have a look at how well I did <a href="../2011/2011-tech-predictions.html">in this same activity twelve months ago</a>.</span></p>
 <p>Let's see what unbelievable gobs of hooey I slung last year came even remotely to pass. For 2011, I said....</p>
 <ul>
     <li>

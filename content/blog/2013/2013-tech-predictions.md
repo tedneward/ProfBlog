@@ -9,7 +9,7 @@ Here we go again: the annual review of last year's predictions, and a set of new
 
 <!--more-->
 
-Once again, it's time for my annual prognostication and <a href="http://blogs.tedneward.com/2012/01/02/Tech+Predictions+2012+Edition.aspx">review of last year's efforts</a>. For those of you who've been long-time readers, you know what this means, but for those two or three of you who haven't seen this before, let's set the rules: if I got a prediction right from last year, you take a drink, and if I didn't, you take a drink. (Best. Drinking game. EVAR!)
+Once again, it's time for my annual prognostication and <a href="../2012/2012-tech-predictions.html">review of last year's efforts</a>. For those of you who've been long-time readers, you know what this means, but for those two or three of you who haven't seen this before, let's set the rules: if I got a prediction right from last year, you take a drink, and if I didn't, you take a drink. (Best. Drinking game. EVAR!)
 
 Let's begin....
 

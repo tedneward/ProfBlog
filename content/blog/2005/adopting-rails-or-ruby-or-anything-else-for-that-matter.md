@@ -6,7 +6,11 @@ status=published
 description=In which I talk about the steps required to adopt a new technology.
 ~~~~~~
 
-[Duane Gran](http://codesnipers.com/) emailed me with his thoughts on adopting Ruby-and-Rails into his shop, only his thoughts on the matter are a bit different from the usual rant; he's looking at it from the management perspective, and has some good ideas on when and why to adopt... or not to adopt... [a new programming language](http://codesnipers.com/?q=node/30). Specifically, he spells out:
+[Duane Gran](http://codesnipers.com/) emailed me with his thoughts on adopting Ruby-and-Rails into his shop, only his thoughts on the matter are a bit different from the usual rant; he's looking at it from the management perspective, and has some good ideas on when and why to adopt... or not to adopt... [a new programming language](http://codesnipers.com/?q=node/30).
+
+<!--more-->
+
+Specifically, he spells out:
 
 > The decision to change programming languages, databases and operating systems shouldn't be taken lightly, but when the issue comes up the approach should be analytic. Be wary of resume-driven development initiatives, architectural advice from vendors, marketing hype and buzzword compliance. That your development team is more productive with the new technology is all that matters. ... I suggest changing architectures only when the following factors align:
 

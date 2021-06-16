@@ -1,19 +1,14 @@
-+++
-date = "2006-06-26T10:59:14.1100000-07:00"
-draft = false
-title = "The Vietnam of Computer Science"
-aliases = [
-	"/2006/06/26/The+Vietnam+Of+Computer+Science.aspx"
-]
-categories = [
-	".NET","C++","Java/J2EE","Ruby"
-]
-concepts = []
-languages = ["C++", "Ruby", "C#", "Java"]
-platforms = [".NET", "Java/J2EE"]
- 
-+++
+title=The Vietnam of Computer Science
+date=2006-06-26
+type=post
+tags=jvm, java, j2ee, c++, ruby, xml services, scala
+status=published
+description=In which I offer up an analogy about object/relational mapping and the problems it presents.
+~~~~~~
+
 *(Two years ago, at Microsoft's TechEd in San Diego, I was involved in a conversation at an after-conference event with Harry Pierson and Clemens Vasters, and as is typical when the three of us get together, architectural topics were at the forefront of our discussions. An crowd gathered around us, and it turned into an impromptu birds-of-a-feather session. The subject of object/relational mapping technologies came up, and it was there and then that I first coined the phrase, "Object/relational mapping is the Vietnam of Computer Science". In the intervening time, I've received numerous requests to flesh out the discussion behind that statement, and given Microsoft's recent announcement regarding "entity support" in ADO.NET 3.0 and the acceptance of the Java Persistence API as a replacement for both EJB Entity Beans and JDO, it seemed time to do exactly that.)*
+
+<!--more-->
 
 No armed conflict in US history haunts the American military more than the Vietnam War, aka "Vietnam". So many divergent elements coalesced to create the most decisive turning point in modern American history that it defies any layman's attempt to tease them apart. And yet, the story of Vietnam is fundamentally a simple one: The United States began a military project with simple yet unclear and conflicting goals, and quickly became enmeshed in a quagmire that not only brought down two governments (one legally, one through force of arms), but also deeply scarred American military doctrine for the next four decades (at least).
 
@@ -57,6 +52,7 @@ We begin the analysis of Object/Relational Mapping--and its relationship to the 
 To say that objects and relational data sets are somehow constructed differently is typically not a surprise to any developer who's ever used both; except in extremely simplistic situations, it becomes fairly obvious to recognize that the way in which a relational data store is designed is subtly--and yet profoundly--different than how an object system is designed.
 
 Object systems are typically characterized by four basic components: *identity*, *state*, *behavior* and *encapsulation*.
+
 * *State* is a pretty self-explanatory concept, most closely akin to "the data".
 * *Identity* is an implicit concept in most O-O languages, in that a given object has a unique identity that is distinct from its state (the value of its internal fields)--two objects with the same state are still separate and distinct objects, despite being bit-for-bit mirrors of one another. This is the "identity vs. equivalence" discussion that occurs in languages like C++, C# or Java, where developers must distinguish between "a == b" and "a.equals(b)".
 * The *behavior* of an object is fairly easy to see, a collection of operations clients can invoke to manipulate, examine, or interact with objects in some fashion. (This is what distinguishes objects from passive data structures in a procedural language like C.)
@@ -67,11 +63,11 @@ Relational systems describe a form of knowledge storage and retrieval based on p
 
 A *relation value*, then, is a combination of a relation and a set of tuples that match that relation, and a *relation variable* is, like most variables, a placeholder for a given relation, but can change value over time. Thus, a relation variable `People` can be written to hold the relation `{PERSON}`, and consist of the relation value 
 
-    ```
-    { {PERSON SSN='123-45-6789' Name='Catherine Kennedy' City='Seattle'},
-      {PERSON SSN='321-54-9876' Name='Charlotte Neward' City='Redmond'},
-      {PERSON SSN='213-45-6978' Name='Cathi Gero' City='Redmond'} }
-    ```
+```
+{ {PERSON SSN='123-45-6789' Name='Catherine Kennedy' City='Seattle'},
+  {PERSON SSN='321-54-9876' Name='Charlotte Neward' City='Redmond'},
+  {PERSON SSN='213-45-6978' Name='Cathi Gero' City='Redmond'} }
+```
 
 These are commonly referred to as tables (relation variable), rows (tuples), columns (attributes), and a collection of relation variables as a database. These basic element types can be combined against one another using a set of operators (described in some detail in Chapter 7 of [Date04]): restrict, project, product, join, divide, union, intersection and difference, and these form the basis of the format and approach to SQL, the universally-acceptance language for interacting with a relational system from operator consoles or programming languages. The use of these operators allow for the creation of *derived relation values*, relations that are calculated from other relation values in the database--for example, we can create a relation value that demonstrates the number of people living in individual cities by making use of the project and restrict operators across the `People` relation variable defined above. 
 
@@ -120,22 +116,22 @@ Once the entity is stored within the database, how exactly do we retrieve it? A 
 
 A QBE approach states that you fill out an object template of the type of object you're looking for, with fields in the object set to a particular value to use as part of the query-filtration process. So, for example, if you're querying the Person object/table for people with the last name of Smith, you set up the query like so: 
 
-    ```
-    Person p = new Person(); // assumes all fields are set to null by default
-    p.LastName = "Smith";
-    ObjectCollection oc = QueryExecutor.execute(p);
-    ```
+```
+Person p = new Person(); // assumes all fields are set to null by default
+p.LastName = "Smith";
+ObjectCollection oc = QueryExecutor.execute(p);
+```
 
 The problem with the QBE approach is obvious: while it's perfectly sufficient for simple queries, it's not nearly expressive enough to support the more complex style of query that frequently we need to execute--"find all Persons named Smith or Cromwell" and "find all Persons NOT named Smith" are two examples. While it's not impossible to build QBE approaches that handle this (and more complex scenarios), it definitely complicates the API significantly. More importantly, it also forces the domain objects into an uncomfortable position--they *must* support nullable fields/properties, which may be a violation of the domain rules the object would otherwise seek to support--a Person without a name isn't a very useful object, in many scenarios, yet this is exactly what a QBE approach will demand of domain objects stored within it. (Practitioners of QBE will often argue that it's not unreasonable for an object's implementation to take this into account, but again this is neither easy nor frequently done.) 
 
 As a result, usually the second step is to have the object system support a "Query-By-API" approach, in which queries are constructed by query objects, usually something of the form: 
 
-    ```
-    Query q = new Query();
-    q.From("PERSON").Where(
-      new EqualsCriteria("PERSON.LAST_NAME", "Smith"));
-    ObjectCollection oc = QueryExecutor.execute(q);
-    ```
+```
+Query q = new Query();
+q.From("PERSON").Where(
+  new EqualsCriteria("PERSON.LAST_NAME", "Smith"));
+ObjectCollection oc = QueryExecutor.execute(q);
+```
 
 Here, the query is not based on an empty "template" of the object to be retrieved, but off of a set of "query objects" that are used together to define a Command-style object for executing against the database. Multiple criteria are connected using some kind of binomial construct, usually "And" and "Or" objects, each of which contain unique Criteria objects to test against. Additional filtration/manipulation objects can be tagged onto the end, usually by appending calls such as "OrderBy(*field-name*)" or "GroupBy(*field-name*)". In some cases, these method calls are actually objects constructed by the programmer and strung together explicitly. 
 
@@ -156,14 +152,14 @@ Which solves part of the schema-awareness problem and the "fat-fingering" proble
 
 So, then, the next task is to create a "Query-By-Language" approach, in which a new language, similar to SQL but "better" somehow, is written to support the kind of complex and powerful queries normally supported by SQL; OQL and HQL are two examples of this. The problem here is that frequently these languages are a subset of SQL and thus don't offer the full power of SQL. More importantly, the O/R layer has now lost an important "selling point", that of the "objects and only objects" mantra that begat it in the first place; using a SQL-like language is almost just like using SQL itself, so how can it be more "objectish"? While developers may not need to be aware of the physical schema of the data model (the query language interpreter/executor can do the mapping discussed earlier), developers will need to be aware of how object associations and properties are represented within the language, and the subset of the object's capabilities within the query language--for example, is it possible to write something like this?
 
-    ```
-    SELECT Person p1, Person p2 
-    FROM Person 
-    WHERE p1.getSpouse() == null 
-      AND p2.getSpouse() == null 
-      AND p1.isThisAnAcceptableSpouse(p2) 
-      AND p2.isThisAnAcceptableSpouse(p1);
-    ```
+```
+SELECT Person p1, Person p2 
+FROM Person 
+WHERE p1.getSpouse() == null 
+  AND p2.getSpouse() == null 
+  AND p1.isThisAnAcceptableSpouse(p2) 
+  AND p2.isThisAnAcceptableSpouse(p1);
+```
 
 In other words, scan through the database and find all single people who find each other acceptable. While the "isThisAnAcceptableSpouse" method is clearly a method that belongs on the Person class (each Person instance may have its own criteria by which to judge the acceptability of another single--are they blonde, brunette, or redhead, are they making more than $100,000 a year, and so on), it's not clear if executing this method is possible in the query language, nor is it clear if it should be. Even for the most trivial implementations, a serious performance hit will be likely, particularly if the O/R layer must turn the relational column data into objects in order to execute the query. In addition, we have no guarantees that the developer wrote this method to be at all efficient, and no ways to enforce any sort of performance-aware implementation. 
 
@@ -183,11 +179,13 @@ SELECT * FROM person WHERE id = 1;
 In particular, take notice that only the data desired at each stage of the process is retrieved--in the first query, the necessary summary information and identifier (for the subsequent query, in case first and last name wouldn't be sufficient to identify the person directly), and in the second, the remainder of the data to display. In fact, most SQL experts will eschew the "*" wildcard column syntax, preferring instead to name each column in the query, both for performance and maintenance reasons--performance, since the database will better optimize the query, and maintenance, because there will be less chance of unnecessary columns being returned as DBAs or developers evolve and/or refactor the database table(s) involved. This notion of being able to return a part of a table (though still in relational form, which is important for reasons of closure, described above) is fundamental to the ability to optimize these queries this way--most queries will, in fact, only require a portion of the complete relation. 
 
 This presents a problem for most, if not all, object/relational mapping layers: the goal of any O/R is to enable the developer to see "nothing but objects", and yet the O/R layer cannot tell, from one request to another, how the objects returned by the query will be used. For example, it is entirely feasible that most developers will want to write something along the lines of:
-    ```
-    Person[] all = QueryManager.execute(...);
-    Person selected = DisplayPersonsForSelection(all);
-    DisplayPersonData(selected);
-    ```
+
+```
+Person[] all = QueryManager.execute(...);
+Person selected = DisplayPersonsForSelection(all);
+DisplayPersonData(selected);
+```
+
 Meaning, in other words, that once the Person to be displayed has been chosen from the array of Persons, no further retrieval action is necessary--after all, you have your object, what more should be necessary? 
 
 The problem here is that the data to be displayed in the first Display...() call is *not* the complete Person, but a subset of that data; here we face our first problem, in that an object-oriented system like C# or Java cannot return just "parts" of an object--an object is an object, and if the Person object consists of 12 fields, then all 12 fields will be present in every Person returned. This means that the system faces one of three uncomfortable choices: one, require that Person objects must be able to accomodate "nullable" fields, regardless of the domain restrictions against that; two, return the Person completely filled out with all the data comprising a Person object; or three, provide some kind of on-demand load that will obtain those fields if and when the developer accesses those fields, even indirectly, perhaps through a method call.
@@ -200,12 +198,18 @@ Unfortunately, fields within the object are only part of the problem--the other 
 
 ## Summary
 Given, then, that objects-to-relational mapping is a necessity in a modern enterprise system, how can anyone proclaim it a quagmire from which there is no escape? Again, Vietnam serves as a useful analogy here--while the situation in South Indochina required a response from the Americans, there were a variety of responses available to the Kennedy and Johson Administrations, including the same kind of response that the recent fall of Suharto in Malaysia generated from the US, which is to say, none at all. (Remember, Eisenhower and Dulles didn't consider South Indochina to be a part of the Domino Theory in the first place; they were far more concerned about Japan and Europe.)
-Several possible solutions present themselves to the O/R-M problem, some requiring some kind of "global" action by the community as a whole, some more approachable to development teams "in the trenches": 
-* **Abandonment.** Developers simply give up on objects entirely, and return to a programming model that doesn't create the object/relational impedance mismatch. While distasteful, in certain scenarios an object-oriented approach creates more overhead than it saves, and the ROI simply isn't there to justify the cost of creating a rich domain model. ([Fowler] talks about this to some depth.) This eliminates the problem quite neatly, because if there are no objects, there is no impedance mismatch. 
+Several possible solutions present themselves to the O/R-M problem, some requiring some kind of "global" action by the community as a whole, some more approachable to development teams "in the trenches":
+
+* **Abandonment.** Developers simply give up on objects entirely, and return to a programming model that doesn't create the object/relational impedance mismatch. While distasteful, in certain scenarios an object-oriented approach creates more overhead than it saves, and the ROI simply isn't there to justify the cost of creating a rich domain model. ([Fowler] talks about this to some depth.) This eliminates the problem quite neatly, because if there are no objects, there is no impedance mismatch.
+
 * **Wholehearted acceptance.** Developers simply give up on relational storage entirely, and use a storage model that fits the way their languages of choice look at the world. Object-storage systems, such as the [db4o project](http://www.db4objects.com) (which, alas, as of 2021 is essentially a defunct project), solve the problem neatly by storing objects directly to disk, eliminating many (but not all) of the aforementioned issues; there is no "second schema", for example, because the only schema used is that of the object definitions themselves. While many DBAs will faint dead away at the thought, in an increasingly service-oriented world, which eschews the idea of direct data access but instead requires all access go through the service gateway thus encapsulating the storage mechanism away from prying eyes, it becomes entirely feasible to imagine developers storing data in a form that's much easier for them to use, rather than DBAs. 
+
 * **Manual mapping.** Developers simply accept that it's not such a hard problem to solve manually after all, and write straight relational-access code to return relations to the language, access the tuples, and populate objects as necessary. In many cases, this code might even be automatically generated by a tool examining database metadata, eliminating some of the principal criticism of this approach (that being, "It's too much code to write and maintain"). 
+
 * **Acceptance of O/R-M limitations.** Developers simply accept that there is no way to efficiently and easily close the loop on the O/R mismatch, and use an O/R-M to solve 80% (or 50% or 95%, or whatever percentage seems appropriate) of the problem and make use of SQL and relational-based access (such as "raw" JDBC or ADO.NET) to carry them past those areas where an O/R-M would create problems. Doing so carries its own fair share of risks, however, as developers using an O/R-M must be aware of any caching the O/R-M solution does within it, because the "raw" relational access will clearly not be able to take advantage of that caching layer. 
+
 * **Integration of relational concepts into the languages.** Developers simply accept that this is a problem that should be solved by the language, not by a library or framework. For the last decade or more, the emphasis on solutions to the O/R problem have focused on trying to bring objects closer to the database, so that developers can focus exclusively on programming in a single paradigm (that paradigm being, of course, objects). Over the last several years, however, interest in "scripting" languages with far stronger set and list support, like Ruby, has sparked the idea that perhaps another solution is appropriate: bring relational concepts (which, at heart, are set-based) into mainstream programming languages, making it easier to bridge the gap between "sets" and "objects". Work in this space has thus far been limited, constrained mostly to research projects and/or "fringe" languages, but several interesting efforts are gaining visibility within the community, such as functional/object hybrid languages like Scala or F#, as well as direct integration into traditional O-O languages, such as the LINQ project from Microsoft for C# and Visual Basic. One such effort that failed, unfortunately, was the SQL/J strategy; even there, the approach was limited, not seeking to incorporate sets into Java, but simply allow for embedded SQL calls to be preprocessed and translated into JDBC code by a translator. 
+
 * **Integration of relational concepts into frameworks.** Developers simply accept that this problem is solvable, but only with a change of perspective. Instead of relying on language or library designers to solve this problem, developers take a different view of "objects" that is more relational in nature, building domain frameworks that are more directly built around relational constructs. For example, instead of creating a Person class that holds its instance data directly in fields inside the object, developers create a Person class that holds its instance data in a RowSet (Java) or DataSet (C#) instance, which can be assembled with other RowSets/DataSets into an easy-to-ship block of data for update against the database, or unpacked from the database into the individual objects. 
 
 Note that this list is not presented in any particular order; while some are more attractive to others, which are "better" is a value judgment that every developer and development team must make for themselves. 

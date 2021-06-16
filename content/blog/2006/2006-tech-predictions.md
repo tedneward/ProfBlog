@@ -1,20 +1,15 @@
-+++
-date = "2006-01-01T00:25:56.6968960-08:00"
-draft = false
-title = "2006 Tech Predictions"
-aliases = [
-	"/2006/01/01/2006+Tech+Predictions.aspx"
-]
-categories = [
-	".NET","C++","Conferences","Development Processes","Java/J2EE","Reading","Ruby","XML Services"
-]
-concepts = ["Development Processes", "Reading", "XML Services"]
-languages = ["C++", "Ruby"]
-platforms = [".NET", "Java/J2EE"]
- 
-+++
+title=2006 Tech Predictions
+date=2006-01-01
+type=post
+tags=predictions
+status=published
+description=Technology and related predictions for 2006.
+~~~~~~
+Here we go: a set of new ones for the new year.
 
-In keeping with the tradition, I'm suggesting the following will take place for 2006:
+<!--more-->
+
+I'm suggesting the following will take place for 2006:
 
 * The hype surrounding Ajax will slowly fade, as people come to realize that there's really nothing new here, just that DHTML is cool again. As <a href="http://www.almaer.com/blog/archives/001122.html" target="_blank">Dion points out</a>, Ajax will become a toolbox that you use in web development without thinking that "I am doing Ajax". Just as we don't think about "doing HTML" vs "doing DOM".
 * The release of EJB 3 may actually start people thinking about EJB again, but hopefully this time in a more pragmatic and less hype-driven fashion. (Yes, EJB does have its place in the world, folks--it's just a much smaller place than most of the EJB vendors and book authors wanted it to be.)
