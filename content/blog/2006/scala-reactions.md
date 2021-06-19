@@ -15,7 +15,7 @@ For example, Mark Blomsma wrote:
 <blockquote>
 Looks to me like you're comparing apples and pears. C# does not force you to use accessors. The following is already a lot closer to Scala.
 
-```
+```csharp
 public class Person
 {
 	public string firstName; public string lastName; public Person spouse;

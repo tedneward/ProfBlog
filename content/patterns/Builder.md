@@ -15,7 +15,7 @@ description=A catalog of patterns, revisisted.
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
 ## Context
-*The object is made up of a collection of parts.* Builder isn't necessary unless there is a non-trivial construction process (meaning not a simple constructor call). In the Gang-of-Four book, they assumed that the Builder would often be building a [Composite](../Composite), but frankly, this is a limited view; it's trivial to imagine a Builder constructing a [Facade](../Facade) (such as a compiler whose optimization or code generation steps will vary) or [Interpreter](../Interpreter).
+*The object is made up of a collection of parts.* Builder isn't necessary unless there is a non-trivial construction process (meaning not a simple constructor call). In the Gang-of-Four book, they assumed that the Builder would often be building a [Composite](Composite.html), but frankly, this is a limited view; it's trivial to imagine a Builder constructing a [Facade](Facade.html) (such as a compiler whose optimization or code generation steps will vary) or [Interpreter](Interpreter.html).
 
 *Create the complex object independent of the parts that make up the object and how they're assembled.* In other words, the Builder will be used to construct not just a single object, but a family of objects that work together to achieve some useful purpose, but we don't want the client to have to worry about the details of doing the actual assembly (or what parts are being assembled).
 
@@ -40,9 +40,9 @@ Additionally, with Builder, a multi-step configuration/construction pass can all
 
 ## Implementations
 
-* [C#](../Builder-CSharp)
-* [Swift](../Builder-Swift)
-* [Java](../Builder-Java)
+* [C#](Builder-CSharp.html)
+* [Swift](Builder-Swift.html)
+* [Java](Builder-Java.html)
 
 ## Consequences
 Builder brings with it several consequences of note.
@@ -56,6 +56,6 @@ Builder brings with it several consequences of note.
 ## Variations
 There are a couple of patterns that frequently end up connected to, or similar to, Builder:
 
-* A Builder frequently turns into a [Constructor Function](../ConstructorFunction) or vice versa, when the details of construction need or want to be hidden behind a more encapsulated barrier. The Constructor Function can either hide, or eliminate the repetition of, the construction process of building similar Builder instances.
+* A Builder frequently turns into a [Constructor Function](ConstructorFunction.html) or vice versa, when the details of construction need or want to be hidden behind a more encapsulated barrier. The Constructor Function can either hide, or eliminate the repetition of, the construction process of building similar Builder instances.
 
-* The ConcreteBuilder itself can be seen as a form of [Strategy](../Strategy) specific to the construction of a Product. 
+* The ConcreteBuilder itself can be seen as a form of [Strategy](Strategy.html) specific to the construction of a Product. 

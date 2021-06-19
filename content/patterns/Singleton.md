@@ -1,11 +1,3 @@
-+++
-date = "2016-03-25T22:44:42-07:00"
-title = "Singleton"
-patterns = ["Creational"]
-concepts = ["Patterns"]
-languages = ["Java", "Scala", "Groovy", "Clojure", "Kotlin", "C#", "F#", "Visual Basic", "Go", "C++", "Swift", "Objective-C", "Haskell", "Ruby", "Python", "JavaScript", "Erlang", "Elixir", "Elm"]
-
-+++
 title=Singleton
 date=2016-03-25
 type=pattern
@@ -40,22 +32,16 @@ Some interesting questions come up when implementing a Singleton:
 
 Some of these are explored in the implementation examples.
 
-Note that some solutions seek to have singleton-ness imposed externally, by wrapping an object instance into a 
-mechanism that "transforms" the object instance into a Singleton. This approach usually cannot enforce Singleton-ness 
-on its own (somebody had to create one, so that means others are able to create one), except in some languages where 
-the object's definition doesn't need to be known in order to use it (a la an interface/implementation split in Java or
-C#, or using a dynamically-resolved language like Ruby or Javascript). These provide an easy way to put an object
-into a "known location" (making it more easily accessible from wider contexts---or from any context, as the desire
-may be), but lacks the ability to enforce the Singleton-ness that Singleton usually stresses.
+Note that some solutions seek to have singleton-ness imposed externally, by wrapping an object instance into a mechanism that "transforms" the object instance into a Singleton. This approach usually cannot enforce Singleton-ness on its own (somebody had to create one, so that means others are able to create one), except in some languages where the object's definition doesn't need to be known in order to use it (a la an interface/implementation split in Java or C#, or using a dynamically-resolved language like Ruby or Javascript). These provide an easy way to put an object into a "known location" (making it more easily accessible from wider contexts---or from any context, as the desire may be), but lacks the ability to enforce the Singleton-ness that Singleton usually stresses.
 
 ## Implementations
 
-* [Swift](../Singleton-Swift)
-* [Java](../Singleton-Java)
-* [Scala](../Singleton-Scala)
-* [JavaScript](../Singleton-Javascript) (JavaScript/ECMAScript 5, and NodeJS)
-* [C#](../Singleton-CSharp)
-* [F#](../Singleton-FSharp)
+* [Swift](../Singleton-Swift.html)
+* [Java](../Singleton-Java.html)
+* [Scala](../Singleton-Scala.html)
+* [JavaScript](../Singleton-Javascript.html) (JavaScript/ECMAScript 5, and NodeJS)
+* [C#](../Singleton-CSharp.html)
+* [F#](../Singleton-FSharp.html)
 
 ## Consequences
 Singleton yields the following:

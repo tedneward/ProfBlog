@@ -26,10 +26,10 @@ It's important to note that creational patterns show how to make designs more fl
 ### Segregation
 Initially, the Gang of Four "split" the creational patterns into "class" and "object", based on the idea that class made use of inheritance to vary the class being created, whereas object delegated instantiation to another object. In the world 20 years later where (a) inheritance is no longer the huge force that it was back in 1995, and (b) functional and dynamic languages don't stress inheritance anywhere nearly as strongly as an object-oriented language would, it's not clear whether this distinction is still meritable.
 
-In that ontology, [Factory Method](../FactoryMethod) provides a way to use subclassing to provide the variance around which type is being constructed, making it a "class" Creational, whereas [Abstract Factory](../AbstractFactory), [Builder](../Builder), and [Prototype](../Prototype) were deemed "object" Creational, in that they deferred the actual act of creation to other objects, namely a "factory object" of some form:
+In that ontology, [Factory Method](../FactoryMethod.html) provides a way to use subclassing to provide the variance around which type is being constructed, making it a "class" Creational, whereas [Abstract Factory](../AbstractFactory.html), [Builder](../Builder.html), and [Prototype](../Prototype.html) were deemed "object" Creational, in that they deferred the actual act of creation to other objects, namely a "factory object" of some form:
 
 * "Abstract Factory has the factory object producing objects of several classes."
 * "Builder has the factory object building a complex product incrementally using a correspondingly complex protocol."
 * "Prototype has the factory object building a product by copying a prototype object. In this case, the factory object and the prototype are the same object, because the prototype is responsible for returning the product."
  
-In this view, a [Constructor Function](../ConstructorFunction) can be seen in the "object" Creational form, since it fails to use inheritance to provide that variance. In fact, it arguably stands very close to Builder here, but as a factory function (or functions) rather than a factory object.
+In this view, a [Constructor Function](../ConstructorFunction.html) can be seen in the "object" Creational form, since it fails to use inheritance to provide that variance. In fact, it arguably stands very close to Builder here, but as a factory function (or functions) rather than a factory object.

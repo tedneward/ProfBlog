@@ -12,31 +12,31 @@ In the Scala documentation, they make a point of calling out the idea that "ever
 
 For example, when Scala sees this expression:
 
-```
+```scala
 2 + 4 * 7
 ```
 
 Scala actually translates that into a sequence of method calls as follows:
 
-```
+```scala
 2.+(4.*(7))
 ```
 
 Yes, in Scala, there is operator overloading, but the rules are slightly different than what you might expect from C++ or C#. In Scala, there really is no predetermined set of symbols that are defined as "operators", per se. Instead, Scala simply sees any collection of tokens (within reason) as methods to be invoked. (I should point out here that the case of integer constants being used as parameters to methods on integer constants is a special case that the Scala compiler recognizes and generates more efficient bytecode around, so the overhead of a method call isn't present. It's an obvious optimization, when you think about it.) This means that Scala can make use of some "operators" that traditionally C# and Java have eschewed:
 
-```
+```scala
 val nums = 1 :: 2 :: 3 :: 4 :: Nil;
 ```
 
 In this case, nums will be List (specifically, a List[T], where "T" is of type Integer), and the "::" operator is used to concatenate an element from the right and return a new List; "Nil" is, like "true" and "false", a special constant signifying the empty list. So, written out, the above turns into:
 
-```
+```scala
 val nums = 1.::(2.::(3.::(4.::(Nil))));
 ```
 
 Since the Scala compiler recognizes both "::" and ".::" as being equivalent, and has no predetermined since of operators, this means that any given method definition can be used in either its "dot" form, or its "operator" form; this means that in cases where the method expects a single operand, we can write the method without the "dot" notation as well. So, for example...
 
-```
+```shell
 > val msg = "Hello World"
 val msg: java.lang.String("Hello World") = Hello World
 > msg equals "Hello World"
@@ -48,7 +48,7 @@ Note that here I'm using the Scala interpreter instead of the traditional class;
 
 Thus far, this concept of everything being an object may not seem all that powerful; in fact, arguably, the above section should probably have been mentioned in the previous post than this one, since the ability to recognize new operators is itself an extension of the idea of expressing exactly what you want, nothing more. In fact, in the "Scala by Example" document that comes with the Scala download, they show a traditional Java (but which could easily be written to read in C++ or C#) quicksort implementation:
 
-```
+```scala
 def sort(xs: Array[int]): unit = {
   def swap(i: int, j: int): unit = {
     val t = xs(i); xs(i) = xs(j); xs(j) = t;
@@ -75,7 +75,7 @@ def sort(xs: Array[int]): unit = {
 
 and then show a later version of the exact same implementation, but written more "Scala-ish":
 
-```
+```scala
 def sort(xs: List[int]): List[int] =
   if (xs.length <= 1) xs
   else {
@@ -101,7 +101,7 @@ As hinted, functions are full objects in of their own right, and are just as eas
 
 We'll start by making sort generic:
 
-```
+```scala
 def sort(xs: List[T]): List[T] =
   if (xs.length <= 1) xs
   else {
@@ -111,7 +111,7 @@ def sort(xs: List[T]): List[T] =
 
 The first part of the test is entirely generic already--if we're at the point where the list is 1 or 0 elements long, just return the list as it is. Now we examine the else block:
 
-```
+```scala
 def sort(xs: List[T]): List[T] =
   if (xs.length <= 1) xs
   else {
@@ -124,7 +124,7 @@ def sort(xs: List[T]): List[T] =
 
 So in other words, we just need syntax to allow a caller to pass in the implementations for less-than, equal-to, and greater-than. Turns out we can do that by specifiying the following:
 
-```
+```scala
 def sort[T](xs: List[T], lt: (T, T) => boolean, 
             eq: (T, T) => boolean, gt: (T, T) => boolean) : List[T] =
   if (xs.length <= 1) xs
@@ -138,7 +138,7 @@ def sort[T](xs: List[T], lt: (T, T) => boolean,
 
 Notice the signature for "lt", "eq" and "gt"--this says lt should be a function that takes two arguments (of the generic type T) and returns a boolean. "eq" and "gt" are defined similarly. This, then, means we can use it thusly:
 
-```
+```scala
 object App with Application {
 
   def lessThan(lhs: int, rhs: int) : boolean =
@@ -160,7 +160,7 @@ Unfortunately, looking at this particular implementation, it's not really convin
 
 <p>This is where the notion of an anonymous function becomes important, however. Instead of defining those three functions outright and referencing them by name in the sort call, we can instead define them "on the fly" in the call itself:
 
-```
+```scala
 object App with Application {
   val nums : List[int] = 1 :: 4 :: 3 :: 2 :: Nil;
   val sorted = Test.sort(nums, (lhs:int, rhs:int) => if (lhs < rhs) true else false, 
@@ -188,7 +188,7 @@ In some situations, however, the full inputs of the function aren't known at the
 
 Probably not; currying takes a while to ingest. At least it did for me. An example may serve to help cement this down.
 
-```
+```scala
 def sum(f: int => int) = {
   def sumF(a: int, b: int): int =
     if (a > b) 0 else f(a) + sumF(a + 1, b);
@@ -200,13 +200,13 @@ Here, we see a function "sum", which takes a function "f" that takes an int and 
 
 So how does one use the sum function? By applying both parameters--the function to apply to each argument, and a pair of ints to supply bounds to be summed up:
 
-```
+```scala
 sum(x => x * x)(1, 10)
 ```
 
 Which, in this case, summarizes the expression 1^1 + 2^2 + 3^3 + ... + 10^10. (Readers with a background in mathematics will recognize it as a sequence, the "big E" notation, as I used to call it back in sophomore Advanced Algebra. Probably has a more formal name than that, but my background isn't in math.) To understand where the currying takes place, look at how the compiler sees this expression:
 
-```
+```scala
 (sum(x => x * s))(1,10)
 ```
 
@@ -214,7 +214,7 @@ Which means, of course, pass the function "x * x" into sum, which then returns t
 
 The power of currying becomes more apparent when you see that because the compiler is willing to accept partially-evaluated functions as first-order types, we can partially-define functions in terms of other functions, as in:
 
-```
+```scala
 def sumInts = sum(x => x);
 def sumSquares = sum(x => x * x);
 def sumPowersOfTwo = sum(powerOfTwo);
@@ -222,7 +222,7 @@ def sumPowersOfTwo = sum(powerOfTwo);
 
 and then use them as top-level functions without any special syntax:
 
-```
+```shell
 > sumSquares(1, 10) + sumPowersOfTwo(10, 20)
 267632001: scala.Int
 ```

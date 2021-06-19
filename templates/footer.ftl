@@ -14,6 +14,10 @@
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/jquery-1.11.1.min.js"></script>
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/bootstrap.min.js"></script>
     <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/prettify.js"></script>
-    
+
+    <!-- HighlightJS for syntax highlighting -->
+    <link rel="stylesheet" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/styles/vs.min.css">
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>

@@ -1,12 +1,10 @@
-+++
-concepts = ["Patterns"]
-date = "2016-05-23T17:13:10-07:00"
-languages = ["Java"]
-patterns = ["Creational"]
-title = "Builder: Java"
-
-+++
-
+title=Builder: Java
+date=2016-05-23
+type=pattern
+tags=creational patterns, patterns, java
+status=published
+description=A catalog of patterns, revisisted.
+~~~~~~
 A Builder implementation in Java.
 
 <!--more-->

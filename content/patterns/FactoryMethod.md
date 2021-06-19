@@ -6,7 +6,7 @@ status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory), depending on the intent and the desired consequences.
+*tl;dr* Patterns, 20 Years Later: Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory.html), depending on the intent and the desired consequences.
 
 <!--more-->
 
@@ -25,7 +25,7 @@ Create a hierarchy of Product types that vary by inheritance, and a correspondin
 
 ## Implementations
 
-* [Swift](../FactoryMethod-Swift)
+* [Swift](../FactoryMethod-Swift.html)
 
 ## Consequences
 *Factory methods eliminate the need to bind application-specific classes into your code.* Because clients only ever deal with the base Product type interface/surface area, clients can remain entirely ignorant as to the exact nature of the Product with which they are dealing. This is particularly important in "open" systems, in which the complete set of possible Product types is not known, allowing third-parties to participate as part of the system.
@@ -44,20 +44,19 @@ Create a hierarchy of Product types that vary by inheritance, and a correspondin
 There are several variations on Factory Method.
 
 ### Registry
-In some scenarios, we want to make use of a FactoryMethod (or AbstractFactory) to return objects out of a bound set of subtypes based on some kind of parameterized request. (Classic examples are the Microsoft Windows use of the Windows Registry for COM object construction, or the JDBC DriverManager to construct JDBC Connection objects.) In this case, the FactoryMethod is "registered" with a (typically [Singleton](../Singleton)) Registry, to which all the object requests are deferred, and the Registry is itself deciding which version of the ConcreteCreator to use to construct the ConcreteProduct object requested.
+In some scenarios, we want to make use of a [FactoryMethod](FactoryMethod.html) (or [AbstractFactory](AbstractFactory.html)) to return objects out of a bound set of subtypes based on some kind of parameterized request. (Classic examples are the Microsoft Windows use of the Windows Registry for COM object construction, or the JDBC DriverManager to construct JDBC Connection objects.) In this case, the FactoryMethod is "registered" with a (typically [Singleton](../Singleton.html)) Registry, to which all the object requests are deferred, and the Registry is itself deciding which version of the ConcreteCreator to use to construct the ConcreteProduct object requested.
 
 Note that the Registry will actually be a two-step process: first, the decision-making step in which the Registry decides which ConcreteCreator to use, and the second, the actual construction process. In languages that support them, either (or both) of these steps can be standalone functions (if the Creator has no other responsibilities, of course.)
 
 ### Constructor Function
-If we consider pure-functional (or "functional-first") languages, then this goes by a slightly different name, the [Constructor Function](../ConstructorFunction), in which we localize knowledge about which kind of entity to create to a standalone function, rather than to a class or class hierarchy.  However, if there are numerous types of objects that want to hide behind an encapsulatory barrier (a function in a functional language), then the Constructor Function effectively now serves as a "Factory Function", and is essentially a Factory Method but using a function by which to do the decision-making and logic-hiding, rather than a class instance or static method.
+If we consider pure-functional (or "functional-first") languages, then this goes by a slightly different name, the [Constructor Function](../ConstructorFunction.html), in which we localize knowledge about which kind of entity to create to a standalone function, rather than to a class or class hierarchy.  However, if there are numerous types of objects that want to hide behind an encapsulatory barrier (a function in a functional language), then the Constructor Function effectively now serves as a "Factory Function", and is essentially a Factory Method but using a function by which to do the decision-making and logic-hiding, rather than a class instance or static method.
 
 The use of a Constructor Function will depend greatly on whether the Creator provides additional behavior beyond just the construction of the Product types; if so, the Constructor Function will likely be a part of a larger class (the Creator), and more in line with the traditional FactoryMethod. Some of the implementations of FactoryMethod shown above demonstrate how to vary the creational method by passing in (and storing) Constructor Functions, allowing for flexible construction without having to subclass.
 
 ### Factory Module
-For some languages which support explicit module syntax and semantics, and top-level functions, the Factory Method can be buried behind the module interface, rather than an object instance, but providing the same kind of experience. Typically this will be more "large-scale" than the standard Factory Method, in that the module is always expected to be stateless or a [Singleton](../Singleton), and as such, generally won't have much in the way
-of additional responsibilities.
+For some languages which support explicit module syntax and semantics, and top-level functions, the Factory Method can be buried behind the module interface, rather than an object instance, but providing the same kind of experience. Typically this will be more "large-scale" than the standard Factory Method, in that the module is always expected to be stateless or a [Singleton](../Singleton.html), and as such, generally won't have much in the way of additional responsibilities.
 
 ## Relationships
-Factory Method base classes are often [Singletons](../Singleton), since they maintain no state and usually want to be in a well-known and namespaced name for easy reference.
+Factory Method base classes are often [Singletons](../Singleton.html), since they maintain no state and usually want to be in a well-known and namespaced name for easy reference.
 
-Factory Method will often produce instances of [Composite](../Composite) or [Facade](../Facade) for client use. For aggregate types, they will frequently produce [Iterators](../Iterator).
+Factory Method will often produce instances of [Composite](../Composite.html) or [Facade](../Facade.html) for client use. For aggregate types, they will frequently produce [Iterators](../Iterator.html).

@@ -116,7 +116,7 @@ Once the entity is stored within the database, how exactly do we retrieve it? A 
 
 A QBE approach states that you fill out an object template of the type of object you're looking for, with fields in the object set to a particular value to use as part of the query-filtration process. So, for example, if you're querying the Person object/table for people with the last name of Smith, you set up the query like so: 
 
-```
+```java
 Person p = new Person(); // assumes all fields are set to null by default
 p.LastName = "Smith";
 ObjectCollection oc = QueryExecutor.execute(p);
@@ -126,7 +126,7 @@ The problem with the QBE approach is obvious: while it's perfectly sufficient fo
 
 As a result, usually the second step is to have the object system support a "Query-By-API" approach, in which queries are constructed by query objects, usually something of the form: 
 
-```
+```java
 Query q = new Query();
 q.From("PERSON").Where(
   new EqualsCriteria("PERSON.LAST_NAME", "Smith"));
@@ -141,7 +141,7 @@ On top of this, we have a more subtle problem, that of the reliance on developer
 
 We're also faced with the basic problem that greater awareness of the logical--or physical--data representation is required on the part of the developer--instead of simply focusing on how the objects are related to one another (through simple associations such as arrays or collection instances), the developer must now have greater awareness of the form in which the objects are stored, leaving the system somewhat vulnerable to database schema changes. This is sometimes obviated by a hybrid approach between the two, whereby the system will take responsibility for interpreting the associations, leaving the developer to write something like this: 
 
-```
+```java
 Query q = new Query();
 Field lastNameFieldFromPerson = Person.class.getDeclaredField("lastName");
 q.From(Person.class).Where(new EqualsCriteria(lastNameFieldFromPerson, "Smith"));
@@ -152,7 +152,7 @@ Which solves part of the schema-awareness problem and the "fat-fingering" proble
 
 So, then, the next task is to create a "Query-By-Language" approach, in which a new language, similar to SQL but "better" somehow, is written to support the kind of complex and powerful queries normally supported by SQL; OQL and HQL are two examples of this. The problem here is that frequently these languages are a subset of SQL and thus don't offer the full power of SQL. More importantly, the O/R layer has now lost an important "selling point", that of the "objects and only objects" mantra that begat it in the first place; using a SQL-like language is almost just like using SQL itself, so how can it be more "objectish"? While developers may not need to be aware of the physical schema of the data model (the query language interpreter/executor can do the mapping discussed earlier), developers will need to be aware of how object associations and properties are represented within the language, and the subset of the object's capabilities within the query language--for example, is it possible to write something like this?
 
-```
+```sql
 SELECT Person p1, Person p2 
 FROM Person 
 WHERE p1.getSpouse() == null 
@@ -170,7 +170,7 @@ It has long been known that network traversal, such as that done when making a t
 
 In SQL, this optimization is achieved by carefully structuring the SQL request, making sure to retrieve only the columns and/or tables desired, rather than entire tables or sets of tables. For example, when constructing a traditional drill-down user interface, the developer presents a summary display of all the records from which the user can select one, and once selected, the developer then displays the complete set of data for that particular record. Given that we wish to do a drill-down of the Persons relational type described earlier, for example, the two queries to do so would be, in order (assuming the first one is selected): 
 
-```
+```sql
 SELECT id, first_name, last_name FROM person;
 
 SELECT * FROM person WHERE id = 1;
@@ -180,7 +180,7 @@ In particular, take notice that only the data desired at each stage of the proce
 
 This presents a problem for most, if not all, object/relational mapping layers: the goal of any O/R is to enable the developer to see "nothing but objects", and yet the O/R layer cannot tell, from one request to another, how the objects returned by the query will be used. For example, it is entirely feasible that most developers will want to write something along the lines of:
 
-```
+```java
 Person[] all = QueryManager.execute(...);
 Person selected = DisplayPersonsForSelection(all);
 DisplayPersonData(selected);

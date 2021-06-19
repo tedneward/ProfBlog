@@ -28,24 +28,24 @@ Practically speaking, in languages that support closures, use an "outer" functio
 Note that there is no reason that a given system couldn't use both Closure-based State and the traditional private fields within a class, so as to have those fields hidden via "private" yet still accessible via Reflection (and thus to tools that make use of Reflection, a la object-relational libraries or serialization systems), yet also have certain data entirely inaccessible to Reflection systems.
 
 ## Implementations
-The [Envoy pattern language](/post/envoy-in-scala-javascript-and-more), from which this pattern is borrowed, describes several implementations as part of that pattern language.
+The [Envoy pattern language](../blog/2012/envoy-in-scala-javascript-and-more.html), from which this pattern is borrowed, describes several implementations as part of that pattern language.
 
-* [C#](../ClosureBasedState-CSharp)
-* [F#](../ClosureBasedState-FSharp)
-* [Java](../ClosureBasedState-Java)
-* [JavaScript](../ClosureBasedState-Javascript)
-* [Swift](../ClosureBasedState-Swift)
+* [C#](ClosureBasedState-CSharp.html)
+* [F#](ClosureBasedState-FSharp.html)
+* [Java](ClosureBasedState-Java.html)
+* [JavaScript](ClosureBasedState-Javascript.html)
+* [Swift](ClosureBasedState-Swift.html)
 
 ## Consequences
 *Invisible references.* The closure is an "invisible reference" from the object, and the closure, along with any additional variables referenced from that enclosing scope. That means that potentially the Closure-based State data will keep more objects alive for longer than intuition suggests, which can create potential memory pressure on the program if it grows out of hand.
 
 ## Variations
-In languages that do not support closures natively (which are becoming far apart and few between), this almost always turns into a [Strategy](../Strategy) implementation.
+In languages that do not support closures natively (which are becoming far apart and few between), this almost always turns into a [Strategy](Strategy.html) implementation.
 
-Additionally, [Strategy](../Strategy) implementations can hold data as fields in the Strategy object itself, which essentially provides much of the same kind of functionality as Closure-based State, but without any of the concerns around Reflection being addressed at all.
+Additionally, [Strategy](Strategy.html) implementations can hold data as fields in the Strategy object itself, which essentially provides much of the same kind of functionality as Closure-based State, but without any of the concerns around Reflection being addressed at all.
 
 Closure-based State can also be used at the module level for those languages which support modules as first-class concepts, a la F# or Javascript for the same reasons. (In point of fact, many languages which support modules do so by modeling them internally as a singleton object implicitly held at the global scope and always referenced or considered "in scope". Javascript does this, for example, and can be easily seen by iterating across the members of "this" at the top level of a script.) 
 
 ## Relationships
-Closure-based State can fairly easily adapt to use the [State](../State) pattern to adjust its internal state and operations. Operations would be "trampolining" into functions defined in the closure, rather than on the object itself.
+Closure-based State can fairly easily adapt to use the [State](State.html) pattern to adjust its internal state and operations. Operations would be "trampolining" into functions defined in the closure, rather than on the object itself.
 

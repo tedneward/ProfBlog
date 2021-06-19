@@ -1,19 +1,16 @@
-+++
-concepts = ["Patterns"]
-date = "2016-04-11T08:57:22-07:00"
-languages = ["Swift"]
-patterns = ["Creational"]
-title = "Builder: Swift"
-
-+++
-
+title=Builder: Swift
+date=2016-04-11
+type=pattern
+tags=creational patterns, patterns, swift
+status=published
+description=A catalog of patterns, revisisted.
+~~~~~~
 A Builder implementation in Swift.
 
 <!--more-->
 
 ## Implementation: Swift
-Swift makes use of the [Builder](../Builder) (or a variant of it) in a couple of places inside of Mac OS X and
-iOS, and thus makes it feel somewhat natural to idiomatic Swift.
+Swift makes use of the [Builder](Builder.html) (or a variant of it) in a couple of places inside of Mac OS X and iOS, and thus makes it feel somewhat natural to idiomatic Swift.
 
 We start with the target Product:
 
@@ -36,19 +33,7 @@ class Builder {
 }
 ````
 
-The Abstract Creator is intended simply as an abstract interface, and as such, might initially seem to be
-better modeled using a protocol; however, as the pattern itself notes, if there is level of reusability
-desired in the construction of parts, then it will be natural to put that reusable functionality into the
-base Abstract Creator (so that the Concrete Creators will pick it up automatically). That said, the protocol
-has a significant benefit over a base class, since protocols carry no default implementation;
-unfortunately, as of this writing (Swift 2.2), Swift lacks a language
-facility to require a derived class implement a method but without providing a default implementation (the
-"abstract" keyword found in C# or Java). As a result, we use the Swift built-in `preconditionFailure` to
-generate a runtime error should this method be invoked. We could leave the implementation body empty, in
-case we want to establish a habit of always calling `super` from derived methods, but this then runs the
-risk that a subclass of Builder might not implement one of the `BuildPart` methods. (Remember, Builder
-assumes that there are multiple part types that want to be constructed, and if there are too many, it will
-be too easy to forget to implement one if there is no compile-time or run-time check.)
+The Abstract Creator is intended simply as an abstract interface, and as such, might initially seem to be better modeled using a protocol; however, as the pattern itself notes, if there is level of reusability desired in the construction of parts, then it will be natural to put that reusable functionality into the base Abstract Creator (so that the Concrete Creators will pick it up automatically). That said, the protocol has a significant benefit over a base class, since protocols carry no default implementation; unfortunately, as of this writing (Swift 2.2), Swift lacks a language facility to require a derived class implement a method but without providing a default implementation (the "abstract" keyword found in C# or Java). As a result, we use the Swift built-in `preconditionFailure` to generate a runtime error should this method be invoked. We could leave the implementation body empty, in case we want to establish a habit of always calling `super` from derived methods, but this then runs the risk that a subclass of Builder might not implement one of the `BuildPart` methods. (Remember, Builder assumes that there are multiple part types that want to be constructed, and if there are too many, it will be too easy to forget to implement one if there is no compile-time or run-time check.)
 
 Next, we need a Concrete Creator:
 
@@ -93,9 +78,7 @@ print(product.parts)
 This is pretty straightforward.
 
 #### Fluent Builder
-In the event that we seek to construct a Fluent API in Swift for a Builder, the only real trickiness
-here centers around whether to use a property syntax or a method syntax to do the construction; the
-rest of the Fluent API is pretty straightforward as well:
+In the event that we seek to construct a Fluent API in Swift for a Builder, the only real trickiness here centers around whether to use a property syntax or a method syntax to do the construction; the rest of the Fluent API is pretty straightforward as well:
 
 ````swift
 class FluentBuilder {
@@ -130,21 +113,12 @@ let motorcycle = vehicleBuilder.Begin()
 print(motorcycle.parts)
 ````
 
-Like most Fluent Builders, the Swift version relies on the idea of returning the Builder object
-as part of each construction call, carrying the state of the construction process as-is as state
-inside the Builder itself, until the Product as requested as part of the final step (`Construct`).
+Like most Fluent Builders, the Swift version relies on the idea of returning the Builder object as part of each construction call, carrying the state of the construction process as-is as state inside the Builder itself, until the Product as requested as part of the final step (`Construct`).
 
 #### State- vs Command-based Builders
-Note that this state-basde Fluent Builder approach suggests that a Fluent Builder will not be
-accessed across multiple threads (or other actors); if that becomes necessary, then it may be
-better to construct a Builder that is fundamentally made up of [Command](../Command) objects that
-are waiting to be all executed in order, on the `Construct` call. That way, the Product isn't
-"half-baked" during the construction process, and potentially corrupted; the construction chain
-can be examined and/or modified (concurrently or otherwise) before the actual construction
-process.
+Note that this state-basde Fluent Builder approach suggests that a Fluent Builder will not be accessed across multiple threads (or other actors); if that becomes necessary, then it may be better to construct a Builder that is fundamentally made up of [Command](Command) objects that are waiting to be all executed in order, on the `Construct` call. That way, the Product isn't "half-baked" during the construction process, and potentially corrupted; the construction chain can be examined and/or modified (concurrently or otherwise) before the actual construction process.
 
-In Swift, we can actually create a sequence of functions to defer the actual construction work,
-and then execute them serially when asked to construct the Product:
+In Swift, we can actually create a sequence of functions to defer the actual construction work, and then execute them serially when asked to construct the Product:
 
 ````swift
 class FluentBuilder {
@@ -185,11 +159,7 @@ class FluentBuilder {
 }
 ````
 
-Any reasonable student of functional programming will recognize this as function composition,
-albeit a pretty crude one. Unfortunately, Swift lacks any sort of built-in function composition
-facilities, but it's trivial to construct a generalized `compose` function that takes two
-functions (each of which take a T and return a T) and turn them into a third function that
-composes the two:
+Any reasonable student of functional programming will recognize this as function composition, albeit a pretty crude one. Unfortunately, Swift lacks any sort of built-in function composition facilities, but it's trivial to construct a generalized `compose` function that takes two functions (each of which take a T and return a T) and turn them into a third function that composes the two:
 
 ````swift
 func compose<A, B, C>(f1: (A -> B), _ f2: (B -> C)) -> A -> C {
@@ -231,20 +201,13 @@ class FluentBuilder {
 }
 ````
 
-Technically, the initial `fn` value is unnecessary, since it will be replaced on the
-first call to `Begin`, and for that matter, the first function established in the chain
-(also in `Begin`) is also unnecesary, since we can pass a newly-constructed Product into
-the chain when invoking the function in `Construct`.
+Technically, the initial `fn` value is unnecessary, since it will be replaced on the first call to `Begin`, and for that matter, the first function established in the chain (also in `Begin`) is also unnecesary, since we can pass a newly-constructed Product into the chain when invoking the function in `Construct`.
 
-Swift lacks any standard function-composition library, but this is likely something that
-will be corrected in a future revision of Swift, and/or through the use of a third-party
-contribution to the community.
+Swift lacks any standard function-composition library, but this is likely something that will be corrected in a future revision of Swift, and/or through the use of a third-party contribution to the community.
 
 ### Incremental construction with guards in place
 
-As noted in the text of the pattern, Builder can also make sure that a given object
-being constructed incrementally is not returned if it would be in an unusable (or
-potentially unusable) state:
+As noted in the text of the pattern, Builder can also make sure that a given object being constructed incrementally is not returned if it would be in an unusable (or potentially unusable) state:
 
 ````swift
 class GuardedFluentBuilder {
@@ -274,5 +237,4 @@ class GuardedFluentBuilder {
   }
 }
 
-The `Construct` method can either throw an exception or return `nil`, depending on the
-particular aesthetics desired.
+The `Construct` method can either throw an exception or return `nil`, depending on the particular aesthetics desired.

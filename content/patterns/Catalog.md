@@ -67,7 +67,9 @@ Patterns which describe the runtime relationship between one entity and another.
 ## Additional pattern language(s)
 I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
 
-* [Envoy](/post/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](/post/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
+* [Context](../blog/2008/what-about-context.html) was a pattern I wrote up a while back; it probably belongs in here somewhere, along with some implementations to demonstrate it.
+
+* [Envoy](../blog/2012/envoy-in-scala-javascript-and-more.html) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more.html) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
   
     * Function as Object
       (Almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)
