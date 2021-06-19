@@ -1,7 +1,7 @@
 title=Hard Questions About Architects
 date=2007-09-20
 type=post
-tags=development processes, reading, java, j2ee, ruby, windows, xml services, clr
+tags=development processes, architects, architecture, reading, java, j2ee, ruby, windows, xml services, clr
 status=published
 description=In which I answer an email about architecture and architects.
 ~~~~~~

@@ -1,18 +1,11 @@
-+++
-date = "2008-02-22T23:40:06.7560645-08:00"
-draft = false
-title = "URLs as first-class concepts in a language"
-aliases = [
-	"/2008/02/23/Urls+As+First-class+Concepts+In+A+Language.aspx"
-]
-categories = [
-	".NET","C++","Java/J2EE","Languages","Parrot"
-]
-concepts = ["Languages"]
-languages = ["C++"]
-platforms = [".NET", "Java/J2EE", "Parrot"]
- 
-+++
+title=URLs as first-class concepts in a language
+date=2008-02-22
+type=post
+tags=reading, industry, distributed systems, xml services
+status=published
+description=In which I discuss URLs and how they could or should operate in a language.
+~~~~~~
+
 <p>While perusing the <a href="http://www.erights.org/elang/intro/finding-text.html">E Tutorial</a>, I noticed something that was simple and powerful all at the same time: <em>URLs as first-class concepts in the language</em>. Or, if you will, URLs as a factory for creating objects. Check out this snippet of E:</p> <blockquote> <div style="border-right: gray 1px solid; padding-right: 4px; border-top: gray 1px solid; padding-left: 4px; font-size: 8pt; padding-bottom: 4px; margin: 20px 0px 10px; overflow: auto; border-left: gray 1px solid; width: 97.5%; cursor: text; max-height: 200px; line-height: 12pt; padding-top: 4px; border-bottom: gray 1px solid; font-family: consolas, 'Courier New', courier, monospace; background-color: #f4f4f4"><pre style="padding-right: 0px; padding-left: 0px; font-size: 8pt; padding-bottom: 0px; margin: 0em; overflow: visible; width: 100%; color: black; border-top-style: none; line-height: 12pt; padding-top: 0px; font-family: consolas, 'Courier New', courier, monospace; border-right-style: none; border-left-style: none; background-color: #f4f4f4; border-bottom-style: none">? pragma.syntax(<span style="color: #006080">"0.8"</span>)
 
 ? def poem := &lt;http:<span style="color: #008000">//www.erights.org/elang/intro/jabberwocky.txt&gt;</span>

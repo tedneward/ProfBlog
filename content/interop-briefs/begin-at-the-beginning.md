@@ -1,6 +1,6 @@
 title=Interop Briefs: Begin at the Beginning...
 date=2007-01-18
-type=post
+type=page
 tags=interop briefs, clr, jvm, c++, java, j2ee, ruby, windows, xml services
 status=published
 description=In which I begin interoperability briefs.

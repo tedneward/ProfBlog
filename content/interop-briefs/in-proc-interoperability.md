@@ -1,6 +1,6 @@
 title=Interop Briefs: In-proc interoperability
 date=2007-01-30
-type=post
+type=page
 tags=interop briefs, clr, jvm, c++, java, j2ee, ruby, windows, xml services
 status=published
 description=In which I discuss interoperability in-process.

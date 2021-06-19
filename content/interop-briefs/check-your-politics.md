@@ -1,6 +1,6 @@
 title=Interop Briefs: Check your politics at the door
 date=2007-01-25
-type=post
+type=page
 tags=interop briefs, clr, jvm, c++, java, j2ee, ruby, windows, xml services
 status=published
 description=In which I discuss the politics of interoperability.

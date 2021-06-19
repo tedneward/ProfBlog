@@ -32,6 +32,13 @@
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/CreationalPatterns.html">Creational Patterns</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/StructuralPatterns.html">Structural Patterns</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/BehavioralPatterns.html">Behavioral Patterns</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Interop Briefs</li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/begin-at-the-beginning.html">Begin at the Beginning</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/check-your-politics.html">Check Your Politics at the Door</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/in-proc-interoperability.html">In-Proc Interoperability</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/in-proc-interop-with-ikvm.html">In-Proc Interop with IKVM</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/out-of-proc-interop-using-intrinsycs-j-integra.html">Out-of-Proc Interop with Intrinsyc's J-Integra</a></li>
               </ul>
             </li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/index.html">All Tags</a></li>
