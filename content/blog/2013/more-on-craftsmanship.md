@@ -1,19 +1,14 @@
-+++
-date = "2013-01-25T22:24:27.2950000-08:00"
-draft = false
-title = "More on \"Craftsmanship\""
-aliases = [
-	"/2013/01/26/More+On+Craftsmanship.aspx"
-]
-categories = [
-	".NET","C#","C++","Conferences","Development Processes","F#","Industry","Java/J2EE","Languages","Objective-C","Parrot","Personal","Reading","Review","Ruby","Scala","Social","Windows"
-]
-concepts = ["Development Processes", "Industry", "Languages", "Reading", "Social"]
-languages = ["C#", "C++", "F#", "Ruby", "Scala"]
-platforms = [".NET", "Java/J2EE", "Parrot", "Windows"]
- 
-+++
-<p><b>TL;DR</b>: To all those who dissented, you're right, but you're wrong. Craftsmanship is a noble meme, when it's something that somebody holds as a personal goal, but it's often coming across as a way to beat up and denigrate on others who don't choose to invest significant time and energy into programming. The Zen Masters didn't walk around the countryside, proclaiming "I am a Zen Master!"</p>
+title=More on 'Craftsmanship'
+date=2013-01-25
+type=post
+tags=industry, development processes, languages, reading
+status=published
+description=In which I respond to some of the criticism of my earlier post on the same topic.
+~~~~~~
+
+**tl;df**: To all those who dissented, you're right, but you're wrong. Craftsmanship is a noble meme, when it's something that somebody holds as a personal goal, but it's often coming across as a way to beat up and denigrate on others who don't choose to invest significant time and energy into programming. The Zen Masters didn't walk around the countryside, proclaiming "I am a Zen Master!"
+
+<!--more-->
 
 <p>Wow. Apparently I touched a nerve.</p>
 

@@ -3,9 +3,9 @@ date=2016-10-13
 type=post
 tags=csharp, fsharp, c++, clr, windows, macos, native, architecture
 status=published
-description=In which I talk about Rotor.
+description=In which I reminisce about being a tangential part of the Rotor project, a decade-and-a-half prior.
 ~~~~~~
-*tl;dr* As part of preparing for a workshop next week in Poland, I've been diving back into the CLR source code---which takes me back to my old friend, Rotor.
+**tl;dr** As part of preparing for a workshop next week in Poland, I've been diving back into the CLR source code---which takes me back to my old friend, Rotor.
 
 <!--more-->
 
@@ -13,7 +13,7 @@ For those of you who came to the CLR late, back in 2002 Microsoft offered up an 
 
 And then I got to write a book on it. Double wow.
 
-And then Microsoft decided to pay me to follow up on the first edition with a second edition, which they would give away for free. Which, by the way, you can get off of my professional site [here](../../files/SSCLI2.pdf).
+And then Microsoft decided to pay me to follow up on the first edition with a second edition, which they would give away for free. Which, by the way, you can get [here](../../files/SSCLI2.pdf).
 
 Triple wow.
 

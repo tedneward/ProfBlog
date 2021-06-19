@@ -3,7 +3,7 @@ date=2017-08-29
 type=post
 tags=news, psychology, philosophy, industry, reading, management, speaking
 status=published
-description=Reactions to the memo passed around inside Google on diversity hiring and political incorrectness.
+description=In which I offer up my reactions to the memo passed around inside Google on diversity hiring and political incorrectness.
 ~~~~~~
 
 *tl;dr* By now, everybody has heard of the memo that was passed around by the Google-bro, claiming that Google should reduce its efforts at explicit diversity hiring and how his message was unwelcome within Google's halls; my reaction is that he had a small point, but it was drowned in the inanity of his larger, and far more incorrect, message.

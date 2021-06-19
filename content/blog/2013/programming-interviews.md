@@ -1,19 +1,13 @@
-+++
-date = "2013-08-19T21:30:55.1290000-07:00"
-draft = false
-title = "Programming Interviews"
-aliases = [
-	"/2013/08/20/Programming+Interviews.aspx"
-]
-categories = [
-	".NET","Android","Azure","C#","C++","Conferences","Development Processes","F#","Flash","Industry","iPhone","Java/J2EE","Languages","LLVM","Mac OS","Objective-C","Parrot","Personal","Python","Reading","Review","Ruby","Scala","Security","Social","Solaris","Visual Basic","VMWare","WCF","Windows","XML Services"
-]
-concepts = ["Development Processes", "Industry", "Languages", "Reading", "Security", "Social", "XML Services"]
-languages = ["C#", "C++", "F#", "Python", "Ruby", "Scala", "Visual Basic"]
-platforms = [".NET", "Java/J2EE", "LLVM", "Mac OS", "Parrot", "Windows"]
- 
-+++
+title=Programming Interviews
+date=2013-08-19
+type=post
+tags=industry, interviews, languages
+status=published
+description=In which I dive deeper into interviewing programmers.
+~~~~~~
 <p>Apparently I have become something of a resource on programming interviews: I've had three people tell me they read the last two blog posts, one because his company is hiring and he wants his people to be doing interviews right, and two more expressing shock that I still get interviewed--which I don't really think is all that fair, more on that in a moment--and relief that it's not just them getting grilled on areas that they don't believe to be relevant to the job--and more on that in a moment, too.</p>
+
+<!--more-->
 
 <p>A couple of things have emerged in the last few weeks since the saga described earlier, so I thought I'd wrap the thing up with a final post. Besides, I like things that come in threes.</p>
 

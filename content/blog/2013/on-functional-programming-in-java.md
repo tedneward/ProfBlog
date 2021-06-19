@@ -1,19 +1,14 @@
-+++
-date = "2013-01-21T14:10:14.3119818-08:00"
-draft = false
-title = "On Functional Programming in Java"
-aliases = [
-	"/2013/01/21/On+Functional+Programming+In+Java.aspx"
-]
-categories = [
-	"Android","Java/J2EE","Languages","Personal","Review","Scala"
-]
-concepts = ["Languages"]
-languages = ["Scala"]
-platforms = ["Java/J2EE"]
- 
-+++
+title=On Functional Programming in Java
+date=2013-01-21
+type=post
+tags=industry, java, functional programming, reading
+status=published
+description=In which I respond to a criticism of using FP in Java.
+~~~~~~
+
 <p>Elliott Rusty Harold is <a href="http://cafe.elharo.com/programming/java-programming/why-functional-programming-in-java-is-dangerous/">blogging that functional programming in Java is dangerous</a>. He's wrong, and he's way late to the party on this one--it's coming to Java whether he likes it or not.</p>
+
+<!--more-->
 
 <p>Go read his post first, while I try to sum up the reasons he cites for saying it's dangerous:
 <ol>

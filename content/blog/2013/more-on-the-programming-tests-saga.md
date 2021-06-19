@@ -1,19 +1,14 @@
-+++
-date = "2013-07-25T14:19:48.0610956-07:00"
-draft = false
-title = "More on the Programming Tests Saga"
-aliases = [
-	"/2013/07/25/More+On+The+Programming+Tests+Saga.aspx"
-]
-categories = [
-	".NET","Android","C#","C++","Conferences","Development Processes","F#","Industry","iPhone","Java/J2EE","Languages","Mac OS","Personal","Ruby","Scala"
-]
-concepts = ["Development Processes", "Industry", "Languages"]
-languages = ["C#", "C++", "F#", "Ruby", "Scala"]
-platforms = [".NET", "Java/J2EE", "Mac OS"]
- 
-+++
+title=More on the Programming Tests saga
+date=2013-07-25
+type=post
+tags=industry, development processes, languages, reading, interviewing
+status=published
+description=In which I go deeper into the saga of my interviews with local companies.
+~~~~~~
+
 <p>A couple of people had asked how the story with the company that triggered the "I Hate Programming Tests" post ended, so I figured I'd follow up with the rest of that story, and some thoughts.</p>
+
+<!--more-->
 
 <p>After handing in the disjoint-set solution I'd come up with, the VP pondered things for a bit, then decided to bring me in for an in-person interview loop with a half-dozen of the others that work there. I said I'd be happy to, and came in, did a brief meet-and-greet with the group of folks I'd be interviewing with (plus, I think, a few others), and then we got to the first interview mono-a-mono, and after a brief "Are you familiar with MVC?", we get into...</p>
 
