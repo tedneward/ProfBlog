@@ -5,6 +5,7 @@
 	<#if (content.title)??>
 	<div class="page-header">
 		<h1>${content.title}</h1>
+		<h3><em>${content.description}</em></h3>
 	</div>
 	<#else></#if>
 

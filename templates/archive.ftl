@@ -3,24 +3,25 @@
 	<#include "menu.ftl">
 	
 	<div class="page-header">
-		<h1>Blog Archive</h1>
+		<h1>Archive</h1>
 	</div>
 	
 	<!--<ul>-->
-		<#list published_posts as post>
-		<#if (last_month)??>
-			<#if post.date?string("MMMM yyyy") != last_month>
+		<#list published_posts?reverse as post>
+		<#if (last_year)??>
+			<#if post.date?string("yyyy") != last_year>
 				</ul>
-				<h4>${post.date?string("MMMM yyyy")}</h4>
+				<h2>${post.date?string("yyyy")}</h4>
 				<ul>
 			</#if>
 		<#else>
-			<h4>${post.date?string("MMMM yyyy")}</h4>
+			<h2>${post.date?string("yyyy")}</h2>
 			<ul>
 		</#if>
-		
-		<li>${post.date?string("dd")} - <a href="${content.rootpath}${post.uri}">${post.title}</a></li>
-		<#assign last_month = post.date?string("MMMM yyyy")>
+
+		<li><a href="${content.rootpath}${post.uri}">${post.title}</a> (<em>${post.date?string("dd MMMM")}</em>)</li>
+
+		<#assign last_year = post.date?string("yyyy")>
 		</#list>
 	</ul>
 	

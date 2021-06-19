@@ -5,9 +5,10 @@
 	<div class="page-header">
 		<h1>Blog</h1>
 	</div>
-	<#list posts as post>
+	<#list posts[0..*10] as post>
   		<#if (post.status == "published")>
-  			<a href="${post.uri}"><h1>${post.title}</h1></a>
+  			<a href="${post.uri}"><h2>${post.title}</h2></a>
+			<h4><em>${post.description}</em></h4>
   			<p>${post.date?string("dd MMMM yyyy")}</p>
   			<p>${post.body?keep_before("<!--more-->")}</p>
   		</#if>
