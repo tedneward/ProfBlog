@@ -29,8 +29,10 @@ The groups were given 30 minutes in which to formulate some ideas, and then thre
 *(**UPDATE 2021:** The full list of katas is available at the [architectural katas website](http://www.architecturalkatas.com), and available for forking as a repository from my [Github](https://github.com/tedneward/ArchKatas). The website code is available [here](https://github.com/tedneward/ArchKatasCode) for those who'd like to play with it, but it's pretty simple and probably much better re-thought from the ground up.)*
 
 An example kata is below:
+
 <blockquote>
-<strong>Architectural Kata #5: I'll have the BLT</strong>
+**Architectural Kata #5: I'll have the BLT**
+
 a national sandwich shop wants to enable "fax in your order" but over the Internet instead
 
 users: millions+
