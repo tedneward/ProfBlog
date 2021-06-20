@@ -47,7 +47,7 @@ class Point
 
 or this:
 
-```
+```csharp
 class Point
 {
     internal int x;
