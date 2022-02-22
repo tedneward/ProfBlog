@@ -3,7 +3,7 @@ date=2016-07-02
 type=pattern
 tags=patterns, creational patterns, structural patterns, behavioral patterns
 status=published
-description=A catalog of patterns, revisisted.
+description=Notes about some implementations of various patterns, in various languages.
 ~~~~~~
 
 Let's talk a bit about the various pattern implementations, the languages in which they are being written, and what to "get" out of them.
@@ -13,11 +13,11 @@ Let's talk a bit about the various pattern implementations, the languages in whi
 ## Goals
 The "implementation" or "examples" section of any pattern discussion holds several goals (and a few "anti-goals"):
 
-* *Be able to put a concrete-ish example in front of people seeking such.* It's hard to understand exactly how the pattern is supposed to work without pictures or code. I am not great with graphical tools, so for me it's easier to use code to provide that demonstration.
-* *NOT to expect "ready-made code" for reuse.* Patterns are not drop-in building blocks that can save you time and energy when doing your own implementation. These examples are here to demonstrate a few techniques around implementation, but attempts to re-use the code directly will probably always meet with failure at some level.
-* *Demonstrate how to do certain things idiomatically within a particular language.* Each language brings with it a particular idiomatic style or feature set that may shape how one might use a particular pattern. I am not an expert with all of these languages below, but part of this exercise (for me) is to learn (and document) how to exercise the idioms of a particular language using the pattern as a scaffold upon which to hang it.
-* *Provide a mechanism by which to concretely compare and contrast one pattern against another.* Is a Strategy really all that close to a Command? Having concrete examples of each allows for a certain amount of comparison-and-contrast, and hopefully sparks some good discussion around when to use each.
-* *NOT to suggest that one language is "better" than another.* Any such qualitative judgment around one language over another is entirely in the eyes of the beholder; no such judgement is intended from me, and any attempt to use this exercise as a means to judge one language more harshly than another will quickly earn this author's scorn. Different languages chose to do things in different ways for very good reasons; if you cannot explain the reasons, then you have no business offering up the judgement.
+* ***Be able to put a concrete-ish example in front of people seeking such.*** It's hard to understand exactly how the pattern is supposed to work without pictures or code. I am not great with graphical tools, so for me it's easier to use code to provide that demonstration.
+* ***NOT to expect "ready-made code" for reuse.*** Patterns are not drop-in building blocks that can save you time and energy when doing your own implementation. These examples are here to demonstrate a few techniques around implementation, but attempts to re-use the code directly will probably always meet with failure at some level.
+* ***Demonstrate how to do certain things idiomatically within a particular language.*** Each language brings with it a particular idiomatic style or feature set that may shape how one might use a particular pattern. I am not an expert with all of these languages below, but part of this exercise (for me) is to learn (and document) how to exercise the idioms of a particular language using the pattern as a scaffold upon which to hang it.
+* ***Provide a mechanism by which to concretely compare and contrast one pattern against another.*** Is a Strategy really all that close to a Command? Having concrete examples of each allows for a certain amount of comparison-and-contrast, and hopefully sparks some good discussion around when to use each.
+* ***NOT to suggest that one language is "better" than another.*** Any such qualitative judgment around one language over another is entirely in the eyes of the beholder; no such judgement is intended from me, and any attempt to use this exercise as a means to judge one language more harshly than another will quickly earn this author's scorn. Different languages chose to do things in different ways for very good reasons; if you cannot explain the reasons, then you have no business offering up the judgement.
 
 ## Languages
 In general, there's a long list of languages I will use to define some example implementations of the patterns in the catalog. Note that while this isn't an "ordered" list, meaning I will probably do implementations in a seemingly-random order, the hope is that when this is all said and done, the list of pattern implementations will range across the following:
@@ -66,8 +66,8 @@ I also plan to explore some other languages, sometimes as an intellectual exerci
 * *[Yeti](http://research.tedneward.com/languages/jvm/yeti): an ML clone; a functional, strongly-typed for the JVM platform.*
 * *[Haskell](http://research.tedneward.com/languages/haskell): one of the original pure functional languages; compiles to native platforms.* My Haskell is not great, however, so this will definitely be a learning exercise for me.
 * *[Frege](http://research.tedneward.com/languages/jvm/frege): a Haskell clone; a functional, strongly-typed language for the JVM platform.* Quite frankly, if I'm going to learn a Haskell, I'll probably do it in Frege instead, since that runs on a platform I often care deeply about. Two birds, one stone.
-* *[Erlang](http://research.tedneward.com/languages/erlang): a functional, strongly-typed language for the Erlang platform.*
 * *[Elixir](http://research.tedneward.com/languages/elixir): a functional, weakly-typed language for the Erlang platform.* Like some others on this list, Elixir has some features that allow it to take advantage of some of these patterns.
+* *[Erlang](http://research.tedneward.com/languages/erlang): a functional, strongly-typed language for the Erlang platform.*
 
 #### Lisps
 * *[Clojure](http://research.tedneward.com/languages/lisp/clojure): a Lisp; a weakly-typed functional language with a few object-interoperability features for the JVM platform.* My Clojure Fu is not as strong as I would like it to be, so I will periodically attempt a pattern in Clojure just to experiment and see how well/poorly I can implement said pattern.
