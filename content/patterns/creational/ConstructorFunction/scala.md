@@ -1,16 +1,10 @@
-+++
-concepts = ["Patterns"]
-date = "2016-05-17T19:13:42-07:00"
-languages = ["Scala"]
-patterns = ["Creational"]
-title = "Constructor Function: Scala"
-
-+++
-
-A Constructor Function implementation in Scala.
-
-<!--more-->
-
+title=Constructor Function: Scala
+date=2016-05-17
+type=pattern
+tags=pattern implementation, creational, scala
+status=published
+description=A Constructor Function implementation in Scala.
+~~~~~~
 
 ## Implementation: Scala
 
@@ -18,14 +12,7 @@ Given that Scala is a functional language (object/functional, really), building 
 [Constructor Function](../ConstructorFunction) in Scala is actually pretty straightforward.
 
 ### Object method constructor
-Scala allows us to create per-class methods on the class object, providing a convenient
-place on which to store methods designed to construct instances of the class. Scala traits
-are used to define the Interface, so as to better take advantage of the statically-typed
-nature of the compiler and provide compilation guarantees. In addition,
-because Scala supports nested classes (meaning, in this particular case, classes whose
-definition appears entirely inside a function definition), we can "hide" the implementation
-in much the same way that Java uses inner-class implementations, though we still do need
-to provide a name to the type.
+Scala allows us to create per-class methods on the class object, providing a convenient place on which to store methods designed to construct instances of the class. Scala traits are used to define the Interface, so as to better take advantage of the statically-typed nature of the compiler and provide compilation guarantees. In addition, because Scala supports nested classes (meaning, in this particular case, classes whose definition appears entirely inside a function definition), we can "hide" the implementation in much the same way that Java uses inner-class implementations, though we still do need to provide a name to the type.
 
 ~~~~scala
 trait Interface {
@@ -52,11 +39,7 @@ object App {
 }
 ~~~~
 
-However, it can make more sense to hide the implementation entirely, and because Scala
-allows for both traits and class object definitions, we can define Interface to be
-both trait and class object. While at it, we can define the Interface class object
-to appear as a function object by defining the "construct" method as the function
-application method ("apply") instead as well:
+However, it can make more sense to hide the implementation entirely, and because Scala allows for both traits and class object definitions, we can define Interface to be both trait and class object. While at it, we can define the Interface class object to appear as a function object by defining the "construct" method as the function application method ("apply") instead as well:
 
 ~~~~scala
 trait Interface {
@@ -85,17 +68,10 @@ object App {
 
 This then looks like the Constructor Function from other functional langauges.
 
-Because Scala is an object/functional hybrid language, it's relatively easy to
-use [Closure-based State](../ClosureBasedState) to hold the state outside of
-the actual object returned.
+Because Scala is an object/functional hybrid language, it's relatively easy to use [Closure-based State](../../structural/ClosureBasedState) to hold the state outside of the actual object returned.
 
 ### Runtime replacement
-However, the disadvantage to the above is that the Constructor Function cannot
-be replaced at runtime, since it is statitically defined as part of the class.
-Adjusting for this as a desired consequence is actually relatively simple in the
-Scala case: the Constructor Function is either captured as a lambda and used
-directly, or else hidden behind the construction method, depending on what the
-exact desired client construction semantics are:
+However, the disadvantage to the above is that the Constructor Function cannot be replaced at runtime, since it is statitically defined as part of the class. Adjusting for this as a desired consequence is actually relatively simple in the Scala case: the Constructor Function is either captured as a lambda and used directly, or else hidden behind the construction method, depending on what the exact desired client construction semantics are:
 
 ~~~~scala
 trait Interface {
@@ -139,16 +115,10 @@ object App {
 }
 ~~~~
 
-Note the syntax for capturing the "construct" method inside of the Interface
-class object---Scala requires the use of the undescore to signify that we want to
-capture the function as a value, rather than invoke it. (The error message here can
-be a bit cryptic the first time you see it.)
+Note the syntax for capturing the "construct" method inside of the Interface class object---Scala requires the use of the undescore to signify that we want to capture the function as a value, rather than invoke it. (The error message here can be a bit cryptic the first time you see it.)
 
 ### Parameterized construction
-Scala uses type parameterized Constructor Functions throughout the runtime library
-to simplify the construction of several of its collection classes. For example,
-constructing a Map uses the class object's "apply" and the types passed in to determine
-what time of map to return:
+Scala uses type parameterized Constructor Functions throughout the runtime library to simplify the construction of several of its collection classes. For example, constructing a Map uses the class object's "apply" and the types passed in to determine what time of map to return:
 
 ~~~~scala
 Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_20).
@@ -161,7 +131,5 @@ scala> val pops = Map("Seattle" -> 5000000)
 pops: scala.collection.immutable.Map[String,Int] = Map(Seattle -> 5000000)
 ~~~~
 
-Here, the Map will obtain its key/value types out of the respective types of the
-pair (constructed using hte "->" operator) passed in. Syntactically, the client
-need not be aware of the actual types (or even the syntax) of the Map.
+Here, the Map will obtain its key/value types out of the respective types of the pair (constructed using hte "->" operator) passed in. Syntactically, the client need not be aware of the actual types (or even the syntax) of the Map.
 

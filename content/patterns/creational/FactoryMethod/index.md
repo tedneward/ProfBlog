@@ -3,7 +3,7 @@ date=2016-03-31
 type=pattern
 tags=pattern, creational
 status=published
-description=A catalog of patterns, revisisted.
+description=Define an interface for creating an object, but let something (usually subclasses, but not always) decide which object type to instantiate.
 ~~~~~~
 
 *tl;dr* Patterns, 20 Years Later: Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory.html), depending on the intent and the desired consequences.

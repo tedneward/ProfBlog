@@ -3,7 +3,7 @@ date=2016-07-02
 type=pattern
 tags=pattern, creational
 status=published
-description=A catalog of patterns, revisisted.
+description=Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 ~~~~~~
 
 *tl;dr* Patterns, 20 Years Later: The Builder pattern has enjoyed some success within the O-O community, particularly among the crowd that sees it as a way to build fluent APIs (APIs which read, more or less, like a natural language, a la English). Builder has a few tricks up its sleeve beyond just fluent APIs, however.

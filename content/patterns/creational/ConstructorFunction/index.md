@@ -3,7 +3,7 @@ date=2016-03-31
 type=pattern
 tags=pattern, creational
 status=published
-description=A catalog of patterns, revisisted.
+description=Define an easy interface for creating an object, but defer the actual decision of what object type to instantiate.
 ~~~~~~
 
 *tl;dr* Patterns, 20 Years Later: A Constructor Function is a function designed specifically to construct instances of entities (typically objects, although in languages which do not support objects as native types, this will typically be something that masquerades as an object). It is often seen as a variation on a [Factory Method](FactoryMethod.html), though there is enough variation on the intent that it is worth calling this out as a standalone pattern.

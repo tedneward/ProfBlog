@@ -3,11 +3,8 @@ date=2016-05-23
 type=pattern
 tags=pattern implementation, creational, java
 status=published
-description=A catalog of patterns, revisisted.
+description=A Builder implementation in Java.
 ~~~~~~
-A Builder implementation in Java.
-
-<!--more-->
 
 ## Implementation: Java
 Java has long had a relationship with [Builder](../Builder), usually calling it

@@ -1,30 +1,16 @@
-+++
-concepts = ["Patterns"]
-date = "2016-05-17T14:06:49-07:00"
-languages = ["Java"]
-patterns = ["Creational"]
-title = "Constructor Function: Java"
-
-+++
-
-A Constructor Function implementation in Java.
-
-<!--more-->
-
+title=Constructor Function: Java
+date=2016-05-23
+type=pattern
+tags=pattern implementation, creational, java
+status=published
+description=A Constructor Function implementation in Java.
+~~~~~~
 
 ## Implementation: Java
 
-The [Constructor Function](../ConstructorFunction) is not a pattern commonly used in Java, since most
-of the time the desire when holding state is to hold it as accessible member variables of an object,
-which Java supports directly via fields. Additionally, thanks to Java's "C-family" heritage, it directly
-supports encapsulatory access control (meaning we can annotate the field with "private" to prevent
-access to the field from outside the class). However, in some cases, this standard mode of access 
-control is not enough, and/or we want to provide a slightly different means of construction for 
-clients. This is when a Constructor Function can be of use, usually modeled as a static method (or
-methods) on the class itself.
+The [Constructor Function](../ConstructorFunction) is not a pattern commonly used in Java, since most of the time the desire when holding state is to hold it as accessible member variables of an object, which Java supports directly via fields. Additionally, thanks to Java's "C-family" heritage, it directly supports encapsulatory access control (meaning we can annotate the field with "private" to prevent access to the field from outside the class). However, in some cases, this standard mode of access control is not enough, and/or we want to provide a slightly different means of construction for clients. This is when a Constructor Function can be of use, usually modeled as a static method (or methods) on the class itself.
 
-The simplest form of a Constructor Function doesn't bother with any sort of closure-based state,
-and simply uses a static method to construct the object:
+The simplest form of a Constructor Function doesn't bother with any sort of closure-based state, and simply uses a static method to construct the object:
 
 ````java
 public class Person
@@ -51,29 +37,14 @@ public class Person
 }
 ````
 
-The only real significant advantage here is the fact that construction details are now
-hidden behind an artificial interface, allowing for some slight decoupling of details,
-such as returning an interface instead of the actual object instance being constructed.
-This is often what Java patterns enthusiasts refer to when they refer to a "factory"
-pattern (without qualification).
+The only real significant advantage here is the fact that construction details are now hidden behind an artificial interface, allowing for some slight decoupling of details, such as returning an interface instead of the actual object instance being constructed. This is often what Java patterns enthusiasts refer to when they refer to a "factory" pattern (without qualification).
 
-There is also a slight advantage here in that should the Constructor Function need to
-throw an exception, handling exception details from a method call "feels" a little more
-normal than handling exception details from a constructor call; in practice, there is no
-real difference, but (anecdotally) many Java developers have expressed surprise that a
-constructor throwing an exception could be considered good design.
+There is also a slight advantage here in that should the Constructor Function need to throw an exception, handling exception details from a method call "feels" a little more normal than handling exception details from a constructor call; in practice, there is no real difference, but (anecdotally) many Java developers have expressed surprise that a constructor throwing an exception could be considered good design.
 
-Note that this is also one case where Java's "lowercaseLeading" style of naming convention
-becomes a pain--ideally, it would be nice to call the static method "new", in order to
-better mimic the use of the keyword, but unfortunately, using lowercase makes it look
-like the keyword exactly. (C# developers would call it "New", which is close enough to the
-keyword to make it clear what's going on, yet doesn't conflict with the keyword.) A nit,
-but one in an annoying place.
+Note that this is also one case where Java's "lowercaseLeading" style of naming convention becomes a pain--ideally, it would be nice to call the static method "new", in order to better mimic the use of the keyword, but unfortunately, using lowercase makes it look like the keyword exactly. (C# developers would call it "New", which is close enough to the keyword to make it clear what's going on, yet doesn't conflict with the keyword.) A nit, but one in an annoying place.
 
 ### Lambdas and inner classes
-Constructor Functions can also be Java lambdas, however, which is more in keeping with
-the concept of the Constructor Function pattern as it was originally envisioned in the
-functional-language world. When combined with interfaces, this looks like:
+Constructor Functions can also be Java lambdas, however, which is more in keeping with the concept of the Constructor Function pattern as it was originally envisioned in the functional-language world. When combined with interfaces, this looks like:
 
 ````java
 // In Interface.java
@@ -103,23 +74,11 @@ public class Main {
 }
 ````
 
-The anonymous-inner-class-implementation feature of Java makes Constructor Function
-actually quite trivial to implement this way---the interface serves as the strongly-typed
-"surface" to the object, providing the compiler the hints it needs to compile with
-type safety, but the fact that the implementation is anonymous (as far as the compiler
-is concerned---of course, at runtime, it will have a classname, something like "Main$1",
-but this name is neither guaranteed nor really ever seen, except in Reflection scenarios).
-Note that the field doesn't even need to be marked as private, since it can never be
-referenced (except, again, through Reflection).
+The anonymous-inner-class-implementation feature of Java makes Constructor Function actually quite trivial to implement this way---the interface serves as the strongly-typed "surface" to the object, providing the compiler the hints it needs to compile with type safety, but the fact that the implementation is anonymous (as far as the compiler is concerned---of course, at runtime, it will have a classname, something like "Main$1", but this name is neither guaranteed nor really ever seen, except in Reflection scenarios). Note that the field doesn't even need to be marked as private, since it can never be referenced (except, again, through Reflection).
 
-Of course, the same kind of results can be achieved using static methods instead of
-a lambda instance, if the Constructor Function is not stored somewhere with the intent
-of modifying/replacing it.
+Of course, the same kind of results can be achieved using static methods instead of a lambda instance, if the Constructor Function is not stored somewhere with the intent of modifying/replacing it.
 
-One significant advantage of this approach (over the [Closure-Based State](../ClosureBasedState)
-approach for objects returned from a Constructor Function) is that debugging is much more
-natural to the Java environment---the debugger simply displays the "total" field in
-the Variables or Watch window, since it's a normal field.
+One significant advantage of this approach (over the [Closure-Based State](../ClosureBasedState) approach for objects returned from a Constructor Function) is that debugging is much more natural to the Java environment---the debugger simply displays the "total" field in the Variables or Watch window, since it's a normal field.
 
 ### Accessibility
 As has been noted, however, the field still can be referenced via Reflection pretty easily:
@@ -145,15 +104,7 @@ As has been noted, however, the field still can be referenced via Reflection pre
     }
 ````
 
-Even were this field declared "private", the Java developer need only call
-"setAccessible(true)" to gain access. (This will trigger a security check within
-the Java runtime security permissions system, but that will only ever have an effect
-if the JVM is running with Permissions "turned on", a la via the securitymanager
-system property.) Moving this code over to using Closure-based State will not eliminate
-the ability to find the field entirely, but will at least make it more difficult to
-chase down. However, doing this now runs into Java's "final or effectively final"
-requirement, in that enclosed bound variables (such as "total") need to be either
-final or "effectively final" (i.e., unmodified):
+Even were this field declared "private", the Java developer need only call `setAccessible(true)` to gain access. (This will trigger a security check within the Java runtime security permissions system, but that will only ever have an effect if the JVM is running with Permissions "turned on", a la via the securitymanager system property.) Moving this code over to using Closure-based State will not eliminate the ability to find the field entirely, but will at least make it more difficult to chase down. However, doing this now runs into Java's "final or effectively final" requirement, in that enclosed bound variables (such as "total") need to be either final or "effectively final" (i.e., unmodified):
 
 ````java
     public static void main(String[] args) throws Exception {
@@ -175,9 +126,7 @@ final or "effectively final" (i.e., unmodified):
     }
 ````
 
-The only real way around this is to create a "MutableInteger" variant of the
-java.lang.Integer class, hold that internally, and allow its integer contents
-to be adjusted:
+The only real way around this is to create a "MutableInteger" variant of the `java.lang.Integer` class, hold that internally, and allow its integer contents to be adjusted:
 
 ````java
 import java.util.function.*;
@@ -210,8 +159,7 @@ public class Main {
 }
 ````
 
-Now when run, the getDeclaredField() will throw a NoSuchFieldException. However,
-the field is still there, just under a new (obscured) name:
+Now when run, the `getDeclaredField()` will throw a NoSuchFieldException. However, the field is still there, just under a new (obscured) name:
 
 ````java
         Interface obj = creator.apply(100);
@@ -224,7 +172,4 @@ the field is still there, just under a new (obscured) name:
         }
 ````
 
-This means that the field will still be serialized (which may be a good thing or a
-bad thing, depending) and is still accessible, but it's clearly not a "direct" field
-of the class, which may be sufficient to hide it from some prying eyes.
-
+This means that the field will still be serialized (which may be a good thing or a bad thing, depending) and is still accessible, but it's clearly not a "direct" field of the class, which may be sufficient to hide it from some prying eyes.

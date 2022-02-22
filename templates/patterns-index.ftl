@@ -8,14 +8,16 @@
 
     ${content.body}
 
+    (Back to the <a href="${content.rootpath}patterns">main catalog</a>.)
+
     <hr />
 
     <h3>Index</h3>
-    <#assign filteredPatterns = patterns?filter(p -> p.tags?seq_contains(content.patternfilter?string)) >
+    <#assign filteredPatterns = patterns?filter(p -> p.tags?seq_contains(content.patternfilter?string) && !p.tags?seq_contains("pattern implementation")) >
     <ul>
 	<#list filteredPatterns?sort_by("title") as pattern>
   		<#if (pattern.status == "published")>
-  			<li><a href="${content.rootpath}${pattern.uri}">${pattern.title}</a>: <em>${pattern.description}</em></li>
+  			<li><strong><a href="${content.rootpath}${pattern.uri}">${pattern.title}</a></strong>: ${pattern.description}</em></li>
   		</#if>
   	</#list>
     </ul>
@@ -27,7 +29,7 @@
         <ul>
         <#assign impls = patterns?filter(p -> p.tags?seq_contains("pattern implementation") && p.tags?seq_contains(lang?string)) >
         <#list impls?sort_by("title") as impl>
-        <li><a href="${content.rootpath}${impl.uri}">${impl.title}</a>: <em>${impl.description}</em></li>
+        <li><em><a href="${content.rootpath}${impl.uri}">${impl.title}</a></em></li>
         </#list>
         </ul>
     </#list>

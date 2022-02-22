@@ -3,7 +3,7 @@ date=2016-07-02
 type=pattern
 tags=pattern, creational
 status=published
-description=A catalog of patterns, revisisted.
+description=Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 ~~~~~~
 
 ***tl;dr*** Patterns, 20 Years Later: The Abstract Factory pattern is often "combined", conceptually, together with [Factory Method](../FactoryMethod) into a sort of uber-"Factory pattern". The two are distinctly separate in the Gang-of-Four literature, however, and for some pretty good reason, as the intentions are different. Subtly so, in some ways, but still different.
