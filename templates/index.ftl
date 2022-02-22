@@ -3,7 +3,7 @@
 	<#include "menu.ftl">
 
 	<h3>Sections</h3>
-	Before wandering through the list, maybe you're looking for <a href="patterns/">patterns reimagined</a> or <a href="speaking-tips/">Speaker Tips/</a>?
+	Before wandering through the list, maybe you're looking for <a href="patterns/">patterns reimagined</a> or <a href="speaking-tips/">Speaker Tips/</a>? Or check out the "Sections" menu above for a list of some of my favorite blog posts over the years. Of course, the <a href="${content.rootpath}${config.archive_file}">Archive</a> has the complete chronological list, most-recent to oldest (2005!).
 
 	<div class="page-header">
 		<h1>Blog</h1>

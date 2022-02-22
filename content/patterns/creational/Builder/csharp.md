@@ -7,7 +7,7 @@ description=A Builder implementation in C#.
 ~~~~~~
 
 ## Implementation: C# #
-C# has in many ways inherited its relationship with [Builder](Builder.html) from Java, where it was usually called by the more degenerative term "Factory" or "Factory pattern".  (Technically, what Java calls a "Factory pattern" is typically one of Builder,  [Factory Method](FactoryMethod.html), or [Abstract Factory](AbstractFactory.html), depending  on what precisely looks to be varied and/or encapsulated.) C#, however, never fell quite as deeply in love with the "Factory pattern" as the Java development crowd did, and as such it wasn't as widely used.
+C# has in many ways inherited its relationship with [Builder](Builder.html) from Java, where it was usually called by the more degenerative term "Factory" or "Factory pattern".  (Technically, what Java calls a "Factory pattern" is typically one of Builder,  [Factory Method](FactoryMethod), or [Abstract Factory](AbstractFactory), depending  on what precisely looks to be varied and/or encapsulated.) C#, however, never fell quite as deeply in love with the "Factory pattern" as the Java development crowd did, and as such it wasn't as widely used.
 
 We start with the target Product:
 
@@ -195,7 +195,7 @@ static class FnUtils
 }
 ````
 
-From here, it's easy to use that function to compose a string of builder functions together into what is effectively a single [Constructor Function](ConstructorFunction.html):
+From here, it's easy to use that function to compose a string of builder functions together into what is effectively a single [Constructor Function](../ConstructorFunction):
 
 ````csharp
 class FluentBuilderFns
@@ -255,7 +255,7 @@ public FluentBuilderFns Tire(int numberOfTires) {
 }
 ````
 
-The biggest advantage of writing the FluentBuilder this way is that each "chain" of calls is effectively one giant [Constructor Function](ConstructorFunction.html). These are now intrinsically thread-safe, so if the Builder wants to return the generated Constructor Function for direct invocation, it can be used from as many threads simultaneously as desired, without any sort of concurrent impact.
+The biggest advantage of writing the FluentBuilder this way is that each "chain" of calls is effectively one giant [Constructor Function](../ConstructorFunction). These are now intrinsically thread-safe, so if the Builder wants to return the generated Constructor Function for direct invocation, it can be used from as many threads simultaneously as desired, without any sort of concurrent impact.
 
 ### Incremental construction with guards in place
 

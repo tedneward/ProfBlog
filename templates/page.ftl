@@ -12,6 +12,11 @@
 
 	<p>${content.body}</p>
 
+	Tags:
+	<#list content.tags as tag>
+	<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/${tag}.html">${tag}</a>&nbsp;&nbsp;
+	</#list>
+
 	<hr />
 
 <#include "footer.ftl">

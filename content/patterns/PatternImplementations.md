@@ -32,6 +32,9 @@ Specifically, I will be looking for opportunities to incorporate C++11 and C++14
 
 Note that Swift has no "abstract class" or "abstract method" in the Swift 2.2 language, so as a result, where the code may require some form of method-definition-but-deliberately-without-an-implementation, we will use Swift's `preconditionFailure` method instead.
 
+#### Kotlin
+*An imperative, strongly-typed object-oriented language for the JVM platform.* You can't really mention Swift without also covering Kotlin; where Swift is the default language for doing iOS development, Google has made Kotlin the same for Android. And honestly, Kotlin is quickly becoming my go-to choice for doing things on the JVM, even over Java itself.
+
 #### C# #
 *An imperative, strongly-typed object-oriented language for the CLR platform.*
 
@@ -49,28 +52,29 @@ Note that Swift has no "abstract class" or "abstract method" in the Swift 2.2 la
 
 JavaScript runs in browsers and on servers (using NodeJS), and will probably continue to extend its reach to a variety of other places as time goes on. JavaScript has been described in some quarters as being a functional language, but given that it lacks key critical functional features (partial application of functions, immutability by default), I do not consider it as such. I will also include implementations of ECMAScript6- and 7-oriented code, where it seems appropriate or important.
 
+#### Python
+*An imperative, weakly-typed object-oriented interpreted language.* Python is becoming ridiculously popular for a large number of reasons, and despite my earlier misgivings about the use of significant whitespace to denote scope blocks, after having toyed with it for a while, I'm starting to come around to the idea that maaaaaybe it's not so bad. It has some functional concepts like many of its peers, but again, it's not really a functional language because it lacks some of the critical things (immutability by default, partial evaluation, and so on) that make functional languages powerful. Useful, all the same, but not a functional language.
+
 #### Ruby
 *An imperative, weakly-typed object-oriented interpreted language.* Ruby is, in many ways, akin to JavaScript in its approach and feature list. It has just enough functional-like features (function literals, for example) that it can mimic some functional features, but like JavaScript, it cannot be called a "functional language" akin to Haskell or ML.
-
-#### Go
-*An imperative, strongly-typed object-ish compiled language.* Go has some interesting features to it, yet lacking some of the key features (implementation inheritance) that the GOF originally depended on. Expressing traditionally "O-O" patterns in Go will be an interesting exercise, and put the "language-agnostic" quality of patterns to the test. 
-
-#### Rust
-*An imperative, strongly-typed object-ish compiled systems language.* Same story (for me) as Go. I think there's a lot of things that Rust can do, pattern-wise, but it would definitely require some adjustment in thinking.
 
 
 ## Other languages
 I also plan to explore some other languages, sometimes as an intellectual exercise (and as a way to practice writing code in those languages), sometimes because I think the language is going to gain more traction, and sometimes just because I'm intrigued. That list includes, but is not limited to:
 
-* *Clojure: a Lisp; a weakly-typed functional language with a few object-interoperability features for the JVM platform.* My Clojure Fu is not as strong as I would like it to be, so I will periodically attempt a pattern in Clojure just to experiment and see how well/poorly I can implement said pattern.
-* *Yeti: an ML clone; a functional, strongly-typed for the JVM platform.*
-* *Kotlin: an imperative object-oriented language for the JVM.* I've looked briefly at Kotlin, and largely because of the proposed association with using Kotlin to write Android code, I want to spend more time working with it.
-* *Scheme: one of the original Lisps; a functional, weakly-typed interpreted language.*
-* *Haskell: one of the original pure functional languages; compiles to native platforms.* My Haskell is not great, however, so this will definitely be a learning exercise for me.
-* *Frege: a Haskell clone; a functional, strongly-typed language for the JVM platform.* Quite frankly, if I'm going to learn a Haskell, I'll probably do it in Frege instead, since that runs on a platform I often care deeply about. Two birds, one stone.
-* *Lua: an imperative, untyped, object-ish interpreted language.* Lua is a scripting language with only a very loose notion of objects (no inheritance to speak of, no class types to speak of), whose great claim to fame is that it is ridiculously easy to embed inside of a native application. (This is why Lua shows up so frequently inside of game engines.) This represents a pretty strong challenge to the patterns: can a language that lacks one of the core features the Gang-of-Four relied on---inheritance---still implement some of these patterns?
-* *Erlang: a functional, strongly-typed language for the Erlang platform.*
-* *Elixir: a functional, weakly-typed language for the Erlang platform.* Like some others on this list, Elixir has some features that allow it to take advantage of some of these patterns.
-* *Objective-C: a weakly-typed object-oriented language for native platforms.* ObjC is more or less on its way "out" as the language of choice for Mac OSX/iOS, but I may periodically tinker with it as an implementation language, just for fun.
+#### Functional languages
+* *[Yeti](http://research.tedneward.com/languages/jvm/yeti): an ML clone; a functional, strongly-typed for the JVM platform.*
+* *[Haskell](http://research.tedneward.com/languages/haskell): one of the original pure functional languages; compiles to native platforms.* My Haskell is not great, however, so this will definitely be a learning exercise for me.
+* *[Frege](http://research.tedneward.com/languages/jvm/frege): a Haskell clone; a functional, strongly-typed language for the JVM platform.* Quite frankly, if I'm going to learn a Haskell, I'll probably do it in Frege instead, since that runs on a platform I often care deeply about. Two birds, one stone.
+* *[Erlang](http://research.tedneward.com/languages/erlang): a functional, strongly-typed language for the Erlang platform.*
+* *[Elixir](http://research.tedneward.com/languages/elixir): a functional, weakly-typed language for the Erlang platform.* Like some others on this list, Elixir has some features that allow it to take advantage of some of these patterns.
+
+#### Lisps
+* *[Clojure](http://research.tedneward.com/languages/lisp/clojure): a Lisp; a weakly-typed functional language with a few object-interoperability features for the JVM platform.* My Clojure Fu is not as strong as I would like it to be, so I will periodically attempt a pattern in Clojure just to experiment and see how well/poorly I can implement said pattern.
+* *[Scheme](http://research.tedneward.com/languages/lisp/scheme): one of the original Lisps; a functional, weakly-typed interpreted language.*
+
+#### Dynamically-typed languages
+* *[Lua](http://research.tedneward.com/languages/lua): an imperative, untyped, object-ish interpreted language.* Lua is a scripting language with only a very loose notion of objects (no inheritance to speak of, no class types to speak of), whose great claim to fame is that it is ridiculously easy to embed inside of a native application. (This is why Lua shows up so frequently inside of game engines.) This represents a pretty strong challenge to the patterns: can a language that lacks one of the core features the Gang-of-Four relied on---inheritance---still implement some of these patterns?
+* *[Objective-C](http://research.tedneward.com/languages/objc): a weakly-typed object-oriented language for native platforms.* ObjC is more or less on its way "out" as the language of choice for Mac OSX/iOS, but I may periodically tinker with it as an implementation language, just for fun.
 
 And of course I reserve the right to add a few more languages to the mix, if they're interesting. Because, in a lot of ways, while I hope that readers get a lot out of this, this whole exercise is more for me than anybody else.

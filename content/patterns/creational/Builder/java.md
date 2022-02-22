@@ -7,11 +7,7 @@ description=A Builder implementation in Java.
 ~~~~~~
 
 ## Implementation: Java
-Java has long had a relationship with [Builder](../Builder), usually calling it
-by the more degenerative term "Factory" or "Factory pattern". (Technically, what
-Java calls a "Factory pattern" is typically one of Builder, [Factory Method](../FactoryMethod),
-or [Abstract Factory](../AbstractFactory), depending on what precisely looks to be
-varied and/or encapsulated.)
+Java has long had a relationship with [Builder](../Builder), usually calling it by the more degenerative term "Factory" or "Factory pattern". (Technically, what Java calls a "Factory pattern" is typically one of Builder, [Factory Method](../FactoryMethod), or [Abstract Factory](../AbstractFactory), depending on what precisely looks to be varied and/or encapsulated.)
 
 We start with the target Product:
 
@@ -31,11 +27,7 @@ public abstract class Builder {
 }
 ````
 
-The Abstract Creator is intended simply as an abstract interface, and as such, might initially seem to be
-better modeled using a Java interface; however, as the pattern itself notes, if there is level of reusability
-desired in the construction of parts, then it will be natural to put that reusable functionality into the
-base Abstract Creator (so that the Concrete Creators will pick it up automatically). Java makes this
-decision pretty binary---if there's going to be any behavior, it must be an abstract class.
+The Abstract Creator is intended simply as an abstract interface, and as such, might initially seem to be better modeled using a Java interface; however, as the pattern itself notes, if there is level of reusability desired in the construction of parts, then it will be natural to put that reusable functionality into the base Abstract Creator (so that the Concrete Creators will pick it up automatically). Java makes this decision pretty binary---if there's going to be any behavior, it must be an abstract class.
 
 Next, we need a Concrete Creator:
 
@@ -79,14 +71,10 @@ Product product = director.construct();
 System.out.println(product.parts);
 ````
 
-This is pretty straightforward. Note that syntactically, we might prefer using a method named "New"
-instead of "construct", since then it will feel more syntactically similar to the traditional Java
-"new" keyword except for the case. This is a highly aesthetic choice.
+This is pretty straightforward. Note that syntactically, we might prefer using a method named "New" instead of "construct", since then it will feel more syntactically similar to the traditional Java "new" keyword except for the case. This is a highly aesthetic choice.
 
 ### Fluent Builder
-In the event that we seek to construct a Fluent API in Java for a Builder, we find that the
-Fluent API is pretty straightforward, owing to the fact that Java lacks any sort of property
-syntax, forcing everything to be a method call:
+In the event that we seek to construct a Fluent API in Java for a Builder, we find that the Fluent API is pretty straightforward, owing to the fact that Java lacks any sort of property syntax, forcing everything to be a method call:
 
 ````java
 public class FluentBuilder {
@@ -126,23 +114,12 @@ Product motorcyle = vehicleBuilder.begin()
 System.out.println(motorcycle.parts);
 ````
 
-Like most Fluent Builders, the Java version relies on the idea of returning the Builder object
-as part of each construction call, carrying the state of the construction process as-is as state
-inside the Builder itself, until the Product as requested as part of the final step (`build`).
+Like most Fluent Builders, the Java version relies on the idea of returning the Builder object as part of each construction call, carrying the state of the construction process as-is as state inside the Builder itself, until the Product as requested as part of the final step (`build`).
 
 #### State- vs Command-based Builders
-Note that this state-basde Fluent Builder approach suggests that a Fluent Builder will not be
-accessed across multiple threads (or other actors); if that becomes necessary, then it may be
-better to construct a Builder that is fundamentally made up of [Command](../Command) objects that
-are waiting to be all executed in order, on the `build` call. That way, the Product isn't
-"half-baked" during the construction process, and potentially corrupted; the construction chain
-can be examined and/or modified (concurrently or otherwise) before the actual construction
-process.
+Note that this state-basde Fluent Builder approach suggests that a Fluent Builder will not be accessed across multiple threads (or other actors); if that becomes necessary, then it may be better to construct a Builder that is fundamentally made up of [Command](../Command) objects that are waiting to be all executed in order, on the `build` call. That way, the Product isn't "half-baked" during the construction process, and potentially corrupted; the construction chain can be examined and/or modified (concurrently or otherwise) before the actual construction process.
 
-In Java, this can be elegantly modeled using a list of Function objects, each one taking in
-the Product in its current state, performing some operation upon it (continuing the Builder
-process), and then returning the object-in-process. We can then chain the functions together,
-and run them in sequence to arrive at the result.
+In Java, this can be elegantly modeled using a list of Function objects, each one taking in the Product in its current state, performing some operation upon it (continuing the Builder process), and then returning the object-in-process. We can then chain the functions together, and run them in sequence to arrive at the result.
 
 ````java
 public class FluentBuilderFunctions {
@@ -194,8 +171,7 @@ public class FluentBuilderFunctions {
 }
 ````
 
-But, as any good functional programmer knows, this is basically a sequence of functions
-that can be composed, and Java8 Function<> objects support doing that pretty easily:
+But, as any good functional programmer knows, this is basically a sequence of functions that can be composed, and Java8 Function<> objects support doing that pretty easily:
 
 ````java
 public class FluentBuilderFunctions {
@@ -236,12 +212,9 @@ public class FluentBuilderFunctions {
 }
 ````
 
-Note that the Product parameter in the `begin` step is ignored, so it's safe
-to pass in `null` here.
+Note that the Product parameter in the `begin` step is ignored, so it's safe to pass in `null` here.
 
-FluentBuilders will sometimes want to take parameters, but thanks to the closure
-and "effectively final" rules of Java8, that's easy to capture as part of the
-construction logic:
+FluentBuilders will sometimes want to take parameters, but thanks to the closure and "effectively final" rules of Java8, that's easy to capture as part of the construction logic:
 
 ````java
     public FluentBuilderFunctions tire(int numberOfTires) {
@@ -254,17 +227,11 @@ construction logic:
     }
 ````
 
-The biggest advantage of writing the FluentBuilder this way is that each
-"chain" of calls is effectively one giant [Constructor Function](../ConstructorFunction).
-These are now intrinsically thread-safe, so if the Builder wants to return the
-generated Constructor Function for direct invocation, it can be used from as many
-threads simultaneously as desired, without any sort of concurrent impact.
+The biggest advantage of writing the FluentBuilder this way is that each "chain" of calls is effectively one giant [Constructor Function](../ConstructorFunction). These are now intrinsically thread-safe, so if the Builder wants to return the generated Constructor Function for direct invocation, it can be used from as many threads simultaneously as desired, without any sort of concurrent impact.
 
 ### Incremental construction with guards in place
 
-As noted in the text of the pattern, Builder can also make sure that a given object
-being constructed incrementally is not returned if it would be in an unusable (or
-potentially unusable) state:
+As noted in the text of the pattern, Builder can also make sure that a given object being constructed incrementally is not returned if it would be in an unusable (or potentially unusable) state:
 
 ````java
 public class GuardedFluentBuilder {
@@ -297,5 +264,4 @@ public class GuardedFluentBuilder {
 }
 ````
 
-The `end` method can either throw an exception or return `null`, depending on the
-particular aesthetics desired.
+The `end` method can either throw an exception or return `null`, depending on the particular aesthetics desired.

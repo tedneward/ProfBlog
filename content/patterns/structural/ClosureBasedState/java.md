@@ -1,16 +1,10 @@
-+++
-concepts = ["Patterns"]
-date = "2016-04-03T01:50:57-07:00"
-languages = ["Java"]
-patterns = ["Structural"]
-title = "Closure-based State: Java"
-
-+++
-
-A Closure-based State implementation in Java.
-
-<!--more-->
-
+title=Closure-based State: Java
+date=2016-04-03
+type=pattern
+tags=pattern implementation, structural, java
+status=published
+description=A Closure-based State implementation in Java.
+~~~~~~
 
 ## Implementation: Java
 Although Java has only recently obtained function literals (lambdas) as a part of the formal language

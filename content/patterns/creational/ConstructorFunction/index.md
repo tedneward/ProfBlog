@@ -11,7 +11,7 @@ description=Define an easy interface for creating an object, but defer the actua
 <!--more-->
 
 ## Problem
-We want to define an easy interface for creating an object, but defer the actual decision of what object type to instantiate. (In this respect, it is very very similar to [Factory Methods](FactoryMethod.html) and the main decision point on which to use will vary on the context.)
+We want to define an easy interface for creating an object, but defer the actual decision of what object type to instantiate. (In this respect, it is very very similar to [Factory Methods](../FactoryMethod) and the main decision point on which to use will vary on the context.)
 
 ## Context
 *A class can't anticipate the class of objects it must create.* In other words, either the system is deliberately designed to be "open", allowing types that weren't known at the time of the framework's creation to be created (which is the case in most application frameworks, for example), or the system is deliberately drawing an encapsulatory barrier between the class representing the abstract type and the implementations, in order to help facilitate better decoupling. Most systems or platforms that support some notion of "plugins" are in the former category, although often at a binary level of interoperability, rather than a source-language level of interop. (Most Component Object Model (COM) developers will remember CoCreateInstance, for example, which is the classic example of a Factory Method.)
@@ -26,10 +26,12 @@ We want to define an easy interface for creating an object, but defer the actual
 Define a functional interface that is responsible for the creation of objects. Place the details of the construction inside this functional interface/implementation. Optionally, allow clients to replace this function in some manner during the execution of the program so as to change the type created at runtime.
 
 ## Implementations
-The [Envoy pattern language](../blog/2012/envoy-in-scala-javascript-and-more), from which this pattern is borrowed, describes several implementations as part of that pattern language. This is also a variant of the "Creator Method" that is described in "Refactoring to Patterns" (Kerievsky, 57).
+The [Envoy pattern language](/blog/2012/envoy-in-scala-javascript-and-more), from which this pattern is borrowed, describes several implementations as part of that pattern language. This is also a variant of the "Creator Method" that is described in "Refactoring to Patterns" (Kerievsky, 57).
 
-* [Javascript](ConstructorFunction-Javascript.html)
-* [Swift](ConstructorFunction-Swift.html)
+* [Java](java.html)
+* [Javascript](javascript.html)
+* [Scala](scala.html)
+* [Swift](swift.html)
 
 ## Consequences
 
@@ -47,13 +49,13 @@ on).
 ## Variations
 If a Constructor Function needs to belong as part of a larger entity (because the responsibility of creating subtypes is only a part of the overall responsibility), then this is a [Factory Method](FactoryMethod.html).
 
-Constructor Functions may well turn into a [Chain of Responsibility](ChainOfResponsibility.html) for constructing different kinds of objects, with individual Constructor Functions being added and removed at runtime, and the decision criteria for construction being passed in as part of the Constructor Function's signature. This "Chain of Constructors" can be a powerful way to allow third parties to participate in the construction process without requiring recompilation, but ordering here will be critical.
+Constructor Functions may well turn into a [Chain of Responsibility](../../behavioral/ChainOfResponsibility) for constructing different kinds of objects, with individual Constructor Functions being added and removed at runtime, and the decision criteria for construction being passed in as part of the Constructor Function's signature. This "Chain of Constructors" can be a powerful way to allow third parties to participate in the construction process without requiring recompilation, but ordering here will be critical.
 
-A Constructor Function may want to use a [MessagePassingInterface](MessagePassingInterface.html) to generalize the actual construction signature to allow for future criteria to be passed without changing client code.
+A Constructor Function may want to use a [MessagePassingInterface](../../structural/MessagePassingInterface) to generalize the actual construction signature to allow for future criteria to be passed without changing client code.
 
 ## Relationships
-Constructor Functions will often be producing [Composite](Composite.html) products, if the products themselves are somehow seen as a "tree" structure.
+Constructor Functions will often be producing [Composite](../../structural/Composite) products, if the products themselves are somehow seen as a "tree" structure.
 
-A Constructor Function can make it relatively easy to construct [Decorators](Decorator.html), building the Decorator around the returned object from the decorated's Constructor Function (or other creational operation).
+A Constructor Function can make it relatively easy to construct [Decorators](../../structural/Decorator), building the Decorator around the returned object from the decorated's Constructor Function (or other creational operation).
 
-Constructor Functions can be chained using composed functions to form a [Builder](Builder.html). One might argue that a Builder invocation is itself a Constructor Function, with the difference being that in a Builder, the client is driving the construction, whereas with a Constructor Function the client seeks to remain ignorant of the construction details.
+Constructor Functions can be chained using composed functions to form a [Builder](../Builder). One might argue that a Builder invocation is itself a Constructor Function, with the difference being that in a Builder, the client is driving the construction, whereas with a Constructor Function the client seeks to remain ignorant of the construction details.

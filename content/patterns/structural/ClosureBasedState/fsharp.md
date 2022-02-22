@@ -3,13 +3,11 @@ date=2016-04-07
 type=pattern
 tags=structural patterns, patterns, fsharp
 status=published
-description=A catalog of patterns, revisisted.
+description=A Closure-based State implementation in F#.
 ~~~~~~
-A Closure-based State implementation in F#.
-
-<!--more-->
 
 <h2>Implementation: F#</h2>
+
 Being an object/functional hybrid language, F# offers the opportunity to support either a traditional object-field approach to encapsulating state, as well as the more "functional" style of  [Closure-basedState](ClosureBasedState.html). As such, developers will generally prefer to store state in object/class fields, but there can still be situation where encapsulating the state away from the object as a whole can be preferable.
 
 However, F# has some interesting language restrictions around enclosed bound variables; specifically, because F# wants to assume that all bound values are immutable by default, F# will require a slight amendment to the enclosed local state, marking it as a "reference" (using the `ref` keyword), before it can be used inside of a returned function:

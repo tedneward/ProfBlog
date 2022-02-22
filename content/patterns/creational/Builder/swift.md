@@ -113,7 +113,7 @@ print(motorcycle.parts)
 Like most Fluent Builders, the Swift version relies on the idea of returning the Builder object as part of each construction call, carrying the state of the construction process as-is as state inside the Builder itself, until the Product as requested as part of the final step (`Construct`).
 
 #### State- vs Command-based Builders
-Note that this state-basde Fluent Builder approach suggests that a Fluent Builder will not be accessed across multiple threads (or other actors); if that becomes necessary, then it may be better to construct a Builder that is fundamentally made up of [Command](Command) objects that are waiting to be all executed in order, on the `Construct` call. That way, the Product isn't "half-baked" during the construction process, and potentially corrupted; the construction chain can be examined and/or modified (concurrently or otherwise) before the actual construction process.
+Note that this state-basde Fluent Builder approach suggests that a Fluent Builder will not be accessed across multiple threads (or other actors); if that becomes necessary, then it may be better to construct a Builder that is fundamentally made up of [Command](../../structural/Command) objects that are waiting to be all executed in order, on the `Construct` call. That way, the Product isn't "half-baked" during the construction process, and potentially corrupted; the construction chain can be examined and/or modified (concurrently or otherwise) before the actual construction process.
 
 In Swift, we can actually create a sequence of functions to defer the actual construction work, and then execute them serially when asked to construct the Product:
 
