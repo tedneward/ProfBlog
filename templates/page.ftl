@@ -12,10 +12,12 @@
 
 	<p>${content.body}</p>
 
+	<#if (content.tags)??>
 	Tags:
 	<#list content.tags as tag>
 	<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/${tag}.html">${tag}</a>&nbsp;&nbsp;
 	</#list>
+	</#if>
 
 	<hr />
 
