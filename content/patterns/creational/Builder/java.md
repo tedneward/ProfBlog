@@ -1,7 +1,7 @@
 title=Builder: Java
 date=2016-05-23
 type=pattern
-tags=creational patterns, patterns, java
+tags=pattern implementation, creational, java
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~

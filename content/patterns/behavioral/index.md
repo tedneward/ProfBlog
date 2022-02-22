@@ -1,9 +1,10 @@
 title=Behavioral Patterns
 date=2021-06-08
-type=pattern
+type=patterns-index
 tags=patterns
 status=published
 description=Behavioral Patterns, 20 years later
+patternfilter=behavioral
 ~~~~~~
 
 *tl;dr* Behavioral patterns ...

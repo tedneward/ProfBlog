@@ -1,7 +1,7 @@
 title=Constructor Function
 date=2016-03-31
 type=pattern
-tags=creational patterns, patterns
+tags=pattern, creational
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~

@@ -18,7 +18,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sections <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Some of my Favorites</li>
-                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>speaking-tips/index.html">Speaker Tips</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>speaking-tips/">Speaker Tips</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2006/the-vietnam-of-computer-science.html">O/R-M is the Vietnam of Computer Science</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2016/enterprise-computing-fallacies.html">The Fallacies of Enterprise Computing</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2009/sscli-20-internals.html">SSCLI 2.0 Internals</a></li>
@@ -28,10 +28,11 @@
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/207/programming-promises.html">Programming Promises; a Programmer's Hippocratic Oath</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Patterns, Revisited</li>
-                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/Catalog.html">Catalog</a></li>
-                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/CreationalPatterns.html">Creational Patterns</a></li>
-                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/StructuralPatterns.html">Structural Patterns</a></li>
-                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/BehavioralPatterns.html">Behavioral Patterns</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/">Catalog</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/creational/">Creational</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/structural/">Structural</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/behavioral/">Behavioral</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/PatternImplementations.html">Implementation notes</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Interop Briefs</li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/begin-at-the-beginning.html">Begin at the Beginning</a></li>

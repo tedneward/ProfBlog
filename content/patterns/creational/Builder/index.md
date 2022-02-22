@@ -1,7 +1,7 @@
 title=Builder
 date=2016-07-02
 type=pattern
-tags=creational patterns, patterns
+tags=pattern, creational
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~

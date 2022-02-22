@@ -1,7 +1,7 @@
 title=Builder: C#
 date=2016-05-23
 type=pattern
-tags=creational patterns, patterns, csharp
+tags=pattern implementation, creational, csharp
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~

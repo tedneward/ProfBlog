@@ -1,7 +1,7 @@
 title=Closure-Based State
 date=2016-04-02
 type=pattern
-tags=structural patterns, patterns
+tags=pattern, structural
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~
@@ -30,11 +30,11 @@ Note that there is no reason that a given system couldn't use both Closure-based
 ## Implementations
 The [Envoy pattern language](../blog/2012/envoy-in-scala-javascript-and-more.html), from which this pattern is borrowed, describes several implementations as part of that pattern language.
 
-* [C#](ClosureBasedState-CSharp.html)
-* [F#](ClosureBasedState-FSharp.html)
-* [Java](ClosureBasedState-Java.html)
-* [JavaScript](ClosureBasedState-Javascript.html)
-* [Swift](ClosureBasedState-Swift.html)
+* [C#](csharp.html)
+* [F#](fsharp.html)
+* [Java](java.html)
+* [JavaScript](javascript.html)
+* [Swift](swift.html)
 
 ## Consequences
 *Invisible references.* The closure is an "invisible reference" from the object, and the closure, along with any additional variables referenced from that enclosing scope. That means that potentially the Closure-based State data will keep more objects alive for longer than intuition suggests, which can create potential memory pressure on the program if it grows out of hand.

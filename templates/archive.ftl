@@ -7,7 +7,7 @@
 	</div>
 	
 	<!--<ul>-->
-		<#list published_posts?reverse as post>
+		<#list published_posts as post>
 		<#if (last_year)??>
 			<#if post.date?string("yyyy") != last_year>
 				</ul>

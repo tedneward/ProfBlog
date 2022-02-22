@@ -1,9 +1,10 @@
 title=Structural Patterns
 date=2021-06-08
-type=pattern
+type=patterns-index
 tags=patterns
 status=published
 description=Structural Patterns, 20 years later
+patternfilter=structural
 ~~~~~~
 
 *tl;dr* Structural patterns ...

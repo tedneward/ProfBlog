@@ -2,6 +2,9 @@
 	
 	<#include "menu.ftl">
 
+	<h3>Sections</h3>
+	Before wandering through the list, maybe you're looking for <a href="patterns/">patterns reimagined</a> or <a href="speaking-tips/">Speaker Tips/</a>?
+
 	<div class="page-header">
 		<h1>Blog</h1>
 	</div>

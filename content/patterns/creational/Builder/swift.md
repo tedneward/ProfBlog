@@ -1,7 +1,7 @@
 title=Builder: Swift
 date=2016-04-11
 type=pattern
-tags=creational patterns, patterns, swift
+tags=pattern implementation, creational, swift
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~

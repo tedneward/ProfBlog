@@ -1,12 +1,12 @@
 title=Abstract Factory
 date=2016-07-02
 type=pattern
-tags=creational patterns, patterns
+tags=pattern, creational
 status=published
 description=A catalog of patterns, revisisted.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: The Abstract Factory pattern is often "combined", conceptually, together with [Factory Method](FactoryMethod.html) into a sort of uber-"Factory pattern". The two are distinctly separate in the Gang-of-Four literature, however, and for some pretty good reason, as the intentions are different. Subtly so, in some ways, but still different.
+***tl;dr*** Patterns, 20 Years Later: The Abstract Factory pattern is often "combined", conceptually, together with [Factory Method](../FactoryMethod) into a sort of uber-"Factory pattern". The two are distinctly separate in the Gang-of-Four literature, however, and for some pretty good reason, as the intentions are different. Subtly so, in some ways, but still different.
 
 <!--more-->
 
@@ -49,12 +49,12 @@ Abstract Factory tends to lead to several consequences:
 A couple of different takes on the AbstractFactory include:
 
 ### Registry
-In some scenarios, we want to make use of an Abstract Factory (or [FactoryMethod](FactoryMethod.html) to return objects out of a bound set of subtypes based on some kind of parameterized request. (Classic examples are the Microsoft Windows use of the Windows Registry for COM object construction, or the JDBC DriverManager to construct JDBC Connection objects.) In this case, the Abstract Factory becomes a Registry of constructors (either [Constructor Function](ConstructorFunction.html)s or implementations of the AbstractFactory interface), using the parameters to decide which ConcreteProducts to construct.
+In some scenarios, we want to make use of an Abstract Factory (or [FactoryMethod](../FactoryMethod) to return objects out of a bound set of subtypes based on some kind of parameterized request. (Classic examples are the Microsoft Windows use of the Windows Registry for COM object construction, or the JDBC DriverManager to construct JDBC Connection objects.) In this case, the Abstract Factory becomes a Registry of constructors (either [Constructor Function](../ConstructorFunction)s or implementations of the AbstractFactory interface), using the parameters to decide which ConcreteProducts to construct.
 
 In the traditional Abstract Factory, each method of the interface produces a separate ConcreteProduct; with parameterization, it's possible that fewer methods will be required, and thus reduce the burden that the Abstract Factory imposes regarding Abstract Product expansion/growth.
 
 Note that the Registry will actually be a two-step process: first, the decision-making step in which the Registry decides which ConcreteFactory to use, and the second, the actual construction process. In languages that support them, either (or both) of these steps can be standalone functions (if the Creator has no other responsibilities, of course.)
 
 ### Factory Module
-For some languages which support explicit module syntax and semantics, and top-level functions, the Abstract Factory can be buried behind the module interface, rather than an object instance, but providing the same kind of experience. Typically this will be more "large-scale" than the standard Abstract Factory, in that the module is always expected to be stateless or a [Singleton](Singleton.html), and as such, generally won't have much in the way of additional responsibilities. However, this also very neatly encapsulates the Concrete Factory implementation away from prying eyes, and relies on the language/platform's module system to find the appropriate Concrete Factory in question (whether that is encapsulated away from the client or not can be an implementation decision).
+For some languages which support explicit module syntax and semantics, and top-level functions, the Abstract Factory can be buried behind the module interface, rather than an object instance, but providing the same kind of experience. Typically this will be more "large-scale" than the standard Abstract Factory, in that the module is always expected to be stateless or a [Singleton](../Singleton), and as such, generally won't have much in the way of additional responsibilities. However, this also very neatly encapsulates the Concrete Factory implementation away from prying eyes, and relies on the language/platform's module system to find the appropriate Concrete Factory in question (whether that is encapsulated away from the client or not can be an implementation decision).
 

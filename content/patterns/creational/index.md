@@ -1,11 +1,12 @@
-title=Creational Patterns
+title=Creational Patterns Index
 date=2016-04-10
-type=pattern
+type=patterns-index
 tags=patterns
 status=published
 description=Creational Patterns, 20 years later
+patternfilter=creational
 ~~~~~~
-*tl;dr* Creational patterns specifically deal with the creation of objects/entities in the code. They abstract the instantiation process (meaning that most of the time, they provide an abstraction layer above the use of the raw language facilities to construct an object). They help make a system independent of how its objects are created, composed, and represented.
+***tl;dr*** Creational patterns specifically deal with the creation of objects/entities in the code. They abstract the instantiation process (meaning that most of the time, they provide an abstraction layer above the use of the raw language facilities to construct an object). They help make a system independent of how its objects are created, composed, and represented.
 
 The Gang of Four wrote:
 
