@@ -1,6 +1,6 @@
 title=Creational Patterns Index
 date=2016-04-10
-type=patterns-index
+type=patternsindex
 tags=patterns
 status=published
 description=Creational Patterns, 20 years later

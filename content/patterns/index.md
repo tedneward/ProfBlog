@@ -1,6 +1,6 @@
 title=Patterns Catalog
 date=2013-08-25
-type=patterns-index
+type=patternsindex
 tags=patterns
 status=published
 description=Index to all the patterns.
