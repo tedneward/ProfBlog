@@ -8,7 +8,7 @@ description=Some discussion about what I'm doing with my various websites.
 
 As I've mentioned on LinkedIn, I've been *sans* FTE employment since just before the holidays last year, and I'm using the time to do some re-shuffling of some of my "digital footprint" on the Internet. Let me explain a bit about what's going on here, mostly so that if you're consuming an RSS feed for one, and you're not getting what you expect, you may want to flip over to the other. (Or both!)
 
-<!-- more -->
+<!--more-->
 
 For starters, I've come to realize that I want two, separate "representations" of myself on the Internet for public consumption, one professional, the other personal.
 
