@@ -6,7 +6,6 @@ status=published
 description=A Builder implementation in C#.
 ~~~~~~
 
-## Implementation: C# #
 C# has in many ways inherited its relationship with [Builder](Builder.html) from Java, where it was usually called by the more degenerative term "Factory" or "Factory pattern".  (Technically, what Java calls a "Factory pattern" is typically one of Builder,  [Factory Method](FactoryMethod), or [Abstract Factory](AbstractFactory), depending  on what precisely looks to be varied and/or encapsulated.) C#, however, never fell quite as deeply in love with the "Factory pattern" as the Java development crowd did, and as such it wasn't as widely used.
 
 We start with the target Product:

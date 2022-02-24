@@ -6,7 +6,6 @@ status=published
 description=A Singleton implementation in Java.
 ~~~~~~
 
-## Implementation: Java
 Like most object-oriented typed languages, Java makes it pretty straightforward to code up a classic [Singleton](../Singleton):
 
 ````java

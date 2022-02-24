@@ -6,7 +6,6 @@ status=published
 description=A Closure-based State implementation in Swift.
 ~~~~~~
 
-## Implementation: Swift
 Implementing [Closure-based State](../ClosureBasedState) in Swift is not difficult; the language supports function literals as first-class citizens, and the compiler is intelligent enough to know how to "close over" variables referenced in the enclosing scope, so a simple implementation looks pretty straightforward:
 
 ````swift

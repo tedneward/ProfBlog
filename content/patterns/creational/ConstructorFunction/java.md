@@ -6,8 +6,6 @@ status=published
 description=A Constructor Function implementation in Java.
 ~~~~~~
 
-## Implementation: Java
-
 The [Constructor Function](../ConstructorFunction) is not a pattern commonly used in Java, since most of the time the desire when holding state is to hold it as accessible member variables of an object, which Java supports directly via fields. Additionally, thanks to Java's "C-family" heritage, it directly supports encapsulatory access control (meaning we can annotate the field with "private" to prevent access to the field from outside the class). However, in some cases, this standard mode of access control is not enough, and/or we want to provide a slightly different means of construction for clients. This is when a Constructor Function can be of use, usually modeled as a static method (or methods) on the class itself.
 
 The simplest form of a Constructor Function doesn't bother with any sort of closure-based state, and simply uses a static method to construct the object:

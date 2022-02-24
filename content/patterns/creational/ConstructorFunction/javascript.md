@@ -8,7 +8,6 @@ description=A Constructor Function implementation in Javascript.
 
 (Comments and constructive criticism desired.)
 
-## Implementation: Javascript
 Javascript provides a pretty reasonable implementation of a [Constructor Function](../ConstructorFunction); as a matter of fact, most of the time "modern Javascript" (as described by [Crockford](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/)  prefers the Constructor Function, or some variant of it, over the more traditional object-oriented approach.
 
 Constructor Functions are often used in conjunction with [Function Objects](../../structural/FunctionObjects) and/or [Closure-based State](../../structural/ClosureBasedState), but can easily be extended to a more traditional object-oriented environment. 

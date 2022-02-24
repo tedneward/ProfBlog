@@ -6,8 +6,6 @@ status=published
 description=A Constructor Function implementation in Scala.
 ~~~~~~
 
-## Implementation: Scala
-
 Given that Scala is a functional language (object/functional, really), building a 
 [Constructor Function](../ConstructorFunction) in Scala is actually pretty straightforward.
 

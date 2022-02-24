@@ -6,7 +6,6 @@ status=published
 description=A Singleton implementation in F#.
 ~~~~~~
 
-<h2>Implementation: F#</h2>
 F# being a functional/object hybrid language makes it easy to do the traditional [Singleton](../Singleton) without much more work to do beyond what we see in languages like C++/Java/C#:
 
 ````fsharp

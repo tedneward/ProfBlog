@@ -6,7 +6,6 @@ status=published
 description=A Singleton implementation in Scala.
 ~~~~~~
 
-## Implementation: Scala
 Since Scala has some language syntactic sugar around "statics" that essentially turn all statics into a single object, it basically suggests that Scala has built-in implementation of [Singleton](../Singleton) without much more work to do:
 
 ````scala

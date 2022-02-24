@@ -6,7 +6,6 @@ status=published
 description=A Builder implementation in Java.
 ~~~~~~
 
-## Implementation: Java
 Java has long had a relationship with [Builder](../Builder), usually calling it by the more degenerative term "Factory" or "Factory pattern". (Technically, what Java calls a "Factory pattern" is typically one of Builder, [Factory Method](../FactoryMethod), or [Abstract Factory](../AbstractFactory), depending on what precisely looks to be varied and/or encapsulated.)
 
 We start with the target Product:

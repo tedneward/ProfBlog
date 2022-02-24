@@ -6,7 +6,6 @@ status=published
 description=A Closure-based State implementation in Javascript.
 ~~~~~~
 
-## Implementation: JavaScript
 As a language, JavaScript lacks a number of the traditional facilities that are present in an object-oriented language, such as access control, and so we have to take steps in order to provide the expected level of encapsulation. This is done by making use of [Closure-based State](../ClosureBasedState).
 
 JavaScript is, surprisingly to some "old-school" JavaScript programmers, a full-fledged member of the family of languages that support closures, so all that's necessary here is to define a function that returns a function that "closes over" the local variable "state". But, in order to make sure that balance isn't reset to its original value of 100 each time we call the function, we have to actually invoke the outer function to return the inner function, which is then bound to the name "operation"; that way, the variable "state" is initialized once, yet still referenced:

@@ -6,7 +6,6 @@ status=published
 description=A Builder implementation in Swift.
 ~~~~~~
 
-## Implementation: Swift
 Swift makes use of the [Builder](Builder.html) (or a variant of it) in a couple of places inside of Mac OS X and iOS, and thus makes it feel somewhat natural to idiomatic Swift.
 
 We start with the target Product:

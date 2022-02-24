@@ -6,8 +6,6 @@ status=published
 description=A Closure-based State implementation in C#.
 ~~~~~~
 
-<h2>Implementation: C#</h2>
-
 While normally we don't think of C# as a functional language, its support for closures (necessary in order to implement LINQ) means that C# can make use of [Closure-based State](../ClosureBasedState) with  very little in the way of extra-linguistic magic. However, the syntax isn't always pretty, and it can get downright ugly in a number of scenarios.
 
 First, let's start with a basic example of holding closure-based state using just a function; no classes, nothing tricky (yet):

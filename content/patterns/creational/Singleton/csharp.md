@@ -6,7 +6,6 @@ status=published
 description=A Singleton implementation in C#.
 ~~~~~~
 
-<h2>Implementation: C#</h2>
 Like most object-oriented typed languages, C# makes it pretty straightforward to code up a  classic [Singleton](../Singleton):
 
 ````c#

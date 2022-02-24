@@ -6,7 +6,6 @@ status=published
 description=A Singleton implementation in Javascript.
 ~~~~~~
 
-## Implementation: Javascript
 Javascript presents some challenges when working with [Singletons](../Singleton). Being a prototype-based language (meaning there are no classes), Singletons in Javascript are usually centered more around the conceptual contents of the object, not it's nominal type. This means that there's no concept of "static", either, since "statics" are essentially a synonym for "type" or "class" elements in the other object-oriented languages. In addition, Javascript objects are simply "bags" of name/value pairs with no access control, which means that in addition to the instance now having no real (language- or environment-enforced) access control, we may have to get a little creative just to help ensure that clients will always go to the right place to find the lone (intended) instance.
 
 To get all of this right, we're going to have to walk through this one step at a time.

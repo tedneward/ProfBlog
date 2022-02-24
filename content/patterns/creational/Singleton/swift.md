@@ -6,7 +6,6 @@ status=published
 description=A Singleton implementation in Swift.
 ~~~~~~
 
-## Implementation: Swift
 Like most languages, Swift makes it pretty straightforward to code up a classic [Singleton](../Singleton):
 
 ````swift
