@@ -35,7 +35,7 @@ I've added [Constructor Function](creational/ConstructorFunction).
 ## [Structural patterns](structural/)
 Patterns which describe the structural (usually compile-time-related, in langauges which are compiled) relationship between one entity and another. Includes [Adapter](structural/Adapter), [Bridge](structural/Bridge), [Composite](structural/Composite), [Decorator](structural/Decorator), [Facade](structural/Facade), [Flyweight](structural/Flyweight), and [Proxy](structural/Proxy). 
 
-I've added [Closure-based State](structural/ClosureBasedState), [Context Object](structural/ContextObject), [Dynamic Object](structural/DynamicObject), and [Message-Passing Interface](structural/MessagePassingInterface).
+I've added [Closure-based State](structural/ClosureBasedState), [Context Object](structural/ContextObject) ([a pattern I wrote up a while back in the blog](../blog/2008/what-about-context)), [Dynamic Object](structural/DynamicObject), and [Message-Passing Interface](structural/MessagePassingInterface).
 
 ## [Behavioral patterns](behavioral/)
 Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. Includes [Chain of Responsibility](behavioral/ChainOfResponsibility), [Command](behavioral/Command), [Interpreter](behavioral/Interpreter), [Mediator](behavioral/Mediator), [Memento](behavioral/Memento), [Observer](behavioral/Observer), [State](behavioral/State), [Strategy](behavioral/Strategy), [Template Method](behavioral/TemplateMethod), and [Visitor](behavioral/Visitor).
@@ -48,8 +48,6 @@ I've added [Null Object](behavioral/NullObject).
 
 ## Additional pattern language(s)
 I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
-
-* [Context](../blog/2008/what-about-context) was a pattern I wrote up a while back; it probably belongs in here somewhere, along with some implementations to demonstrate it.
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
 
