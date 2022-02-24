@@ -1,7 +1,7 @@
 title=Dynamic Object
 date=2022-02-25
 type=pattern
-tags=pattern, behavioral
+tags=pattern, structural
 status=published
 description=An object whose structure and contents change over time without requiring any sort of change in code.
 ~~~~~~

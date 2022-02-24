@@ -40,6 +40,8 @@ I've added [Closure-based State](structural/ClosureBasedState), [Context Object]
 ## [Behavioral patterns](behavioral/)
 Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. Includes [Chain of Responsibility](behavioral/ChainOfResponsibility), [Command](behavioral/Command), [Interpreter](behavioral/Interpreter), [Mediator](behavioral/Mediator), [Memento](behavioral/Memento), [Observer](behavioral/Observer), [State](behavioral/State), [Strategy](behavioral/Strategy), [Template Method](behavioral/TemplateMethod), and [Visitor](behavioral/Visitor).
 
+[Iterator](behavioral/Iterator/) is here, too, but as a pattern it is often subsumed into the language directly--though seeing as a discrete pattern helps when looking at the seemingly near-infinite number of variants on it.
+
 One interesting "pivot" around Strategy is the Function Object: These two patterns are so close as to be almost intertwined; however, there are some definite subtle differences that I'll call out as part of the Strategy discussion. The concept of a Strategy is not tied directly to a function, and a Function Object need not always be a Strategy. I'm choosing (for now) to put that discussion under Strategy, but given even a small push I could be convinced that it should be its own pattern.
 
 I've added [Null Object](behavioral/NullObject).
@@ -83,4 +85,4 @@ I also plan to go back through some of my patterns books (such as the "Pattern L
 In other words, this is going to be a *long* work in progress.
 
 ## Implementations
-I have notes around the different pattern implementations (and the languages in which I am choosing to do them) [here](PatternImplementations). However, the implementations will always appear in a separate page from the pattern itself, owing to the fact that (a) I want to explore several languages around each pattern, and it would make each pattern page extremely long to have them all in one place, but also (b) patterns can and should be language-independent, and therefore it makes sense to me to split them apart.
+I have notes around the different pattern implementations (and the languages in which I am choosing to do them) [here](./PatternImplementations.html). However, the implementations will always appear in a separate page from the pattern itself, owing to the fact that (a) I want to explore several languages around each pattern, and it would make each pattern page extremely long to have them all in one place, but also (b) patterns can and should be language-independent, and therefore it makes sense to me to split them apart.

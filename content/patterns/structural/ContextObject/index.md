@@ -1,7 +1,7 @@
 title=Context Object
 date=2022-02-25
 type=pattern
-tags=pattern, behavioral
+tags=pattern, structural
 status=published
 description=Use an object to provide some degree of inference or reference about the environment in which another object or group of objects is operating. 
 ~~~~~~
