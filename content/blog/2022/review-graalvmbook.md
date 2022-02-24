@@ -6,8 +6,7 @@ status=published
 description=A review of the book "Supercharge Your Applications with GraalVM".
 ~~~~~~
 
-A while back, Packt Publishing asked me to do a review of the book ["Supercharge Your Applications with
-GraalVM"](https://www.packtpub.com/product/supercharge-your-applications-with-graalvm/9781800564909), and while I wrote it up, I never pushed it to the blog. tl;dr, it's a decent book--a good intro to GraalVM, with some interesting tidbits in there, but not deep enough for the expert. (Full disclosure: Packt sent me a copy of the book in exchange for a review.)
+A while back, Packt Publishing asked me to do a review of the book ["Supercharge Your Applications with GraalVM"](https://www.packtpub.com/product/supercharge-your-applications-with-graalvm/9781800564909), and while I wrote it up, I never pushed it to the blog. tl;dr, it's a decent book--a good intro to GraalVM, with some interesting tidbits in there, but not deep enough for the expert. (Full disclosure: Packt sent me a copy of the book in exchange for a review.)
 
 <!--more-->
 
@@ -32,4 +31,4 @@ For the virtual machine expert or aficionado, parts of the book will seem redund
 
 If you’ve never heard of GraalVM or heard only rumors and want a hearty introduction into all the things GraalVM offers, this is a good book with which to get started, though I wouldn’t expect it to be one used over and over again once read cover-to-cover.
 
-Overall verdict: 4 stars out of 5
+***Overall verdict: 4 stars out of 5***
