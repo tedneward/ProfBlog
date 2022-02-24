@@ -10,10 +10,7 @@ patternfilter=creational
 
 The Gang of Four wrote:
 
-> Creational patterns become important as systems evolve to depend more on object composition than class 
-> inheritance. As that happens, emphasis shifts away from hard-coding a fixed set of behaviors toward defining 
-> a smaller set of fundamental behaviors that can be composed into any number of more complex ones. Thus 
-> creating objects with particular behaviors requires more than simply instantiating a class.
+> Creational patterns become important as systems evolve to depend more on object composition than class inheritance. As that happens, emphasis shifts away from hard-coding a fixed set of behaviors toward defining a smaller set of fundamental behaviors that can be composed into any number of more complex ones. Thus creating objects with particular behaviors requires more than simply instantiating a class.
 
 Initially, they described two recurring themes in these patterns:
 

@@ -15,7 +15,7 @@ This roughly follows the same format as the original Gang-of-Four patterns catal
 
 * The original patterns are not duplicated in their entirety*. This is deliberate, in that I wish to avoid any copyright infringement and I want to encourage those who have not read the original book to procure a copy and do so.
 
-* The patterns are cast into a "simpler" form.* Rather than the long form the GOF used, I have chosen to try and "simplify" the patterns by following a Problem/Solution/Context/Consequences format, with particular emphasis on Context and Consequences.
+* The patterns are cast into a "simpler" form.* Rather than the long form the GOF used, I have chosen to try and "simplify" the patterns by following a Problem/Solution/Context/Consequences format, with particular emphasis on Context and Consequences. A few Variations on the patterns have emerged over time, so I try to capture those, as well.
 
 * Some additional patterns are described here.
     
@@ -25,45 +25,24 @@ This catalog is a continual work-in-progress; as more patterns are added to the 
 
 By the way, this will take time to flesh everything out, so please, be patient. I promise I'm trying to get to these as fast as I can without doing an ugly job of it.
 
-## [Creational patterns](creational/)
-Patterns which specifically deal with the creation of objects/entities in the code.
+The full index is at the bottom of this page, along with the implementations (in a separate list below that).
 
-* [Abstract Factory](creational/AbstractFactory)
-* [Builder](creational/Builder)
-* [Constructor Function](creational/ConstructorFunction)
-* [Factory Method](creational/FactoryMethod)
-* [Prototype](creational/Prototype)
-* [Singleton](creational/Singleton)
+## [Creational patterns](creational/)
+Patterns which specifically deal with the creation of objects/entities in the code. Includes [Abstract Factory](creational/AbstractFactory), [Builder](creational/Builder), [Factory Method](creational/FactoryMethod), [Prototype](creational/Prototype), and [Singleton](creational/Singleton) from the GOF book.
+
+I've added [Constructor Function](creational/ConstructorFunction).
 
 ## [Structural patterns](structural/)
-Patterns which describe the structural (usually compile-time-related, in langauges which are compiled) relationship between one entity and another.
+Patterns which describe the structural (usually compile-time-related, in langauges which are compiled) relationship between one entity and another. Includes [Adapter](structural/Adapter), [Bridge](structural/Bridge), [Composite](structural/Composite), [Decorator](structural/Decorator), [Facade](structural/Facade), [Flyweight](structural/Flyweight), and [Proxy](structural/Proxy). 
 
-* [Adapter](structural/Adapter)
-* [Bridge](structural/Bridge)
-* [Closure-based State](structural/ClosureBasedState)
-* [Composite](structural/Composite)
-* [Context Object](structural/ContextObject): an object whose purpose is to provide some degree of inference or reference about the environment in which another object or group of objects is operating. Context objects often provide a degree of scope for a group of objects operating within a larger space (such as an app server), and as such often serve as a means of access both outside of the scope (for those objects within it) and to the inside of the scope (for those objects outside of it) without violating encapsulation. In its simplest form, a Context Object can also serve as a Parameter Object.
-* [Decorator](structural/Decorator)
-* [Dynamic Object](structural/DynamicObject): an object whose structure and contents change over time without requiring any sort of change in code. This is closely connected in concept to Decorator and Strategy, but operates at both a more widespread (class- or object-wide) scope and finer level of detail (per-member).
-* [Facade](structural/Facade)
-* [Flyweight](structural/Flyweight)
-* [Message-Passing Interface](structural/MessagePassingInterface)
-* [Proxy](structural/Proxy)
+I've added [Closure-based State](structural/ClosureBasedState), [Context Object](structural/ContextObject), [Dynamic Object](structural/DynamicObject), and [Message-Passing Interface](structural/MessagePassingInterface).
 
 ## [Behavioral patterns](behavioral/)
-Patterns which describe the runtime relationship between one entity and another.
+Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. Includes [Chain of Responsibility](behavioral/ChainOfResponsibility), [Command](behavioral/Command), [Interpreter](behavioral/Interpreter), [Mediator](behavioral/Mediator), [Memento](behavioral/Memento), [Observer](behavioral/Observer), [State](behavioral/State), [Strategy](behavioral/Strategy), [Template Method](behavioral/TemplateMethod), and [Visitor](behavioral/Visitor).
 
-* [Chain of Responsibility](behavioral/ChainOfResponsibility)
-* [Command](behavioral/Command)
-* [Interpreter](behavioral/Interpreter)
-* [Mediator](behavioral/Mediator)
-* [Memento](behavioral/Memento)
-* [Null Object](behavioral/NullObject): Provide a default behavior/implementation for the "null" or "undefined" case for a given object or class. This will help avoid forcing clients to make explicit checks for null or undefined when obtaining an object from a container or collection. (This is related to the Optional type found in many languages today, but there are differences, centering on whether the "null-ability" should be directly visible to the client or not.)
-* [Observer](behavioral/Observer)
-* [State](behavioral/State)
-* [Strategy / Function Object](behavioral/Strategy): (These two patterns are so close as to be almost intertwined; however, there are some definite subtle differences that I'll call out as part of the Strategy discussion. The concept of a Strategy is not tied directly to a function, and a Function Object need not always be a Strategy.)
-* [Template Method](behavioral/TemplateMethod)
-* [Visitor](behavioral/Visitor)
+One interesting "pivot" around Strategy is the Function Object: These two patterns are so close as to be almost intertwined; however, there are some definite subtle differences that I'll call out as part of the Strategy discussion. The concept of a Strategy is not tied directly to a function, and a Function Object need not always be a Strategy. I'm choosing (for now) to put that discussion under Strategy, but given even a small push I could be convinced that it should be its own pattern.
+
+I've added [Null Object](behavioral/NullObject).
 
 ## Additional pattern language(s)
 I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
@@ -71,7 +50,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
 * [Context](../blog/2008/what-about-context) was a pattern I wrote up a while back; it probably belongs in here somewhere, along with some implementations to demonstrate it.
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
-  
+
     * Function as Object
       (Almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)
     * Closure
@@ -87,8 +66,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
     * Private Method
         (This is probably an idiom for functional languages, not a full pattern, per se)
 
-* Kuhne's ["Functional Pattern System for Object-Oriented Design"](http://homepages.ecs.vuw.ac.nz/~tk/fps/)
-      Thomas Kuhne wrote his thesis (the above title) on patterns of functional style in OO systems, and his patterns would seem to have direct bearing on this effort. (I was fortunate enough to see an early draft of the work back in the late 90's, and his hand-signed copy of the printed thesis is one of my book treasures.) Again, I'll look for ways to incorporate them into the larger collection here.
+* Kuhne's ["Functional Pattern System for Object-Oriented Design"](http://homepages.ecs.vuw.ac.nz/~tk/fps/): Thomas Kuhne wrote his thesis (the above title) on patterns of functional style in OO systems, and his patterns would seem to have direct bearing on this effort. (I was fortunate enough to see an early draft of the work back in the late 90's, and his hand-signed copy of the printed thesis is one of my book treasures.) Again, I'll look for ways to incorporate them into the larger collection here.
   
     * Function Object
         (Like the Function as Object from Envoy, I think this is a Strategy or something similar to it)
