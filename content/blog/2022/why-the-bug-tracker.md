@@ -1,4 +1,4 @@
-title=Why the Bug Tracker>
+title=Why the Bug Tracker
 date=2022-02-26
 type=post
 tags=process, management, development
