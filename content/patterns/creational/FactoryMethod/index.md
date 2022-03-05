@@ -6,7 +6,7 @@ status=published
 description=Define an interface for creating an object, but let something (usually subclasses, but not always) decide which object type to instantiate.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory.html), depending on the intent and the desired consequences.
+*tl;dr* Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory/), depending on the intent and the desired consequences.
 
 <!--more-->
 
@@ -25,9 +25,11 @@ Create a hierarchy of Product types that vary by inheritance, and a correspondin
 
 ## Implementations
 
-* [Swift](../FactoryMethod-Swift.html)
+* [Java](java.html)
+* [Swift](swift.html)
 
 ## Consequences
+
 *Factory methods eliminate the need to bind application-specific classes into your code.* Because clients only ever deal with the base Product type interface/surface area, clients can remain entirely ignorant as to the exact nature of the Product with which they are dealing. This is particularly important in "open" systems, in which the complete set of possible Product types is not known, allowing third-parties to participate as part of the system.
 
 *Clients (might) have to subclass the Creator class just to create a particular ConcreteProduct object.* In the classic GOF pattern, subclassing was seen as the principal way to customize the FactoryMethod implementation. This is fine when the client has to subclass the Creator class anyway, but otherwise the client now must deal with another point of evolution. This can be mitigated in some cases through the use of functions, but doing so would lose some of the other benefits of subclassing (such as locality of related features in a subclass).
