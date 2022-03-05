@@ -8,11 +8,11 @@
 	Thanks for reading; at some point, I'll get comments (Disqus) turned on here again, but that's a TODO for now.
 
 	<div class="page-header">
-	<h3>Posts</h3>
+	<h2>Posts</h2>
 	</div>
 	<#list posts[0..*10] as post>
   		<#if (post.status == "published")>
-  			<a href="${post.uri}"><h2>${post.title}</h2></a>
+  			<a href="${post.uri}"><h3>${post.title}</h3></a>
 			<h4><em>${post.description}</em></h4>
   			<p>${post.date?string("dd MMMM yyyy")}</p>
   			<p>${post.body?keep_before("<!--more-->")}</p>

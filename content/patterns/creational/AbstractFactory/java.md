@@ -1,5 +1,5 @@
 title=Abstract Factory: Java
-date=2022-02-28
+date=2022-03-04
 type=pattern
 tags=pattern implementation, creational, java
 status=published
