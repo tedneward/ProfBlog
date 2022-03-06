@@ -12,8 +12,9 @@
 
     <hr />
 
-    <h3>Index</h3>
     <#assign filteredPatterns = patterns?filter(p -> p.tags?seq_contains(content.patternfilter?string) && !p.tags?seq_contains("pattern implementation")) >
+
+    <h3>Index</h3>
     <ul>
 	<#list filteredPatterns?sort_by("title") as pattern>
   		<#if (pattern.status == "published")>
@@ -27,7 +28,7 @@
     <#list languages as lang>
     <h4>${lang}</h4>
         <ul>
-        <#assign impls = patterns?filter(p -> p.tags?seq_contains("pattern implementation") && p.tags?seq_contains(lang?string)) >
+        <#assign impls = filteredPatterns?filter(p -> p.tags?seq_contains("pattern implementation") && p.tags?seq_contains(lang?string)) >
         <#list impls?sort_by("title") as impl>
         <li><em><a href="${content.rootpath}${impl.uri}">${impl.title}</a></em></li>
         </#list>

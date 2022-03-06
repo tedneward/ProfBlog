@@ -45,7 +45,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
 * Pattern-Oriented Software Architecture, vol 1
 
     * [Whole-Part](structural/Whole-Part/) (structural): aggregations of components that together form a semantic unit
-    * Master-Slave *(which definitely needs a rename; Manager-Worker? Scatter-Gather? Fold-out?)* (behavioral): a master component distributes work to identical slave components and computers a final result from the results these slaves return.
+    * <del>Master-Slave</del> *(combine this with Leader-Followers, from POSA2)* (behavioral): a master component distributes work to identical slave components and computers a final result from the results these slaves return.
     * <del>Proxy</del>
     * <del>Command Processor</del> *(definitely GOF-Command)*
     * View Handler *(sounds like a Chain of Responsibility/Observer hybrid)*
@@ -60,19 +60,19 @@ I've run across a few that I haven't yet been able to categorize in the above, a
     * Model-View-Controller: divides an interactive application into three components: core functionality, representation, and control, with a change-propagation mechanism to ensure consistency between the three parts *(definitely feels like GOF-Observer/Chain-of-Responsibility hybrid)*
     * Presentation-Abstraction-Control: defines a structure for interactive software systems in the form of a hierarchy of cooperating agents, each of which is responsible for a specific aspect of the application's functionality, principally built out of three components (presentation of information, abstraction, and control). *(this is different from MVC even though it's similar)*
     * [Microkernel](structural/Microkernel/): separates a minimal functional core from extended functionality and customer-specific parts
-    * <del>Reflection</del>: changing structure and behavior of software systems dynamically, supporting the modification of fundamental aspects, such as type structures and function call mechanisms. *(This is a DynamicObject)*
+    * <del>Reflection</del>: changing structure and behavior of software systems dynamically, supporting the modification of fundamental aspects, such as type structures and function call mechanisms. *(This is a DynamicObject, unless its provided by the underlying language/platform directly)*
 
 * Pattern-Oriented Software Architecture, vol 2 (Patterns for Concurrent and Networked Objects)
 
     * Wrapper Facade
     * Component Configuration
-    * Interceptor (structural)
-    * Extension Interface (structural)
+    * [Interceptor](structural/Interceptor/) (structural)
+    * [Extension Interface](structural/ExtensionInterface/) (structural)
     * Reactor
     * Proactor
     * Asynchronous Completion Token
     * Acceptor-Connector
-    * Scoped Locking
+    * Scoped Locking *(originally presented as a C++ idiom relying on C++'s "RAII" (Resource Acquisition Is Initialization) behavior around determinstic constructors and destructors; not sure if it generalizes well beyond that)*
     * Strategized Locking
     * Thread-Safe Interface
     * <del>Double-Checked Locking Optimization</del> *(this has been proven over and over again to be a naive optimization given insufficient memory model guarantees to prevent out-of-order execution)*
@@ -86,8 +86,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
 
-    * Function as Object
-      (Almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)
+    * Function as Object *(almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)*
     * [Closure](structural/ClosureBasedState/) (I'm calling this "Closure-Based State")
     * [Constructor Function](creational/ConstructorFunction)
     * Method Selector
@@ -100,8 +99,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
 
 * Kuhne's ["Functional Pattern System for Object-Oriented Design"](http://homepages.ecs.vuw.ac.nz/~tk/fps/): Thomas Kuhne wrote his thesis (the above title) on patterns of functional style in OO systems, and his patterns would seem to have direct bearing on this effort. (I was fortunate enough to see an early draft of the work back in the late 90's, and his hand-signed copy of the printed thesis is one of my book treasures.) Again, I'll look for ways to incorporate them into the larger collection here.
   
-    * Function Object
-        (Like the Function as Object from Envoy, I think this is a Strategy or something similar to it)
+    * Function Object *(like the Function as Object from Envoy, I think this is a Strategy or something similar to it)*
     * Lazy Object
     * Value Object
     * Transfold
