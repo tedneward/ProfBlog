@@ -42,13 +42,13 @@ I've run across a few that I haven't yet been able to categorize in the above, a
 * Pattern-Oriented Software Architecture, vol 1
 
     * Whole-Part (structural): aggregations of components that together form a semantic unit
-    * Master-Slave *(which definitely needs a rename; Scatter-Gather? Fold-out?)*: a master component distributes work to identical slave components and computers a final result from the results these slaves return.
-    * Proxy *(mention withing GOF-Proxy for access control)*
-    * Command Processor *(definitely GOF-Command)*
+    * Master-Slave *(which definitely needs a rename; Manager-Worker? Scatter-Gather? Fold-out?)* (behavioral): a master component distributes work to identical slave components and computers a final result from the results these slaves return.
+    * ~~Proxy~~ *(mention withing GOF-Proxy for access control)*
+    * ~~Command Processor~~ *(definitely GOF-Command)*
     * View Handler *(sounds like a Chain of Responsibility/Observer hybrid)*
     * Counted Pointer *(this is an idiom for C++, but it might be a useful variant to Proxy)*
-    * Forwarder-Receiver *(aka proxy/stub from DCOM or CORBA stubs/skeletons; definitely a Proxy variant)*
-    * Client-Dispatcher-Server: provides location transparency by means of a name service and hides the details of the establishment of the communication connection between clients and servers *(seems like a combination of a Registry and Proxy/Forwarder-Receiver)*
+    * ~~Forwarder-Receiver~~ *(aka proxy/stub from DCOM or CORBA stubs/skeletons; definitely a Proxy variant)*
+    * ~~Client-Dispatcher-Server~~: provides location transparency by means of a name service and hides the details of the establishment of the communication connection between clients and servers *(seems like a combination of a Registry and Proxy/Forwarder-Receiver)*
     * Publisher-Subscriber *(variant of Chain of Responsibility? variant of Pipes-and-filters?)*
     * Layers: structure applications that can be decomposed into groups of subtasks in which each group of subtasks is at a particular level of abstraction; *(structural?)*
     * Pipes and filters: a structure for systems that process a stream of data *(structural?)*
@@ -57,7 +57,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
     * Model-View-Controller: divides an interactive application into three components: core functionality, representation, and control, with a change-propagation mechanism to ensure consistency between the three parts *(definitely feels like GOF-Observer/Chain-of-Responsibility hybrid)*
     * Presentation-Abstraction-Control: defines a structure for interactive software systems in the form of a hierarchy of cooperating agents, each of which is responsible for a specific aspect of the application's functionality, principally built out of three components (presentation, abstraction, and control). *(this is different from MVC even though it's similar)*
     * Microkernel: separates a minimal functional core from extended functionality and customer-specific parts
-    * Reflection: changing structure and behavior of software systems dynamically, supporting the modifiaction of fundamental aspects, such as type structures and function call mechanisms.
+    * Reflection: changing structure and behavior of software systems dynamically, supporting the modification of fundamental aspects, such as type structures and function call mechanisms.
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
 
