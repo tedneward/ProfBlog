@@ -36,45 +36,67 @@ Patterns which describe the structural (usually compile-time-related, in langaug
 ## [Behavioral patterns](behavioral/)
 Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. 
 
+## [Concurrency patterns](concurrent/)
+Patterns which describe how to execute operations in parallel and safeguard them from the various dangers that arise from doing so.
+
 ## Additional pattern language(s)
 I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
 
 * Pattern-Oriented Software Architecture, vol 1
 
-    * Whole-Part (structural): aggregations of components that together form a semantic unit
+    * [Whole-Part](structural/Whole-Part/) (structural): aggregations of components that together form a semantic unit
     * Master-Slave *(which definitely needs a rename; Manager-Worker? Scatter-Gather? Fold-out?)* (behavioral): a master component distributes work to identical slave components and computers a final result from the results these slaves return.
-    * ~~Proxy~~ *(mention withing GOF-Proxy for access control)*
-    * ~~Command Processor~~ *(definitely GOF-Command)*
+    * <del>Proxy</del>
+    * <del>Command Processor</del> *(definitely GOF-Command)*
     * View Handler *(sounds like a Chain of Responsibility/Observer hybrid)*
-    * Counted Pointer *(this is an idiom for C++, but it might be a useful variant to Proxy)*
-    * ~~Forwarder-Receiver~~ *(aka proxy/stub from DCOM or CORBA stubs/skeletons; definitely a Proxy variant)*
-    * ~~Client-Dispatcher-Server~~: provides location transparency by means of a name service and hides the details of the establishment of the communication connection between clients and servers *(seems like a combination of a Registry and Proxy/Forwarder-Receiver)*
+    * Counted Pointer (structural) *(this is an idiom for C++, but the idea of objects "carrying" additional information about themselves to provide additional functionality feels too commmon to be just a variant on Proxy)*
+    * <del>Forwarder-Receiver</del> *(aka proxy/stub from DCOM or CORBA stubs/skeletons; definitely a Proxy variant)*
+    * <del>Client-Dispatcher-Server</del>: provides location transparency by means of a name service and hides the details of the establishment of the communication connection between clients and servers *(seems like a combination of a Registry and Proxy/Forwarder-Receiver)*
     * Publisher-Subscriber *(variant of Chain of Responsibility? variant of Pipes-and-filters?)*
-    * Layers: structure applications that can be decomposed into groups of subtasks in which each group of subtasks is at a particular level of abstraction; *(structural?)*
-    * Pipes and filters: a structure for systems that process a stream of data *(structural?)*
-    * Blackboard: useful for problems for which no deterministic solution strategies are known *(behavioral)*
-    * Broker (feels like a combination of multiple patterns)
+    * [Layers](structural/Layers/): structure applications that can be decomposed into groups of subtasks in which each group of subtasks is at a particular level of abstraction; *(structural?)*
+    * [Pipes and filters](behavioral/PipesAndFilters/): a structure for systems that process a stream of data *(structural?)*
+    * [Blackboard](behavioral/Blackboard/): useful for problems for which no deterministic solution strategies are known *(behavioral)*
+    * Broker *(feels like a combination of multiple patterns)*
     * Model-View-Controller: divides an interactive application into three components: core functionality, representation, and control, with a change-propagation mechanism to ensure consistency between the three parts *(definitely feels like GOF-Observer/Chain-of-Responsibility hybrid)*
-    * Presentation-Abstraction-Control: defines a structure for interactive software systems in the form of a hierarchy of cooperating agents, each of which is responsible for a specific aspect of the application's functionality, principally built out of three components (presentation, abstraction, and control). *(this is different from MVC even though it's similar)*
-    * Microkernel: separates a minimal functional core from extended functionality and customer-specific parts
-    * Reflection: changing structure and behavior of software systems dynamically, supporting the modification of fundamental aspects, such as type structures and function call mechanisms.
+    * Presentation-Abstraction-Control: defines a structure for interactive software systems in the form of a hierarchy of cooperating agents, each of which is responsible for a specific aspect of the application's functionality, principally built out of three components (presentation of information, abstraction, and control). *(this is different from MVC even though it's similar)*
+    * [Microkernel](structural/Microkernel/): separates a minimal functional core from extended functionality and customer-specific parts
+    * <del>Reflection</del>: changing structure and behavior of software systems dynamically, supporting the modification of fundamental aspects, such as type structures and function call mechanisms. *(This is a DynamicObject)*
+
+* Pattern-Oriented Software Architecture, vol 2 (Patterns for Concurrent and Networked Objects)
+
+    * Wrapper Facade
+    * Component Configuration
+    * Interceptor (structural)
+    * Extension Interface (structural)
+    * Reactor
+    * Proactor
+    * Asynchronous Completion Token
+    * Acceptor-Connector
+    * Scoped Locking
+    * Strategized Locking
+    * Thread-Safe Interface
+    * <del>Double-Checked Locking Optimization</del> *(this has been proven over and over again to be a naive optimization given insufficient memory model guarantees to prevent out-of-order execution)*
+    * Active Object
+    * Monitor Object
+    * Half-Sync/Half-Async
+    * Leader/Followers
+    * Thread-Specific Storage
+
+    The first four are categorized there as "Service Access and Configuration"; the next four, "Event Handling". "Sychronization" covers Scoped Locking, Strategized Locking, Thread-Safe Interface and Double-Checked, and "Concurrency" captures the remaining five.
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
 
     * Function as Object
       (Almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)
-    * Closure
-        (I'm calling this "[Closure-based State](structural/ClosureBasedState)")
+    * [Closure](structural/ClosureBasedState/) (I'm calling this "Closure-Based State")
     * [Constructor Function](creational/ConstructorFunction)
     * Method Selector
-        (I think this is basically the Dynamic Object, above, but there are some nuances)
-    * Message-Passing Interface
-        (An MPI is definitely related to a Dynamic Object, but despite the name, the two are definitely different patterns; one allows for substantial runtime modification of an object, and the other represents how the object presents itself---its interface---to the world.)
+        *(I think this is basically a [Dynamic Object](structural/DynamicObject/), above, but there are some nuances)*
+    * [Message-Passing Interface](structural/MessagePassingInterface/)
     * Generic Function
     * Delegation
-        (I think this is also part of Dynamic Object; that, or Decorator)
     * Private Method
-        (This is probably an idiom for functional languages, not a full pattern, per se)
+        *(This is probably an idiom for functional languages, not a full pattern, per se)*
 
 * Kuhne's ["Functional Pattern System for Object-Oriented Design"](http://homepages.ecs.vuw.ac.nz/~tk/fps/): Thomas Kuhne wrote his thesis (the above title) on patterns of functional style in OO systems, and his patterns would seem to have direct bearing on this effort. (I was fortunate enough to see an early draft of the work back in the late 90's, and his hand-signed copy of the printed thesis is one of my book treasures.) Again, I'll look for ways to incorporate them into the larger collection here.
   
