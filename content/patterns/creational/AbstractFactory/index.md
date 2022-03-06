@@ -59,6 +59,14 @@ Abstract Factory tends to lead to several consequences:
 
 * *Supporting new kinds of products is difficult.* Extending abstract factories to produce new kinds of Products isn't easy. That's because the AbstractFactory interface fixes the set of products that can be created. Supporting new kinds of products requires extending the factory interface, which involves changing the AbstractFactory class and all of its subclasses.
 
+## Relationships
+
+When looking to configure a factory dynamically, consider [Prototype](../Prototype/).
+
+Abstract Factories are often implemented using [Factory Method](../FactoryMethod/).
+
+If there is a single instance of the ConcreteFactory, it is often a [Singleton](../Singleton/).
+
 ## Variations
 A couple of different takes on the AbstractFactory include:
 

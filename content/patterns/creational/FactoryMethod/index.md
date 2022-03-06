@@ -42,6 +42,8 @@ Create a hierarchy of Product types that vary by inheritance, and a correspondin
 
 *Creator may or may not return a default implementation.* If there is a reasonable default for Product subclasses, the Creator base type may return new instances of that, and so long as the default is good enough, thus removes the obligation to subclass from the clients when creating new Creators. Similarly, if Creator can "generalize" the creation process (perhaps using a facility of the language or runtime to be able to instantiate by class name, rather than compiled type, such as how Java uses Class.forName or the CLR uses Assembly.Load), then additional subclasses of Creator may not be necessary.
 
+## Relationships
+
 ## Variations
 There are several variations on Factory Method.
 

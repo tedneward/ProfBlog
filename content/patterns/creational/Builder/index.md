@@ -6,10 +6,9 @@ status=published
 description=Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: The Builder pattern has enjoyed some success within the O-O community, particularly among the crowd that sees it as a way to build fluent APIs (APIs which read, more or less, like a natural language, a la English). Builder has a few tricks up its sleeve beyond just fluent APIs, however.
+*tl;dr* The Builder pattern has enjoyed some success within the O-O community, particularly among the crowd that sees it as a way to build fluent APIs (APIs which read, more or less, like a natural language, a la English). Builder has a few tricks up its sleeve beyond just fluent APIs, however.
 
 <!--more-->
-
 
 ## Problem
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
@@ -52,6 +51,10 @@ Builder brings with it several consequences of note.
 * *"It isolates code for construction and representation."* Or it can, if desired.
 
 * *"It gives you finer control over the construction process.* Unlike creational patterns that construct products in one shot, the Builder pattern constructs the product step by step under the director's control. Only when the product is finished does the director retrieve it from the builder. Hence the Builder interface reflects the process of constructing the product more than other creational patterns. This gives you finer control over the construction process and consequently the internal structure of the resulting product."
+
+## Relationships
+
+A Builder is often used to create [Composite](../../structural/Composite/)s.
 
 ## Variations
 There are a couple of patterns that frequently end up connected to, or similar to, Builder:

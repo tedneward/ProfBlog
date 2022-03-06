@@ -28,26 +28,36 @@ By the way, this will take time to flesh everything out, so please, be patient. 
 The full index is at the bottom of this page, along with the implementations (in a separate list below that).
 
 ## [Creational patterns](creational/)
-Patterns which specifically deal with the creation of objects/entities in the code. Includes [Abstract Factory](creational/AbstractFactory), [Builder](creational/Builder), [Factory Method](creational/FactoryMethod), [Prototype](creational/Prototype), and [Singleton](creational/Singleton) from the GOF book.
-
-I've added [Constructor Function](creational/ConstructorFunction).
+Patterns which specifically deal with the creation of objects/entities in the code.
 
 ## [Structural patterns](structural/)
-Patterns which describe the structural (usually compile-time-related, in langauges which are compiled) relationship between one entity and another. Includes [Adapter](structural/Adapter), [Bridge](structural/Bridge), [Composite](structural/Composite), [Decorator](structural/Decorator), [Facade](structural/Facade), [Flyweight](structural/Flyweight), and [Proxy](structural/Proxy). 
-
-I've added [Closure-based State](structural/ClosureBasedState), [Context Object](structural/ContextObject) ([a pattern I wrote up a while back in the blog](../blog/2008/what-about-context)), [Dynamic Object](structural/DynamicObject), and [Message-Passing Interface](structural/MessagePassingInterface).
+Patterns which describe the structural (usually compile-time-related, in langauges which are compiled) relationship between one entity and another.
 
 ## [Behavioral patterns](behavioral/)
-Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. Includes [Chain of Responsibility](behavioral/ChainOfResponsibility), [Command](behavioral/Command), [Interpreter](behavioral/Interpreter), [Mediator](behavioral/Mediator), [Memento](behavioral/Memento), [Observer](behavioral/Observer), [State](behavioral/State), [Strategy](behavioral/Strategy), [Template Method](behavioral/TemplateMethod), and [Visitor](behavioral/Visitor).
-
-[Iterator](behavioral/Iterator/) is here, too, but as a pattern it is often now subsumed into the language directly--though seeing as a discrete pattern helps when looking at the seemingly near-infinite number of variants on it.
-
-One interesting "pivot" around Strategy is the Function Object: These two patterns are so close as to be almost intertwined; however, there are some definite subtle differences that I'll call out as part of the Strategy discussion. The concept of a Strategy is not tied directly to a function, and a Function Object need not always be a Strategy. I'm choosing (for now) to put that discussion under Strategy, but given even a small push I could be convinced that it should be its own pattern.
-
-I've added [Null Object](behavioral/NullObject).
+Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. 
 
 ## Additional pattern language(s)
 I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
+
+* Pattern-Oriented Software Architecture, vol 1
+
+    * Whole-Part (structural): aggregations of components that together form a semantic unit
+    * Master-Slave *(which definitely needs a rename; Scatter-Gather? Fold-out?)*: a master component distributes work to identical slave components and computers a final result from the results these slaves return.
+    * Proxy *(mention withing GOF-Proxy for access control)*
+    * Command Processor *(definitely GOF-Command)*
+    * View Handler *(sounds like a Chain of Responsibility/Observer hybrid)*
+    * Counted Pointer *(this is an idiom for C++, but it might be a useful variant to Proxy)*
+    * Forwarder-Receiver *(aka proxy/stub from DCOM or CORBA stubs/skeletons; definitely a Proxy variant)*
+    * Client-Dispatcher-Server: provides location transparency by means of a name service and hides the details of the establishment of the communication connection between clients and servers *(seems like a combination of a Registry and Proxy/Forwarder-Receiver)*
+    * Publisher-Subscriber *(variant of Chain of Responsibility? variant of Pipes-and-filters?)*
+    * Layers: structure applications that can be decomposed into groups of subtasks in which each group of subtasks is at a particular level of abstraction; *(structural?)*
+    * Pipes and filters: a structure for systems that process a stream of data *(structural?)*
+    * Blackboard: useful for problems for which no deterministic solution strategies are known *(behavioral)*
+    * Broker (feels like a combination of multiple patterns)
+    * Model-View-Controller: divides an interactive application into three components: core functionality, representation, and control, with a change-propagation mechanism to ensure consistency between the three parts *(definitely feels like GOF-Observer/Chain-of-Responsibility hybrid)*
+    * Presentation-Abstraction-Control: defines a structure for interactive software systems in the form of a hierarchy of cooperating agents, each of which is responsible for a specific aspect of the application's functionality, principally built out of three components (presentation, abstraction, and control). *(this is different from MVC even though it's similar)*
+    * Microkernel: separates a minimal functional core from extended functionality and customer-specific parts
+    * Reflection: changing structure and behavior of software systems dynamically, supporting the modifiaction of fundamental aspects, such as type structures and function call mechanisms.
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
 
