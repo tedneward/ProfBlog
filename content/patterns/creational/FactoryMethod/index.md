@@ -6,7 +6,7 @@ status=published
 description=Define an interface for creating an object, but let something (usually subclasses, but not always) decide which object type to instantiate.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory.html), depending on the intent and the desired consequences.
+*tl;dr* Factory Method is a pattern that is often called by a simpler name hinging on the word "Factory", a la "the Factory pattern" or somesuch. The GOF language actually has two patterns which each could qualify under that moniker, this one and the [Abstract Factory](../AbstractFactory/), depending on the intent and the desired consequences.
 
 <!--more-->
 
@@ -25,9 +25,11 @@ Create a hierarchy of Product types that vary by inheritance, and a correspondin
 
 ## Implementations
 
-* [Swift](../FactoryMethod-Swift.html)
+* [Java](java.html)
+* [Swift](swift.html)
 
 ## Consequences
+
 *Factory methods eliminate the need to bind application-specific classes into your code.* Because clients only ever deal with the base Product type interface/surface area, clients can remain entirely ignorant as to the exact nature of the Product with which they are dealing. This is particularly important in "open" systems, in which the complete set of possible Product types is not known, allowing third-parties to participate as part of the system.
 
 *Clients (might) have to subclass the Creator class just to create a particular ConcreteProduct object.* In the classic GOF pattern, subclassing was seen as the principal way to customize the FactoryMethod implementation. This is fine when the client has to subclass the Creator class anyway, but otherwise the client now must deal with another point of evolution. This can be mitigated in some cases through the use of functions, but doing so would lose some of the other benefits of subclassing (such as locality of related features in a subclass).
@@ -39,6 +41,8 @@ Create a hierarchy of Product types that vary by inheritance, and a correspondin
 *Creator may or may not have additional responsibilities.* In the classic GOF hierarchy, Creator has little by way of responsibility beyond that of creating Product instances; however, in several of their examples (including the Figure/ Manipulator example mentioned above), it is implicit that the Creator has more than just creational responsibilities. To some, this will feel like a violation of the "one thing and only one thing" rule around design. Likely this will depend on the degree of complexity inside of the Creator and/or its subclasses.
 
 *Creator may or may not return a default implementation.* If there is a reasonable default for Product subclasses, the Creator base type may return new instances of that, and so long as the default is good enough, thus removes the obligation to subclass from the clients when creating new Creators. Similarly, if Creator can "generalize" the creation process (perhaps using a facility of the language or runtime to be able to instantiate by class name, rather than compiled type, such as how Java uses Class.forName or the CLR uses Assembly.Load), then additional subclasses of Creator may not be necessary.
+
+## Relationships
 
 ## Variations
 There are several variations on Factory Method.

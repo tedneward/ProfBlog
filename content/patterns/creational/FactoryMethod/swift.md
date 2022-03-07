@@ -6,7 +6,6 @@ status=published
 description=A FactoryMethod implementation in Swift.
 ~~~~~~
 
-## Implementation: Swift
 [Factory Method](../FactoryMethod) is a relatively straightforward implementation in Swift, as it is in many object-oriented languages. 
 
 We begin with a Product, which is abstract, and a concrete realization of that Product:
