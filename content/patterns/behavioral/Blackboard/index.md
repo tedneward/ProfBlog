@@ -64,10 +64,6 @@ A special knowledge source or a procedure in the control component determines wh
 
 The blackboard component defines two procedures: `inspect` and `update`. Knowledge sources call inspect to check the current solutions on the blackboard. update is used to make changes to the data on the blackboard. 
 
-Some questions arise out of this:
-
-* *What about concurrency?* The Blackboard, being a shared space, is going to have some serious concerns about being accessed from or updated by multiple knowledge sources. Sharing access cannot be naive--it's not just about ensuring no data collisions, it's also about knowledge sources being able to do their analysis without the data input changing mid-stream. 
-
 ## Implementations
 
 ## Consequences
