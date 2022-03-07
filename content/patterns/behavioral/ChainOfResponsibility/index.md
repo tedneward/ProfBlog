@@ -6,7 +6,7 @@ status=published
 description=(TODO)
 ~~~~~~
 
-***tl;dr*** Patterns, 20 Years Later: Chain of Responsibility ...
+***tl;dr*** Chain of Responsibility ...
 
 <!--more-->
 
