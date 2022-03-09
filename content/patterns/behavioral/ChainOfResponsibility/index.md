@@ -3,7 +3,7 @@ date=2022-02-25
 type=pattern
 tags=pattern, behavioral
 status=published
-description=(TODO)
+description=Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request by chaining the receiving objects and passing the request along the chain until one handles it.
 ~~~~~~
 
 ***tl;dr*** Chain of Responsibility ...
@@ -26,9 +26,11 @@ The GOF lists a couple of scenarios in which Chain makes sense:
 
 Some questions arise out of this:
 
-* **Concurrency.** 
+* **Concurrency.** Can the chain be invoked from multiple threads simultaneously?
 
-* **Awareness.** 
+* **Awareness.** Are the elements in the chain aware of each other?
+
+* **Early satisfaction.** If one element in the chain handles the request, do the others in the chain get a chance to do so as well, or is it "first-come, first-served" handling?
 
 ## Implementations
 

@@ -1,9 +1,9 @@
 title=Microkernel
 date=2022-03-05
 type=pattern
-tags=pattern, structural
+tags=pattern, structural, architectural
 status=published
-description=TODO
+description=(TODO)
 ~~~~~~
 
 ***tl;dr*** The Microkernel pattern ...

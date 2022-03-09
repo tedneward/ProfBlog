@@ -1,7 +1,7 @@
 title=Pipes and Filters
 date=2022-03-07
 type=pattern
-tags=pattern, behavioral
+tags=pattern, behavioral, architectural
 status=published
 description=Defines a structure for systems that process a stream of data using individualized components that can be arranged in a variety of different ways.
 ~~~~~~

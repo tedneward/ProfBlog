@@ -1,12 +1,12 @@
 title=Message-Passing Interface
 date=2022-02-25
 type=pattern
-tags=pattern, structural
+tags=pattern, structural, architectural
 status=published
-description=TODO
+description=(TODO)
 ~~~~~~
 
-***tl;dr*** Patterns, 20 Years Later: Message-Passing Interfaces are ...
+***tl;dr*** Message-Passing Interfaces are ...
 
 <!--more-->
 

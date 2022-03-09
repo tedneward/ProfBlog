@@ -42,6 +42,9 @@ Patterns which describe how to execute operations in parallel and safeguard them
 ## [Pattern compositions(compositional/)]
 I believe that some patterns are, in fact, combinations/compositions of other patterns, and so I want to take a stab at capturing and analyzing them. (I think a number of Fowler's PEAA and the POSA books are made up of some other patterns, arranged in a particular way but interesting and useful nonetheless.)
 
+## [Architectural patterns](architectural/)
+A number of patterns "widen" well, operating either at the class/design level or at a larger scope (such as a distributed system). I'm personally not entirely sure of the parameters around an architectural pattern, or if an architectural pattern is a design pattern, particularly when I can see some architectural patterns being reasonable design patterns and vice versa, but I'll capture them and refactor later as inspiration/illumination strikes.
+
 ## Additional pattern language(s)
 I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
 
