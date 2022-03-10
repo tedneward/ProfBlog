@@ -44,5 +44,5 @@ Note that most Singletons will not have *both* a static property *and* method; t
 
 As noted earlier, Swift lacks any sort of language-level concurrency-protection mechanics, so make sure to build such semantics into the implementation of the Swift instance methods. 
 
-## Notes from the author
+## Additional notes
 I am reasonably certain that there's a way to help deal with subclassed Singletons using the Swift/Objective-C "class" methods, which can be overridden (!) in subclasses. But I can't quite figure out when/where/how to make the implementation work offhand, nor do I really have a use-case around it yet. Not giving up on it yet, though.

@@ -36,12 +36,12 @@ Note that some solutions seek to have singleton-ness imposed externally, by wrap
 
 ## Implementations
 
-* [Swift](../Singleton-Swift.html)
-* [Java](../Singleton-Java.html)
-* [Scala](../Singleton-Scala.html)
-* [JavaScript](../Singleton-Javascript.html) (JavaScript/ECMAScript 5, and NodeJS)
-* [C#](../Singleton-CSharp.html)
-* [F#](../Singleton-FSharp.html)
+* [Swift](./swift.html)
+* [Java](./java.html)
+* [Scala](./scala.html)
+* [JavaScript](./javascript.html)
+* [C#](./csharp.html)
+* [F#](../fsharp.html)
 
 ## Consequences
 Singleton yields the following:
