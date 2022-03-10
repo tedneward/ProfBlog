@@ -39,7 +39,7 @@ Patterns which describe the runtime relationship between one entity and another,
 ## [Concurrency patterns](concurrent/)
 Patterns which describe how to execute operations in parallel and safeguard them from the various dangers that arise from doing so.
 
-## [Pattern compositions(compositional/)]
+## [Pattern compositions](compositional/)
 I believe that some patterns are, in fact, combinations/compositions of other patterns, and so I want to take a stab at capturing and analyzing them. (I think a number of Fowler's PEAA and the POSA books are made up of some other patterns, arranged in a particular way but interesting and useful nonetheless.)
 
 ## [Architectural patterns](architectural/)

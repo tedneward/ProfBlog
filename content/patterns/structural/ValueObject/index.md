@@ -11,10 +11,12 @@ description=Some objects represent values and have no intrinsic sense of identit
 <!--more-->
 
 ## Problem
+"Mutable objects are the bedrock of object-oriented design and programming. The ability to dynamically instantiate objects, change their value, retrieve their state, and share them among multiple users for communication allows the development of efficient software with a close relationship to real word models. ... Yet, another bedrock of object-orientation is encapsulation (see section 2.2.2 on page 32). Encapsulated objects provide us with the peace of mind that every change to an object is controlled by the object itself. Obviously, an inconsistent or unexpected change of object state can be caused by the object itself only. Unfortunately, this is not quite true. ... [However], aliasing with unwanted effects is the standard behavior."
 
 ## Context
 
 ## Solution
+"One way to control such introduced side-effects is to disallow the application of operations that mutate object state. Hence, it appears useful to introduce an immutable interface."
 
 Some questions arise out of this:
 

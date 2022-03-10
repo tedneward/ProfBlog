@@ -30,10 +30,11 @@
                 <li class="divider"></li>
                 <li class="dropdown-header">Patterns, Revisited</li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/">Catalog Index</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/architectural/">Architectural</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/behavioral/">Behavioral</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/concurrent/">Concurrent</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/creational/">Creational</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/structural/">Structural</a></li>
-                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/behavioral/">Behavioral</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>patterns/PatternImplementations.html">Implementation notes</a></li>
               </ul>
             </li>
