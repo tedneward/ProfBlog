@@ -18,7 +18,11 @@ Often, behavior is common yet independent of a particular family of objects, and
 
 ## Context
 
-*The additional behavior is common across component families.*
+*The additional behavior is common.*
+
+*The behavior is not specific to a particular domain family.*
+
+*
 
 ## Solution
 
@@ -53,6 +57,8 @@ Interceptors are often modeled using [Proxy](../Proxy/), but the use of a proxy 
 [Dynamic Objects](../DynamicObject) are particularly easy to use in conjunction with Interceptors, as the meta-object replacement of the object's behavior with the Interceptor is usually a trivial operation--however, the interceptor must be careful to retain a reference to the original behavior if the original behavior is to remain accessible to the Interceptor.
 
 If all of an object's methods are valid targets for an Interceptor, and the additional behavior is known at compile-time (or at least at the time of instantiation), a [Decorator](../Decorator) may in fact be a more effective and/or efficient means of behavioral supplementation.
+
+Interceptors are often made out of a [Continuation Chain](../../behavioral/ContinuationChain/), where the Interceptor is passed an explicit function parameter as the next step in the chain. This provides flexibility for the Interceptor to choose not to pass the call onwards, essentially using the Interceptor as more of a [Chain of Responsibility](../../behavioral/ChainOfResponsibility/), but this also runs the risk of a poorly-written Interceptor not invoking the next step in the chain as it is expected to, and thereby breaking expectations.
 
 ## Variations
 
