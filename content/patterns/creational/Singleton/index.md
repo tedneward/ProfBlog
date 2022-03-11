@@ -6,7 +6,7 @@ status=published
 description=Ensure only one instance of a given type, and provide a global point of access to it.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: Let's start with everybody's favorite (and most despised) pattern, the Singleton. Everybody loves the Singleton because, conceptually, it seems the easiest of the lot to understand and (in most post-1995 languages) the easiest to implement. But everybody hates it because its singleton-y nature means it is a natural target for concurrency problems up the wazoo. (And then there's that whole "Singleton instance vs static methods" debate that goes on.)
+*tl;dr* Everybody's favorite (and most despised) pattern, the Singleton. Conceptually, Singleton seems the easiest of the lot to understand and (in most post-1995 languages) the easiest to implement. But everybody hates it because its singleton-y nature means it is a natural target for concurrency problems up the wazoo. (And then there's that whole "Singleton instance vs static methods" debate that goes on.) After all, globals are bad--unless we call them Singletons!
 
 <!--more-->
 
