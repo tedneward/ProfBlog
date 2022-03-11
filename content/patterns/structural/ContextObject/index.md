@@ -6,20 +6,23 @@ status=published
 description=Use an object to provide some degree of inference or reference about the environment in which another object or group of objects is operating. 
 ~~~~~~
 
-***tl;dr*** Context Objects often provide a degree of scope for a group of objects operating within a larger space (such as an app server), and as such often serve as a means of access both outside of the scope (for those objects within it) and to the inside of the scope (for those objects outside of it) without violating encapsulation. 
+***tl;dr*** Context Objects often provide a degree of scope for a group of objects operating within a larger space (such as an app server), and as such often serve as a means of access both outside of the scope (for those objects within it) and to the inside of the scope (for those objects outside of it) without violating encapsulation. Context objects can also provide some specific guarantees about those elements stored within the context, such as thread-safe access or transactional boundaries.
 
 <!--more-->
 
-To create a Context Object, define a wrapper object that encapsulates all aspects of an operation, including details that may not be directly related to that operation. Context allows an object or graph of objects to be handled in a single logical unit, as part of a logical unit of work.
-
-In its simplest form, a Context Object can also serve as a Parameter Object.
+We often see Context Objects used in HTTP middleware, where the HTTP request is captured as a single object containing not only all the headers (and their values) as well as any query parameters (and their values), but information about the request itself, such as the transport (http or https), the relative resource path, any fragments, and so on. 
 
 ## Problem
+
+
 
 ## Context
 *(Irony....)*
 
 ## Solution
+
+To create a Context Object, define a wrapper object that encapsulates all aspects of an operation, including details that may not be directly related to that operation. Context allows an object or graph of objects to be handled in a single logical unit, as part of a logical unit of work.
+
 
 Some questions arise out of this:
 
@@ -28,9 +31,16 @@ Some questions arise out of this:
 ## Consequences
 A Context Object tends to lead to several consequences:
 
+## Relationships
+
+Context Objects are often used to capture the parameters and other information passed along to an [Interceptor](../Interceptor/), either explicitly as part of the Interceptor interface or along a "side channel" if the signature of the Interceptor needs to conform to pre-existing descriptions.
 
 ## Variations
 A couple of different takes on the Context Object include:
+
+* ***Thread-specific storage (POSA2 475).*** Not only the pattern documented in POSA2, but the language/platform-level support provided.
+
+* ***Parameter Object (PEAA).*** Fowler's Parameter Object pattern describes the use of an object to capture a variety of required or optional parameters to a method call rather than directly-declared parameters on the function or method call, allowing for additional extensibility and flexibility over time. This is a very simple form of Context Object, where the context is the scope of that function call. Interestingly, if the context object is attached someplace beyond the thread stack, the parameter object no longer has to be explicitly passed down the call chain, which may make it easier to allow downstream recipients to access it.
 
 ---
 
@@ -43,7 +53,11 @@ From the blog post:
 <h3>Motivation</h3>
 <p>Frequently an operation, which consists fundamentally of inputs and a generated output, requires additional information by which to carry out its work. In some cases, this consists of out-of-band information, such as historical data, previous values, or quality-of-service data, which needs to travel with the operation regardless of its execution path within the system. The desire is to decouple the various participants working with the operation from having to know everything that is being "carried around" as part of the operation.  <p>In many cases, a Context will be what is passed around between the various actors in a Chain of Responsibility (223).
 
-<h3>Consequences</h3> <p>I'm not sure yet.<br> <h3>Known Uses</h3> <p>Several distributed communication toolkits make use of Context or something very similar to it. COM+, for example, uses the notion of Context as a interception barrier, allowing for a tightly-coupled graph of objects to be treated as an atomic unit, synchronizing multi-threaded calls into the context, also called an apartment. Transactions are traced as they flow through different parts of the system, such that each Context knows the transaction ID it was associated with and can allow that same transaction ID (the causality) to continue to flow through, thus avoiding self-deadlock.  <p>Web Services also make use of Context, using the SOAP Message format as a mechanism in which out-of-band information, such as security headers and addressing information, can be conveyed without "polluting" the data stored in the message itself. WS-Security, WS-Transaction, WS-Routing, among others, are all examples of specifications that simply add headers to SOAP messages, so that other "processing nodes" in the Web service call chain can provide the appropriate semantics.  <p>(I know there are others, but nothing's coming to mind at the moment.)
+<h3>Consequences</h3>
+<p>I'm not sure yet.<br>
+
+<h3>Known Uses</h3>
+<p>Several distributed communication toolkits make use of Context or something very similar to it. COM+, for example, uses the notion of Context as a interception barrier, allowing for a tightly-coupled graph of objects to be treated as an atomic unit, synchronizing multi-threaded calls into the context, also called an apartment. Transactions are traced as they flow through different parts of the system, such that each Context knows the transaction ID it was associated with and can allow that same transaction ID (the causality) to continue to flow through, thus avoiding self-deadlock.  <p>Web Services also make use of Context, using the SOAP Message format as a mechanism in which out-of-band information, such as security headers and addressing information, can be conveyed without "polluting" the data stored in the message itself. WS-Security, WS-Transaction, WS-Routing, among others, are all examples of specifications that simply add headers to SOAP messages, so that other "processing nodes" in the Web service call chain can provide the appropriate semantics.  <p>(I know there are others, but nothing's coming to mind at the moment.)
 
 <h3>Related Patterns</h3>
 <p>Context is often the object passed along a Chain of Responsibility; each ConcreteHandler in the Chain examines the Context and potentially modifies it as necessary before handing it along to the next Handler in the Chain.

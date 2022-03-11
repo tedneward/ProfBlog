@@ -6,21 +6,27 @@ status=published
 description=Provide additional functionality to an existing component by "intercepting" a request to the component and either replacing or supplementing the component's behavior.
 ~~~~~~
 
-*tl;dr* Interceptors were popular particularly in distributed systems (CORBA, EJB, DCOM) providing transactional capabilities: an interceptor would begin a transaction, allow the component to carry out its work (usually involving some work against a database), and then commit, abort, or roll back the transaction based on the results of the component's behavior. 
+*tl;dr* Interceptors were popular particularly in distributed systems (CORBA, EJB, DCOM) providing transactional capabilities: an interceptor would begin a transaction, allow the component to carry out its work (usually involving some work against a database), and then commit, abort, or roll back the transaction based on the results of the component's behavior. This concept generalizes well across a variety of different systems, however, and was captured as a pattern in *Pattern-Oriented Software Application, Vol 2*.
 
 <!--more-->
 
-The concept is one that stretches well beyond distributed systems, however, including some of the more crude "aspect-oriented" implementations that used proxies or code-generation (either compile-time or run-time) to put behavior before, around, or after a component method or field. Additionally, component containers (such as a Java Servlet engine from the Java Enterprise Edition specifications) often provide interceptor functionality (such as "filters" in the Java Servlet specification).
+In addition to being useful around distributed system middleware, we see interceptors show up in a number of areas, including some of the more crude "aspect-oriented" implementations that used proxies or code-generation (either compile-time or run-time) to put behavior before, around, or after a component method or field. Additionally, component containers (such as a Java Servlet engine from the Java Enterprise Edition specifications) often provide interceptor functionality (such as "filters" in the Java Servlet specification). Lastly, at the operating system level, it's often been a useful exercise to "intercept" calls to a particular dynamically-loaded library (DLL or libso or dylib) and replace the loaded function with an Interceptor that then decorates/wraps the original call with new behavior.
 
 ## Problem
 
-Often, behavior is common yet independent of a particular family of objects, and therefore is difficult to capture using traditional object-oriented means. While the behavior can often be 
+Often, behavior is common yet independent of a particular family of objects, and therefore is difficult to capture using traditional object-oriented means. We often look to frameworks and libraries and containers to provide those sorts of cross-cutting behaviors as a result, but frameworks/libraries/containers cannot anticipate all of the services/behavior that they will be expected to offer clients. In many cases, that behavior might also be outside the realm of the framework/library/container's area of responsibility, and so capturing it inside that framework or library or container would be a semantic violation of encapsulation.
 
 ## Context
 
 *The additional behavior is common across component families.*
 
 ## Solution
+
+Allow clients to extend a framework/library/container transparently by registering 'out-of-band' services or behavior via predefined "hook points", then let the framework/library/container trigger these services automatically when certain events occur.
+
+In detail: for a designated set of events processed by a framework, 
+
+
 
 Create a block of code that can be "hooked" into place where the original component's method is expected, such that callers to the original component's method are now invoking the Interceptor. The Interceptor can (and should) have access to the parameters passed in to the method call, but generally also pass those parameters (possibly modified) on to the original component's method for processing, and take the return value from that processing and hand it back (possibly modified) to the original caller.
 

@@ -70,8 +70,8 @@ I've run across a few that I haven't yet been able to categorize in the above, a
 
 * Pattern-Oriented Software Architecture, vol 2 (Patterns for Concurrent and Networked Objects)
 
-    * Wrapper Facade *(is this just a Facade?)*
-    * Component Configuration *(this almost feels like a creational pattern)*
+    * [Wrapper Facade](structural/WrapperFacade) (structural)
+    * [Component Configuration](creational/ComponentConfiguration) (creational)
     * [Interceptor](structural/Interceptor/) (structural)
     * [Extension Interface](structural/ExtensionInterface/) (structural)
     * Reactor
@@ -86,7 +86,7 @@ I've run across a few that I haven't yet been able to categorize in the above, a
     * Monitor Object
     * Half-Sync/Half-Async
     * Leader/Followers
-    * Thread-Specific Storage
+    * <del>Thread-Specific Storage</del> *(really, this is a thread-specific [Context Object](structural/ContextObject))*
 
     The first four are categorized there as "Service Access and Configuration"; the next four, "Event Handling". "Sychronization" covers Scoped Locking, Strategized Locking, Thread-Safe Interface and Double-Checked, and "Concurrency" captures the remaining five.
 
