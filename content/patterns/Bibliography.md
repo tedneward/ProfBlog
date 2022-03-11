@@ -16,6 +16,8 @@ The following is the collection of books I'm using for the patterns catalog as s
 
 [*Data Access Patterns* (**[DAP]**)](https://www.amazon.com/Data-Access-Patterns-Interactions-Object-Oriented/dp/0131401572): Nock; ISBN 0-13-140157-2
 
+[*Enterprise Integration Patterns* (**[EIP]**)](https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683): Hohpe, Woolf; ISBN 0-32-120068-3
+
 [*Pattern-Oriented Software Architecture*, Vol 1 (**[POSA1]**)](https://www.amazon.com/Pattern-Oriented-Software-Architecture-System-Patterns/dp/0471958697): Buschmann, Meunier, Rohnert, Sommerlad, Stal; ISBN 0-47-195869-7
 
 [*Pattern-Oriented Software Architecture*, Vol 2 (**[POSA2]**)](https://www.amazon.com/Pattern-Oriented-Software-Architecture-Concurrent-Networked/dp/0471606952): Schmidt, Stal, Rohnert, Buschmann; ISBN 0-47-160695-2
