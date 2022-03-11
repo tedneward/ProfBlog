@@ -27,14 +27,14 @@ By the way, this will take time to flesh everything out, so please, be patient. 
 
 The full index is at the bottom of this page, along with the implementations (in a separate list below that).
 
+## [Behavioral patterns](behavioral/)
+Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. 
+
 ## [Creational patterns](creational/)
 Patterns which specifically deal with the creation of objects/entities in the code.
 
 ## [Structural patterns](structural/)
 Patterns which describe the structural (usually compile-time-related, in langauges which are compiled) relationship between one entity and another.
-
-## [Behavioral patterns](behavioral/)
-Patterns which describe the runtime relationship between one entity and another, and the flow of control between them. 
 
 ## [Concurrency patterns](concurrent/)
 Patterns which describe how to execute operations in parallel and safeguard them from the various dangers that arise from doing so.
@@ -45,8 +45,11 @@ I believe that some patterns are, in fact, combinations/compositions of other pa
 ## [Architectural patterns](architectural/)
 A number of patterns "widen" well, operating either at the class/design level or at a larger scope (such as a distributed system). I'm personally not entirely sure of the parameters around an architectural pattern, or if an architectural pattern is a design pattern, particularly when I can see some architectural patterns being reasonable design patterns and vice versa, but I'll capture them and refactor later as inspiration/illumination strikes.
 
-## Additional pattern language(s)
-I've run across a few that I haven't yet been able to categorize in the above, and I don't want to lose track of them.
+## [Bibliography](../Bibliography.html)
+A bibliographic reference to all/many/most of the patterns in the catalog, in case anybody wants to get the original texts.
+
+# Additional pattern language(s)
+I'd like to capture all of these together into a larger pattern language/fabric.
 
 * Pattern-Oriented Software Architecture, vol 1
 
@@ -113,6 +116,34 @@ I've run across a few that I haven't yet been able to categorize in the above, a
     * Translator
   
 * Monads/monoids. These staples of the functional community seem, to me, to be patterns, but with a bit more rigor implied to them. "Arrows" may be in a similar category.
+
+* Data Access Patterns (DAP): This was published in the early 2000s, during the peak of the patterns wave, and captured a lot of the common thinking around data access (particularly relational data access) at the time. Many of these patterns, I think are compositional in nature, but a few feel a little novel and/or bring a different perspective, and are worth capture.
+
+    * Data Accessor
+    * Active Domain Object
+    * Object/Relational Map
+    * Layers
+    * Resource Decorator
+    * Resource Pool
+    * Resource Timer
+    * Resource Descriptor
+    * Retryer
+    * Selection Factory
+    * Domain Object Factory
+    * Update Factory
+    * Domain Object Assembler
+    * Paging Iterator
+    * Cache Accessor
+    * Demand Cache
+    * Primed Cache
+    * Cache Search Sequence
+    * Cache Collector
+    * Cache Replicator
+    * Cache Statistics
+    * Transaction
+    * Optimistic Lock
+    * Pessimistic Lock
+    * Compensating Transaction
 
 I also plan to go back through some of my patterns books (such as the "Pattern Languages of Program Design" books that were published in the late 90's/early 00's) and cherry-pick some that seem to fit in the above categorization scheme.
 

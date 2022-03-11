@@ -1,9 +1,9 @@
 title=Chain of Responsibility
 date=2022-02-25
 type=pattern
-tags=pattern, behavioral
+tags=pattern, behavioral, architectural
 status=published
-description=Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request by chaining the receiving objects and passing the request along the chain until one handles it.
+description=Avoid coupling the sender of a request to its receiver by giving more than one component a chance to handle the request by chaining the receiving components and passing the request along the chain until one handles it.
 ~~~~~~
 
 ***tl;dr*** Chain of Responsibility ...
@@ -48,5 +48,8 @@ A Chain of Responsibility tends to lead to several consequences:
 ## Variations
 A couple of different takes on the Chain of Responsibility include:
 
-### "Pub-Sub"
+### Publish-Subscribe/"Pub-Sub"
 When combined with a [Message-Passing Interface](../structural/../../structural/MessagePassingInterface/), we often end up with what gets called a "publish-subscribe" system or communications backplane, particularly if the underlying delivery system is built on store-and-forward messaging systems (JMS, MSMQ, Tibco, and so on). Often, "subscribers" are a Chain of Responsibility, and each time a message is pushed into the messaging system, each subscriber receives it, independently of the other subscribers on the Chain.
+
+### Event Bus
+When messages are being sent to a single message queue or topic with multiple registered handler/processors, we refer to that as an Event Bus. If the first interested handler/processor on the bus pulls the message off the bus, it is a Chain of Responsibility; if the messages continue down the bus so that all interested handler/processors get a chance to see it, it is more of an [Observer](../Observer/).
