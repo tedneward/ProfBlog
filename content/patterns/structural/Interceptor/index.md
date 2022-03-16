@@ -6,7 +6,7 @@ status=published
 description=Provide additional functionality to an existing component by "intercepting" a request to the component and either replacing or supplementing the component's behavior.
 ~~~~~~
 
-*tl;dr* Interceptors were popular particularly in distributed systems (CORBA, EJB, DCOM) providing transactional capabilities: an interceptor would begin a transaction, allow the component to carry out its work (usually involving some work against a database), and then commit, abort, or roll back the transaction based on the results of the component's behavior. This concept generalizes well across a variety of different systems, however, and was captured as a pattern in *Pattern-Oriented Software Application, Vol 2*.
+*tl;dr* Interceptors were popular particularly in distributed systems (CORBA, EJB, DCOM) providing transactional capabilities: an interceptor would begin a transaction, allow the component to carry out its work (usually involving some work against a database), and then commit, abort, or roll back the transaction based on the results of the component's behavior. This concept generalizes well across a variety of different systems, however, and was captured as a pattern in POSA2.
 
 <!--more-->
 
@@ -18,23 +18,23 @@ Often, behavior is common yet independent of a particular family of objects, and
 
 ## Context
 
-*The additional behavior is common.*
+* *The additional behavior is common.* If it's common enough to merit consideration under the DRY principle, then it's common enough to want to capture in some kind of reusable form. One-off behavior is better written inside the component itself.
 
-*The behavior is not specific to a particular domain family.*
+* *The behavior is not specific to a particular domain family.* 
 
-*
+* *A framework should allow integration of additional services without requiring modifications to its core architecture.*
+
+* *The integration of application-specific services into a framework should not affect existing framework components, nor should it require changes to the design or implementation of existing applications that use the framework.*
+
+* *Applications using a framework may need to monitor and control its behavior.* 
 
 ## Solution
 
 Allow clients to extend a framework/library/container transparently by registering 'out-of-band' services or behavior via predefined "hook points", then let the framework/library/container trigger these services automatically when certain events occur.
 
-In detail: for a designated set of events processed by a framework, 
+In detail: for a designated set of events processed by a framework, specify and expose an interceptor callback interface. This callback interface can be either a traditional O-O interface (so that interest parties can use inheritance to gain type-safety and -compatibility) or it can be a named first-class function reference. Applications can derive concrete interceptors from this interface, or provide [Strategy](../../behavioral/Strategy/)-based/first-class-function objects, to implement out-of-band services that process occurrences of these events in an application-specific manner. Provide a dispatcher for each interceptor that allows applications to register their concrete interceptors with the framework. When the designated events occur, the framework notifies the appropriate dispatchers to invoke the callbacks of the registered concrete interceptors.
 
-
-
-Create a block of code that can be "hooked" into place where the original component's method is expected, such that callers to the original component's method are now invoking the Interceptor. The Interceptor can (and should) have access to the parameters passed in to the method call, but generally also pass those parameters (possibly modified) on to the original component's method for processing, and take the return value from that processing and hand it back (possibly modified) to the original caller.
-
-Note that this allows for Interceptors to "stack", one after the other, each providing some specific behavior to a variety of different components that otherwise have nothing to do with each other.
+Then, to create an interceptor, create a block of code that can be "hooked" into place (sometimes silently, replacing the original component's method, such that callers to the original component's method are now invoking the Interceptor). The Interceptor can (and should) have access to the parameters passed in to the method call, but generally also pass those parameters (possibly modified) on to the original component's method for processing, and take the return value from that processing and hand it back (possibly modified) to the original caller.
 
 ## Implementations
 
@@ -48,11 +48,11 @@ Note that this allows for Interceptors to "stack", one after the other, each pro
 
 ## Relationships
 
-Interceptors will often reference a [Context Object](../ContextObject) for support, expecting the parameters used to invoke the original component to be available, as well as any additional supporting data or functionality.
+Interceptors will often be passed or have access to a [Context Object](../ContextObject) as part of the call for support, in which can be found the parameters used to invoke the original component to be available, as well as any additional supporting data or functionality. Context objects can also allow a concrete interceptor to introspect and control certain aspects of the framework's internal state and behavior in response to events.
 
-Interceptors can be chained like a [Chain of Responsibility](../../behavioral/ChainOfResponsibility/), but where the Chain generally looks for the first handler and aborts the remainder of the chain, interceptors are usually all guaranteed a chance to run and provide the behavior desired.
+If the Interceptor is a "silent" replacement of the original method, it obeys the same call signature (explicit or implicit) of the orignal maethod, and thus provides a common footprint for multiple Interceptors to "stack", one after the other, each providing some specific behavior to a variety of different components that otherwise have nothing to do with each other, thus forming a chain like a [Chain of Responsibility](../../behavioral/ChainOfResponsibility/), but where the Chain generally looks for the first handler and aborts the remainder of the chain, interceptors are usually all guaranteed a chance to run and provide the behavior desired.
 
-Interceptors are often modeled using [Proxy](../Proxy/), but the use of a proxy object is not required--only that the original component's behavior is adjusted. Proxies can often hold some interesting state of use only to the interceptor, but that can also be held via [Closure-Based State](../ClosureBasedState/) in situations where the original object must be maintained in place.
+If the Interceptor is a "silent" replacement of the original, Interceptors are often modeled using [Proxy](../Proxy/), but the use of a proxy object is not required--only that the original component's behavior is adjusted. Proxies can often hold some interesting state of use only to the interceptor, but that can also be held via [Closure-Based State](../ClosureBasedState/) in situations where the original object must be maintained in place.
 
 [Dynamic Objects](../DynamicObject) are particularly easy to use in conjunction with Interceptors, as the meta-object replacement of the object's behavior with the Interceptor is usually a trivial operation--however, the interceptor must be careful to retain a reference to the original behavior if the original behavior is to remain accessible to the Interceptor.
 
