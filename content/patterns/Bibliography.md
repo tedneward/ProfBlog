@@ -24,3 +24,5 @@ The following is the collection of books I'm using for the patterns catalog as s
 
 [*Patterns of Enterprise Application Architecture* (**[PEAA]**)](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin-dp-0321127420/dp/0321127420): Fowler; ISBN 0-32-112742-0
 
+[*Refactoring to Patterns* (**[RP]**)](https://www.amazon.com/Refactoring-Patterns-Addison-Wesley-Signature-Fowler-ebook-dp-B001TKD4RQ/dp/B001TKD4RQ/): Kerievsky; ISBN 0-32-121335-1
+

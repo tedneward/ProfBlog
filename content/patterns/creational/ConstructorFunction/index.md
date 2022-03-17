@@ -6,7 +6,7 @@ status=published
 description=Define an easy interface for creating an object, but defer the actual decision of what object type to instantiate.
 ~~~~~~
 
-*tl;dr* Patterns, 20 Years Later: A Constructor Function is a function designed specifically to construct instances of entities (typically objects, although in languages which do not support objects as native types, this will typically be something that masquerades as an object). It is often seen as a variation on a [Factory Method](FactoryMethod.html), though there is enough variation on the intent that it is worth calling this out as a standalone pattern.
+*tl;dr* A Constructor Function is a function designed specifically to construct instances of entities (typically objects, although in languages which do not support objects as native types, this will typically be something that masquerades as an object). It is often seen as a variation on a [Factory Method](FactoryMethod.html), though there is enough variation on the intent that it is worth calling this out as a standalone pattern.
 
 <!--more-->
 
@@ -26,7 +26,7 @@ We want to define an easy interface for creating an object, but defer the actual
 Define a functional interface that is responsible for the creation of objects. Place the details of the construction inside this functional interface/implementation. Optionally, allow clients to replace this function in some manner during the execution of the program so as to change the type created at runtime.
 
 ## Implementations
-The [Envoy pattern language](/blog/2012/envoy-in-scala-javascript-and-more), from which this pattern is borrowed, describes several implementations as part of that pattern language. This is also a variant of the "Creator Method" that is described in "Refactoring to Patterns" (Kerievsky, 57).
+The [Envoy pattern language](/blog/2012/envoy-in-scala-javascript-and-more), from which this pattern is borrowed, describes several implementations as part of that pattern language. This is also a variant of the "Creator Method" that is described in RP/57).
 
 * [C#](csharp.html)
 * [F#)(fsharp.html)
