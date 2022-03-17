@@ -45,7 +45,7 @@ I believe that some patterns are, in fact, combinations/compositions of other pa
 ## [Architectural patterns](architectural/)
 A number of patterns "widen" well, operating either at the class/design level or at a larger scope (such as a distributed system). I'm personally not entirely sure of the parameters around an architectural pattern, or if an architectural pattern is a design pattern, particularly when I can see some architectural patterns being reasonable design patterns and vice versa, but I'll capture them and refactor later as inspiration/illumination strikes.
 
-## [Bibliography](../Bibliography.html)
+## [Bibliography](Bibliography.html)
 A bibliographic reference to all/many/most of the patterns in the catalog, in case anybody wants to get the original texts.
 
 # Additional pattern language(s)

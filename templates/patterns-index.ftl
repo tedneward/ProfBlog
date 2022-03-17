@@ -12,7 +12,11 @@
 
     <hr />
 
+    <#if content.patternfilter == "pattern">
+    <#assign filteredPatterns = patterns?filter(p -> p.tags?seq_contains(!p.tags?seq_contains("pattern implementation")) >
+    <#else>
     <#assign filteredPatterns = patterns?filter(p -> p.tags?seq_contains(content.patternfilter?string) && !p.tags?seq_contains("pattern implementation")) >
+    </#if>
 
     <h3>Index</h3>
     <ul>
