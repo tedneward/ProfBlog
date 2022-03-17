@@ -28,10 +28,13 @@ Define a functional interface that is responsible for the creation of objects. P
 ## Implementations
 The [Envoy pattern language](/blog/2012/envoy-in-scala-javascript-and-more), from which this pattern is borrowed, describes several implementations as part of that pattern language. This is also a variant of the "Creator Method" that is described in "Refactoring to Patterns" (Kerievsky, 57).
 
+* [C#](csharp.html)
+* [F#)(fsharp.html)
 * [Java](java.html)
 * [Javascript](javascript.html)
 * [Scala](scala.html)
 * [Swift](swift.html)
+* [Yeti](yeti.html)
 
 ## Consequences
 
