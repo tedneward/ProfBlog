@@ -22,4 +22,7 @@ This is a collection of tips that I have written in the past as a way to help ne
 * [Slow Down and Drink](./slow-down-and-drink.html)
 * [Tell a Story](./tell-a-story.html)
 * [Travel Expenses](./travel-expenses.html)
+* [Practice, practice, practice](../blog/2016/practice-practice-practice.html)
+* [Mistakes happen; get over it](../blog/2022/mistakes-happen-get-over-it.html)
+* [James Ward's suggestions](../blog/2016/james-ward-suggestions.html)
 

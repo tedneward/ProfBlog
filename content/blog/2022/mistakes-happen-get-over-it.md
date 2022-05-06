@@ -1,7 +1,7 @@
 title=Speaking Tips: Mistakes happen; get over it
 date=2022-05-05
 type=post
-tags=industry, reading, management, reading
+tags=industry, speaking tips
 status=published
 description=When speaking, you will screw up.
 ~~~~~~

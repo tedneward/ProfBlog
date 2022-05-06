@@ -1,7 +1,7 @@
 title=Practice, practice, practice
 date=2016-04-08
 type=post
-tags=development processes, psychology, philosophy, reading, management
+tags=development processes, psychology, philosophy, reading, management, speaking tips
 status=published
 description=In which I extol the value of practice, even in office scenarios.
 ~~~~~~
