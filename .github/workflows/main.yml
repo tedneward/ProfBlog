@@ -44,6 +44,7 @@ jobs:
       - name: Azure CLI script
         uses: azure/CLI@v1
         with:
+          azcliversion: 2.33.1
           inlineScript: |
             az storage blob upload-batch -s $GITHUB_WORKSPACE/build/output -d \$web --connection-string "DefaultEndpointsProtocol=https;AccountName=blogsnewardassoc;AccountKey=${{ secrets.AZURE_LICENSE_KEY }};EndpointSuffix=core.windows.net"
 
