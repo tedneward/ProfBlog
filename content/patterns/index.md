@@ -95,7 +95,7 @@ I'd like to capture all of these together into a larger pattern language/fabric.
 
 * [Envoy](../blog/2012/envoy-in-scala-javascript-and-more) This is a set of patterns around how to accomplish various functional ideas. The author originally demonstrated all of his examples in Scheme; a while back [I blogged](../blog/2012/envoy-in-scala-javascript-and-more) about how to implement the patterns in a few other languages. I fully intend to examine each of these and think about where they fit in the above, or, if not, what the new category should be.
 
-    * Function as Object *(almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)*
+    * [Function as Object](behavioral/Strategy/) *(almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)*
     * [Closure](structural/ClosureBasedState/) (I'm calling this "Closure-Based State")
     * [Constructor Function](creational/ConstructorFunction)
     * Method Selector
