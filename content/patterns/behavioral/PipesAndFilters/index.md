@@ -75,6 +75,10 @@ The [Layers](../../structural/Layers/) pattern is better suited to systems that 
 
 Each processing component can often be its own [Strategy](../Strategy/).
 
+It's relatively easy to see a Pipes and Filters pattern as a [Chain of Responsibility](../ChainOfResponsibility/), though the intent is somewhat different; in a CoR, the idea is to pass data through the pipe until one of the participants in the Chain acknowledges and handles the request, whereas in a P&F approach, the assumption is that every participant in the pipe wants/needs to see the data, often to manipulate it in some way.
+
+[Blackboard](../Blackboard/) systems can be built as Pipes and Filters, where each participant in the decision-making process takes a turn at the data before passing it on to the next one in the chain.
+
 ## Variations
-A couple of different takes on Pipes and Filters include:
+Variations on Pipes and Filters include...
 
