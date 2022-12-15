@@ -98,13 +98,11 @@ I'd like to capture all of these together into a larger pattern language/fabric.
     * [Function as Object](behavioral/Strategy/) *(almost certainly a synonym for Strategy in its simplest form, or vice versa, depending on how we want to look at it.)*
     * [Closure](structural/ClosureBasedState/) (I'm calling this "Closure-Based State")
     * [Constructor Function](creational/ConstructorFunction)
-    * Method Selector
-        *(I think this is basically a [Dynamic Object](structural/DynamicObject/), above, but there are some nuances)*
+    * Method Selector *(A method selector is essentially the ability to identify and pass around an identifier to a method directly--a method pointer, function reference, or delegate, depending on your choice of platform--and inoke it. Many languages have this built in, but there's some nuance to the pattern here that deserves examination, as well.)*
     * [Message-Passing Interface](structural/MessagePassingInterface/)
     * Generic Function
     * Delegation
-    * Private Method
-        *(This is probably an idiom for functional languages, not a full pattern, per se)*
+    * Private Method *(This is probably an idiom for functional languages, not a full pattern, per se; it is built-in syntax for most object-oriented languages, and many languages that support nested-scope functions/procedures can do something similar.)*
 
 * Kuhne's ["Functional Pattern System for Object-Oriented Design"](http://homepages.ecs.vuw.ac.nz/~tk/fps/): Thomas Kuhne wrote his thesis (the above title) on patterns of functional style in OO systems, and his patterns would seem to have direct bearing on this effort. (I was fortunate enough to see an early draft of the work back in the late 90's, and his hand-signed copy of the printed thesis is one of my book treasures.) Again, I'll look for ways to incorporate them into the larger collection here.
   
