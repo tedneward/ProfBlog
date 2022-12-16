@@ -18,7 +18,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sections <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Some of my Favorites (Collections)</li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>manager-tips/">Management Tips</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>speaking-tips/">Speaker Tips</a></li>
+                <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>devrel/">Developer Relations Thoughts</a></li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>interop-briefs/">Interop Briefs</a></li>
                 <li class="dropdown-header">Some of my Favorites (Individual posts)</li>
                 <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>blog/2006/the-vietnam-of-computer-science.html">O/R-M is the Vietnam of Computer Science</a></li>

@@ -41,7 +41,7 @@ Note that some solutions seek to have singleton-ness imposed externally, by wrap
 * [Scala](./scala.html)
 * [JavaScript](./javascript.html)
 * [C#](./csharp.html)
-* [F#](../fsharp.html)
+* [F#](./fsharp.html)
 
 ## Consequences
 Singleton yields the following:
