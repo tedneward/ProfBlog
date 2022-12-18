@@ -32,8 +32,7 @@ This is even more true in areas where clear objective evidence is simply lacking
 Another quote from Stroustrup: "The more I know, the more I know I don't know." If the guy who's forgotten more about programming languages than I will ever know can say that, then there's no room for me to stand up and insist that somehow I am never wrong. I think I know things, but there's always the chance that I got the information wrong, the information I got was wrong when I got it, or the situation has changed since I got that information.
 
 #### Be willing to publicly acknowledge where your argument is weak.
-> "Almost all arguments have weak spots, but those who are trying to sell an ideology will have great
-difficulty with this point and would rather obscure or downplay any weak points."
+> "Almost all arguments have weak spots, but those who are trying to sell an ideology will have great difficulty with this point and would rather obscure or downplay any weak points."
 
 (Yeah, I really don't have a whole lot more to add to that.)
 

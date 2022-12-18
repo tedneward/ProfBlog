@@ -10,7 +10,11 @@ description=As of April 1st, I am engaged in another consulting company--this ti
 
 <!--more-->
 
-It's been an interesting road since Rocket Mortgage and I parted ways back in October. I've interviewed with a number of companies, some big and some small, some product-focused and some consulting, and kept finding something missing in each. In many cases, they chose not to move forward with the process, and a few of those genuinely stung--I could see some potential in those. It's hard, going through the interview cycle, particularly at the more senior executive levels of roles I was trying to reach for. Some companies were name-recognizable, others were companies nobody (including myself) had ever heard of. CTO roles, VP roles, a few Director roles, and every once in a while a recruiter tried to talk me into being an individual-contributor-Architect again or an IC Developer Advocate. A quarter of them, I turned away; the rest, either it wasn't a great fit (culturally or financially), or they chose to go a different way.
+**EDIT: 15 December 2022** Sadly, it was a short one. With the dark clouds of the global economic slowdown on the horizon, as well as the uncertain clouds of war hovering over Ukraine, the folks at Solidify decided that it was a little too risky to take the chance on starting a business here in the US. Thus, I continue my search for my next new adventure.
+
+---
+
+It's been an interesting road since Rocket Mortgage and I parted ways back in October 2021. I've interviewed with a number of companies, some big and some small, some product-focused and some consulting, and kept finding something missing in each. In many cases, they chose not to move forward with the process, and a few of those genuinely stung--I could see some potential in those. It's hard, going through the interview cycle, particularly at the more senior executive levels of roles I was trying to reach for. Some companies were name-recognizable, others were companies nobody (including myself) had ever heard of. CTO roles, VP roles, a few Director roles, and every once in a while a recruiter tried to talk me into being an individual-contributor-Architect again or an IC Developer Advocate. A quarter of them, I turned away; the rest, either it wasn't a great fit (culturally or financially), or they chose to go a different way.
 
 Some rejection was expected--hell, more than one of them was a long-shot "what the hell" kind of exercise--but it begins to wear down on you after time.
 
@@ -41,3 +45,4 @@ If you've an interest in consulting, with an eye towards DevOps (but frankly, I 
 If your company is struggling to try and make sense of all these new forces in software development, and you could use with a partner to help you sort out what matters vs what's hype, and how any of these forces affect your current plans and pipelines... well, [I'd love to talk to you](mailto:ted.neward@solidify.dev).
 
 Should be an interesting journey.
+

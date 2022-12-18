@@ -105,8 +105,7 @@ for (Person p : attendees)
 When viewed this way, it's easy to see that *for loops violate the DRY principle*.
 
 ### An aside: arrays suck
-By the way, arrays in Java suck. They're not quite as bad in .NET, but they really REALLY suck in C++. Basically, the closer your language is to thinking of an array as just a pointer with some sexy pointer math on top of it, the more they suck. It's far better to use the collection classes
-that are (now) standard with every language.
+By the way, arrays in Java suck. They're not quite as bad in .NET, but they really REALLY suck in C++. Basically, the closer your language is to thinking of an array as just a pointer with some sexy pointer math on top of it, the more they suck. It's far better to use the collection classes that are (now) standard with every language.
 
 In Java, that usually means using List<T> and ArrayList<T>, and to a lot of developers, that means initializing that set of Persons to start with gets really cumbersome:
 
@@ -183,14 +182,14 @@ But the flaws come out pretty quickly---we're not always going to want to test i
 
 The larger pattern here is obvious, though: test, then act. How do we generalize this?
 
-Strategy pattern, of course!
+[Strategy pattern](../../patterns/behavioral/Strategy/), of course!
 
 ### Everybody knows Strategy
 Java has long had a rich history with patterns, particularly those defined in the "Gang of Four" book, and Strategy is one of the ones that has been with us from the beginning. Most of the time we're familiar with it from wanting to compare two objects to see if one is "greater" or "lesser" than the other, using the `Comparable` interface: one simply implements it on the class that we want to compare, and provide an implementation of it.
 
 Unless, of course, we want to sort by a different criteria. Then things get a little tricky.
 
-See, part of the magic of Strategy is that its implementation is supposed to be replacable at runtime for another implementation, and we can't do that if we inherit the interface and define the implementaiton as a method. This is not an unreasonable thing to want for comparisons; sometimes we want to arrange people by last name, sometimes by first name, sometimes by age, sometimes by height, and so on. We want to change the implementation used to do the comparison at runtime, so we use a `Comparator`; for a `Person`, that often looks something like:
+See, part of the magic of Strategy is that its implementation is supposed to be replaceable at runtime for another implementation, and we can't do that if we inherit the interface and define the implementaiton as a method. This is not an unreasonable thing to want for comparisons; sometimes we want to arrange people by last name, sometimes by first name, sometimes by age, sometimes by height, and so on. We want to change the implementation used to do the comparison at runtime, so we use a `Comparator`; for a `Person`, that often looks something like:
 
 ````java
 class AgeComparator<Person> implements Comparator<Person> {
