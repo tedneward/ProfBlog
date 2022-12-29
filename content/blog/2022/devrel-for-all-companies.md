@@ -1,5 +1,5 @@
 title=Every Company Needs a Developer Relations Team 
-date=2022-12-15
+date=2022-12-29
 type=post
 tags=devrel
 status=published
@@ -46,14 +46,14 @@ Each of these companies needs a DevRel team, but for different reasons:
 
     > ***NOTE:*** If you're a consultancy, stop doing this! Or, rather, consider how much more effective your company could be at finding and placing consultants if the people doing it were doing it full-time, just as your Sales and Marketing folks are. Not to mention the opportunities it gives you to rotate consultants through this team so that they get some experience doing something other than code--it helps grow the company in a variety of ways.
 
-* **Product companies where developers "value-add" indirectly.**
+* **Product companies where developers "value-add" indirectly.** This is a lot of companies out there: 
 
     * *Marketing*:
     * *Sales*:
     * *Engineering*:
     * *Recruiting*:
 
-* **Companies where integration is a key core of the business.**
+* **Companies where integration is a key core of the business.** A lot more companies are in this bucket than you might imagine--airlines, for example, are always looking at various other systems they want or need to integrate with, starting with other airlines (as they share loyalty programs, for example), rental car companies, hotel chains, and other players in the travel industry. 
 
     * *Marketing*:
     * *Sales*:
