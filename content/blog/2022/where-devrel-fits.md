@@ -1,5 +1,5 @@
 title=Where does DevRel fit on an org chart? 
-date=2022-12-20
+date=2022-12-17
 type=post
 tags=devrel, management
 status=published
