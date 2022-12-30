@@ -1,5 +1,5 @@
 title=Where does DevRel fit on an org chart? 
-date=2022-12-17
+date=2022-12-31
 type=post
 tags=devrel, management
 status=published
@@ -10,3 +10,10 @@ description=Developer Relations doesn't always seem to have a clear and distinct
 
 <!--more-->
 
+### DevRel inside Engineering
+
+### DevRel inside Marketing
+
+### DevRel inside Sales
+
+### DevRel should be its own top-level organization
