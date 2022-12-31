@@ -2,7 +2,7 @@ title=A DevRel Activity Ontology
 date=2022-12-31
 type=post
 tags=devrel
-status=published
+status=draft
 description=A categorization and classification of various developer relations activities.
 ~~~~~~
 

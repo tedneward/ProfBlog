@@ -2,7 +2,7 @@ title=Where does DevRel fit on an org chart?
 date=2022-12-31
 type=post
 tags=devrel, management
-status=published
+status=draft
 description=Developer Relations doesn't always seem to have a clear and distinct "home" inside many organizations, and as a result, is hampered in its effectiveness.
 ~~~~~~
 
