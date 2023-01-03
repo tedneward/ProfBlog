@@ -1,8 +1,8 @@
 title=You Want Modules, Not Microservices
-date=2023-01-05
+date=2023-01-02
 type=post
 tags=predictions
-status=draft
+status=published
 description=Dissecting why everybody keeps talking about microservices.
 ~~~~~~
 
