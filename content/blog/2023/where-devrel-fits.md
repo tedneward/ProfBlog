@@ -1,8 +1,8 @@
 title=Where does DevRel fit on an org chart? 
-date=2023-01-05
+date=2023-01-03
 type=post
 tags=devrel, management
-status=published
+status=draft
 description=Developer Relations doesn't always seem to have a clear and distinct "home" inside many organizations, and as a result, is hampered in its effectiveness.
 ~~~~~~
 
@@ -10,14 +10,29 @@ description=Developer Relations doesn't always seem to have a clear and distinct
 
 <!--more-->
 
-### DevRel inside Engineering
+Let's consider some of the traditional places a DevRel team appears first.
 
-### DevRel inside Marketing
+## Engineering
 
-### DevRel inside Sales
+This often seems like the most natural place for a Developer Relations team--after all, developer advocates often come from engineering backgrounds, most DevRel activities involve code in various ways, and, after all, their target audience usually work in Engineering departments themselves, so.... This is the right place to put them, right?
+
+Unfortunately, while this might be a reaonsable second choice, it's not ideal. Engineering teams' sense of success is to ship things, often "at scale", and that mentality often carries over into the DevRel team, leading the goals of the team to be centered around shipping things (blog posts, code samples, etc). Worse, the emphasis of "scale" leads engineering management to concentrate on actions that reach the largest number of recipients, regardless of the quality of the connection. 
+
+## DevRel inside Marketing
+
+
+
+## DevRel inside Sales
+
+In some organizations, particlarly the ones that sell products/services to developers, there's a natural tendency to 
+
+## DevRel goes... where, then?
 
 ### Drawing conclusions
 
 If the goal of the DevRel team isn't completely aligned with any of Engineering, Marketing, or Sales, then where in the organization does it go? The conclusion drawn here is actually not surprising, but it is a touch radical: ***Developer Relations deserves to be its own top-level organization within the company.*** Frankly, just as companies are realizing the benefits of having a "Chief Marketing Officer" and a "Chief Information Security Officer", a "Chief Developer Relations Officer" reporting directly to the CEO and providing the guidance and leadership to the CxO suite around the art and science of Developer Relations makes a great deal of sense Alternatively, if the "CDRO" title seems a touch pretentious, and the company lacks a CMO or CISO, then it's probably more appropriate to call it a "VP, Developer Relations", again reporting directly to the CEO as a peer to the VP of Marketing, VP of Sales, and VP of Engineering.
 
-As we've seen above, the DevRel organization's goals are not the same as Engineering's goals, nor are they aligned perfectly with Marketing's or Sales'. This is not unusual--a long time ago, Marketing and Sales used to be unified into a single organization, until the realization became widespread that their goals were different. Each top-level organization should be (needs to be) able to pursue its goals independent of the others, and the leader at the top of that organization needs to be able to meet with peers to accomplish this.
+As we've seen above, the DevRel organization's goals are not the same as Engineering's goals, nor are they aligned perfectly with Marketing's or Sales'. This is not unusual--a long time ago, Marketing and Sales used to be unified into a single organization, until the realization became widespread that their goals were different. The same often happens with the Public Relations team (now often referred to as "Communications" or "Comms"), which has deep ties to Marketing, Sales, but also Legal and HR. Each top-level organization should be (needs to be) able to pursue its goals independent of the others, and the leader at the top of that organization needs to be able to meet with peers to accomplish this.
+
+
+

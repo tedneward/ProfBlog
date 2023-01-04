@@ -2,7 +2,7 @@ title=A DevRel Activity Ontology
 date=2023-01-03
 type=post
 tags=devrel
-status=published
+status=draft
 description=A categorization and classification of various developer relations activities.
 ~~~~~~
 
@@ -30,8 +30,12 @@ Now let's examine James' list of seven artifacts, and use that as a stalking hor
 Each of these provides some value along three different axes:
 
 * ***Reach***: How "far" does this artifact go? How many people can see it and/or consume it? Those things done over the Internet tend to have a large reach (particularly if the artifact is someplace where Google can find it and pop it up during search results), whereas those things done in person (such as the hands-on workshop) will have very short reach, since participation requires physical presence.
+
 * ***Interactivity***: This is the fidelity of communication--how "conversational" is the artifact? This in many cases is in inverse proportion to reach, but not always. The blog post doesn't really allow for great conversation (yes, you can open up comments on the blog, but we all know what happens when you do, and it's not pretty), whereas a workshop really requires a high degree of interactivity with the attendees. The blog post author doesn't learn much from their audience when posting the blog--the workshop facilitator, however, can learn all kinds of things from the attendees via the questions they ask, the problems they run into, the questions they don't ask, and so on.
+
 * ***Direction***: One thing James hints at, but doesn't really call out strongly, is the idea that DevRel is a circular exercise: DevRel should be talking to both those developers inside the company as well as those outside of it. This means the usual activities of bringing development discussions to developers that might be customers of the company's product, but also bringing feedback from those developers on the outside back into the company for further discussion and/or examination.
+
+    Let's also put something out here: DevRel can be just as much about mentoring and catering to the developers *inside* the company as it does *outside* of it. Particularly with the efforts around "inner-sourcing", wherein companies (particularly large ones) practice the same processes and practices for open-source projects on internal projects, it can be important for a DevRel team to be just as focused on bringing awareness and engagement to developers internal to the company as external. Matter of fact, I first engaged in this with my DevRel team at Smartsheet, where we took over the internal-facing "Lunch Talks" (also known as "Brown Bags" at other companies, where an internal employee talks about a subject over lunch) and internal training; did the same thing at Rocket Mortgage, where we created the "Tech Speaker Series" (where we had industry names do virtual all-day workshops for our engineers during the pandemic). So not all activities of DevRel are externally-facing, and realistically, *any* activity that is typically done externally-facing can also be done internally-facing.
 
 <!--
 Reach
