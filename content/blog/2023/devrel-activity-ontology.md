@@ -1,5 +1,5 @@
 title=A DevRel Activity Ontology
-date=2022-12-31
+date=2023-01-03
 type=post
 tags=devrel
 status=published
