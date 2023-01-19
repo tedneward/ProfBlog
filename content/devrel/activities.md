@@ -1,5 +1,5 @@
 title=Developer Relations Activities
-date=2023-02-01
+date=2023-01-18
 type=page
 tags=devrel, patterns
 status=published
@@ -13,6 +13,8 @@ This, like so many other pattern languages before it, looks to catalog, categori
 ## Pattern Form
 The most basic pattern form I prefer is the simplistic one that states that "a pattern is a solution to a problem within a certain context that yields certain consequences". This then yields the four-element *Problem-Solution-Context-Consequences* tuple, consisting of each element described (and adapted slightly for our purposes here) below:
 
+* ***Name***: preferably short, descriptive, and memorable.
+* ***Building Blocks***: from my earlier ontology: Code, Presentation, Social, Writing. Often a given activity will be made out of two or more of these simultaneously, in a rough order of criticality; for example, a *Code, Writing* pattern will be better assigned to somebody who has stronger code skills, while a *Writing, Code* pattern will probably yield better results to somebody who has strong writing skills. (Ideally anybody would have strong skills in both, but then we get into the Full-Stack Developer Fallacy.) 
 * ***Problem***: a (preferably brief) description of the problem a team faces. Note that in many cases, the problem section in a pattern will be duplicated in another pattern--this is not in error, because a given problem can have multiple solutions to it, and both the context in which the problem lives and the desired consequences will help determine which pattern is most appropriate for use.
 * ***Solution***: a (preferably brief) description of the solution to the problem.
 * ***Context***: this will generally be certain constraints or additional elements around the problem that will influence the outcome--a common one, for example, being employee bandwith (the amount of time a team has to devote to the activity) or budget (the amount of money).
@@ -25,23 +27,19 @@ Additional elements to the pattern form are possible/likely, depending on the in
 
 ## Glossary
 
-Within the realm of Developer Relations, I find that agreement on the definition of some terms brings clarity to the discussion around an activity's consequences.
+Within the realm of Developer Relations, I find that agreement on the definition of some terms brings clarity to the discussion. I proffer these definitions for the purpose of this pattern language:
 
-* ***Company***: Who the DevRel team works for and represents.
+* ***Company***: Who the DevRel team works for and represents. Basically, if you're on the DevRel team, this is "us".
 
-* ***Customer***: Anybody outside the company, whether they are a paying entity or not. DevRel teams will often want to segment this further (between open-source customers and paying customers, for example) in order to draw certain distinctions, but for the majority of these patterns it's sufficient to simply call anybody outside the company a customer.
+* ***Customer***: Anybody outside the company, whether they are a paying entity or not. DevRel teams will often want to segment this further (between open-source customers and paying customers, for example) in order to draw certain distinctions, but for the majority of these patterns it's sufficient to simply call anybody outside the company a customer. Note that based on the Direction (below) of the activity, the "customer" could very well be another team or developers inside the same company, so some nuance and flexibility in this definition is going to be needed. Basically, if you're on the DevRel team, this is everybody that's "not us".
 
 * ***Direction***: DevRel should be a circular exercise: DevRel should be talking to both those developers inside the company ("internal") as well as those outside of it ("external"). This means the usual activities of bringing development discussions to developers that might be customers of the company's product, but also bringing feedback from those developers on the outside back into the company for further discussion and/or examination. Many companies are also building DevRel teams to be entirely internal-facing, supporting their developers in a variety of the ways that traditionally have been externally-facing (such as owning the continuing education efforts to grow the internal developers).
 
-* ***Interactivity***: This is the fidelity of communication--how "conversational" is the exercise? This in many cases is in inverse proportion to reach, but not always. The blog post doesn't really allow for great conversation (yes, you can open up comments on the blog, but we all know what happens when you do, and it's not pretty), whereas a workshop really requires a high degree of interactivity with the attendees. The blog post author doesn't learn much from their audience when posting the blog--the workshop facilitator, however, can learn all kinds of things from the attendees via the questions they ask, the problems they run into, the questions they don't ask, and so on.
+* ***Interactivity***: This is the fidelity of communication--how "conversational" is the exercise? This in many cases is in inverse proportion to Reach, but not always. The blog post doesn't really allow for great conversation (yes, you can open up comments on the blog, but we all know what happens when you do, and it's not pretty), whereas a workshop really requires a high degree of interactivity with the attendees. The blog post author doesn't learn much from their audience when posting the blog--the workshop facilitator, however, can learn all kinds of things from the attendees via the questions they ask, the problems they run into, the questions they don't ask, and so on.
 
-* ***Product/Service***: What the DevRel team is looking to talk about. This can be a tool (such as an IDE), a library or set of libraries, a web service accessed over HTTP (commonly called an "API", "Web API" or "HTTP API"), and so on. It need not be a formal artifact that is "sold"--open source projects around/about which the company sells services would be referred here as "product/service". Note that the company may have many product/services available, and a single DevRel team may support all of them, a few of them, or only one of them, but the distinction between one product/service or many product/services is largely irrelevant to the pattern catalog below.
+* ***Product/Service***: What the DevRel team is looking to talk about. This can be a tool (such as an IDE or database), a library or set of libraries, a web service accessed over HTTP (commonly called an "API", "Web API" or "HTTP API"), some other kind of service (anything that ends with "-as-a-service" is a strong candidate), and so on. It need not be a formal artifact that is "sold"--open source projects around/about which the company sells services would be referred here as "product/service". Note that the company may have many product/services available, and a single DevRel team may support all of them, a few of them, or only one of them, but the distinction between one product/service or many product/services is largely irrelevant to the pattern catalog below.
 
-* ***Reach***: How "far" does this artifact go? How many people can see it and/or consume it? Those things done over the Internet tend to have a large reach (particularly if the artifact is someplace where Google can find it and pop it up during search results), whereas those things done in person (such as the hands-on workshop) will have very short reach, since participation requires physical presence. For example, a blog post can echo across the entire world within minutes, and even across time itself--certain blog posts just keep getting rediscovered by new readers. This contrasts with an in-person workshop done at a conference event, even if the workshop has a thousand people in it (which, by the way, is categorically impossible to do--a group that size isn't doing a hands-on workshop, they're watching you lecture).
-
-
-
-
+* ***Reach***: How "far" does this activity go? How many people can see it and/or consume it? Those things done over the Internet tend to have a large reach (particularly if any artifact produced by the activity is someplace where Google can find it and pop it up during search results), whereas those things done in person (such as the hands-on workshop) will have very short reach, since participation requires physical presence. For example, the blog post can echo across the entire world within minutes, and even across time itself--certain blog posts just keep getting rediscovered by new readers. (Thanks, Google!) This contrasts with an in-person workshop done at a conference event, even if the workshop has a thousand people in it. In other words, the blog post can reach millions (and still going!), while the workshop only a thousand (and once over, can never go higher).
 
 <div id="catalog" /><hr />
 ## Activity Catalog
@@ -54,16 +52,17 @@ Patterns: Posts (?)
 
 <div id="article" /><hr/>
 #### Article
+*Writing, Code*
 
-Written piece published by a third party. Intended to be a standalone entity without referencing liberally elsewhere (although multi-part articles are certainly doable and can reference each other).
+Written piece published by a third party, whether that's a website (like a developer portal) or a print publication (the few that are left). Intended to be a standalone entity without referencing liberally elsewhere (although multi-part articles are certainly doable and can reference each other).
 
-***Also Known As***:
+***Also Known As***: 
 
-***Problem***:
+***Problem***: Certain developers are in a market that you don't reach--if your company is known for .NET yet you want to reach JavaScript developers, for example, or vice versa--and you need a way to reach them with a written piece that will have some "stickiness" to people.
 
-***Solution***:
+***Context***: You want to use the opportunity to present something in a longer-form writing piece, reaching an audience that doesn't come to your website or your 
 
-***Context***:
+***Solution***: Write an article (generally 1500 words minimum, 4000 words maximum) that addresses the needs of that audience
 
 ***Consequences***:
 
@@ -72,6 +71,7 @@ Written piece published by a third party. Intended to be a standalone entity wit
 
 <div id="blog-post" /><hr/>
 #### Blog Post
+*Writing, Code*
 
 A written piece of varying length that appears on the company's time-indexed collection of such articles. Blogs frequently (but are not limited to) announce releases, reference other pages on the company site, and/or provide insight into new directions or company decisions.
 
@@ -90,6 +90,7 @@ A written piece of varying length that appears on the company's time-indexed col
 
 <div id="booth" /><hr/>
 #### Booth
+*Social*
 
 At a conference.
 
@@ -108,6 +109,7 @@ At a conference.
 
 <div id="code-review" /><hr/>
 #### Code Review
+*Code, Writing*
 
 Examining code written by those outside the DevRel team (either Direction--inside or outside the company) and providing feedback/suggestions/improvements.
 
@@ -126,6 +128,7 @@ Examining code written by those outside the DevRel team (either Direction--insid
 
 <div id="conference" /><hr/>
 #### Conference
+*Presentation, Social, Code*
 
 Company throws its own conference. External: typically to showcase its product/service as well as those of partners. Internal: allow developers to discover what other company developers are working on, as well as formal conference sessions designed for internal developer improvement.
 
@@ -144,6 +147,7 @@ Company throws its own conference. External: typically to showcase its product/s
 
 <div id="conference-session" /><hr/>
 #### Conference Session
+*Presentation, Code*
 
 Doing a breakout session at a third-party conference.
 
@@ -162,6 +166,7 @@ Doing a breakout session at a third-party conference.
 
 <div id="customer-checkin" /><hr/>
 #### Customer Check-In
+*Social*
 
 Pro-active meeting with the customer post-sale, to make sure everything is going well.
 
@@ -182,6 +187,7 @@ Pro-active meeting with the customer post-sale, to make sure everything is going
 
 <div id="customer-pre-sale" /><hr/>
 #### Customer Meeting (Pre-Sale)
+*Social*
 
 Working with Sales to help land a customer to purchase the product/service.
 
@@ -200,6 +206,7 @@ Working with Sales to help land a customer to purchase the product/service.
 
 <div id="forums" /><hr/>
 #### Forums
+*Social, Writing*
 
 Company-hosted places where customers can post questions and receive answers from both company employees and the surrounding community.
 
@@ -220,6 +227,7 @@ Company-hosted places where customers can post questions and receive answers fro
 
 <div id="gist" /><hr/>
 #### Gist
+*Code*
 
 Smaller than a sample/example, designed to demonstrate a very specific snippet of code. Often entirely in conjunction with other artifacts.
 
@@ -238,8 +246,9 @@ Smaller than a sample/example, designed to demonstrate a very specific snippet o
 
 <div id="guides" /><hr/>
 #### Guides
+*Writing, Code*
 
-Written docs that take more of a "story"-based approach to the product/service; not reference docs. Each guide covers some particular aspect about the product/service (such as a feature).
+Written docs that take more of a "story"-based approach to the product/service; not reference docs. Each guide covers some particular aspect or concept or insight or explanation about the product/service (such as a feature).
 
 ***Also Known As***:
 
@@ -256,6 +265,7 @@ Written docs that take more of a "story"-based approach to the product/service; 
 
 <div id="hackathon" /><hr/>
 #### Hackathon
+*Code, Social*
 
 Code-for-24/48/72-hours on whatever sounds interesting. External: often around the product/service. Internal: on whatever the company developers find interesting. DevRel can either be coaches, organizers, or both.
 
@@ -274,6 +284,7 @@ Code-for-24/48/72-hours on whatever sounds interesting. External: often around t
 
 <div id="hands-on-labs" /><hr/>
 #### Hands-On Labs
+*Code*
 
 Focus is entirely on the writing of code; sometimes a sequence of steps for a developer to do unguided or with minimal ahead-of-time instructions or lectures.
 
@@ -292,6 +303,7 @@ Focus is entirely on the writing of code; sometimes a sequence of steps for a de
 
 <div id="live-streaming" /><hr/>
 #### Live Streaming
+*Presentation, Social*
 
 Informal video content broadcast live. Very informal.
 
@@ -310,6 +322,7 @@ Informal video content broadcast live. Very informal.
 
 <div id="newsletter" /><hr/>
 #### Newsletter
+*Writing*
 
 Recurring (monthly) emailed newsletter sent to opted-in customers. Include links to other artifacts (articles, samples/examples, etc). Works well in conjunction with [Social Media](#social-media).
 
