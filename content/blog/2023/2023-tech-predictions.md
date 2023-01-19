@@ -10,7 +10,7 @@ It's that time of the year again, when I make predictions for the upcoming year.
 
 <!--more-->
 
-As per previous years, I'm giving myself either a **+1** or a **-1** based on a purely subjective and highly-biased evaluational criteria as to whether it actually happened (or in some cases at least started to happen before 31 Dec 2020 ended). If you want to skip to the new predictions, scroll down to the next major heading.
+As per previous years, I'm giving myself either a **+1** or a **-1** based on a purely subjective and highly-biased evaluational criteria as to whether it actually happened (or in some cases at least started to happen before 31 Dec 2020 ended). If you want to skip to the new predictions, [scroll down](#2023) to the next major heading.
 
 By the way, as of this writing, despite multiple false starts, I'm [still looking for my next great adventure](https://www.linkedin.com/posts/tedneward_hey-network-although-it-feels-a-little-activity-7008974172001378305-YrpY/) (ideally as an Developer Relations or Engineering leader-of-leaders), so if you find my analysis here to be interesting or intriguing--even if you disagree with it--perhaps there's a role in which I can do this kinds of strategic and executive thinking on your company's behalf? Would love to hear from you.
 
@@ -100,6 +100,7 @@ Meanwhile, among [my 2022 predictions](../2022/2022-tech-predictions)....
 
 ... leaving me with ten +1s, or something around 60%. Above average this go-round, it seems.
 
+<div id="2023" />
 # 2023 Predictions
 With that settled up, let's take a look at what I think will happen across calendar year 2023.
 
