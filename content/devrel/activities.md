@@ -14,7 +14,7 @@ This, like so many other pattern languages before it, looks to catalog, categori
 The most basic pattern form I prefer is the simplistic one that states that "a pattern is a solution to a problem within a certain context that yields certain consequences". This then yields the four-element *Problem-Solution-Context-Consequences* tuple, consisting of each element described (and adapted slightly for our purposes here) below:
 
 * ***Name***: preferably short, descriptive, and memorable.
-* ***Building Blocks***: from my earlier ontology: Code, Presentation, Social, Writing. Often a given activity will be made out of two or more of these simultaneously, in a rough order of criticality; for example, a *Code, Writing* pattern will be better assigned to somebody who has stronger code skills, while a *Writing, Code* pattern will probably yield better results to somebody who has strong writing skills. (Ideally anybody would have strong skills in both, but then we get into the Full-Stack Developer Fallacy.) 
+* ***Building Blocks***: from my earlier ontology: Code, Presentation, Social, Writing. Often a given activity will be made out of two or more of these simultaneously, in a rough order of criticality; for example, a *Code, Writing* pattern will be better assigned to somebody who has stronger code skills, while a *Writing, Code* pattern will probably yield better results to somebody who has strong writing skills. (Ideally anybody would have strong skills in both, but then we get into the [Full-Stack Developer Fallacy](https://blogs.newardassociates.com/blog/2023/full-stack-developer-fallacy.html), but this time for Developer Advocates.)
 * ***Problem***: a (preferably brief) description of the problem a team faces. Note that in many cases, the problem section in a pattern will be duplicated in another pattern--this is not in error, because a given problem can have multiple solutions to it, and both the context in which the problem lives and the desired consequences will help determine which pattern is most appropriate for use.
 * ***Solution***: a (preferably brief) description of the solution to the problem.
 * ***Context***: this will generally be certain constraints or additional elements around the problem that will influence the outcome--a common one, for example, being employee bandwith (the amount of time a team has to devote to the activity) or budget (the amount of money).
@@ -44,11 +44,7 @@ Within the realm of Developer Relations, I find that agreement on the definition
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Article](#article) | [Blog Post](#blog-post) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Reference Documentation](#reference-documentation) | [Samples/Examples](#samples-examples) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
-
-*(The ontology from my blog post suggests a Code/Writing/Speaking/etc sort of categorization, but I'm wondering if there's another way to look at it beyond that.)*
-
-Patterns: Posts (?)
+[Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
 
 <div id="article" /><hr/>
 #### Article
@@ -56,17 +52,17 @@ Patterns: Posts (?)
 
 Written piece published by a third party, whether that's a website (like a developer portal) or a print publication (the few that are left). Intended to be a standalone entity without referencing liberally elsewhere (although multi-part articles are certainly doable and can reference each other).
 
-***Also Known As***: 
-
 ***Problem***: Certain developers are in a market that you don't reach--if your company is known for .NET yet you want to reach JavaScript developers, for example, or vice versa--and you need a way to reach them with a written piece that will have some "stickiness" to people.
 
-***Context***: You want to use the opportunity to present something in a longer-form writing piece, reaching an audience that doesn't come to your website or your 
+***Context***: You want to use the opportunity to present something in a longer-form writing piece, reaching an audience that doesn't come to your website or your other activities already either because they don't know about your company or your product/service. You're looking for high reach from a single work effort (that of writing the article). You want code to be able to accompany the article, often in the form of a [Sample/Example](#sample-example), but the main effort is in the written prose, with code providing clarity to certain points, rather than laying out all the code and leaving developers to understand it on their own.
 
-***Solution***: Write an article (generally 1500 words minimum, 4000 words maximum) that addresses the needs of that audience
+***Solution***: Write an article (generally 1500 words minimum, 4000 words maximum) that addresses the needs of that audience in a semi-direct, if abstract, fashion, submitted to a third-party publisher who will distribute it to their audience. When the article is published, make sure to provide traffic to the publisher's site by using [Social Media](#social-media) to advertise its publication to your known audience, as they may have interests in that area as well.
 
-***Consequences***:
+***Consequences***: Articles will often require some amount of editing and copyediting, which are not skills the typical DevRel team holds; work with an external editing/copyediting service might be required, if the publisher doesn't provide them. Note also that the publisher will often want either exclusive ownership or shared ownership (with an exclusivity clause) that could prevent the use of the article in other scenarios, such as a [Blog post](#blog-post) or [Book](#book).
 
-***Variants***:
+Once written, the article may atrophy over time as the product/service deviates from what was written about it at the time of the article's publication; ideally, the publisher will be willing to allow for edits to the article to bring it up to date, but this will be effort that is entirely up to the company to provide. Because of this atrophy risk, articles should always be prominently dated so readers can get a sense of how "stale" the code or details described in the article are. [Blog posts](#blog-post) can also often be used to describe the changes between the article's publication and current-state, although finding ways to get the article and the blog post "connected" can be tricky.
+
+The topic, if large enough, can often be the centerpiece of a [Conference Session](#conference-session), though typically an article will be too short to fill a 45-50 minute session, and will need expansion. 
 
 
 <div id="blog-post" /><hr/>
@@ -76,6 +72,25 @@ Written piece published by a third party, whether that's a website (like a devel
 A written piece of varying length that appears on the company's time-indexed collection of such articles. Blogs frequently (but are not limited to) announce releases, reference other pages on the company site, and/or provide insight into new directions or company decisions.
 
 ***Also Known As***:
+
+***Problem***:
+
+***Solution***:
+
+***Context***:
+
+***Consequences***:
+
+***Variants***:
+
+
+<div id="book" /><hr/>
+#### Book
+*Writing, Code*
+
+A written piece that covers a large subject expansively, usually published through one of the "name" publishers (Addison-Wesley, O'Reilly, Manning, and others in the tech sector), although not always; some books can be self-published, or may even remain entirely internal to the company. (Example: Microsoft maintained internal documentation called "The Book of the Runtime" with detailed descriptions of how the CLR worked before .NET Core was open-sourced and that material made available publicly.) Books typically run 150 to 600 pages in length.
+
+***Also Known As***: Handbook, Playbook, Manual
 
 ***Problem***:
 
@@ -356,10 +371,10 @@ Precise documentation about the API or interfaces or classes.
 
 ***Variants***:
 
-<div id="samples-examples" /><hr/>
-#### Samples/Examples
+<div id="sample-example" /><hr/>
+#### Sample/Example
 
-Fully-executable but single-focused for third-party developers to use as a learning exercise.
+Fully-executable code but single-focused for third-party developers to use as a learning exercise.
 
 ***Also Known As***:
 
