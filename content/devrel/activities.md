@@ -29,6 +29,8 @@ Additional elements to the pattern form are possible/likely, depending on the in
 
 Within the realm of Developer Relations, I find that agreement on the definition of some terms brings clarity to the discussion. I proffer these definitions for the purpose of this pattern language:
 
+* ***Community***: The collection of developers who are outside the DevRel team. This is often synonymous with "customer" (below), but collective, while "customer" is generally thought to be more individual. A community is often centered around the product/service, but there may be sub-communities or other filtering criteria, such as by tech stack or platform; an API product/service may have a Java community, a .NET community, a Python community, each of which have different interests and outlook.
+
 * ***Company***: Who the DevRel team works for and represents. Basically, if you're on the DevRel team, this is "us".
 
 * ***Customer***: Anybody outside the company, whether they are a paying entity or not. DevRel teams will often want to segment this further (between open-source customers and paying customers, for example) in order to draw certain distinctions, but for the majority of these patterns it's sufficient to simply call anybody outside the company a customer. Note that based on the Direction (below) of the activity, the "customer" could very well be another team or developers inside the same company, so some nuance and flexibility in this definition is going to be needed. Basically, if you're on the DevRel team, this is everybody that's "not us".
@@ -44,7 +46,22 @@ Within the realm of Developer Relations, I find that agreement on the definition
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+
+<div id="ambassadors" /><hr/>
+#### Ambassadors
+*Social*
+
+***Also Known As***: Champions; MVPs; Experts
+
+***Problem***:
+
+***Context***:
+
+***Solution***:
+
+***Consequences***:
+
 
 <div id="article" /><hr/>
 #### Article
@@ -58,7 +75,7 @@ Written piece published by a third party, whether that's a website (like a devel
 
 ***Solution***: Write an article (generally 1500 words minimum, 4000 words maximum) that addresses the needs of that audience in a semi-direct, if abstract, fashion, submitted to a third-party publisher who will distribute it to their audience. When the article is published, make sure to provide traffic to the publisher's site by using [Social Media](#social-media) to advertise its publication to your known audience, as they may have interests in that area as well.
 
-***Consequences***: Articles will often require some amount of editing and copyediting, which are not skills the typical DevRel team holds; work with an external editing/copyediting service might be required, if the publisher doesn't provide them. Note also that the publisher will often want either exclusive ownership or shared ownership (with an exclusivity clause) that could prevent the use of the article in other scenarios, such as a [Blog post](#blog-post) or [Book](#book).
+***Consequences***: Articles will often require some amount of editing and copyediting, which are not skills the typical DevRel team holds; work with an external editing/copyediting service might be required, if the publisher doesn't provide them. Note also that the publisher will often want either exclusive ownership or shared ownership (with an exclusivity clause) that could prevent the use of the article in other scenarios, such as a [Blog post](#blog-post) or [Book](#book). Some publishers will provide a clause that allows the company to re-publish the article on their own web properties after a certain period of time has passed (1-3 momths is common), but often will not provide this unless asked. Most publishers will also look for some form of contract to be signed, which may require legal review.
 
 Once written, the article may atrophy over time as the product/service deviates from what was written about it at the time of the article's publication; ideally, the publisher will be willing to allow for edits to the article to bring it up to date, but this will be effort that is entirely up to the company to provide. Because of this atrophy risk, articles should always be prominently dated so readers can get a sense of how "stale" the code or details described in the article are. [Blog posts](#blog-post) can also often be used to describe the changes between the article's publication and current-state, although finding ways to get the article and the blog post "connected" can be tricky.
 
@@ -71,36 +88,38 @@ The topic, if large enough, can often be the centerpiece of a [Conference Sessio
 
 A written piece of varying length that appears on the company's time-indexed collection of such articles. Blogs frequently (but are not limited to) announce releases, reference other pages on the company site, and/or provide insight into new directions or company decisions.
 
-***Also Known As***:
+***Problem***: You want to keep interested customers informed and aware of all the activities, plans, and artifacts your company is producing, while making the material available to SEO as well, capturing their attention for some period of time.
 
-***Problem***:
+***Context***: You want their attention to be on your company, but not through a third party or on a third party website.
 
-***Solution***:
+***Solution***: Host a blog, which is a series of shorter written pieces that are date-indexed (most recent first), and written in an informal style. Have the DevRel team write blog posts, either alone or in partnership with others within the company. Each blog entry is often around a single, small concept, such as the announcement of a release or new feature, and often written to include code within the body of the post.  
 
-***Context***:
-
-***Consequences***:
-
-***Variants***:
+***Consequences***: If the blog posts are accredited to the author (also known as a "byline"), the community gets the opportunity to get to know the author more directly, creating some brand recognition and familiarity, which in turn helps make the DevRel team more recognizable and approachable to customers and the community. (This will also help with [Conference Session](#conference-session) submissions and can be amplified by highlighting the posts on [Social Media](#social-media).)
 
 
 <div id="book" /><hr/>
 #### Book
 *Writing, Code*
 
-A written piece that covers a large subject expansively, usually published through one of the "name" publishers (Addison-Wesley, O'Reilly, Manning, and others in the tech sector), although not always; some books can be self-published, or may even remain entirely internal to the company. (Example: Microsoft maintained internal documentation called "The Book of the Runtime" with detailed descriptions of how the CLR worked before .NET Core was open-sourced and that material made available publicly.) Books typically run 150 to 600 pages in length.
+A written piece that covers a large subject expansively, usually published through one of the "name" publishers (Addison-Wesley, O'Reilly, Manning, and others in the tech sector), although not always; some books can be self-published, or may even remain entirely internal to the company. (Example: Microsoft maintained internal documentation called "The Book of the Runtime" with detailed descriptions of how the CLR worked before .NET Core was open-sourced and that material made available publicly.) Books typically run 150 to 400 pages in length, though shorter ones on more-focused topics are often popular as well.
 
-***Also Known As***: Handbook, Playbook, Manual
+***Also Known As***: Handbook; Playbook; Manual; E-Book
 
-***Problem***:
+***Problem***: Your product/service is a complex (or deceptively complex--simple to start but complicated beyond the basics) subject and customers are overwhelmed with the options and features listed in your [Reference Documentation](#reference-documentation). They are looking for something more comprehensive than a [Guide](#guide) or [Article](#article), with broader scope and depth. You need to get a vast amount of information out into customer (and potential customer) hands. 
 
-***Solution***:
+***Context***: The material is relatively stable (requiring little updates due to changes), and the principal aim is to educate and/or explain, with little interactivity or feedback required or needed.
 
-***Context***:
+***Solution***: Identify one or two people on the DevRel team who are comfortable with long-form writing, and have them write material to form a book. (Alternatively, the material can come together from a variety of sources, such as internal engineers, but then the one or two people will be editors, rather than authors, bringing all the material together to feel like it is written in one style, and ensuring material does not substantively overlap.) This book can either be self-published (often in electronic form only) by the company, or published through an established publisher for greater reach.
 
-***Consequences***:
+***Consequences***: The cost of writing a book is extremely high to the author, often requiring a full-time effort for many months, leaving zero bandwidth to participate in many of the other activities. The author's brand recognition and credibility will improve after the book's publication, however, and often open doors for the author and the company due solely to its existence.
 
-***Variants***:
+Customer commitment to consuming a book is non-trivial, as most books require days to read, even without any other distraction, and most will require weeks or months given a typical day and commitments. The content must be worth the investment, or the reputation will be negative rather than positive. For this reason, books should be reviewed by subject-matter-experts to ensure its accuracy, and the book should be written to have some "longevity" beyond the current product/service release.
+
+Books written by the DevRel team act as a much broader and deeper [Guide](#guide) and can go into depth and detail that is often not possible otherwise.
+
+Books written by [Ambassadors](#ambassadors) improve their own branding within the community (which is good for them) as well as distribute deeper technical content to the community without requiring a large time investment on the part of the company.
+
+Books are popular as [Swag](#swag). Book excerpts can be used as [Articles](#article) and/or [Blog posts](#blog-post). Books are also highly eye-catching and credibility-building when displayed at the [Booth](#booth) and/or used in [Customer Pre-Sale Meetings](#customer-pre-sale-meeting).
 
 
 <div id="booth" /><hr/>
@@ -113,9 +132,9 @@ At a conference.
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -132,9 +151,9 @@ Examining code written by those outside the DevRel team (either Direction--insid
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -151,9 +170,9 @@ Company throws its own conference. External: typically to showcase its product/s
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -170,9 +189,9 @@ Doing a breakout session at a third-party conference.
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -185,13 +204,13 @@ Doing a breakout session at a third-party conference.
 
 Pro-active meeting with the customer post-sale, to make sure everything is going well.
 
-***Also Known As***: Temperature Check, "Love" (as in "It's time to give the customer some love")
+***Also Known As***: Temperature Check; "Love" (as in "It's time to give the customer some love")
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***: Customers are known to the company and there is a known point-of-contact.
+
+***Solution***:
 
 ***Consequences***: Providing a pro-active communication often makes the customer feel like the company is taking an active interest in the customer's success.
 
@@ -210,9 +229,9 @@ Working with Sales to help land a customer to purchase the product/service.
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -225,19 +244,33 @@ Working with Sales to help land a customer to purchase the product/service.
 
 Company-hosted places where customers can post questions and receive answers from both company employees and the surrounding community.
 
-***Also Known As***:
+***Also Known As***: Support Forums; Bulletin Boards
 
-***Problem***:
+***Problem***: Customers want to have a place in which to obtain answers without having to schedule conversations, comb through documentation, or read through lots of tests--in essence, they want to be able to post a question and get an answer (or a confirmation of what they think is a bug).
 
-***Solution***:
+***Context***: Customers often want to do this Q-and-A style interaction asynchronously, with the ability to write code to support their question and/or see code in the answer. Customers also like helping other customers who are in similar situations--which helps build a sense of community around the product/service. However, they want some reasonable reassurance that the answers they are receiving are from "people who know", so that they do not have to wade through incorrect or incomplete or untested answers. 
 
-***Context***:
+***Solution***: One solution is for the company to host a forums system on the company's domain umbrella (see [Apple Developer Forums](https://developer.apple.com/forums/) for an example), in which customers can post questions and receive answers from employees or other customers.
 
-***Consequences***:
+Another solution is to make use of a third-party-hosted forum system, like Stack Overflow or Reddit, by creating a "channel" or a "tag" by which questions from the community on the product/service can be easily identified.
+
+In either case, the DevRel team commits to being a visible presence on the forums, directly answering questions and/or visibly taking questions or issues internally and promising an answer within a reasonable period of time.
+
+***Consequences***: Hosting forums requires a commitment to moderation, or the company runs the risk of creating a hostile environment that will alienate customers.
+
+Additionally, hosting forums can have the benefit of being accessible to both internal employees as well as external customers, allowing for a degree of interaction without creating opportunities for customers to bypass traditional company information channels. (Customers having direct access to internal software engineers, by having their email address for example, can often have the negative side-effect of customers using those engineers for tech support purposes, distracting them from their other duties and/or creating issues for the [Tech Support](#technical-support) team.)
+
+Forums make for an easy way to identify potential [Ambassadors](#ambassadors) from the community.
 
 ***Variants***: 
 
-* **Stack Overflow**. Stack is essentially a third-party-hosted forum, with the benefit of already being in existence; intimidating to some users; SO owns the content and thus can moderate posts and remove them.
+* **Wiki**. A wiki is essentially a forum, with the caveat that the roles are flexible--where traditional forums focus on question-followed-by-answer-and-discussion, a wiki is more free-form and allows for more collaborative interaction.
+
+* **Stack Overflow**. **Reddit**. Stack is essentially a third-party-hosted forum, with the benefit of already being in existence. Stack also has gained a reputation of being intimidating to some users. Note that Stack also owns the content posted, and thus can moderate posts and remove them, leading to potential loss of information the company would prefer to keep around. To address concerns of incorrect information, Stack created the concept of "reputation", allowing readers to be able to filter better answers from worse. Reddit allows for long threaded conversations, with much discussion, but there is little code and often even less moderation. Both are extremely popular.
+
+* **Developer Portals**. The traditional developer portal is often more than just forums--for example, it often aggregates links to developer-centric downloads like [SDKs](#sdk) or [Samples/Examples](#sample-example). However, much of the "stickiness" of the portal is its ability to capture developer attention via the question-and-answer forums.
+
+* **GitHub Issues**. **Jira**. Forums are a natural mechanism to act as intake for [Technical Support](#technical-support), and most GitHub-hosted projects have an "Issues" page in which customers can file questions that are either answered (and closed) or then used as bug reports that are referenced from pull requests during [Code Reviews](#code-review). Jira serves a similar purpose, but usually Jira is behind a company firewall rather than being publicly accessible.
 
 
 <div id="gist" /><hr/>
@@ -250,9 +283,9 @@ Smaller than a sample/example, designed to demonstrate a very specific snippet o
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -269,9 +302,9 @@ Written docs that take more of a "story"-based approach to the product/service; 
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -288,9 +321,9 @@ Code-for-24/48/72-hours on whatever sounds interesting. External: often around t
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -307,9 +340,9 @@ Focus is entirely on the writing of code; sometimes a sequence of steps for a de
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -326,9 +359,9 @@ Informal video content broadcast live. Very informal.
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -345,9 +378,9 @@ Recurring (monthly) emailed newsletter sent to opted-in customers. Include links
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
@@ -363,13 +396,14 @@ Precise documentation about the API or interfaces or classes.
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
 ***Variants***:
+
 
 <div id="sample-example" /><hr/>
 #### Sample/Example
@@ -380,13 +414,14 @@ Fully-executable code but single-focused for third-party developers to use as a 
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
 ***Variants***:
+
 
 <div id="sdk" /><hr/>
 #### SDK
@@ -397,13 +432,14 @@ Library of code intended to be used "as-is" as either the sole means or a helpfu
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
 ***Variants***:
+
 
 <div id="social-media" /><hr/>
 #### Social Media
@@ -414,13 +450,14 @@ Typically used for light customer contact and announcements.
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
 ***Variants***:
+
 
 <div id="sponsorship" /><hr/>
 #### Sponsorship
@@ -431,13 +468,32 @@ Putting money into an organization's hands in exchange for visible branding to t
 
 ***Problem***:
 
-***Solution***:
-
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
 ***Variants***:
+
+
+<div id="swag" /><hr/>
+#### Swag
+
+Create and give away company- or product/service-branded gifts that developers find interesting, useful, and/or amusing.
+
+***Also Known As***:
+
+***Problem***:
+
+***Context***:
+
+***Solution***:
+
+***Consequences***:
+
+***Variants***:
+
 
 <div id="technical-support" /><hr/>
 #### Technical Support
@@ -456,6 +512,7 @@ Accepting bug reports, triaging the bug, developing a fix or workaround, and com
 
 ***Variants***:
 
+
 <div id="tests" /><hr/>
 #### Tests
 
@@ -473,6 +530,7 @@ Unit or integration tests written to prove a particular hypothesis about the cod
 
 ***Variants***:
 
+
 <div id="training" /><hr/>
 #### Training
 
@@ -489,6 +547,7 @@ Formal classes in a lecture-lab style format. External-direction = training abou
 ***Consequences***:
 
 ***Variants***:
+
 
 <div id="tutorial" /><hr/>
 #### Tutorial
@@ -525,6 +584,7 @@ A scheduled one-way presentation done over video-conferencing software, typicall
 
 ***Variants***:
 
+
 <div id="white-paper" /><hr/>
 #### White Paper
 
@@ -541,6 +601,7 @@ Written piece that conveys technical concept around the product/service at some 
 ***Consequences***:
 
 ***Variants***:
+
 
 <div id="workshop" /><hr/>
 #### Workshop
@@ -559,6 +620,7 @@ A guided set of steps taking a developer through a non-trivial task or set of ta
 
 ***Variants***:
 
+
 <div id="youtube" /><hr/>
 #### YouTube
 
@@ -575,3 +637,5 @@ A video or series of videos (in a channel) on YouTube.
 ***Consequences***:
 
 ***Variants***:
+
+
