@@ -6,7 +6,7 @@ status=published
 description=
 ~~~~~~
 
-**tl;dr**: 
+**tl;dr** 
 
 <!--more-->
 
