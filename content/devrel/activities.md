@@ -41,26 +41,30 @@ Within the realm of Developer Relations, I find that agreement on the definition
 
 * ***Interactivity***: This is the fidelity of communication--how "conversational" is the exercise? This in many cases is in inverse proportion to Reach, but not always. The blog post doesn't really allow for great conversation (yes, you can open up comments on the blog, but we all know what happens when you do, and it's not pretty), whereas a workshop really requires a high degree of interactivity with the attendees. The blog post author doesn't learn much from their audience when posting the blog--the workshop facilitator, however, can learn all kinds of things from the attendees via the questions they ask, the problems they run into, the questions they don't ask, and so on.
 
+* **Partners**: Partners are third-party entities that employ (or are) customers in their own right, but have a much deeper relationship with the company than most customers. This may be because the two (the DevRel team's company and the other entity) have product/services that are complementary to one another, one is a part of the other's supply chain, or because the two have entered into a mutually-beneficial deal.
+
 * ***Product/Service***: What the DevRel team is looking to talk about. This can be a tool (such as an IDE or database), a library or set of libraries, a web service accessed over HTTP (commonly called an "API", "Web API" or "HTTP API"), some other kind of service (anything that ends with "-as-a-service" is a strong candidate), and so on. It need not be a formal artifact that is "sold"--open source projects around/about which the company sells services would be referred here as "product/service". Note that the company may have many product/services available, and a single DevRel team may support all of them, a few of them, or only one of them, but the distinction between one product/service or many product/services is largely irrelevant to the pattern catalog below.
 
 * ***Reach***: How "far" does this activity go? How many people can see it and/or consume it? Those things done over the Internet tend to have a large reach (particularly if any artifact produced by the activity is someplace where Google can find it and pop it up during search results), whereas those things done in person (such as the hands-on workshop) will have very short reach, since participation requires physical presence. For example, the blog post can echo across the entire world within minutes, and even across time itself--certain blog posts just keep getting rediscovered by new readers. (Thanks, Google!) This contrasts with an in-person workshop done at a conference event, even if the workshop has a thousand people in it. In other words, the blog post can reach millions (and still going!), while the workshop only a thousand (and once over, can never go higher).
 
+
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+
 
 <div id="ambassadors" /><hr/>
 #### Ambassadors
 *Social*
 
-***Also Known As***: Champions; MVPs; Experts; Heroes
+***Also Known As***: Champions; MVPs; Experts; Heroes; Internal allies(?)
 
 ***Problem***: You want to extend the reach of your efforts, beyond its current form, and in particular have a stronger presence in certain communities in which you currently have no representation or identity.
 
 ***Context***: Your hiring budget is limited and your team is already stretched to the limits of their bandwidth. 
 
-***Solution***: Find people within your existing community (by examining your [Forums](#forums) or by speaking with interested parties at [your booth at conferences](#booth) who are active, well-informed on your product/service, and eager to be more active. Create a program by which they will have certain identity ("Ambassadors", "Heroes", etc), and offer benefits to being a part of the program: provide them with [Swag](#swag); give them early access to some of your next steps and company pursuits; create "direct channels"--meetings between the Ambassadors and company executives--for feedback and news; have Ambassadors write for your [Newsletter](#newsletter); assist Ambassadors in finding [Conference Sessions](#conference-session); put them center stage at your own [Conference](#conference); assist them in the writing of a [Book](#book). Ambassadors can even be given opportunities to [blog](#blog-post) and/or contribute [samples](#sample-example) or [Reference Documentation](#reference-documentation), if the docs are managed via Git/GitHub.
+***Solution***: Find people within your existing community (by examining your [Forums](#forums) or by speaking with interested parties at [your booth at conferences](#booth)) who are active, well-informed on your product/service, and eager to be more active. Create a program by which they will have certain identity ("Ambassadors", "Heroes", etc), and offer benefits to being a part of the program: provide them with [Swag](#swag); give them early access to some of your next steps and company pursuits; create "direct channels"--meetings between the Ambassadors and company executives--for feedback and news; have Ambassadors write for your [Newsletter](#newsletter); assist Ambassadors in finding [Conference Sessions](#conference-session); put them center stage at your own [Conference](#conference); assist them in the writing of a [Book](#book). Ambassadors can even be given opportunities to [blog](#blog-post) and/or contribute [samples](#sample-example) or [Reference Documentation](#reference-documentation), if the docs are managed via Git/GitHub.
 
 ***Consequences***: Creating an extension of your DevRel team like this will almost certainly necessitate one of your team to the care-and-feeding (management) of the Ambassadors, including managing communications with them and setting expectations.
 
@@ -142,7 +146,7 @@ At a conference.
 
 ***Solution***: You purchase booth space at a conference, and send a team to staff the booth during the conference's run.
 
-***Consequences***:
+***Consequences***: Participation in a conference event will often require somebody to be a point of contact for 
 
 ***Variants***:
 
@@ -180,7 +184,7 @@ Company throws its own conference. External: typically to showcase its product/s
 
 ***Solution***:
 
-***Consequences***:
+***Consequences***: (Event management!!)
 
 ***Variants***:
 
@@ -199,7 +203,7 @@ Doing a breakout session at a third-party conference.
 
 ***Solution***:
 
-***Consequences***:
+***Consequences***: (Event management needs.)
 
 ***Variants***:
 
@@ -505,7 +509,7 @@ Putting money into an organization's hands in exchange for visible branding to t
 
 ***Solution***:
 
-***Consequences***:
+***Consequences***: (Event management needs.)
 
 ***Variants***:
 
