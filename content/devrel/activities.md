@@ -159,19 +159,21 @@ Note that a company's booth presence does not prevent or assume the company [spo
 #### Code Review
 *Code, Writing*
 
-Examining code written by those outside the DevRel team (either Direction--inside or outside the company) and providing feedback/suggestions/improvements.
+***Also Known As***: Engineering Deep-Dive; "Let's Get Eyes On It"
 
-***Also Known As***:
+***Problem***: You have customers that are using the product/service, but they are running into issues (or at least claim they are running into issues) that they cannot resolve themselves. This could either be threatening their future engagement with the product/service, creating a bad brand experience that could harm the product/service's reputation within the community, or jeopardizing a partnership agreement with a partner. In some cases, the customer may be asserting that they have found an unreported bug and are seeking confirmation/validation. In other cases, it may be a performance or scalability issue.
 
-***Problem***:
+***Context***: The customer/partner's code is complex and longer than can be consumed via an email or a posted question in a [Forum](#forums). Alternatively, the code is closed-source, and the customer is not able to (or interested in) share the code with anyone else.
 
-***Context***:
+***Solution***: Set up a meeting with one or more participants from the DevRel team and the customer. During this meeting, the DevRel team walks through the code with the customer, hopefully spotting the issue, bug, or misunderstanding in the customer's code.
 
-***Solution***:
+***Consequences***: Customers may not show appreciation if/when the code is corrected (nobody likes to cry for help only to find out it was a problem in their head or on their side of the table), but in general customers are more appreciative when they can get past their problems than when they cannot.
 
-***Consequences***:
+Exposing DevRel teams to places where customers are having problems with the code becomes valuable feedback that can be communicated internally to Engineering, and lead to changes in either the [Guides](#guides), the [Reference Documentation](#reference-documentation), or sometimes the product itself. In some cases, if the issue appears often enough, it may warrant creation of [Blog posts](#blog-post) with accompanying [Samples](#sample-example), creation of a [extension or integration](#productservice-development), and/or trigger a refactoring of the [SDK](#sdk).
 
 ***Variants***:
+
+* **Internal code review.** In some cases, it can be helpful to the DevRel team to better understand the product/service if they are used as reviewers of the code that make up the product/service (if it is not open-sourced already). While the DevRel team may not find any bugs or issues, the act of walking through the code can help Engineers think through some edge cases that might not be already covered, and the DevRel team will gain greater insight into how the product/service works "under the hood". 
 
 
 <div id="conference" /><hr/>
@@ -180,17 +182,25 @@ Examining code written by those outside the DevRel team (either Direction--insid
 
 Company throws its own conference. External: typically to showcase its product/service as well as those of partners. Internal: allow developers to discover what other company developers are working on, as well as formal conference sessions designed for internal developer improvement.
 
-***Also Known As***:
+***Also Known As***: User Conference; TechReady; TechWeek
 
-***Problem***:
+***Problem***: You have a large group of developers (internal or external) that you want to reach with a large amount of material that will help them use your product/service.
 
-***Context***:
+***Context***: You want to create some "buzz" around your product/service and/or your company, and use that "buzz" to gain some brand recognition, bootstrap some community activities, and/or persuade developers to take a deeper/harder look at your product/service collectively with their peers.
 
-***Solution***:
+***Solution***: Create a company-funded conference dedicated to the company and/or the product/service, with high-ranking company executives taking prime slots to address the attendees about the company's successes, future directions, and exciting news. Use breakout sessions to further refine that messaging and further "deep dives" into the details of the product/service. Invite members of the tech press to attend for free, and provide opportunities for exclusive interviews with the company executives for the press to run.
 
-***Consequences***: (Event management!!)
+***Consequences***: If [managing conference booths](#booth) is a time commitment, managing an entire conference is orders of magnitude more. Venue space must be procured, usually with accompanying hotel blocks of rooms for attendees (and employees); dates must be selected carefully to ensure that there is no accidental conflict with another event that might draw attendees, speakers, or employees away; the calendars of all the relevant individuals (particularly the executives) must be consulted to ensure that the individuals will be able to participate; and more. Attendance is also important--if too large of a venue is selected, and not enough attendees show up to make the hallways feel crowded, the event will feel empty, having the opposite of the desired effect. Risks around running a conference (particularly for the first time) can go very high.
+
+Commensurately, the rewards of a successful conference can also go very high. A conference dedicated exclusively to the product/service and/or to the company, particularly if well-attended (even sold out!) can signal that the product/service has "arrived", and if the hallways are packed just enough, it creates a sense of "buzz" that the tech press will be happy to talk about in their articles and reports.
+
+Throwing an event does not have to be exclusively reserved to companies of 10,000 or more; small companies can do so on a more informal level, without some of the hoopla and formality. However, proportionally, throwing an event always requires a non-trivial amont of time, and almost always requires at least an individual (if not a whole team) dedicated to the task of organizing, scheduling, managing, and monitoring the event.
+
+For those companies that look to host an event (internally-facing or external) yet lack the bandwidth to do the logistical work, numerous third-party "event hosting companies" can be retained to provide the logistical support (up to a point--they will likely need company assistance in deciding what sessions to schedule and approve, for example) for running such an event. It will tend to drive the cost of the event up, but doing so will also leverage experts who have several events already "under their belts" and avoid some common beginner mistakes. 
 
 ***Variants***:
+
+* **TechReady.** **TechWeek.** Some companies are large enough that it behooves them to hold an internal conference to talk openly about secret projects that cannot be discussed outside the company walls, and/or to conduct a wide variety of training on topics that the company is using. These are often combined with [Hackathons](#hackathon) to give developers a break from their "daily grind", connect with peers across the company they don't normally get to meet, and provide opportunities for training without having to explicitly take time away from a feature schedule or disrupt a sprint. (In those companies that run 2-week sprints, for example, it is common to take one week aside once a quarter for activities like this; given that each quarter is 13 weeks, this way the company gets six sprints per quarter plus one week for internal training and social gathering.)
 
 
 <div id="conference-session" /><hr/>
