@@ -146,7 +146,9 @@ At a conference.
 
 ***Solution***: You purchase booth space at a conference, and send a team to staff the booth during the conference's run.
 
-***Consequences***: Participation in a conference event will often require somebody to be a point of contact for 
+***Consequences***: Participation in a conference event will often require somebody to be a point of contact for the conference; materials (such as the booth itself, printed handouts, any [Swag](#swag), and so on) will need to be shipped to the event, schedules will need to be coordinated, and so on. This is a non-trivial commitment of time and energy, particularly so as the conference gets bigger (it's a much larger commitment of time to have a booth at AWS re:Invent than at a 250-person local community conference).
+
+Manning the booth is also a non-trivial time commitment; ideally there should never be fewer than two people at the booth while the "vendor floor" is open (typically a 12-hour timeframe), so three or four people will be needed during each day of the conference.
 
 ***Variants***:
 
@@ -674,5 +676,4 @@ A video or series of videos (in a channel) on YouTube.
 ***Consequences***:
 
 ***Variants***:
-
 
