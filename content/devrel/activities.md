@@ -119,6 +119,8 @@ A written piece that covers a large subject expansively, usually published throu
 
 ***Context***: The material is relatively stable (requiring little updates due to changes), and the principal aim is to educate and/or explain, with little interactivity or feedback required or needed.
 
+In some cases, the material is complex enough that supporting code samples, in line with the prose, are provided, and need to be larger than a "snippet" in order to get a complex concept across. (For example, explaining the concept of "middleware" in an HTTP stack usually requires demonstrating several files and separate and distinct "middleware agents" to get the concept across.) This means that it may be too complex to get across in a single [Article](#article) or [Blog post](#blog-post), and spread it across multiples of either will break the flow of understanding for the reader.
+
 ***Solution***: Identify one or two people on the DevRel team who are comfortable with long-form writing, and have them write material to form a book. (Alternatively, the material can come together from a variety of sources, such as internal engineers, but then the one or two people will be editors, rather than authors, bringing all the material together to feel like it is written in one style, and ensuring material does not substantively overlap.) This book can either be self-published (often in electronic form only) by the company, or published through an established publisher for greater reach.
 
 ***Consequences***: The cost of writing a book is extremely high to the author, often requiring a full-time effort for many months, leaving zero bandwidth to participate in many of the other activities. The author's brand recognition and credibility will improve after the book's publication, however, and often open doors for the author and the company due solely to its existence.
@@ -127,28 +129,28 @@ Customer commitment to consuming a book is non-trivial, as most books require da
 
 Books written by the DevRel team act as a much broader and deeper [Guide](#guide) and can go into depth and detail that is often not possible otherwise.
 
-Books written by [Ambassadors](#ambassadors) improve their own branding within the community (which is good for them) as well as distribute deeper technical content to the community without requiring a large time investment on the part of the company.
+Books written by [Ambassadors](#ambassadors) instead of the DevRel team members can be very beneficial to both company and Ambassador; the Ambassador improves their own branding within the community (which is good for them), and the company sees deeper technical content distributed to the community without requiring a large time investment from their DevRel team or internal engineers. Usually the DevRel team and/or internal engineers will need (and want!) to be a part of the editing team, however, to ensure that the material is correct and/or in line with the company's messaging and future plans.
 
-Books are popular as [Swag](#swag). Book excerpts can be used as [Articles](#article) and/or [Blog posts](#blog-post). Books are also highly eye-catching and credibility-building when displayed at the [Booth](#booth) and/or used in [Customer Pre-Sale Meetings](#customer-pre-sale-meeting).
+Books are popular as [Swag](#swag). Book excerpts can be used as [Articles](#article) and/or [Blog posts](#blog-post). Books are also highly eye-catching and credibility-building when displayed at the [Booth](#booth) and/or used in [Customer Pre-Sale Meetings](#customer-pre-sale-meeting), particularly if written by somebody on the DevRel team.
 
 
 <div id="booth" /><hr/>
 #### Booth
 *Social*
 
-At a conference.
-
 ***Also Known As***: Floor Presence.
 
 ***Problem***: You want to connect with developers within a certain community and have an opportunity to explain your product/service to them, ideally in the context of a conversation in which you can find out more about their issues, problems, concerns, budget, etc.
 
-***Context***:
+***Context***: The company wants to be present at an event that brings many people together under the umbrella of a particular identity (i.e., a tech-stack-centric conference) or region (i.e., a community event run for the immediate surrounding geographic area) or brand (i.e., a "destination" conference held in a popular city, like Las Vegas or Orlando), in order to connect with current and potential customers in a more interactive way.
 
 ***Solution***: You purchase booth space at a conference, and send a team to staff the booth during the conference's run.
 
 ***Consequences***: Participation in a conference event will often require somebody to be a point of contact for the conference; materials (such as the booth itself, printed handouts, any [Swag](#swag), and so on) will need to be shipped to the event, schedules will need to be coordinated, and so on. This is a non-trivial commitment of time and energy, particularly so as the conference gets bigger (it's a much larger commitment of time to have a booth at AWS re:Invent than at a 250-person local community conference).
 
 Manning the booth is also a non-trivial time commitment; ideally there should never be fewer than two people at the booth while the "vendor floor" is open (typically a 12-hour timeframe), so three or four people will be needed during each day of the conference.
+
+Note that a company's booth presence does not prevent or assume the company [sponsoring](#sponsorship) the conference; where sponsorship flexes on Reach, the booth focuses on interactivity.
 
 ***Variants***:
 
@@ -503,15 +505,18 @@ Typically used for light customer contact and announcements.
 
 Putting money into an organization's hands in exchange for visible branding to those who attend that organization's events or website. Conferences, User Groups, Advocacy Grops (IASA, etc)
 
-***Also Known As***:
+***Also Known As***: Conferences; User Groups; Technology Advocacy Groups (Java User Groups, IASA, INETA, etc)
 
-***Problem***:
+***Problem***: Your company needs some brand recognition among the potential customer base (as identified by a target persona).
 
-***Context***:
+***Context***: The company wants to be seen as being active, and supportive, in the targeted developer community, without taking on too much in the way of time commitment or ownership.
 
-***Solution***:
+***Solution***: Provide some money to an organization that is holding some kind of in-person event that will draw attendees from a community that meets the target persona.
 
 ***Consequences***: (Event management needs.)
+
+Note that a company's sponsorship does not prevent or assume the company [having a booth](#booth) on the vendor floor at the conference; where sponsorship flexes on Reach, the booth focuses on interactivity.
+
 
 ***Variants***:
 
@@ -521,17 +526,23 @@ Putting money into an organization's hands in exchange for visible branding to t
 
 Create and give away company- or product/service-branded gifts that developers find interesting, useful, and/or amusing.
 
-***Also Known As***:
+***Also Known As***: T-shirts; Fidget Spinners; Flash drives; Flying Monkeys
 
-***Problem***:
+***Problem***: You want developers to remember your company and/or your product/service long after contact, ideally in a positive manner.
 
-***Context***:
+***Context***: Constantly sending a developer communication, particularly if it is not initiated by the developer, is quick to "turn them off" to your company and/or product/service. Developers are also often excited by novelty (sometimes childishly so), and will often share their experiences with a novelty item found at a conference across social media for some period of time.
 
-***Solution***:
+***Solution***: Provide a giveaway item--either a novelty item or something that has some level of utility to the developer in their daily life--that has the company or product/service logo branded on it, and hand them out (or ship them) to developers who express interest.
 
-***Consequences***:
+***Consequences***: Swag is almost always present any any [Booth](#booth). It is also not uncommon to see swag being given away at [Conference sessions](#conference-session), sometimes even with some kind of small "contest" or "test" attached to it. ("Answer a question and win a free T-shirt!" is one way to artificially boost Q-and-A/participation in a session.)
+
+Swag is often obtained by purchasing through one of the many "swag vendors" who are accomplished at putting logos and/or messages on standardized items. Pens/pencils, notebooks of all shapes and sizes, USB flash drives, T-shirts, sweatshirt/hoodies, all are usually easy to obtain by going through the vendors' website and providing the appropriate shipping destination and a credit card. Larger companies may even have internal processes for obtaining swag, rather than dealing with an external vendor directly.
+
+Novelty swag can sometimes backfire and create negative branding, particularly if it accidentally annoys a developer group or creates issues for conference organizers. T-shirts, for example, have long been handed out in men's sizes, which often alienates women; for any swag item, make sure to get a diverse set of opinions on it before committing to something.
 
 ***Variants***:
+
+*("Flying Monkeys" comes from the year when Xamarin gave away a combination monkey/slingshot swag gift. They had a built-in elastic pull strap, and when let go, they would soar into the air and let fly a recorded monkey scream. Quite popular. By the end of the conference, monkeys were being shot at each other all over the vendor floor, screaming their monkey scream with every fling. Which may have made their popularity plummet very, very quickly--it depended on who you asked.)*
 
 
 <div id="technical-support" /><hr/>
