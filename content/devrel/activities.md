@@ -1,5 +1,5 @@
 title=Developer Relations Activities
-date=2023-01-18
+date=2023-01-24
 type=page
 tags=devrel, patterns
 status=published
