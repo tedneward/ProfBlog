@@ -48,11 +48,7 @@ Within the realm of Developer Relations, I find that agreement on the definition
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
-
-Proposed: 
-
-* API Development
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth])(#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
 
 <div id="ambassadors" /><hr/>
 #### Ambassadors
@@ -64,15 +60,13 @@ Proposed:
 
 ***Context***: Your hiring budget is limited and your team is already stretched to the limits of their bandwidth. 
 
-***Solution***: Find people within your existing community (by examining your [Forums](#forums) or by speaking with interested parties at [your booth at conferences](#booth) who are active, well-informed on your product/service, and eager to be more active. Create a program by which they will have certain identity ("Ambassadors", "Heroes", etc), and offer benefits to being a part of the program: provide them with [Swag](#swag); give them early access to some of your next steps and company pursuits; create "direct channels"--meetings between the Ambassadors and company executives--for feedback and news; have Ambassadors write for your [Newsletter](#newsletter); assist Ambassadors in finding [Conference Sessions](#conference-session); put them center stage at your own [Conference](#conference); assist them in the writing of a [Book](#book).
+***Solution***: Find people within your existing community (by examining your [Forums](#forums) or by speaking with interested parties at [your booth at conferences](#booth) who are active, well-informed on your product/service, and eager to be more active. Create a program by which they will have certain identity ("Ambassadors", "Heroes", etc), and offer benefits to being a part of the program: provide them with [Swag](#swag); give them early access to some of your next steps and company pursuits; create "direct channels"--meetings between the Ambassadors and company executives--for feedback and news; have Ambassadors write for your [Newsletter](#newsletter); assist Ambassadors in finding [Conference Sessions](#conference-session); put them center stage at your own [Conference](#conference); assist them in the writing of a [Book](#book). Ambassadors can even be given opportunities to [blog](#blog-post) and/or contribute [samples](#sample-example) or [Reference Documentation](#reference-documentation), if the docs are managed via Git/GitHub.
 
-***Consequences***: 
+***Consequences***: Creating an extension of your DevRel team like this will almost certainly necessitate one of your team to the care-and-feeding (management) of the Ambassadors, including managing communications with them and setting expectations.
 
-* **Management.** Creating an extension of your DevRel team like this will almost certainly necessitate one of your team to the care-and-feeding (management) of the Ambassadors, including managing communications with them and setting expectations.
+It will be extremely difficult to find metrics to the activities of the Ambassadors, so it's strongly likely that at some point after their foundation there will be a call to shut the program down in order to save money if there aren't obvious and visible benefits to doing so. Make strong efforts to keep the Ambassadors' activities front-and-center to the rest of the company, so that anyone can see the positives of the program without having to see numbers.
 
-* **Metrics.** It will be extremely difficult to find metrics to the activities of the Ambassadors, so it's strongly likely that at some point after their foundation there will be a call to shut the program down in order to save money if there aren't obvious and visible benefits to doing so. Make strong efforts to keep the Ambassadors' activities front-and-center to the rest of the company, so that anyone can see the positives of the program without having to see numbers.
-
-* **Code of Conduct.** Sad as it may seem, not all of the Ambassadors will agree with one another, and it is almost certain that as the longevity of the program increases, and/or its size, two Ambassadors will disagree--publicly. Your brand will suffer the longer this drama continues, so be prepared: Create a Code of Conduct early, describing what is and is not tolerated, and enforce it when violations occur, either by gentle admonishment, stern warning, or outright removal from the program.
+Sad as it may seem, not all of the Ambassadors will agree with one another, and it is almost certain that as the longevity of the program increases, and/or its size, two Ambassadors will disagree--publicly. Your brand will suffer the longer this drama continues, so be prepared: Create a Code of Conduct early, describing what is and is not tolerated, and enforce it when violations occur, either by gentle admonishment, stern warning, or outright removal from the program.
 
 
 <div id="article" /><hr/>
@@ -142,11 +136,11 @@ At a conference.
 
 ***Also Known As***: Floor Presence.
 
-***Problem***:
+***Problem***: You want to connect with developers within a certain community and have an opportunity to explain your product/service to them, ideally in the context of a conversation in which you can find out more about their issues, problems, concerns, budget, etc.
 
 ***Context***:
 
-***Solution***:
+***Solution***: You purchase booth space at a conference, and send a team to staff the booth during the conference's run.
 
 ***Consequences***:
 
@@ -218,17 +212,21 @@ Pro-active meeting with the customer post-sale, to make sure everything is going
 
 ***Also Known As***: Temperature Check; "Love" (as in "It's time to give the customer some love")
 
-***Problem***:
+***Problem***: The company wants to ensure that the product/service is continuing to meet the needs of its current customer base, and/or wants to get customer feedback on a proposed new feature or change to the product/service before it goes forward with something that might generate backlash or fail to generate the "splash" or ROI the company is seeking.
 
-***Context***: Customers are known to the company and there is a known point-of-contact.
+***Context***: It's after the product/service is already in the hands (that is, purchased) of the customer. Your customers are known to the company, and there is a known point-of-contact or easy way to connect with those customers.
 
-***Solution***:
+***Solution***: Create a meeting (or series of meetings) with customers, either singly or in a focus-group format, in which the company is able to have frank and honest conversations and hear the responses clearly.
 
 ***Consequences***: Providing a pro-active communication often makes the customer feel like the company is taking an active interest in the customer's success.
 
+Care must be taken when framing the questions to the customer(s), to avoid "leading the witness" to say what the company hopes it will hear. Ideally the conversation will be recorded (or notes taken) so that others within the company who were not present are able to "hear for themselves" what the feedback or responses are.
+
+These conversations often benefit the company only when the customer(s) feel that they can be honest without fear of damaging the relationship, so confidentiality guarantees should be provided (and enforced), particularly to keep the conversations private to anyone "not in the room" at the time of the conversation. (That is to say, both parties should be discouraged to "leak" the conversations to the tech press or social media.)
+
 ***Variants***:
 
-* **Partner Meeting**: If the company has signed partnerships with other companies, meeting with those customers will have the same benefits as the typical customer check-in. Customer-Partners tend to have a deeper relationship, however, so these meetings may need to happen more often or act as a two-way communication opportunity to discuss future plans or needs.
+* **Partner Meeting**: If the company has signed partnerships with other companies, meeting with those customers will have the same benefits as the typical customer check-in. Customer-Partners tend to have a deeper relationship, however, so these meetings may need to happen more often or act as a two-way communication opportunity to discuss future plans or needs. Partner meetings can often bring with them requests from the partner to build [product/service integrations or extensions](#product-development) that either the partner will own after development, or the company will be required to maintain.
 
 
 <div id="customer-pre-sale" /><hr/>
@@ -254,7 +252,7 @@ Working with Sales to help land a customer to purchase the product/service.
 #### Forums
 *Social, Writing*
 
-Company-hosted places where customers can post questions and receive answers from both company employees and the surrounding community.
+Easily-accessible places online where customers can post questions and receive answers from both company employees and the surrounding community.
 
 ***Also Known As***: Support Forums; Bulletin Boards
 
@@ -272,7 +270,7 @@ In either case, the DevRel team commits to being a visible presence on the forum
 
 Additionally, hosting forums can have the benefit of being accessible to both internal employees as well as external customers, allowing for a degree of interaction without creating opportunities for customers to bypass traditional company information channels. (Customers having direct access to internal software engineers, by having their email address for example, can often have the negative side-effect of customers using those engineers for tech support purposes, distracting them from their other duties and/or creating issues for the [Tech Support](#technical-support) team.)
 
-Forums make for an easy way to identify potential [Ambassadors](#ambassadors) from the community.
+Forums make for an easy way to identify potential [Ambassadors](#ambassadors) from the community. Forums can also suggest [Samples/Examples](#sample-example), enhancements to [Guides](#guide) or [Reference Documentation](#reference-documentation), or even [extensions or providers](#product-development) for future development.
 
 ***Variants***: 
 
@@ -386,11 +384,11 @@ Informal video content broadcast live. Very informal.
 
 Recurring (monthly) emailed newsletter sent to opted-in customers. Include links to other artifacts (articles, samples/examples, etc). Works well in conjunction with [Social Media](#social-media).
 
-***Also Known As***:
+***Also Known As***: Zine
 
-***Problem***:
+***Problem***: Customers are always surprised to hear of news about the product/service over social media and not from the company itself. You want to find ways to give them better opportunities to hear the news directly from the company, without coming across as "spammy" or "in your face", which could turn customers off.
 
-***Context***:
+***Context***: Developers often want to know about new features, but they want to know about them on their own time, and not have the news forced on them. 
 
 ***Solution***:
 
@@ -399,12 +397,35 @@ Recurring (monthly) emailed newsletter sent to opted-in customers. Include links
 ***Variants***:
 
 
+<div id="product-development" /><hr/>
+#### Product/Service Development
+*Code*
+
+DevRel works on integration endpoints (a la APIs) for connecting or extending the core product/service.
+
+***Also Known As***: Extensions; Providers
+
+***Problem***: Certain aspects of the product/service are not easily accessible (or accessible at all) to the community, and the company has deemed it necessary that they should be. Engineering arguably should be focused on providing this, but can't due to constraints (time, budget, bandwidth, etc).
+
+***Context***: Ideally, many of the extensions or integrations discussed can and should be written by third parties outside the company, in order to avoid the maintenance burden that would come with developing them "in-house". But for whatever reason, third parties haven't built those extensions or integrations, either because they lack access (the product/service is tucked behind the firewall and the code is not public), knowledge (they do not know the integration or extension points exist, or how to use them), or rationale (they do not have reason to build them).
+
+***Solution***: Have the DevRel team take time to build the integration or one (or more) extensions.
+
+***Consequences***: If the integration is connected to something internal that must remain internal (such as internal services or databases), chances are that maintenance of this integration will need to be continued and upheld by the DevRel team until such time that it can be handed off to Engineering to own. (And it should be handed off!) Note that [Technical Support](#technical-support) will be needed on it, so the sooner it can be "folded in" to the larger product/service offering, the better, particularly as customers make more and more use of it.
+
+If the integration or extension is built as part of a customer or partner deal, 
+
+***Variants***:
+
+* **API Gateway**. For larger companies with silo'ed internal services that have little-to-zero commonality or standardization to their endpoint description or implementation, it sometimes falls to the DevRel team to build a single-point-of-access for customers to integrate against, providing a standardization layer before "farming out" the API call elsewhere into the collection of internal services. Often this Gateway is built to be accessible over HTTP, although any distributed protocol could work: HTTP, gRPC, GraphQL, or a messaging tool. In these cases, DevRel is taking on more of an Engineering role, because until the Gateway can be re-homed into an Engineering org, DevRel will need to treat the Gateway with all the rigor and discipline that any Engineering product would demand: on-call support, bug triage, version (and revision) management, and so on.
+
+
 <div id="reference-documentation" /><hr/>
 #### Reference Documentation
 
-Precise documentation about the API or interfaces or classes.
+Precise documentation about the API, interfaces, classes, or whatever makes up the "surface area" of the product/service with which developers interact.
 
-***Also Known As***:
+***Also Known As***: 
 
 ***Problem***:
 
