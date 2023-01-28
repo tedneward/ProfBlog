@@ -17,7 +17,7 @@ The most basic pattern form I prefer is the simplistic one that states that "a p
 
 * ***Name***: preferably short, descriptive, and memorable.
 
-* ***Building Blocks***: from my [earlier ontology](https://blogs.newardassociates.com/blog/2023/devrel-activity-ontology.html): *Code*, *Presentation*, *Social*, *Writing*. Often a given activity will be made out of two or more of these simultaneously, in a rough order of criticality; for example, a *Code, Writing* pattern will be better assigned to somebody who has stronger code skills, while a *Writing, Code* pattern will probably yield better results to somebody who has strong writing skills. (Ideally anybody would have strong skills in both, or all of the above, but then we get into the [Full-Stack Developer Fallacy](https://blogs.newardassociates.com/blog/2023/full-stack-developer-fallacy.html), this time for Developer Advocates.)
+* ***Building Blocks***: from my [earlier ontology](https://blogs.newardassociates.com/blog/2023/devrel-activity-ontology.html): *Code*, *Presentation*, *Social*, *Writing*. Often a given activity will be made out of two or more of these simultaneously, in a rough order of criticality; for example, a *Code, Writing* pattern will be better assigned to somebody who has stronger code skills, while a *Writing, Code* pattern will probably yield better results to somebody who has strong writing skills. (Ideally anybody would have strong skills in both, or all of the above, but then we get into the [Full-Stack Developer Fallacy](https://blogs.newardassociates.com/blog/2023/full-stack-developer-fallacy.html), this time for Developer Advocates.) In addition, I've added a new building-block category, *Budget*, meaning non-trivial monetary amounts that the activity will require; a *Budget* activity is generally one that's amenable to "throwing money at the problem".
 
 * ***Problem***: a (preferably brief) description of the problem a team faces. Note that in many cases, the problem section in a pattern will be duplicated in another pattern--this is not in error, because a given problem can have multiple solutions to it, and both the context in which the problem lives and the desired consequences will help determine which pattern is most appropriate for use.
 
@@ -124,7 +124,7 @@ Books are popular as [Swag](#swag). Book excerpts can be used as [Articles](#art
 
 <div id="booth" /><hr/>
 #### Booth
-*Social*
+*Budget, Social*
 
 ***Also Known As***: Floor Presence.
 
@@ -142,7 +142,7 @@ Note that a company's booth presence does not prevent or assume the company [spo
 
 ***Variants***:
 
-* **Pit Crew.** If the company or the product/service doesn't directly fit the audience of the conference, but you still want a strong "presence" at the event, 
+* **Pit Crew.** If the company or the product/service doesn't directly fit the audience of the conference, but you still want a strong "presence" at the event, consider spending the Booth budget on sending a number of company employees to the event with the intent of "taking the field by storm": simply be out and around, milling on the floor, attending talks and absolutely being present at any [Conference Session](#conference-session) being given by the DevRel team or other company employees. Pit Crew can carry [Swag](#swag) around with them (if it's small) and hand it out as they move about the conference, or toss it out during the DevRel's talks ("Free T-shirt to anyone who asks a question!"). Be careful not to be too obnoxious about this, though, or the conference organizers (or the vendors that paid for a booth) may get annoyed and want to have a chat.
 
 
 <div id="code-review" /><hr/>
@@ -168,7 +168,7 @@ Exposing DevRel teams to places where customers are having problems with the cod
 
 <div id="conference" /><hr/>
 #### Conference
-*Presentation, Social, Code*
+*Budget, Presentation, Social, Code*
 
 Company throws its own conference. External: typically to showcase its product/service as well as those of partners. Internal: allow developers to discover what other company developers are working on, as well as formal conference sessions designed for internal developer improvement.
 
@@ -201,7 +201,7 @@ Doing a breakout session at a third-party conference.
 
 ***Also Known As***: Talk; Presentation
 
-***Problem***: You want to dispense some 
+***Problem***: 
 
 ***Context***:
 
@@ -302,7 +302,7 @@ Forums make for an easy way to identify potential [Ambassadors](#ambassadors) fr
 #### Gist
 *Code*
 
-Smaller than a sample/example, designed to demonstrate a very specific snippet of code. Often entirely in conjunction with other artifacts.
+Smaller than a sample/example, designed to demonstrate a very specific snippet of code, such as a single method, part of a class, or short REPL session. Often entirely in conjunction with other artifacts.
 
 ***Also Known As***:
 
@@ -321,7 +321,7 @@ Smaller than a sample/example, designed to demonstrate a very specific snippet o
 #### Guides
 *Writing, Code*
 
-Written docs that take more of a "story"-based approach to the product/service; not reference docs. Each guide covers some particular aspect or concept or insight or explanation about the product/service (such as a feature).
+Written docs that take more of a "concept"-based approach to the product/service; not reference docs. Each guide covers some particular aspect/insight/explanation about the product/service (such as a feature).
 
 ***Also Known As***:
 
@@ -344,7 +344,7 @@ Code-for-24/48/72-hours on whatever sounds interesting. External: often around t
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: You want to encourage the community
 
 ***Context***:
 
@@ -421,9 +421,13 @@ Informal video content broadcast live. Very informal.
 
 ***Also Known As***: Twitch. Vimeo.
 
-***Problem***:
+***Problem***: You want your DevRel team to get more "face time" (a high degree of interactivity) with customers in a coding-related activity but without them having to travel to conferences. You'd like them to do something that has a high degree of Reach, but [Webinars](#webinar) or recorded [YouTube videos](#youtube) are too one-way to generate the interactivity you'd like.
 
-***Context***:
+***Context***: Developers often like seeing the people behind or around a particular technology--more than one company has found some significant value in having a "face" to their brand, creating something of a "developer rock star" that draws a crowd during events (physical or online). Doing so requires developers to be able to see the individual on a regular basis, and feel like there is some kind of emotional connection to them, which usually implies a high degree of interaction. 
+
+This high degree of interactin is often more easily facilitated by choosing a setting that is more informal than formal; developers feel more comfortable approaching someone at a [User Group](#user-group-network) meeting than approching the speaker after a [Conference](#conference-session).
+
+It is also (contrary to most popular beliefs) endearing to developers to see people they respect struggle with certain situations or problems; it makes the observed individual seem more human (and therefore more approachable). It can also be instructive to see how other developers approach problems while still struggling with a solution, rather than seeing the "finished product" that usually appears in a [Sample/Example](#sample-example)
 
 ***Solution***:
 
@@ -476,6 +480,7 @@ If the integration or extension is built as part of a customer or partner deal,
 
 <div id="reference-documentation" /><hr/>
 #### Reference Documentation
+*Code, Writing*
 
 Precise documentation about the API, interfaces, classes, or whatever makes up the "surface area" of the product/service with which developers interact.
 
@@ -521,6 +526,7 @@ Note that developers are fond of taking samples/examples and using them "as is" 
 
 <div id="sdk" /><hr/>
 #### SDK
+*Code*
 
 Library of code intended to be used "as-is" as either the sole means or a helpful abstraction (layer on top of HTTP APIs) when using the company's software.
 
@@ -539,6 +545,7 @@ Library of code intended to be used "as-is" as either the sole means or a helpfu
 
 <div id="social-media" /><hr/>
 #### Social Media
+*Social, Writing*
 
 Typically used for light customer contact and announcements.
 
@@ -548,16 +555,26 @@ Typically used for light customer contact and announcements.
 
 ***Context***: While you could always make use of a [Newsletter](#newsletter), many developers already receive too much email in their inbox, and refuse to add to the pile, even for tools they use every day. It's possible, with enough budget, to purchase billboards and highway signs, but these are fairly low-"hit"-rate options, since there's no guarantee that developers will drive past them or even recognize them when they do.
 
-***Solution***: Make use of the various Internet social media platforms that developers already use to notify them of [Conference Sessions](#conference-session), to come visit the [Booth](#booth) at an upcoming event, interesting [blog posts](#blog-post), [Sponsorships](#sponsorship), 
+***Solution***: Make use of the various Internet social media platforms that developers already use to notify them of [Conference Sessions](#conference-session), to come visit the [Booth](#booth) at an upcoming event, interesting [blog posts](#blog-post), [Sponsorships](#sponsorship), published [Articles](#article), the official welcome to your new [Ambassadors](#ambassadors), and so on. Use the posts as opportunities to draw some greater interactivity by following all of the current social media suggestions, like asking open-ended questions and generous re-posting of related responses, particularly from your customers.
 
-***Consequences***: 
+***Consequences***: Deliberately choose your target social media platforms. No one social media platform is without its issues: Facebook/Meta groups and Twitter have historically been popular, but recent shifts in public perception of their corporate leadership have led large numbers of developers away from using those platforms. (Some even look down on those who continue to use them.) Instagram and TikTok are more popular with younger generations, but each has run into its own particular brand of difficulty. LinkedIn is often ignored by developers until they are looking for a job. And so on. Keep in mind that each has its own demographics and its own "culture", and choose those which most closely match that of your target persona and your company's brand and culture. Legal should be consulted around any corporate concerns or restrictions around posts.
+
+Note that it is extremely likely (and desirable!) that individuals on the DevRel team will have their own, personal, Social Media accounts. Resist the temptation to ask the DevRel team to "be" the social media for the company, and instead create "corporate" social media accounts on each social media platform of interest. 
+
+Remember that much, if not most, of the goal of social media is interactivity, which means responding to others' social media commentary and comemnts as much as posting your own. While the DevRel team can certainly add "checking the feed" to their list of responsibilities, it will feel much more responsive if this is a part- or full-time commitment on the part of somebody within the DevRel team. They do not need to be a full Developer Advocate; in fact, it can often be a nice "half step" for a junior/associate DevRel team member to take on managing the social media community. Content (posts, etc) can be created by others, then "pipelined" for release (just as with [blog posts](#blog-post)).
+
+Follow (and amplify) the posts of those the DevRel team (and the company as a whole) interact with: partners, [Ambassadors](#ambassadors), the [User Group Network](#user-group-network), and [Sponsored Organizations](#sponsorship). In particular make sure to draw attention to the DevRel team's activities such as [Articles](#article), [Conference sessions](#conference-session), [Webinars](#webinar), [Hackathons](#hackathon), any [Books](#book), and so on.
+
+Keep in mind that many developers find a more "tongue-in-cheek" tone to corporate social media more attractive than formalism, so look for ways to "have a little fun" with the account without losing sight of the purpose (interactivity).
+
+If your Social Media activities are successful, your customers will begin to rely on the channel as a way to contact the company, possibly even bypassing other (more formal) communication channels. This can allow for a greater "organic" level of communication, but might also lead your customers to bypass those channels (such as those for [Technical Support](#technical-support), for example) in favor of the more informal world of social media. You will need to work ahead of time with the other teams inside your company to decide how you will "feed" messages from social media into their respective processes--for example, if a customer Tweets and claims to have found a bug, how will that Tweet be turned into a ticketed bug report?
 
 ***Variants***:
 
 
 <div id="sponsorship" /><hr/>
 #### Sponsorship
-*Social*
+*Budget, Social*
 
 Putting money into an organization's hands in exchange for visible branding to those who attend that organization's events or website.
 
@@ -582,6 +599,7 @@ Note that conference sponsorship does not prevent or assume [having a booth](#bo
 
 <div id="swag" /><hr/>
 #### Swag
+*Budget*
 
 Create and give away company- or product/service-branded gifts that developers find interesting, useful, and/or amusing.
 
@@ -606,6 +624,7 @@ Novelty swag can sometimes backfire and create negative branding, particularly i
 
 <div id="technical-support" /><hr/>
 #### Technical Support
+*Code, Writing, Social*
 
 Accepting bug reports, triaging the bug, developing a fix or workaround, and communicating that back to the bug-reporter. The actual intake of the bug can come from a variety of sources (forums, email, etc).
 
@@ -624,6 +643,7 @@ Accepting bug reports, triaging the bug, developing a fix or workaround, and com
 
 <div id="tests" /><hr/>
 #### Tests
+*Code*
 
 Unit or integration tests written to prove a particular hypothesis about the code (such as that it works, or that it integrates well, or so on). Often used as an artifact for developers to learn from--see also *Samples/Examples*.
 
@@ -642,8 +662,9 @@ Unit or integration tests written to prove a particular hypothesis about the cod
 
 <div id="training" /><hr/>
 #### Training
+*Presentation, Code, Budget*
 
-Formal classes in a lecture-lab style format. External-direction = training about the product/service. Internal-direction = training about the product/service *or* topics designed to improve the company's engineering teams.
+Formal classes in a lecture-lab style format. External-direction = training about the product/service, sometimes sold (income), often provided as part of a partnership deal. Internal-direction = training about the product/service *or* topics designed to improve the company's engineering teams.
 
 ***Also Known As***:
 
@@ -660,6 +681,7 @@ Formal classes in a lecture-lab style format. External-direction = training abou
 
 <div id="tutorial" /><hr/>
 #### Tutorial
+*Writing, Code*
 
 Either written or video content (or both) that takes a developer through a series of steps to accomplish some useful task, often related to the product/service.
 
@@ -678,7 +700,7 @@ Either written or video content (or both) that takes a developer through a serie
 
 <div id="user-group-network" /><hr/>
 #### User Group Network
-*Social*
+*Social, Budget*
 
 Own/organize one or more user grounps around the company or product/service.
 
@@ -705,6 +727,7 @@ User groups are a fantastic way to identify [Ambassadors](#ambassadors) within t
 
 <div id="webinar" /><hr/>
 #### Webinar
+*Presentation*
 
 A scheduled one-way presentation done over video-conferencing software, typically over the Internet and publicly accessible. Typically more formal than a YouTube or LiveStream exercise.
 
@@ -723,6 +746,7 @@ A scheduled one-way presentation done over video-conferencing software, typicall
 
 <div id="white-paper" /><hr/>
 #### White Paper
+*Writing*
 
 Written piece that conveys technical concept around the product/service at some level of depth; often intended as a pre-sale technique for those who want to dive more deeply into the product/service's offerings without having to make a greater commitment to downloading/installing the product/service.
 
@@ -741,6 +765,7 @@ Written piece that conveys technical concept around the product/service at some 
 
 <div id="workshop" /><hr/>
 #### Workshop
+*Presentation, Code*
 
 A guided set of steps taking a developer through a non-trivial task or set of tasks to accomplish some larger learning objective. Conference workshops. Open meeting/video workshops? 
 
@@ -759,6 +784,7 @@ A guided set of steps taking a developer through a non-trivial task or set of ta
 
 <div id="youtube" /><hr/>
 #### YouTube
+*Presentation*
 
 A video or series of videos (in a channel) on YouTube.
 
