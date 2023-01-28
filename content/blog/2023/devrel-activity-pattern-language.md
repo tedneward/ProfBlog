@@ -10,6 +10,8 @@ description=A pattern language of Developer Relations activities.
 
 <!--more-->
 
+If you're already familiar with pattern languages and how to use them, or you're just impatient, go ahead and [jump to the language](../../devrel/activities.html). If you're a more patient sort, or if you're not sure how to use pattern languages, read on. (And if you come back here after taking a quick look at the catalog to see a little bit more about how to use it, I promise I won't tell anyone.)
+
 ## What is a pattern language?
 
 [Wikipedia defines it thusly](https://en.wikipedia.org/wiki/Pattern_language): "A pattern language is an organized and coherent set of patterns, each of which describes a problem and the core of a solution that can be used in many ways within a specific field of expertise. ... A pattern language can also be an attempt to express the deeper wisdom of what brings aliveness within a particular field of human endeavor, through a set of interconnected patterns. ... (O)rdinary people can use this design approach to successfully solve very large, complex design problems."
@@ -30,10 +32,26 @@ Now consider these two personae:
 
 Which of these two is more likely to be interested in your messaging enough to take a harder look at your product/service? Now, where does that one go for information? Which developer portals, which conferences, which magazines (print or online), and so on? Establishing your target persona (or personae, there may be several) helps streamline the decision-making process around "which developers" you want to reach.
 
-### So... show me!
+### Wait, so I'm supposed to use all of them?
+
+Oh, Lord, no! The pattern language is an attempt to categorize and summarize *all* of the different kinds of activities, but it's in no way intended as a "check every item off on this list" kind of collection. In fact, I'll argue that even *trying* to use them all is itself a huge red flag! Look at your goals, look at your available resources (time, people, bandwidth, budget), and make deliberate choices selectively that help get you closer to your goals.
+
+## So... show me!
 
 The [DevRel Activity Pattern Language](../../devrel/activities.html) is not "finished", in that no pattern language is ever really finished--there's always realizations and/or innovations that can be captured, analyzed, and categorized. Pattern languages are intended to be somewhat informal, yet hopefully comprehensive. It is not uncommon for people who have "lived this" for years to look at a pattern language and growl, "But I already know all these things! I've done this before!" The same was true of the original [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) book thirty years ago. 
 
+### How do we use this?
+
 What a pattern language does is provide us with a unified lexicon--a glossary--that we can all agree on without having to define our definitions every time a new person joins the meeting, as well as a framework by which to think about the choices we make and how they might easily work together with other choices and/or directions. Additionally, it can help give newcomers to the field a "leg up" on understanding the breadth and depth of the space, and provide a reference tool as they wade through this new space we call Developer Relations. And, honestly, I'm looking forward to using this as a reference when hashing out my next DevRel team strategy--and I'm hoping you will, too.
 
-If you find it useful, I'm glad; if you don't, I'm sad, but thank you for your time anyway. And if you're *really* excited by this, perhaps you want to consider contributing some time to it by dropping me a note with your feedback? (Or, even, consider hiring me to run your DevRel org!)
+### What if I'm not the DevRel leader?
+
+There's a couple of ways it can still be useful: as a list of all the *possible* things you could be doing, so that you can suggest a few during team meetings; as a list to discuss with the rest of your team so that you can have more focused conversations about goals and objectives; and maybe even a way to think about your own activities when writing up your accomplishments for the year/quarter/resume.
+
+## Wrapping up
+
+If you find it useful, I'm glad; if you don't, I'm sad, but thank you for your time anyway. And if you're *really* excited by this, perhaps you want to consider contributing some time to it by dropping me a note with your feedback? (And yes, I'd love to consider your company hiring me to run your DevRel org!)
+
+### Thanks
+
+Much thanks to Chris "Woody" Woodruff, Taylor Krusen, Scott McAllister, Matthew Groes, and James Ward, for their feedback, ideas, challenges, and suggestions. 
