@@ -1,5 +1,5 @@
 title=Developer Relations Activities
-date=2023-01-24
+date=2023-02-02
 type=page
 tags=devrel, patterns
 status=published
@@ -39,7 +39,11 @@ There's a [few terms](#glossary) that I'll use in the patterns; in the interests
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) |[Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+
+## Activity Catalog (including Also-Known-As's and Variants)
+
+[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Product/Service Development; Extensions; Providers](#product-development) | [Referance Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Webinar](#webinar) | [White Paper](#white-paper) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
 
 
 <div id="ambassadors" /><hr/>
@@ -143,6 +147,7 @@ Note that a company's booth presence does not prevent or assume the company [spo
 ***Variants***:
 
 * **Pit Crew.** If the company or the product/service doesn't directly fit the audience of the conference, but you still want a strong "presence" at the event, consider spending the Booth budget on sending a number of company employees to the event with the intent of "taking the field by storm": simply be out and around, milling on the floor, attending talks and absolutely being present at any [Conference Session](#conference-session) being given by the DevRel team or other company employees. Pit Crew can carry [Swag](#swag) around with them (if it's small) and hand it out as they move about the conference, or toss it out during the DevRel's talks ("Free T-shirt to anyone who asks a question!"). Be careful not to be too obnoxious about this, though, or the conference organizers (or the vendors that paid for a booth) may get annoyed and want to have a chat.
+    Pit crew need not (and arguably shouldn't be) members of the DevRel team; sales, recruiters, marketing folks, and anyone who is looking to start speaking at events and/or considering a role as DevRel make for great Pit Crew, as it allows them to "feel the vibe" of a conference event. Associate Developer Advocates should always do a stint or two as Pit Crew before being sent on their own to a conference event.
 
 
 <div id="code-review" /><hr/>
@@ -170,11 +175,9 @@ Exposing DevRel teams to places where customers are having problems with the cod
 #### Conference
 *Budget, Presentation, Social, Code*
 
-Company throws its own conference. External: typically to showcase its product/service as well as those of partners. Internal: allow developers to discover what other company developers are working on, as well as formal conference sessions designed for internal developer improvement.
+***Also Known As***: User Conference
 
-***Also Known As***: User Conference; TechReady; TechWeek
-
-***Problem***: You have a large group of developers (internal or external) that you want to reach with a large amount of material that will help them use your product/service.
+***Problem***: You have a large group of developers (internal or external) that you want to reach publicly with a large amount of material that will help them use your product/service.
 
 ***Context***: You want to create some "buzz" around your product/service and/or your company, and use that "buzz" to gain some brand recognition, bootstrap some community activities, and/or persuade developers to take a deeper/harder look at your product/service collectively with their peers.
 
@@ -197,26 +200,38 @@ For those companies that look to host an event (internally-facing or external) y
 #### Conference Session
 *Presentation, Code*
 
-Doing a breakout session at a third-party conference.
-
 ***Also Known As***: Talk; Presentation
 
-***Problem***: 
+***Problem***: Your product/service is out, but adoption is low, and part of the problem seems to be that developers don't quite know how to use it or get started with it.
 
-***Context***:
+***Context***: Complex information, particularly abstract and conceptual information, is often hard to communicate in a purely "visible" spectrum (a la writing). For whatever reason, humans still seem to learn and understand more effectively when multiple communication channels are engaged simultaneously--that is to say, when they are shown things at the same time they are told things (so long as those things are supporting each other).
 
-***Solution***:
+Perhaps there are conceptual parts to what the product/service does that are confusing, or the product/service has a large "surface area" of material that is overwhelming. There may be nuances to certain features that aren't visible at first, or advanced features that require some foundational understanding before being able to be used effectively.
 
-***Consequences***: (Event management needs.)
+***Solution***: Deliver a technical presentation at a third-party conference (that is, run by a group or company that isn't your own). It can be in a variety of different forms, ranging from an "all-code, no-slides" presentation in which you have the outline memorized in your head and you code-on-the-fly interactively with the audience, to an "all-slides, no-code" presentation in which you talk about concepts and ideas that would be tricky to pull off "on the fly". Most "breakout" presentations are somewhere in the middle, depending on the topic, the presenter, and (sometimes) the culture of the event.
+
+Most conference breakout sessions are just under an hour in length; anything less than 45 minutes is better categorized as a "lightning talk" (see Variants).
+
+***Consequences***: (Longer-term planning; submission to CfPs, which come 3-9 months before the event.)
+
+Conference sessions come with financial and logistical requirements for the speakers, travel planning being the biggest of the lot. While many DevRel teams handle these themselves, consider making it easier for them to do so: allow them to work with a travel agency (a human one, not an online one) to make it easier to book travel (and get them home in the event of a travel disruption), and consider working with Accounting to streamline and expedite the process of reimbursement; although it is tempting to tell the team "just float it on your credit card", that may not be feasible and/or financially disadvantageous to the team.
+
+Conference sessions often pair well with conference [Sponsorship](#sponsorship), including the purchase of [Booth](#booth) space and copious amounts of [Swag](#swag). If you have more than one session, or more than one of your team is speaking at the same event, consider bringing a [Pit Crew](#booth) and have them visibly present in each of your company's talks, not to act as a cheering section, but to be available for qustions that the audience might have but aren't willing to wait very long to ask. In these situations, consider putting somebody in charge of logistics and event coordination for all of those committed to the event (including [Pit Crew](#booth)), as doing the event as a team can be a strong emotionally-bonding experience to do things as a group (share the same flights, be at the same hotel, coordinate dinners and evening activities, and so on).
 
 ***Variants***:
+
+* **Beta/Buzz Talk.** Although this is less common in an era of open-source, sometimes the desire is to "build buzz" around an upcoming release of the product/service, and one great way to do that is to do a presentation on the new features of the upcoming release before it is generally available. This way developers and customers can be "ready to go" when the release drops, and the feature set might even help attract new customers because they heard about it at the conference. [Ambassadors](#ambassadors) in particular love to give "Upcoming Features" talks, as it positions them and their own branding as being smart and "in the know" when it comes to the product/service. This material is also very powerful when used in a [Pre-Sales](#customer-meeting-pre-sale) meeting. 
 
 * **User Group Session.** **Meetup Session.** A common staple of the [User Group](#user-group-network) is to have somebody from the company (or an [Ambassador](#ambassadors) come and speak to the group on some technical topic related to the product/service (more or less). The DevRel team can either help facilitate Ambassadors speaking at the group(s), or have members of the DevRel team do it directly (in which case the DevRel team will need to handle many of the logistics and expense for doing so).
     Note that because most user group sessions are more informal than other settings, expect that the presenter will spend more time with the attendees than at a conference. (It is common to go out for food and drinks after the event, or to mill in the room both before and after the talk.) 
     It is common for DevRel teams to use user group sessions as an opportunity to practice a talk before it is delivered as a [Conference Session](#conference-session). Some groups welcome this, but some resent it. If the relationship with the group is strong, ask for feedback on the talk; if it is not, treat it as a formal presentation every bit as "real" as the conference or a [Customer Meeting](#customer-meeting-pre-sale).
 
+* **Sponsored Conference Session.** At times, a conference will sell a speaking slot to a [sponsoring company](#sponsorship), guaranteeing the company will have a speaker at the event without going through the traditional Call-for-Presentations process. Be warned that developers historically have not taken well to these slots, doubly so when the sponsor chooses to do a presentation or talk specifically around their product/service. If your team is sponsoring the slot (perhaps the Marketing or Sales team decided to buy it without consulting you), consider not taking it--let somebody from Marketing or Sales do the presentation, so as to preserve the credibility of the DevRel team with their developer audience. If the DevRel team *must* do the sponsored presentation, then be up front and respectful of the developer audience: "Hi, my name's Denny, I'm from ToolCorp, and we threw some money at the organizers to get this time slot. What I'd like to do is show you the pros and cons of our tools, and give you some idea of when--and when not--to use our stuff." Don't try to "hide" the fact that this is a sponsored session--most attendees can already tell, owing to the different advertising around sponsored sessions. If metrics are captured for this session, do not compare them to other Conference Sessions, as the surrounding context of each are different enough that it is comparing apples to oranges.
+
 * **Brown Bag.** **Lunch-n-Learn.** When the direction of the activity is pointed internally, these become known as "brown bags" or "lunch-n-learns", wherein the DevRel team (or other internal employees of the company) deliver the presentation (often over the lunch hour) to other engineers within the company. These can be organized periodically (weekly or monthly), as part of an internal [Hackathon](#hackathon), or as part of the company's [internal conference](#conference) (or all of the above). If there is no formal internal training team, the DevRel team should take on the organization, logistics, and "acquisition" of speakers (internal or external) for such events; if there is a training team, DevRel can be frequent speakers, and/or help with the acquisition of speakers, and/or help with some of the logistics. Note that if internal employees are interested in speaking, DevRel should (must!) volunteer to assist that employee in the preparation and practice of delivering the presentation, since many developers are not comfortable delivering or preparing presentations.
     Note that if DevRel is scheduling these, it's often best to start with monthly events, then move to biweekly and weekly as the "pipeline" grows. Let the upcoming pipeline grow to six months' in advance before reducing the timing--for example, if you are doing monthly sessions, and you have six months' speakers/topics in the pipeline, go biweekly (thus reducing your pipeline to three months' worth) and rebuild the pipeline out to six months' worth before going weekly.
+
+* **Lightning Talk.** Any presentation that is 30 minutes or less is generally best considered to be a "lightning talk", and requires very different preparation and delivery considerations. (You will not have time to write code on the fly. You will not have time to take questions. Instead of three things to talk about, focus on one. Scripting the talk is easier when it's shorter like this, particularly if the deadlines are "hard" and no wiggle room.)
 
 
 <div id="customer-checkin" /><hr/>
@@ -252,13 +267,15 @@ Working with Sales to help land a customer to purchase the product/service.
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Salespeople are, stereotypically speaking, not strong in technical skills. When selling or negotiating a deal or partnership, many issues of a technical nature will arise, and it can be difficult to ensure that reasonable solutions and/or promises are discussed as part of those negotiations.
 
-***Context***:
+***Context***: Given the complexities in most product/service offerings, it is unreasonable to expecting that salespeople will be able to be understand underlying details or nuances after a one- or two-hour technical briefing. (Frankly, this is true of many industries more than this one, yet it continues to permeate human society as a common myth.)
 
-***Solution***:
+However, salespeople will often look for creative ways to get around potential-customer objections, both as a way to avoid obstacles that might prevent the deal, as well as part of the typical negotiation around things like price.
 
-***Consequences***:
+***Solution***: Ensure that somebody from the DevRel team is "in the room" (either figuratively or literally) to provide technical insight and "know-how" when questions around the product/service, its features, or its capabilities, arise.
+
+***Consequences***: Just as salespeople are not technologists, most DevRel are not salespeople, and should therefore make sure they are "in sync" with the salesperson driving the meeting. Let the salespeople drive the meeting, and don't proffer ideas or suggestions without running them past the salespeople first--sometimes the salesperson will want to hold that idea or suggestion "in reserve", to use as a later point in the negotiation. Remember that concluding a deal is more of a competitive action than most engineering-types are accustomed to, and that the "win condition" isn't just solving the problem (like it is for many engineering issues).
 
 ***Variants***:
 
@@ -306,13 +323,17 @@ Smaller than a sample/example, designed to demonstrate a very specific snippet o
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Somebody has asked you or your team a question about your product/service, perhaps in a [Forum](#forums) or on [Social Media](#social-media), and the answer requires a degree of detail that casual spoken/written language cannot adequately capture. However, you want to answer the question quickly, and with a minimum of overhead.
 
-***Context***:
+***Context***: Writing a full [Sample/Example](#sample-example) is overkill, because the answer can be captured in just a few (less than four) lines of code in a very standalone manner. It would take longer to re-frame the question (in a [Blog Post](#blog-post), for example) than to just post the answer. However, many [Forums](#forums) and [Social Media](#social-media) systems do not respect "code" formatting well, and posting code directly into the answer can turn into an unformatted, jumbled mess.
 
-***Solution***:
+Additionally, sometimes the question appears multiple times from different posters at different times, and it would be convenient to have the answer in a form that is easily shared across answers.
 
-***Consequences***:
+***Solution***: Post the code as a standalone snippet as a [GitHub Gist](https://gist.github.com/) attached to the company's or team's GitHub organization. Link the URL from the [Forum](#forums) or [Social Media](#social-media). The URL can be reused for additional answers, and as a collection of gists are built up, they can be browsed by others, either because they are seeing additional answers through similar answers, or by viewing the collection of gists on GitHub. Gists can also be subscribed to, like projects on GitHub can.
+
+Note that several tools (like Visual Studio Code or the JetBrains suite of tools) have extensions or plugins that know how to work directly with the Gist API, making it easier to create and share them.
+
+***Consequences***: 
 
 ***Variants***:
 
@@ -353,6 +374,10 @@ Code-for-24/48/72-hours on whatever sounds interesting. External: often around t
 ***Consequences***:
 
 ***Variants***:
+
+* **Code With Us**. **Open Labs**. Rather than holding an event in which many different groups of people come together to hack on something short-term for a short period of time, customers may be looking for opportunities to hack together with experts on the product/service in a more collaborative and focused fashion. (These "open labs" were a popular Apple tactic during the days of OpenDoc.) The customer is free to bring whatever code they have or are working on, and either company engineers or (more often) members of the DevRel team sit and pair (or "mob") to work through a customer's concerns or obstacles for a period of time, usually a day, sometimes two. These can be on-site at the customer's location, on-site at the company's location, or possibly virtual (if the interactivity is good enough--paired editing and/or jumping up over to the whiteboard is very common in these activities, and the virtual experience may not yet quite be up to the task). These are usually scheduled, rather than impromptu, and considered private.
+    Note that, although similar, this is still different from a [Code Review](#code-review), in that a Code Review is usually *post-facto*, after the customer has written the code, and the Open Labs are usually *pre-facto*, taking place much earlier in the development cycle, sometimes before any code is written at all.
+    Customers might have NDA concerns about bringing their proprietary/closed-source language to be viewed (and hacked on) by developers outside their company (not to mention any IP ownership concerns), so have Legal draft a document that customers and your DevRel team participants can sign so as to allay concerns ahead of time.
 
 
 <div id="hands-on-labs" /><hr/>
@@ -455,6 +480,23 @@ Recurring (monthly) emailed newsletter sent to opted-in customers. Include links
 ***Variants***:
 
 
+<div id="office-hours" /><hr/>
+#### Office Hours
+*Social*
+
+***Also Known As***: 
+
+***Problem***: Customers often run into problems that are hard to capture as a standalone [Sample/Example](#sample-example) or in a written format for a bug report for [Tech Support](#technical-support) or a [Forum](#forums). In many cases, they don't have any idea what's going on because the product/service is complex, intimidating, or running in the cloud. The customer doesn't even know how to begin to describe the problem, making it difficult for them to take advantage of some of the other high-reach resources that are available.
+
+***Context***: This kind of "I have no idea where to start" problem demands a high degree of interactivity from the customer: questions lead to answers that in turn generate more questions before the nature of the problem is even remotely understood. Additionally, you want to be able to see the customer's environment more closely, because often debugging a problem can be something entirely enmeshed in their environment (misconfigured installation, PATH conflicts, "DLL/JAR/Assembly Hell" issues, and so on).
+
+***Solution***: Provide an "office hours" (similar in concept to what college professors offer students in their classes): a period of time during which customers can "drop in" without scheduling anything ahead of time and use the time for whatever purpose they choose. They can ask questions, do a [Code Review](#code-review), do a quick [Check-In](#customer-check-in), or (most often) work on something [Technical Support](#technical-support).
+
+***Consequences***: 
+
+***Variants***:
+
+
 <div id="product-development" /><hr/>
 #### Product/Service Development
 *Code*
@@ -486,15 +528,17 @@ Precise documentation about the API, interfaces, classes, or whatever makes up t
 
 ***Also Known As***: 
 
-***Problem***:
+***Problem***: 
 
-***Context***:
+***Context***: 
 
-***Solution***:
+***Solution***: 
 
-***Consequences***:
+***Consequences***: 
 
 ***Variants***:
+
+* **Knowledge Base** Often, after a product/service has been out for a while and has gathered a fair amount of experience in its [Technical Support](#technical-support), it's easy to find patterns of questions and problems that customers are having. The larger the customer base, the quicker those patterns will emerge. In an effort to try and provide a high-reach/low-interactivity customer support option, put together (and continue to update and curate) a formalized collection of questions or topics into a website or queryable database, called the knowledge base, and make it available online. (In many respects, StackOverflow is a community-curated knowledge base for programming.)
 
 
 <div id="sample-example" /><hr/>
@@ -532,13 +576,17 @@ Library of code intended to be used "as-is" as either the sole means or a helpfu
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Your product/service is an API, using HTTP as its primary form of communication with customer code, but like all HTTP APIs, it is loosely-typed and can accept a wide range of values for each HTTP request, many of which will yield errors or incorrect results. Getting the requests correct is often an exercise in frustration and time as developers struggle to ensure they are passing the right data in the right places.
 
-***Context***:
+***Context***: Developers, particularly those working with statically-typed languages (Java, C#, Kotlin, Swift, and so on), are accustomed to using tools that generate errors at compile-time, rather than waiting until runtime to discover that things aren't working. Additionally, it takes time and multiple lines of code to marshal the parameters into something HTTP can transport, and then to unmarshal the response back into the native data types of the language, including handling any errors indicated by the return value. If the API is called frequently throughout the customer's code, this all representa additional code that customers must debug and maintain for the length of the project.
 
-***Solution***:
+Additionally, when exploring a new product/service, developers experimenting with the product/service want (dare say need) the quickest way to get started with the product/service, in order to be able to ascertain if it is of use or how to use it.
 
-***Consequences***:
+Because of its loosely-coupled nature, working with HTTP from code requires more attention to detail than using native constructs (classes, functions, modules, whatever the language uses as first-class citizens), adding to the learning overhead.
+
+***Solution***: Even though the API (HTTP-based or otherwise) technically is accessible from any language that speaks HTTP (which is to say, all of them), provide an SDK that encapsulates the details of making those HTTP calls into something that is language- or platform-friendly.
+
+***Consequences***: This SDK can be open-sourced, adding to the company's open-source profile, which for some companies will also be a gentle introduction to doing more open-source work in general. This also provides the company an opportunity to explore how to use open-source development practices more fully without taking undue risk with the code or processes around the product/service.
 
 ***Variants***:
 
@@ -815,9 +863,10 @@ Within the realm of Developer Relations, I find that agreement on the definition
 * ***Direction***: DevRel should be a circular exercise: DevRel should be talking to both those developers inside the company ("internal") as well as those outside of it ("external"). This means the usual activities of bringing development discussions to developers that might be customers of the company's product, but also bringing feedback from those developers on the outside back into the company for further discussion and/or examination. Many companies are also building DevRel teams to be entirely internal-facing, supporting their developers in a variety of the ways that traditionally have been externally-facing (such as owning the continuing education efforts to grow the internal developers).
 
 * ***Interactivity***: This is the fidelity of communication--how "conversational" is the exercise? This in many cases is in inverse proportion to Reach, but not always. The blog post doesn't really allow for great conversation (yes, you can open up comments on the blog, but we all know what happens when you do, and it's not pretty), whereas a workshop really requires a high degree of interactivity with the attendees. The blog post author doesn't learn much from their audience when posting the blog--the workshop facilitator, however, can learn all kinds of things from the attendees via the questions they ask, the problems they run into, the questions they don't ask, and so on.
+    Note that contrary to popular belief, higher interactivity is not always desirable--many  highly-interactive activities consume team bandwidth, and as a result the greater tha number of highly-interactive activities you want to do, the larger the team you will need to do them. For companies like Microsoft or Google with hundreds of employees in their DevRel organizations, this may be feasible; for most companies running a DevRel team of five or even a department of twenty, this is not sustainable for any length of time.
 
 * **Partners**: Partners are third-party entities that employ (or are) customers in their own right, but have a much deeper relationship with the company than most customers. This may be because the two (the DevRel team's company and the other entity) have product/services that are complementary to one another, one is a part of the other's supply chain, or because the two have entered into a mutually-beneficial deal.
 
 * ***Product/Service***: What the DevRel team is looking to talk about. This can be a tool (such as an IDE or database), a library or set of libraries, a web service accessed over HTTP (commonly called an "API", "Web API" or "HTTP API"), some other kind of service (anything that ends with "-as-a-service" is a strong candidate), and so on. It need not be a formal artifact that is "sold"--open source projects around/about which the company sells services would be referred here as "product/service". Note that the company may have many product/services available, and a single DevRel team may support all of them, a few of them, or only one of them, but the distinction between one product/service or many product/services is largely irrelevant to the pattern catalog below.
 
-* ***Reach***: How "far" does this activity go? How many people can see it and/or consume it? Those things done over the Internet tend to have a large reach (particularly if any artifact produced by the activity is someplace where Google can find it and pop it up during search results), whereas those things done in person (such as the hands-on workshop) will have very short reach, since participation requires physical presence. For example, the blog post can echo across the entire world within minutes, and even across time itself--certain blog posts just keep getting rediscovered by new readers. (Thanks, Google!) This contrasts with an in-person workshop done at a conference event, even if the workshop has a thousand people in it. In other words, the blog post can reach millions (and still going!), while the workshop only a thousand (and once over, can never go higher).
+* ***Reach***: How "far" does this activity go? How many people can see it and/or consume it? Those things done over the Internet tend to have a large reach (particularly if any artifact produced by the activity is someplace where Google can find it and pop it up during search results), whereas those things done in person (such as the hands-on workshop) will have very short reach, since participation requires physical presence. For example, the blog post can echo across the entire world within minutes, and even across time itself--certain blog posts just keep getting rediscovered by new readers. (Thanks, Google!) This contrasts with an in-person workshop done at a conference event, even if the workshop has a thousand people in it. In other words, the blog post can reach millions (and even more, long after its publication!), while the workshop only a thousand (and once over, can never go higher).
