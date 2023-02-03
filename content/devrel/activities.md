@@ -39,11 +39,11 @@ There's a [few terms](#glossary) that I'll use in the patterns; in the interests
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) |[Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) | [Podcast](#podcast) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
 
-## Activity Catalog (including Also-Known-As's and Variants)
+## ... including Also-Known-As's and Variants
 
-[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Product/Service Development; Extensions; Providers](#product-development) | [Referance Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Webinar](#webinar) | [White Paper](#white-paper) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Podcast](#podcast) | [Product/Service Development; Extensions; Providers](#product-development) | [Reference Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Webinar](#webinar) | [White Paper](#white-paper) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
 
 
 <div id="ambassadors" /><hr/>
@@ -346,13 +346,27 @@ Written docs that take more of a "concept"-based approach to the product/service
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Developers need more than just the description of an API call or the acceptable values for parameters to that call--they need to build a mental model of how the product/service works, particularly "on the inside", where they lack visibility. 
 
-***Context***:
+***Context***: [Reference documentation](#reference-documentation) is more tactical in nature, rather than conceptual, and developers at some point are going to ask questions like, "How does this work?" or "Why is it when I call A, then B, I get a different result than when I call B, then A?"
 
-***Solution***:
+Customers will often need to understand the concepts behind the product/service in order to be able to understand its nuance, particularly when compared against competitors, or when measured up against something that might be a competitor (but actually isn't).
 
-***Consequences***:
+This is particularly apparent if the product/service is relatively novel or innovative in its space, as customers will not have much (if any) experience with the novelty or new concepts from other products or services they've used before.
+
+***Solution***: Write one or more sets of longer-form prose pieces that each tackle the important concepts of the product/service. While precise details aren't necessary, there should be enough information in each one that a developer can build a mental model of how the product/service works "under the hood". For example, if the product/service stores data, some discussion of how the data is stored, how the data is queried, and when/how/if that data is encrypted "at rest" are necessary to give the developer a clear picture in their minds on how to approach using the data store.
+
+Write these docs in a crisp, concise style, devoid of "tone" as much as possible. This is not the place to let the company culture fly or to weigh in with controversial technology opinions (except those that are baked in to the central concept of the product/service; it would be reasonable for a cloud service to weigh in on the advantages of running in the cloud, for example).
+
+Certain guides will be specific to particular domains; popular guide topics include security, performance, scalability, accessibility, observability/monitoring, and reliability (backups), though many more are possible depending on the details and nuance of the product/service.
+
+***Consequences***: Guides will often be the first set of documentation that developers will read when they begin their serious journey to understanding your product/service, and should therefore be something *very* carefully curated and edited. Consider using professional editing services and/or personnel to help ensure the writing is clear, consistent, and easily consumable.
+
+As the product/service becomes more widely used internationally, consider hiring translation services to create native-tongue transations of the guides into languages that represent your customer population; if you find that your product/service has a singificant user base growing in Eastern Europe, for example, consider a Polish or Czech translation.
+
+Recognize that in many cases, the ability for an individual in your community to make the transition to [Ambassador](#ambassadors) lies in the ability to consume conceptual documentation about your product/service and then utilize that knowledge in [Forums](#forums) and to create [Conference Sessions](#conference-session) and [Articles](#article). Provide opportunities for your Ambassadors to collaborate on the authoring and editing of these documents, perhaps even before they become publicly available.
+
+A [Book](#book) often covers the same material covered in Guides, but usually takes a more "high-level" approach to describing the contents, stretching across topics in ways that Guides typically don't. Books also often don't go into quite the depth of detail that Guides do, and look to be shorter than the full collection of your Guide(s).
 
 ***Variants***:
 
@@ -363,15 +377,27 @@ Written docs that take more of a "concept"-based approach to the product/service
 
 Code-for-24/48/72-hours on whatever sounds interesting. External: often around the product/service. Internal: on whatever the company developers find interesting. DevRel can either be coaches, organizers, or both.
 
-***Also Known As***:
+***Also Known As***: GiveCamp. Startup Weekend.
 
-***Problem***: You want to encourage the community
+***Problem***: A community of developers using your product/service helps to generate the feedback and engagement that your DevRel team needs, but there doesn't seem to be as much as you'd like. In some cases, you have a community, but they're using an older version, or aren't using the product/service for certain scenarios.
 
-***Context***:
+***Context***: Developers are a notoriously fickle lot, in that trying to tell them what to build will often generate resistance and/or pushback. The creative aspect to building software is what draws many to the field, and many developers aren't given much opportunity to exercise that creativity in their workplace.
 
-***Solution***:
+For some products/services, the target personae are those that are entrepreneurs or innovators, particularly those that are in a city well-known for its startup "vibe" (such as the Silicon Valley, New York, Seattle, and a few others). These are locations in which developers leave the comforts of corporate life to pursue the statistically-risky space of startups, and are often looking for products/services that will allow them to get-to-market more quickly and get their product out in the hands of users.
 
-***Consequences***:
+***Solution***: Create, or sponsor, an event in which developers come together specifically for the purpose of "hacking" code to build an application or system. Usually such events are open to the public, and the teams that are formed are entirely temporary, made up of those who found a pitch idea to be interesting to work on. The events typically last anywhere from 24 hours to 5 days, and the shorter timeframe often implies an all-night kind of exercise; many of the original hackathon events were weekend events, beginning with pitches on Friday night, then "hacking" continuously for the next 48 hours and concluding on Sunday evening.
+
+***Consequences***: Many events are public, [Sponsored](#sponsorship) by various vendors and/or other interested parties, and many offer prizes to teams whose hacked project ranks best in one of a variety of categories. The top prize often depends on the intent of the event--at Startup Weekend, for example, the top prize was an opportunity to meet with VCs and pitch them on the startup idea "hacked" together over the weekend, while at GiveCamp, "prizes" are often more celebratory in nature, offering up rounds of praise for those who "hacked" projects together on behalf of charities.
+
+Company participation in a hackathon can come in many forms: direct sponsorship of the event as a whole, sponsorship by providing one or more of the prizes, sponsorship by providing free licenses or credits of the product/service, providing coaches and expert advice (either around your product/service or across a broader range of topics), and/or your company's employees' participation in the event itself. (Participation in the event is highly suggested for charity-centric hackathons, as it generates good feelings toward the company, gives the developers a good feeling of helping those in need, and generates good PR for the company.)
+
+Some Hackathons provide time and space for presentations by sponsoring companies and/or experts/coaches that are volunteering their time at the event; these are essentially [Conference Sessions](#conference-session) but for the Hackathon audience instead of a conference. Many of the presentation slots are given to [Sponsors](#sponsorship). It is common that less than 10-15% of the attendees will come to a talk, but those that do are often extremely interested in using the topic as part of their hacking project.
+
+Hackthons are also a great place to hand out [Swag](#swag), and/or have a [Booth](#booth) (more like a table) as part of the company's [Sponsorship](#sponsorship) of the event.
+
+If the Hackathon is internally-facing, it is often done in conjunction with an internal [Conference](#conference), to help the company foster a culture of training and innovation. "Vendors" in this scenario are often company internal services or platforms, and "coaches" are often the senior developers, architects, and SMEs who assist the ad-hoc teams working on ideas that may or may not be company-related.
+
+Logistics management will be important for a Hackathon depending on the degree to which the company chooses to participate: attendance will require physical presence (travel and hotel, if the hackathon is not local to the participants), and sponsorship will require greater work, depending on details. Consider having an individual on the DevRel team serve as "point of contact" for all logistical issues around the Hackathon. 
 
 ***Variants***:
 
@@ -440,9 +466,7 @@ Sadly, making any resource available for free over the Internet--even if it is j
 
 <div id="live-streaming" /><hr/>
 #### Live Streaming
-*Presentation, Social*
-
-Informal video content broadcast live. Very informal.
+*Code, Social, Budget*
 
 ***Also Known As***: Twitch. Vimeo.
 
@@ -454,9 +478,11 @@ This high degree of interactin is often more easily facilitated by choosing a se
 
 It is also (contrary to most popular beliefs) endearing to developers to see people they respect struggle with certain situations or problems; it makes the observed individual seem more human (and therefore more approachable). It can also be instructive to see how other developers approach problems while still struggling with a solution, rather than seeing the "finished product" that usually appears in a [Sample/Example](#sample-example)
 
-***Solution***:
+***Solution***: Use on of the "live streaming" platforms (Twitch, Vimeo, YouTube) to capture informal, longer-form video. Live streaming is similar in tooling to the [Webinar](#webinar), but the "vibe" is very different--where webinars are more formal presentation-like affairs, often intended to be one-way (with some interactivity in the form of questions from the audience), live streaming often is much more *ad hoc*, with streamers frequently seemingly doing nothing more than "turning on the camera and starting to code something interesting".
 
-***Consequences***:
+***Consequences***: Interactivity in a Live Stream is often very high, as the various streaming platforms allow for comments, as well as "likes" and other emoji-fueled effects to appear on the screen during the stream. Streamers will often take their efforts in different directions based on the commentary and reactions from participants, including suggestions on what to do next, how to solve a particular problem, or even collaborate to solve a bug or other issue. (Note that most streaming platforms only allow the streamer to display their video and audio, so all commentary from participants is done through chat messages to the stream as a whole.)
+
+Because of the nature of displaying both the streamer's screen and the streamer's video simultaneously or side-by-side, streaming requires some investment into equipment and a good Internet connection. This usually means it is difficult to do anywhere except in "the studio" (sually the streamer's home or work office), and will thus conflict with travel schedules somewhat. (Some streamers have worked to make their streaming setups portable so that they can stream from hotels while on the road, but this is yet somewhat rare, at least as of this writing.)
 
 ***Variants***:
 
@@ -495,6 +521,24 @@ Recurring (monthly) emailed newsletter sent to opted-in customers. Include links
 ***Consequences***: 
 
 ***Variants***:
+
+
+<div id="podcast" /><hr />
+#### Podcast
+*Social*
+
+***Also Known As***: Vidcast
+
+***Problem***:
+
+***Context***:
+
+***Solution***:
+
+***Consequences***:
+
+***Variants***:
+
 
 
 <div id="product-development" /><hr/>
@@ -838,7 +882,7 @@ A video or series of videos (in a channel) on YouTube.
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: You want to have a closely-collected group of video content easily accessible to your customers, but with some curation and high "reach" thanks to search engines. 
 
 ***Solution***:
 
