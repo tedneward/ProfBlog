@@ -1,4 +1,4 @@
-title=When to Command (and When to Solicit) 
+title=When to Command (and When to Collaborate)
 date=2023-02-06
 type=post
 tags=management
@@ -40,9 +40,11 @@ Thus does the new manager descend directly into micromanagement, and finds simul
 Not falling into this trap is the first bit of advice given to new managers: "Collaborate. Listen to your team. Hold meetings and be the last person to speak your opinion." And so on.
 
 ## Death by Consensus
-This then leads to the second pitfall of new managers: no decision can be reached until the team collectively agrees to it. This "management-by-consensus" says, in essence, that it's not the *manager* that makes the call, it's the *team* that makes the call. After all, if the decision goes well, that means that the team *collectively* gets to share in the credit, so what's not to love, right? (And, less-often mentioned, if there's blame to get apportioned, well, the team as a whole shares the blame, so unless the company is going to fire the *entire* team over it....)
+This then leads to the second pitfall of new managers: no decision can be reached until the team collectively agrees to it. Meetings among the team take on the nature of an academic board of discussion, in which each of the professors who are experts in their own field weigh in with their opinions and analysis, with the intent that logic and deductive reasoning and debate will reveal the truth in time. "If everybody is convinced," the theory goes, "then collectively the right decision has been reached".
 
-But management-by-consensus is essentially an abdication of authority, and it is as bad, if not worse, trap to fall into.
+This "management-by-consensus" says, in essence, that it's not the *manager* that makes the call, it's the *team* that makes the call. After all, if the decision goes well, that means that the team *collectively* gets to share in the credit, so what's not to love, right? (And, less-often mentioned, if there's blame to get apportioned, well, the team as a whole shares the blame, so unless the company is going to fire the *entire* team over it....)
+
+***Management-by-consensus is essentially an abdication of authority.***
 
 Consider an average scenario: An issue has come up, and a decision needs to be made. The consensus manager, seeing this, calls the team together and presents the issue. The team debates for a while, and after some period of time, one of several outcomes emerge:
 
@@ -65,7 +67,9 @@ If you're starting to notice a pattern here, that the "consensus achieved" isn't
 What's worse is that the manager, by having abandoned their ownership of the decision, has lost the respect and confidence of the team--that consensus manager is now, at best, an arbitrator, and at worst, a spectator.
 
 ## The Buck Stops Here
-As a manager of a team, you are (literally) paid to own decisions. There will come times when the team will need a decision to be made, but cannot agree on what that decision needs to be. Some may have an agenda they wish to see fulfilled, some may genuinely believe they have a better perspective; their intentions do not matter. What matters is that they disagre on what the decision will be. In those moments, the decision is--and must be--yours to make. The buck stops with you, and that means that at times, you will need to make decisions that may be unpopular with some of your team.
+As a manager of a team, you are (literally) paid to own decisions. There will come times when the team will need a decision to be made, but cannot agree on what that decision needs to be. Some may have an agenda they wish to see fulfilled, some may genuinely believe they have a better perspective; their intentions do not matter. What matters is that they disagree on what the decision will be. In those moments, the decision is--and must be--yours to make. The buck stops with you, and that means that at times, you will need to make decisions that may be unpopular with some of your team. You don't do it capriciously or maliciously, and you certainly don't do so in such a way that somebody takes it personally, but you have to do it.
+
+You are the manager. It's your decision to own.
 
 Two interesting stories are told about this phenomenon:
 
@@ -75,11 +79,13 @@ Eisenhower had, in the room, some of the best, sharpest military minds, and the 
 
 What history often doesn't tell, when telling that story, is that Eisenhower then retreated to his office to write two letters/speeches: one that praised the troops for the successful landings, and one taking full responsibility for the failure of the Allied forces to land on the Normandy coast. Eisenhower knew, full well, that credit for the success lay with the troops who stormed the shores and manned the ships and flew the aircraft. Failure, however, was his, because his was the decision that sent them.
 
+You could argue that Eisenhower was a brilliant strategist who had a feel for the vibe of the campaign. You could argue that he had a greater sense of his troops' capabilities. You could even argue that it was a coin flip result, and he got lucky at the right time. It doesn't really matter for our purposes *why* the D-Day landings were successful--all that mattered is that Eisenhower knew the decision--and the accountability for that decision--lay with him, and him alone.
+
 The buck stopped with him.
 
-But another, similar, story carries with it a slightly different lesson to be learned:
+Another, similar, story carries within it a slightly different lesson:
 
-> "The Illinois football team was on the brink of beating number one ranked Ohio State.  It was 4th and 1 in Illinois territory with over 8 minutes to go and the Illinois coach decided to punt.  For some reason, Ohio State called a timeout and during this interval, the Illinois QB convinced the coach that they had not worked hard, practiced early and long for months (and for much of their lives) to give the ball back to Ohio State and lose with a potential drive.  The coach reversed his decision, Illinois went on to make the first down and ultimately eat up the clock en-route to [the major upset of the year](https://ohiostatebuckeyes.com/no-1-ohio-state-loses-28-21-to-illinois/)."
+> "The Illinois football team was on the brink of beating number one ranked Ohio State.  It was 4th and 1 in Illinois territory with over 8 minutes to go and the Illinois coach decided to punt.  Ohio State called a timeout and during this interval, the Illinois QB convinced the coach that they had not worked hard, practiced early and long for months (and for much of their lives) to give the ball back to Ohio State and lose with a potential drive.  The coach reversed his decision, Illinois went on to make the first down, and ultimately eat up the clock en-route to [the major upset of the year](https://ohiostatebuckeyes.com/no-1-ohio-state-loses-28-21-to-illinois/)."
 
 Notice here the coach (the manager) made a decision, but was convinced by others on his staff to make a different decision. As the manager, *if you have hired your team well, you are not the smartest person in the room*. Other people will have different perspective. They will have vision or skills or connections that you lack. They may well (and most likely will) be the ones who are executing on the decision, and if they believe they can pull it off, they might well be able to.
 
