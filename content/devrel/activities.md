@@ -50,13 +50,13 @@ There's a [few terms](#glossary) that I'll use in the patterns; in the interests
 #### Ambassadors
 *Social*
 
-***Also Known As***: Champions; MVPs; Experts; Heroes; Internal allies(?)
+***Also Known As***: Champions; MVPs; Experts; Heroes
 
 ***Problem***: You want to extend the reach of your efforts, beyond its current form, and in particular have a stronger presence in certain communities in which you currently have no representation or identity.
 
 ***Context***: Your hiring budget is limited and your team is already stretched to the limits of their bandwidth. 
 
-***Solution***: Find people within your existing community (by examining your [Forums](#forums) or by speaking with interested parties at [your booth at conferences](#booth)) who are active, well-informed on your product/service, and eager to be more active. Create a program by which they will have certain identity ("Ambassadors", "Heroes", etc), and offer benefits to being a part of the program: provide them with [Swag](#swag); give them early access to some of your next steps and company pursuits; create "direct channels"--meetings between the Ambassadors and company executives--for feedback and news; have Ambassadors write for your [Newsletter](#newsletter); assist Ambassadors in finding [Conference Sessions](#conference-session); put them center stage at your own [Conference](#conference); assist them in the writing of a [Book](#book). Ambassadors can even be given opportunities to [blog](#blog-post) and/or contribute [samples](#sample-example) or [Reference Documentation](#reference-documentation), if the docs are managed via Git/GitHub.
+***Solution***: Find people within your existing community (by examining your [Forums](#forums) or by speaking with interested parties at [your booth at conferences](#booth)) who are active, well-informed on your product/service, and eager to be more active. Create a program by which they will have certain identity ("Ambassadors", "Heroes", etc), and offer benefits to being a part of the program: provide them with [Swag](#swag); give them early access to some of your next steps and company pursuits; create "direct channels"--meetings between the Ambassadors and company executives--for feedback and news; have Ambassadors write for your [Newsletter](#newsletter); assist Ambassadors in finding [Conference Sessions](#conference-session); put them center stage at your own [Conference](#conference); assist them in the writing of a [Book](#book). Ambassadors can even be given opportunities to [blog](#blog-post) and/or contribute [samples](#sample-example) or [Reference Documentation](#reference-documentation), if the docs are managed via Git/GitHub. Ambassadors are also exellent help in starting or growing a [User Group Network](#user-group-network).
 
 ***Consequences***: Creating an extension of your DevRel team like this will almost certainly necessitate one of your team to the care-and-feeding (management) of the Ambassadors, including managing communications with them and setting expectations.
 
@@ -77,7 +77,7 @@ Written piece published by a third party, whether that's a website (like a devel
 
 ***Solution***: Write an article (generally 1500 words minimum, 4000 words maximum) that addresses the needs of that audience in a semi-direct, if abstract, fashion, submitted to a third-party publisher who will distribute it to their audience. When the article is published, make sure to provide traffic to the publisher's site by using [Social Media](#social-media) to advertise its publication to your known audience, as they may have interests in that area as well.
 
-***Consequences***: Articles will often require some amount of editing and copyediting, which are not skills the typical DevRel team holds; work with an external editing/copyediting service might be required, if the publisher doesn't provide them. Note also that the publisher will often want either exclusive ownership or shared ownership (with an exclusivity clause) that could prevent the use of the article in other scenarios, such as a [Blog post](#blog-post) or [Book](#book). Some publishers will provide a clause that allows the company to re-publish the article on their own web properties after a certain period of time has passed (1-3 momths is common), but often will not provide this unless asked. Most publishers will also look for some form of contract to be signed, which may require legal review.
+***Consequences***: Articles will often require some amount of editing and copyediting, which are not skills the typical DevRel team holds; work with an external editing/copyediting service might be required, if the publisher doesn't provide them. Note also that the publisher will often want either exclusive ownership or shared ownership (with an exclusivity clause) that could prevent the use of the article in other scenarios, such as a [Blog post](#blog-post) or [Book](#book). Some publishers will provide a clause that allows the company to re-publish the article on their own web properties after a certain period of time has passed (1-3 months is common), but often will not provide this unless asked. Most publishers will also look for some form of contract to be signed, which may require legal review.
 
 Once written, the article may atrophy over time as the product/service deviates from what was written about it at the time of the article's publication; ideally, the publisher will be willing to allow for edits to the article to bring it up to date, but this will be effort that is entirely up to the company to provide. Because of this atrophy risk, articles should always be prominently dated so readers can get a sense of how "stale" the code or details described in the article are. [Blog posts](#blog-post) can also often be used to describe the changes between the article's publication and current-state, although finding ways to get the article and the blog post "connected" can be tricky.
 
@@ -333,7 +333,11 @@ Additionally, sometimes the question appears multiple times from different poste
 
 Note that several tools (like Visual Studio Code or the JetBrains suite of tools) have extensions or plugins that know how to work directly with the Gist API, making it easier to create and share them.
 
-***Consequences***: 
+***Consequences***: Gists are full GitHub repos, and can "grow" from single files to whole collections of files organized in particular ways (projects, solutions, etc). Linking to the gist may lose its efficacy if following the link doesn't make clear what is being referenced; once a gist grows large enough, it may serve better as a more formal [Sample/Example](#sample-example). Large collections of gists might be better off collecting under [a "Kitchen Sink" reference application or gallery](#sample-example), for easier consistent configuration and/or display, and then referenced individually as files on GitHub.
+
+Because gists don't have descriptive names, hyperlinks will be somewhat obscure, and therefore harder to spot accidental typos and/or accidental mis-linking (linking to the wrong gist).
+
+Gists may not be top-of-mind when new updates and releases to your product/service come out, so set a reminder periodically to update a gist or mark it is obsolete. Be reluctant to delete the gist entirely unless you are able to find all the places where the gist is referenced on the Internet (unlikely), as "link rot" could lead customers or prospective customers to conclude that your support system or community is less strong than it actually is. (One broken link won't turn anyone away, but if numerous gist-links are 404s, people will start to wonder.)
 
 ***Variants***:
 
@@ -497,11 +501,19 @@ Recurring (monthly) emailed newsletter sent to opted-in customers. Include links
 
 ***Problem***: Customers are always surprised to hear of news about the product/service over social media and not from the company itself. You want to find ways to give them better opportunities to hear the news directly from the company, without coming across as "spammy" or "in your face", which could turn customers off.
 
-***Context***: Developers often want to know about new features, but they want to know about them on their own time, and not have the news forced on them. 
+***Context***: Developers often want to know about new features, but they want to know about them on their own time, and not have the news forced on them.
 
-***Solution***:
+***Solution***: Create a periodic newsletter that is emailed to an opt-in list of customers and/or other developers, consisting of a mix of technical articles about your product/service, news about your product/service, and wider news about the technical domain your product/service is in. (For example, if your product/service is a financial services service/API, then periodically share major news about the larger financial services cloud space.)
 
-***Consequences***:
+***Consequences***: Keeping the rhythm of the newsletter going is crucial, and managing the pipeline of content is a major task. Consider hiring a technical writer to assist with the creation of articles and news, and/or a copyeditor to help with proofreading and "tone" of the articles. In addition, consider hiring an editor to oversee the newsletter full-time, including the process of acquiring new content for the pipeline. Also, start with a period that is far enough apart to allow for steady publication (every other month or quarterly is not unusual as a starting point) until you have enough content for six months' worth of publication, and only then "compress" the period down (quarterly to twice-quarterly, then monthly, then twice-monthly, then weekly, and so on). Regardless of how much content you have, don't go faster than your editorial process can handle.
+
+Finding that content on a regular basis can be difficult, particularly if your DevRel team is occupied with other tasks. Look to other engineers within the company who are interested in growing their individual brands (and make sure to provide them with "bylines"--author credit--on any piece they write), as well as to your [Ambassadors](#ambassadors). Many of the articles written here could be repurposed into (or from) other [Articles](#articles), but make sure to check with the third-party publisher for any concerns of exclusivity--many publishers want to be the only source of original content for some period of time before allowing re-publication.
+
+Keep in mind that commitments to publication from employees at your company other than your DevRel team are likely to be secondary commitments (when compared to their "day jobs"), and be prepared for deadlines to be missed. You might be able to get other managers to help their employees keep to their commitments, but remember that they usually have differing goals than your team does, so be flexible.
+
+Newsletters are an excellent way to advertise upcoming [Conference Sessions](#conference-sessions), as well as to announce any particularly relevant [Samples/Examples](#sample-example) that relate to the news or articles included in this newsletter. (For this reason, even if you hire an editor, consider strongly having one of your Dev Advocates do a technical-review pass on each newsletter and suggest relevant items.) Make sure to reference your newsletters from your [Social Media](#social-media), [Live Streaming](#live-streaming), and/or [Podcast](#podcast), and vice versa. 
+
+As you build out your [User Group Network](#user-group-network), consider offering opportunities for each user group to put an "advertisement" into a newsletter, as a way of increasing user group attendance, particularly those in major cities. 
 
 ***Variants***:
 
