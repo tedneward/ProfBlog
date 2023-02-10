@@ -484,9 +484,17 @@ It is also (contrary to most popular beliefs) endearing to developers to see peo
 
 ***Solution***: Use on of the "live streaming" platforms (Twitch, Vimeo, YouTube) to capture informal, longer-form video. Live streaming is similar in tooling to the [Webinar](#webinar), but the "vibe" is very different--where webinars are more formal presentation-like affairs, often intended to be one-way (with some interactivity in the form of questions from the audience), live streaming often is much more *ad hoc*, with streamers frequently seemingly doing nothing more than "turning on the camera and starting to code something interesting".
 
+Topics for the live stream can range widely; some live-streamers have no agenda other than "I'm going to code something today that I've never built before" to show participants their process when building, including mistakes, while other live-streamers have a more focused agenda.
+
 ***Consequences***: Interactivity in a Live Stream is often very high, as the various streaming platforms allow for comments, as well as "likes" and other emoji-fueled effects to appear on the screen during the stream. Streamers will often take their efforts in different directions based on the commentary and reactions from participants, including suggestions on what to do next, how to solve a particular problem, or even collaborate to solve a bug or other issue. (Note that most streaming platforms only allow the streamer to display their video and audio, so all commentary from participants is done through chat messages to the stream as a whole.)
 
 Because of the nature of displaying both the streamer's screen and the streamer's video simultaneously or side-by-side, streaming requires some investment into equipment and a good Internet connection. This usually means it is difficult to do anywhere except in "the studio" (sually the streamer's home or work office), and will thus conflict with travel schedules somewhat. (Some streamers have worked to make their streaming setups portable so that they can stream from hotels while on the road, but this is yet somewhat rare, at least as of this writing.)
+
+Recordings of the live-stream often don't need much by way of editing (although it should be reviewed before publication, in case there is a violation of the company's code-of-conduct to avoid legal liability), but do need to be stored someplace publicly accessible. [YouTube](#youtube) is a common place to store these, for the same reasons it is useful to store [Podcasts](#podcast).
+
+Keep in mind that the live-stream is, as the name implies, live, and participants on the stream may turn out to be malicious individuals with goals that differ from yours (and, more importantly, are a violation of your code of conduct or not emblematic of the image your company wants to present). The live-streamer will need to be ready to handle those situations, moderating and/or removing those individuals as needed.
+
+Your company may also have certain concerns around the potential liabilities of live-streaming and the potential dangers of an "open mic:, so you may want or need to run the idea past Legal beforehand.
 
 ***Variants***:
 
@@ -756,13 +764,15 @@ Accepting bug reports, triaging the bug, developing a fix or workaround, and com
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Your customer is running into issues of one form or another with your product/service: Either it is not doing something it should, or it is doing something it shouldn't, or at least is behaving in a manner that is unexpected. It may be as simple as simply being "down", and they cannot correct the problem themselves.
 
-***Solution***:
+***Context***: As the developer-facing team within the company for your product/service, you are frequently "out in front" of the customers with content and/or other artifacts or materials. You run the [Social Media](#social-media), you're a presence on the [Forums](#forums), and you're the face of the [Podcast](#podcast) or [Live Stream](#live-streaming). Yours is the face and name they know, so you're going to be considered the first point of contact when a customer is looking for help.
 
-***Context***:
+***Solution***: Ensure that your DevRel team is either in a position (by training and bandwidth commitment) to serve as a first-tier developer technical support team, and/or that your company has a developer technical support team and a process by which tickets can be forwarded to them on the customers' behalf.
 
-***Consequences***:
+***Consequences***: Developer technical support is often more intricate and complex than end-user technical support, since software development is often more subtle and more "open-ended" than what users are capable of doing. This means that developer technical support is often a more time-intensive task (on a per-ticket basis), and it requires personnel who are at least somewhat proficient at writing code. If the company currently does not have a developer technical support team, your team will need to step into that role, and own any developer technical support requests that come in. This is an enormous time commitment if your product/service becomes at all popular, so while your DevRel team members may be able to serve in this role for a time, you will quickly reach a point where your available bandwidth is exceeded and a dedicated developer technical support team will need to be hired. (This team can be either a part of DevRel or a part of Engineering--there's solid arguments for both.)
+
+Having the DevRel team involved at some level in developer technical support can help generate additional feedback about the product/service, and in particular the places where either the documentation needs to be improved (perhaps the [Guides](#guides) need to have deeper details about a complex topic) or fixed (perhaps the [Reference Documentation](#reference-documentation) doesn't accurately reflect how the product/service works) or extended (perhaps a new [Sample/Example](#sample-example) helps demonstrate how to avoid a common bug).
 
 ***Variants***:
 
@@ -775,7 +785,7 @@ Unit or integration tests written to prove a particular hypothesis about the cod
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: 
 
 ***Solution***:
 
@@ -794,11 +804,11 @@ Formal classes in a lecture-lab style format. External-direction = training abou
 
 ***Also Known As***:
 
-***Problem***:
-
-***Solution***:
+***Problem***: Your product/service is complex enough, or feature-rich enough, that there is concern that developers will not be able to learn how to use it from written documentation or presentations. Perhaps there are complex concepts involved, or new concepts that developers have not seen before, or perhaps the configuration of the product/service is complicated due to a high level of dependency or interaction between configuration settings. In some cases, just getting started can be complicated enough to merit concern.
 
 ***Context***:
+
+***Solution***: Provide training classes, ranging in length from half-day (four hours) to full weeks (40 hours or more) in which an expert in your product/service provides a presentation describing some part of the complexity, 
 
 ***Consequences***:
 
