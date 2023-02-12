@@ -39,11 +39,11 @@ There's a [few terms](#glossary) that I'll use in the patterns; in the interests
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) | [Podcast](#podcast) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) | [Podcast](#podcast) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [Workshop](#workshop) | [YouTube](#youtube)
 
 ## ... including Also-Known-As's and Variants
 
-[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Podcast](#podcast) | [Product/Service Development; Extensions; Providers](#product-development) | [Reference Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Vidcast](#podcast) | [Webinar](#webinar) | [White Paper](#white-paper) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Podcast](#podcast) | [Product/Service Development; Extensions; Providers](#product-development) | [Reference Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Vidcast](#podcast) | [Webinar](#webinar) | [White Paper](#article) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
 
 
 <div id="ambassadors" /><hr/>
@@ -83,6 +83,10 @@ Once written, the article may atrophy over time as the product/service deviates 
 
 The topic, if large enough, can often be the centerpiece of a [Conference Session](#conference-session), though typically an article will be too short to fill a 45-50 minute session, and will need expansion. 
 
+***Variants***:
+
+* **White Paper.** If the article is written by somebody at the company and used as part of the company's marketing or sales efforts, it is often called a "white paper".
+
 
 <div id="blog-post" /><hr/>
 #### Blog Post
@@ -116,6 +120,8 @@ In some cases, the material is complex enough that supporting code samples, in l
 ***Solution***: Identify one or two people on the DevRel team who are comfortable with long-form writing, and have them write material to form a book. (Alternatively, the material can come together from a variety of sources, such as internal engineers, but then the one or two people will be editors, rather than authors, bringing all the material together to feel like it is written in one style, and ensuring material does not substantively overlap.) This book can either be self-published (often in electronic form only) by the company, or published through an established publisher for greater reach.
 
 ***Consequences***: The cost of writing a book is extremely high to the author, often requiring a full-time effort for many months, leaving zero bandwidth to participate in many of the other activities. The author's brand recognition and credibility will improve after the book's publication, however, and often open doors for the author and the company due solely to its existence.
+
+Books are often written using GitBook.
 
 Customer commitment to consuming a book is non-trivial, as most books require days to read, even without any other distraction, and most will require weeks or months given a typical day and commitments. The content must be worth the investment, or the reputation will be negative rather than positive. For this reason, books should be reviewed by subject-matter-experts to ensure its accuracy, and the book should be written to have some "longevity" beyond the current product/service release.
 
@@ -837,13 +843,27 @@ Either written or video content (or both) that takes a developer through a serie
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Your product/service is complex, with a large number of possible ways to get started, or large feature set. Developers find it difficult to get started, and/or make use of features. You might have [Reference Documentation](#reference-documentation) or [Guides](#guides), but these are not sufficient to get developers using your product/service or certain features of the product/service.
 
-***Solution***:
+***Context***: Getting developers started is not a one-time exercise. Any developer that wants to learn your product/service is going to be coming at it "brand new", and it is irrelevant how long your product/service has been around--every developer is new to your product/service the first time they begin exploring it. Therefore, it is important that whatever solution you use to help them has a long longevity to it, and is easily reusable.
 
-***Context***:
+Developers are accustomed to being able to "do" rather than just "sit and listen". Psychological studies are mixed on whether different people have different "learning styles", but in general the adage "tell me and I forget; show me and I might remember; have me do and I remember" seems to hold for many if not most developers.
 
-***Consequences***:
+Every single developer will need to go through learning how to use your product/service (particularly as the number of features increase), so unless the company's business model assumes or relies on a small customer base (or a large DevRel team!), this must be a high-reach activity.
+
+***Solution***: Create a tutorial that takes a developer from a well-defined "point A" to a well-defined "point B", with step-by-step instructions (and code) that developers can exercise and run for themselves. The steps taken should be concrete, clear, and comprehensive, so that developers understand what they are doing and why they are doing it.
+
+In order to minimize the amount of work a developer must go through to get started with a tutorial, consider providing a [Live Playground](#live-playground) for developers to use.
+
+***Consequences***: Unless your product/service is particularly small or has a small developer-facing "surface area", just one tutorial will not be enough. It is very likely that with each new feature developed in the product/service, a new tutorial showing how to use that feature will be useful if not necessary. New tutorials will be needed as new features are released.
+
+Tutorials will also need to be updated regularly as the product/service modifies some of its existing features or functionality. The more tutorials, the more time and effort will be required to keep them up to date. This is a useful activity for the more junior members of the DevRel team (to help them get practice debugging against your product/service as well as help them learn the product/service more comprehensively).
+
+Because it is difficult to predict ahead of time where developers will get stuck, consider providing the "answers" (completed tutorial) as a [Sample/Example](#sample-example) for developers to consult.
+
+It is common to use material from a tutorial for a [Workshop](#workshop) at a conference, providing some in-person lecture in front of the hands-on work, rather than relying on prose. Similar results can be achieved by combining a [Webinar](#webinar) with a tutorial, creating greater reach but sacrificing some interactivity.
+
+If there is a large number of tutorials, and there is demand for a higher-interactivity approach, tutorials can be combined with in-person (or virtual) lectures and turned into [Training](#training). 
 
 ***Variants***:
 
@@ -888,25 +908,6 @@ A scheduled one-way presentation done over video-conferencing software, typicall
 ***Solution***:
 
 ***Context***: You want the presentation to be more formal and "professional", similar to what might be seen in a more formal setting.
-
-***Consequences***:
-
-***Variants***:
-
-
-<div id="white-paper" /><hr/>
-#### White Paper
-*Writing*
-
-Written piece that conveys technical concept around the product/service at some level of depth; often intended as a pre-sale technique for those who want to dive more deeply into the product/service's offerings without having to make a greater commitment to downloading/installing the product/service.
-
-***Also Known As***:
-
-***Problem***:
-
-***Solution***:
-
-***Context***:
 
 ***Consequences***:
 
