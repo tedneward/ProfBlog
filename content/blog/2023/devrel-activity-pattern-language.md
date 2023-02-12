@@ -1,5 +1,5 @@
 title=A DevRel Activity Pattern Language
-date=2023-02-01
+date=2023-02-09
 type=post
 tags=devrel
 status=draft
