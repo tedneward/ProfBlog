@@ -366,6 +366,8 @@ Certain guides will be specific to particular domains; popular guide topics incl
 
 ***Consequences***: Guides will often be the first set of documentation that developers will read when they begin their serious journey to understanding your product/service, and should therefore be something *very* carefully curated and edited. Consider using professional editing services and/or personnel to help ensure the writing is clear, consistent, and easily consumable.
 
+Guides should link to the [Reference Documentation](#reference-documentation) liberally, relying on the reference docs to describe all of the different permutations and possibilities. This leaves the Guides to focus on the more commonly-used aspects of the product/service, and as a result stay streamlined and more easily consumable.
+
 As the product/service becomes more widely used internationally, consider hiring translation services to create native-tongue transations of the guides into languages that represent your customer population; if you find that your product/service has a singificant user base growing in Eastern Europe, for example, consider a Polish or Czech translation.
 
 Recognize that in many cases, the ability for an individual in your community to make the transition to [Ambassador](#ambassadors) lies in the ability to consume conceptual documentation about your product/service and then utilize that knowledge in [Forums](#forums) and to create [Conference Sessions](#conference-session) and [Articles](#article). Provide opportunities for your Ambassadors to collaborate on the authoring and editing of these documents, perhaps even before they become publicly available.
@@ -614,13 +616,21 @@ Precise documentation about the API, interfaces, classes, or whatever makes up t
 
 ***Also Known As***: 
 
-***Problem***: 
+***Problem***: Customers using your product/service will need to know all the possible configuration, parameters, types and effects that your product/service uses or depends on. While they could crawl through the source code to figure out the implications and ramifications (assuming your product/service is open source), doing so is extremely labor-intensive and always subject to change with each passing revision or pull request.
 
-***Context***: 
+***Context***: Customers will want this information to be handy, searchable, and in some cases integrated with as many of their developer tools as possible; at a minimum, it will need to be something that can be linked publicly, so that it can be referenced from [Forum](#forums), [Articles](#article), and [Blog Posts](#blog-post).
 
-***Solution***: 
+Developers need comprehensive information that is the "final word" on what your product/service does, aside from running the code. If your product/service is not open-source or is cloud-hosted, this will be the only way customers will know how your product/service behaves without painful and time-consuming experimentation/trial-and-error.
 
-***Consequences***: 
+***Solution***: Create a set of documentation that is publicly accessible, possibly derived from the codebase itself, that is comprehensive and complete. Reference documentation should focus on the "what" of every publicly-accessible aspect of your product/service.
+
+***Consequences***: Reference documentation is often a large undertaking, and will require a great deal of time and energy to create, update, and maintain. Keep in mind that automatically-generated documentation can only go so far, and will be dependent on the developers' willingness to document the code extensively. (For example, the `javadoc` documentation-generation tool can build documentation from the names and structure of Java classes and methods, but cannot infer anything beyond the names.)
+
+Where reference documentation focuses on the "what" of your product/service, consider using [Guides](#guides) to explain the "why" or the "how", as appropriate.
+
+Consider having a third party review your reference documentation, and file issues or bug reports against insufficient documentation or documentation that doesn't tell developers anything further than the name of the thing in question.
+
+Consider open-sourcing your documentation, such as hosting the documentation as a GitHub project, such that others outside your company has access. This will allow others (such as [Ambassadors](#ambassadors)) to find incorrect or incomplete elements of the documentation and submit changes or pull requests to correct it.
 
 ***Variants***:
 
