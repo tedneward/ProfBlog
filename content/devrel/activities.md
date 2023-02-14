@@ -39,11 +39,11 @@ There's a [few terms](#glossary) that I'll use in the patterns; in the interests
 <div id="catalog" /><hr />
 ## Activity Catalog
 
-[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) | [Podcast](#podcast) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [White Paper](#white-paper) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors](#ambassors) | [Article](#article) | [Blog Post](#blog-post) | [Book](#book) | [Booth](#booth) | [Code Review](#code-review) | [Conference](#conference) | [Conference Session](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Forums](#forums) | [Gist](#gist) | [Guide](#guide) | [Hackathon](#hackathon) | [Hands-on Labs](#hands-on-labs) | [Live Playground](#live-playground) | [Live Streaming](#live-streaming) | [Newsletter](#newsletter) | [Office Hours](#office-hours) | [Podcast](#podcast) | [Product/Service Development](#product-development) | [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media](#social-media) | [Sponsorship](#sponsorship) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Webinar](#webinar) | [Workshop](#workshop) | [YouTube](#youtube)
 
 ## ... including Also-Known-As's and Variants
 
-[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Podcast](#podcast) | [Product/Service Development; Extensions; Providers](#product-development) | [Reference Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Vidcast](#podcast) | [Webinar](#webinar) | [White Paper](#white-paper) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
+[Ambassadors; Champions; MVPs; Experts; Heroes](#ambassors) | [Ambassador Sponsorship](#sponsorship) | [API Gateway](#product-development) | [Article](#article) | [Beta/Buzz Talk](#conference-session) | [Blog Post](#blog-post) | [Book; Handbook; Manual; Playbook; E-Book](#book) | [Booth; Floor Presence](#booth) | [Brown Bag; Lunch-n-Learn](#conference-session) | [Certification](#hands-on-labs) | [Code Review; Engineering Deep-Dive; "Let's Get Eyes On It"](#code-review) | [Conference; User Conference; Tech Week; TechReady](#conference) | [Conference Session; Talk; Presentation](#conference-session) | [Customer Check-In](#customer-checkin) | [Customer Meeting (Pre-Sale)](#customer-pre-sale) | [Developer Portal](#forums) | [Docker install](#live-playground) | [Exploration Tests](#sample-example) | [Forums; Bulletin Boards](#forums) | [Gallery; "Kitchen Sink" Demo](#sample-example) | [Gist](#gist) | [Github Issues; Jira](#forums) | [Guide](#guide) | [Guilds; Centers-of-Excellence](#user-group-network) | [Hackathon](#hackathon) | [Hands-on Labs; Codelabs; Homework](#hands-on-labs) | [Internal Code Review](#code-review) | [Lightning Talk](#conference-session) | [Live Playground; Sandbox; "Try" site](#live-playground) | [Live Streaming; Twitch; Vimeo](#live-streaming) | [Newsletter; Zine](#newsletter) | [OpenLabs; Code With Us](#hackathon) | [Office Hours](#office-hours) | [Partner Meeting](#customer-check-in) | [Pit Crew](#booth) | [Podcast](#podcast) | [Product/Service Development; Extensions; Providers](#product-development) | [Reference Application](#sample-example) [Reference Documentation](#reference-documentation) | [Sample/Example](#sample-example) | [SDK](#sdk) | [Social Media; Facebook Groups; Twitter; Mastodon; LinkedIN](#social-media) | [Sponsorship; Conferences; User Groups; Technology Advocacy Groups](#sponsorship) | [Sponsored Conference Session](#conference-session) | [StackOverflow; Reddit](#forums) | [Swag](#swag) | [Technical Support](#technical-support) | [Tests](#tests) | [Training](#training) | [Tutorial](#tutorial) | [User Group Network](#user-group-network) | [Meetup Session; User Group Session](#conference-session) | [Vidcast](#podcast) | [Webinar](#webinar) | [White Paper](#article) | [Wiki](#forums) | [Workshop](#workshop) | [YouTube](#youtube)
 
 
 <div id="ambassadors" /><hr/>
@@ -83,6 +83,10 @@ Once written, the article may atrophy over time as the product/service deviates 
 
 The topic, if large enough, can often be the centerpiece of a [Conference Session](#conference-session), though typically an article will be too short to fill a 45-50 minute session, and will need expansion. 
 
+***Variants***:
+
+* **White Paper.** If the article is written by somebody at the company and used as part of the company's marketing or sales efforts, it is often called a "white paper".
+
 
 <div id="blog-post" /><hr/>
 #### Blog Post
@@ -116,6 +120,8 @@ In some cases, the material is complex enough that supporting code samples, in l
 ***Solution***: Identify one or two people on the DevRel team who are comfortable with long-form writing, and have them write material to form a book. (Alternatively, the material can come together from a variety of sources, such as internal engineers, but then the one or two people will be editors, rather than authors, bringing all the material together to feel like it is written in one style, and ensuring material does not substantively overlap.) This book can either be self-published (often in electronic form only) by the company, or published through an established publisher for greater reach.
 
 ***Consequences***: The cost of writing a book is extremely high to the author, often requiring a full-time effort for many months, leaving zero bandwidth to participate in many of the other activities. The author's brand recognition and credibility will improve after the book's publication, however, and often open doors for the author and the company due solely to its existence.
+
+Books are often written using GitBook.
 
 Customer commitment to consuming a book is non-trivial, as most books require days to read, even without any other distraction, and most will require weeks or months given a typical day and commitments. The content must be worth the investment, or the reputation will be negative rather than positive. For this reason, books should be reviewed by subject-matter-experts to ensure its accuracy, and the book should be written to have some "longevity" beyond the current product/service release.
 
@@ -366,6 +372,8 @@ Certain guides will be specific to particular domains; popular guide topics incl
 
 ***Consequences***: Guides will often be the first set of documentation that developers will read when they begin their serious journey to understanding your product/service, and should therefore be something *very* carefully curated and edited. Consider using professional editing services and/or personnel to help ensure the writing is clear, consistent, and easily consumable.
 
+Guides should link to the [Reference Documentation](#reference-documentation) liberally, relying on the reference docs to describe all of the different permutations and possibilities. This leaves the Guides to focus on the more commonly-used aspects of the product/service, and as a result stay streamlined and more easily consumable.
+
 As the product/service becomes more widely used internationally, consider hiring translation services to create native-tongue transations of the guides into languages that represent your customer population; if you find that your product/service has a singificant user base growing in Eastern Europe, for example, consider a Polish or Czech translation.
 
 Recognize that in many cases, the ability for an individual in your community to make the transition to [Ambassador](#ambassadors) lies in the ability to consume conceptual documentation about your product/service and then utilize that knowledge in [Forums](#forums) and to create [Conference Sessions](#conference-session) and [Articles](#article). Provide opportunities for your Ambassadors to collaborate on the authoring and editing of these documents, perhaps even before they become publicly available.
@@ -484,9 +492,17 @@ It is also (contrary to most popular beliefs) endearing to developers to see peo
 
 ***Solution***: Use on of the "live streaming" platforms (Twitch, Vimeo, YouTube) to capture informal, longer-form video. Live streaming is similar in tooling to the [Webinar](#webinar), but the "vibe" is very different--where webinars are more formal presentation-like affairs, often intended to be one-way (with some interactivity in the form of questions from the audience), live streaming often is much more *ad hoc*, with streamers frequently seemingly doing nothing more than "turning on the camera and starting to code something interesting".
 
+Topics for the live stream can range widely; some live-streamers have no agenda other than "I'm going to code something today that I've never built before" to show participants their process when building, including mistakes, while other live-streamers have a more focused agenda.
+
 ***Consequences***: Interactivity in a Live Stream is often very high, as the various streaming platforms allow for comments, as well as "likes" and other emoji-fueled effects to appear on the screen during the stream. Streamers will often take their efforts in different directions based on the commentary and reactions from participants, including suggestions on what to do next, how to solve a particular problem, or even collaborate to solve a bug or other issue. (Note that most streaming platforms only allow the streamer to display their video and audio, so all commentary from participants is done through chat messages to the stream as a whole.)
 
 Because of the nature of displaying both the streamer's screen and the streamer's video simultaneously or side-by-side, streaming requires some investment into equipment and a good Internet connection. This usually means it is difficult to do anywhere except in "the studio" (sually the streamer's home or work office), and will thus conflict with travel schedules somewhat. (Some streamers have worked to make their streaming setups portable so that they can stream from hotels while on the road, but this is yet somewhat rare, at least as of this writing.)
+
+Recordings of the live-stream often don't need much by way of editing (although it should be reviewed before publication, in case there is a violation of the company's code-of-conduct to avoid legal liability), but do need to be stored someplace publicly accessible. [YouTube](#youtube) is a common place to store these, for the same reasons it is useful to store [Podcasts](#podcast).
+
+Keep in mind that the live-stream is, as the name implies, live, and participants on the stream may turn out to be malicious individuals with goals that differ from yours (and, more importantly, are a violation of your code of conduct or not emblematic of the image your company wants to present). The live-streamer will need to be ready to handle those situations, moderating and/or removing those individuals as needed.
+
+Your company may also have certain concerns around the potential liabilities of live-streaming and the potential dangers of an "open mic:, so you may want or need to run the idea past Legal beforehand.
 
 ***Variants***:
 
@@ -606,13 +622,21 @@ Precise documentation about the API, interfaces, classes, or whatever makes up t
 
 ***Also Known As***: 
 
-***Problem***: 
+***Problem***: Customers using your product/service will need to know all the possible configuration, parameters, types and effects that your product/service uses or depends on. While they could crawl through the source code to figure out the implications and ramifications (assuming your product/service is open source), doing so is extremely labor-intensive and always subject to change with each passing revision or pull request.
 
-***Context***: 
+***Context***: Customers will want this information to be handy, searchable, and in some cases integrated with as many of their developer tools as possible; at a minimum, it will need to be something that can be linked publicly, so that it can be referenced from [Forum](#forums), [Articles](#article), and [Blog Posts](#blog-post).
 
-***Solution***: 
+Developers need comprehensive information that is the "final word" on what your product/service does, aside from running the code. If your product/service is not open-source or is cloud-hosted, this will be the only way customers will know how your product/service behaves without painful and time-consuming experimentation/trial-and-error.
 
-***Consequences***: 
+***Solution***: Create a set of documentation that is publicly accessible, possibly derived from the codebase itself, that is comprehensive and complete. Reference documentation should focus on the "what" of every publicly-accessible aspect of your product/service.
+
+***Consequences***: Reference documentation is often a large undertaking, and will require a great deal of time and energy to create, update, and maintain. Keep in mind that automatically-generated documentation can only go so far, and will be dependent on the developers' willingness to document the code extensively. (For example, the `javadoc` documentation-generation tool can build documentation from the names and structure of Java classes and methods, but cannot infer anything beyond the names.)
+
+Where reference documentation focuses on the "what" of your product/service, consider using [Guides](#guides) to explain the "why" or the "how", as appropriate.
+
+Consider having a third party review your reference documentation, and file issues or bug reports against insufficient documentation or documentation that doesn't tell developers anything further than the name of the thing in question.
+
+Consider open-sourcing your documentation, such as hosting the documentation as a GitHub project, such that others outside your company has access. This will allow others (such as [Ambassadors](#ambassadors)) to find incorrect or incomplete elements of the documentation and submit changes or pull requests to correct it.
 
 ***Variants***:
 
@@ -756,7 +780,7 @@ Accepting bug reports, triaging the bug, developing a fix or workaround, and com
 
 ***Also Known As***:
 
-***Problem***: Customers using your product/service are inevitably going to find issues (or what they think are issues), and as the connection between developers and your company, you will be a first point of contact they will use to communicate with your company when they are stuck or believe they have found a bug or issue.
+***Problem***: Customers using your product/service are inevitably going to find issues (or what they think are issues), and as the connection between developers and your company, you will be a first point of contact they will use to communicate with your company when they are stuck or believe they have found a bug or issue. Your customer is running into issues of one form or another with your product/service: Either it is not doing something it should, or it is doing something it shouldn't, or at least is behaving in a manner that is unexpected. It may be as simple as simply being "down", and they cannot correct the problem themselves.
 
 ***Context***: Formal technical support teams often have a formalized process by which they triage and handle (or escalate) technical support requests (tickets), in order to help that team focus on fixing the biggest-impact smallest-effort-required bugs. Each tech support team triages their tickets in a different manner, according to their policies and OKRs, and anyone looking for ways to circumvent this process often earns the wrath of the senior management of the technical support team.
 
@@ -766,7 +790,9 @@ Depending on the nature of your product/service, the technical support team may 
 
 If the product/service is geared towards end-user consumers, you may need to create an informal (or formal) developer tech support team to support those folks directly.
 
-***Consequences***: Any form of contact with your team can be the entry point to an informal technical support request: feedback on an [Article](#article), one of your [Ambassadors](#ambassadors) having an issue themselves, [Forums](#forums), [Social Media](#social-media), even somebody walking up to you at a [Conference Session](#conference-session) are all prime candidates for a customer's opening line, "Do you have a moment? I've run into something weird, and I could use your help...."
+***Consequences***: Any form of contact with your team can be the entry point to an informal technical support request: feedback on an [Article](#article), one of your [Ambassadors](#ambassadors) having an issue themselves, [Forums](#forums), [Social Media](#social-media), even somebody walking up to you at a [Conference Session](#conference-session) are all prime candidates for a customer's opening line, "Do you have a moment? I've run into something weird, and I could use your help...." Developer technical support is often more intricate and complex than end-user technical support, since software development is often more subtle and more "open-ended" than what users are capable of doing. This means that developer technical support is often a more time-intensive task (on a per-ticket basis), and it requires personnel who are at least somewhat proficient at writing code. If the company currently does not have a developer technical support team, your team will need to step into that role, and own any developer technical support requests that come in. This is an enormous time commitment if your product/service becomes at all popular, so while your DevRel team members may be able to serve in this role for a time, you will quickly reach a point where your available bandwidth is exceeded and a dedicated developer technical support team will need to be hired. (This team can be either a part of DevRel or a part of Engineering--there's solid arguments for both.)
+
+Having the DevRel team involved at some level in developer technical support can help generate additional feedback about the product/service, and in particular the places where either the documentation needs to be improved (perhaps the [Guides](#guides) need to have deeper details about a complex topic) or fixed (perhaps the [Reference Documentation](#reference-documentation) doesn't accurately reflect how the product/service works) or extended (perhaps a new [Sample/Example](#sample-example) helps demonstrate how to avoid a common bug).
 
 ***Variants***:
 
@@ -781,9 +807,9 @@ Unit or integration tests written to prove a particular hypothesis about the cod
 
 ***Problem***: Your product/service 
 
-***Solution***: Developers find code to be a powerful way to learn about a product/service, particularly those that are built open-source.
-
 ***Context***: 
+
+***Solution***: Developers find code to be a powerful way to learn about a product/service, particularly those that are built open-source.
 
 ***Consequences***: 
 
@@ -798,11 +824,11 @@ Formal classes in a lecture-lab style format. External-direction = training abou
 
 ***Also Known As***:
 
-***Problem***:
-
-***Solution***:
+***Problem***: Your product/service is complex enough, or feature-rich enough, that there is concern that developers will not be able to learn how to use it from written documentation or presentations. Perhaps there are complex concepts involved, or new concepts that developers have not seen before, or perhaps the configuration of the product/service is complicated due to a high level of dependency or interaction between configuration settings. In some cases, just getting started can be complicated enough to merit concern.
 
 ***Context***:
+
+***Solution***: Provide training classes, ranging in length from half-day (four hours) to full weeks (40 hours or more) in which an expert in your product/service provides a presentation describing some part of the complexity, 
 
 ***Consequences***:
 
@@ -817,13 +843,27 @@ Either written or video content (or both) that takes a developer through a serie
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Your product/service is complex, with a large number of possible ways to get started, or large feature set. Developers find it difficult to get started, and/or make use of features. You might have [Reference Documentation](#reference-documentation) or [Guides](#guides), but these are not sufficient to get developers using your product/service or certain features of the product/service.
 
-***Solution***:
+***Context***: Getting developers started is not a one-time exercise. Any developer that wants to learn your product/service is going to be coming at it "brand new", and it is irrelevant how long your product/service has been around--every developer is new to your product/service the first time they begin exploring it. Therefore, it is important that whatever solution you use to help them has a long longevity to it, and is easily reusable.
 
-***Context***:
+Developers are accustomed to being able to "do" rather than just "sit and listen". Psychological studies are mixed on whether different people have different "learning styles", but in general the adage "tell me and I forget; show me and I might remember; have me do and I remember" seems to hold for many if not most developers.
 
-***Consequences***:
+Every single developer will need to go through learning how to use your product/service (particularly as the number of features increase), so unless the company's business model assumes or relies on a small customer base (or a large DevRel team!), this must be a high-reach activity.
+
+***Solution***: Create a tutorial that takes a developer from a well-defined "point A" to a well-defined "point B", with step-by-step instructions (and code) that developers can exercise and run for themselves. The steps taken should be concrete, clear, and comprehensive, so that developers understand what they are doing and why they are doing it.
+
+In order to minimize the amount of work a developer must go through to get started with a tutorial, consider providing a [Live Playground](#live-playground) for developers to use.
+
+***Consequences***: Unless your product/service is particularly small or has a small developer-facing "surface area", just one tutorial will not be enough. It is very likely that with each new feature developed in the product/service, a new tutorial showing how to use that feature will be useful if not necessary. New tutorials will be needed as new features are released.
+
+Tutorials will also need to be updated regularly as the product/service modifies some of its existing features or functionality. The more tutorials, the more time and effort will be required to keep them up to date. This is a useful activity for the more junior members of the DevRel team (to help them get practice debugging against your product/service as well as help them learn the product/service more comprehensively).
+
+Because it is difficult to predict ahead of time where developers will get stuck, consider providing the "answers" (completed tutorial) as a [Sample/Example](#sample-example) for developers to consult.
+
+It is common to use material from a tutorial for a [Workshop](#workshop) at a conference, providing some in-person lecture in front of the hands-on work, rather than relying on prose. Similar results can be achieved by combining a [Webinar](#webinar) with a tutorial, creating greater reach but sacrificing some interactivity.
+
+If there is a large number of tutorials, and there is demand for a higher-interactivity approach, tutorials can be combined with in-person (or virtual) lectures and turned into [Training](#training). 
 
 ***Variants***:
 
@@ -868,25 +908,6 @@ A scheduled one-way presentation done over video-conferencing software, typicall
 ***Solution***:
 
 ***Context***: You want the presentation to be more formal and "professional", similar to what might be seen in a more formal setting.
-
-***Consequences***:
-
-***Variants***:
-
-
-<div id="white-paper" /><hr/>
-#### White Paper
-*Writing*
-
-Written piece that conveys technical concept around the product/service at some level of depth; often intended as a pre-sale technique for those who want to dive more deeply into the product/service's offerings without having to make a greater commitment to downloading/installing the product/service.
-
-***Also Known As***:
-
-***Problem***:
-
-***Solution***:
-
-***Context***:
 
 ***Consequences***:
 
