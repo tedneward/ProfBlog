@@ -779,13 +779,13 @@ Unit or integration tests written to prove a particular hypothesis about the cod
 
 ***Also Known As***:
 
-***Problem***:
+***Problem***: Your product/service 
 
-***Solution***:
+***Solution***: Developers find code to be a powerful way to learn about a product/service, particularly those that are built open-source.
 
-***Context***:
+***Context***: 
 
-***Consequences***:
+***Consequences***: 
 
 ***Variants***:
 
