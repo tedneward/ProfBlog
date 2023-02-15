@@ -11,7 +11,7 @@ description=The Webinar DevRel activity pattern.
 
 ***Problem***: You have information that you want to disseminate to a large group of developers and/or customers, so you want to maximize reach, but the information is complex enough or intricate enough that it feels like having an "in-person" experience will help get the information across most easily. However, you don't want to sacrifice all the interactivity, and want to have at least a little feedback from your audience.
 
-***Context***: This may be a part of your company's sales cycle or something done to try and draw potential customers into the "top of the funnel" (as the Marketing types say). As a result, you want your presentation to be more formal and "professional", similar to what might be seen in a more formal setting.
+***Context***: This may be a part of your company's sales cycle or something done to try and draw potential customers into the "top of the funnel" (as the Marketing types say). As a result, you want your presentation to be more formal and "professional", similar to what might be seen in a more formal setting. It may be desirable to hold this presentation private to a particular customer, or group of closely-related customers (such as in a particular business domain your product/service is attempting to support or break into).
 
 ***Solution***: Hold a live "webinar", an online presentation by one of your DevRel team (or perhaps one of your [Ambassadors](ambassadors.html)) at a scheduled time. Prepare a presentation topic, with or without demos as desired, and optionall record it for later viewing on a video platform such as [Youtube](youtube.html).
 
