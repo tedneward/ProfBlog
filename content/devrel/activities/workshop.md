@@ -1,5 +1,5 @@
 title=Workshop
-date=2023-02-28
+date=2023-02-20
 type=page
 tags=devrel, patterns
 status=published
@@ -11,11 +11,11 @@ A guided set of steps taking a developer through a non-trivial task or set of ta
 
 ***Also Known As***:
 
-***Problem***:
-
-***Solution***:
+***Problem***: 
 
 ***Context***:
+
+***Solution***:
 
 ***Consequences***:
 
