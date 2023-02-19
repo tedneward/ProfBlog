@@ -1,5 +1,5 @@
-title=Ambassador
-date=2023-02-28
+title=Ambassadors
+date=2023-02-20
 type=page
 tags=devrel, patterns
 status=published
