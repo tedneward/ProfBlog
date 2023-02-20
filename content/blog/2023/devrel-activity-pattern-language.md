@@ -1,8 +1,8 @@
 title=A DevRel Activity Pattern Language
-date=2023-02-09
+date=2023-02-20
 type=post
 tags=devrel
-status=draft
+status=published
 description=A pattern language of Developer Relations activities.
 ~~~~~~
 
@@ -10,7 +10,7 @@ description=A pattern language of Developer Relations activities.
 
 <!--more-->
 
-If you're already familiar with pattern languages and how to use them, or you're just impatient, go ahead and [jump to the language](../../devrel/activities.html). If you're a more patient sort, or if you're not sure how to use pattern languages, read on. (And if you come back here after taking a quick look at the catalog to see a little bit more about how to use it, I promise I won't tell anyone.)
+If you're already familiar with pattern languages and how to use them, or you're just impatient, go ahead and [jump to the language](../../devrel/activities/index.html). If you're a more patient sort, or if you're not sure how to use pattern languages, read on. (And if you come back here after taking a quick look at the catalog to see a little bit more about how to use it, I promise I won't tell anyone.)
 
 ## What is a pattern language?
 
@@ -36,15 +36,17 @@ Which of these is more likely to be interested in your messaging, enough to take
 
 Note: While it might be tempting to "re-use" personas like the ones above, don't. Take the time to build your own--it serves as a useful reason for the DevRel team to get into a room with all the other teams (Sales, Marketing, Product, Engineering, whatever) and talk about exactly who this product/service is for. Some of your peer teams will have already done this exercise, some won't, but everyone--including Engineering--will benefit from the time spent building them.
 
-### Wait, so I'm supposed to use all of them?
+### Wait, so I'm supposed to use *all* of them?
 
 Oh, Lord, no! The pattern language is an attempt to categorize and summarize *all* of the different kinds of activities, but it's in no way intended as a "check every item off on this list" kind of collection. In fact, I'll argue that even *trying* to use them all is itself a huge red flag! Look at your goals, look at your available resources (bandwidth and budget), and make deliberate choices selectively that help get you closer to your goals.
 
-Keep in mind that most DevRel team strategies will want to make use of several activities simultaneously, so choose ones that have a good mix of reach and interactivity; [Conference Sessions](../../devrel/activities.html#conference-session) have good interactivity, but limited reach, so consider pairing them with [Live Streaming](../../devrel/activities.html#live-streaming) to boost reach, and perhaps advertise both using [Social Media](../../devrel/activities.html#social-media). And so on.
+Keep in mind that most DevRel team strategies will want to make use of several activities simultaneously, so choose ones that have a good mix of reach and interactivity; [Conference Sessions](../../devrel/activities/conference-session.html) have good interactivity, but limited reach, so consider pairing them with [Live Streaming](../../devrel/activities/live-streaming.html) to boost reach, and perhaps advertise both using [Social Media](../../devrel/activities/social-media.html). And so on.
 
 ## So... show me!
 
-The [DevRel Activity Pattern Language](../../devrel/activities.html) is not "finished", in that no pattern language is ever really finished--there's always realizations and/or innovations that can be captured, analyzed, and categorized. Pattern languages are intended to be somewhat informal, yet hopefully comprehensive. It is not uncommon for people who have "lived this" for years to look at a pattern language and growl, "But I already know all these things! I've done this before!" The same was true of the original [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) book thirty years ago. 
+The [DevRel Activity Pattern Language](../../devrel/activities/index.html) is not "finished", in that no pattern language is ever really finished--there's always realizations and/or innovations that can be captured, analyzed, and categorized. Pattern languages are intended to be somewhat informal, yet hopefully comprehensive. 
+
+Also, if you've done DevRel for a few years now, you may find yourself a little underwhelmed. It is not uncommon for people who have "lived this" for years to look at a pattern language and growl, "But I already know all these things! I've done this before!" The same was true of the original [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) book thirty years ago. 
 
 ### How do we use this?
 
@@ -60,4 +62,4 @@ If you find it useful, I'm glad; if you don't, I'm sad, but thank you for your t
 
 ### Thanks
 
-Much thanks to Chris "Woody" Woodruff, Taylor Krusen, Scott McAllister, Matthew Groes, and James Ward, for their feedback, ideas, challenges, and suggestions. 
+Much thanks to Chris "Woody" Woodruff, Scott McAllister, and Matthew Groves, for their feedback, ideas, challenges, and suggestions. 
