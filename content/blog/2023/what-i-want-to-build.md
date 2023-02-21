@@ -6,7 +6,7 @@ status=published
 description=If I had a million dollars....
 ~~~~~~
 
-*tl;dr* What would you do if you could do anything? Or, if you're a developer-manager-type, what would you build? Given that we're starting 2023, I thought it a reasonable time to take a stab at putting it out there into the universe.
+**tl;dr** What would you do if you could do anything? Or, if you're a developer-manager-type, what would you build? Given that we're starting 2023, I thought it a reasonable time to take a stab at putting it out there into the universe.
 
 <!--more-->
 

@@ -26,6 +26,8 @@ For two decades, I've been involved in doing those things we now call "developer
 
 ## Activities
 
+The [DevRel Activity Pattern Language](activities/index.html) provides a pattern language for all the activities a DevRel team can/might/will do during its existence. It grew out of several of the links below.
+
 One of the first things you should read is James Ward's ["Seven Artifacts of Developer Advocacy Projects"](https://jamesward.com/2021/09/26/the-seven-artifacts-of-developer-advocacy-projects/); in a nutshell, he writes:
 > "Each developer advocacy project ideally produces seven artifacts:
 > * Code Samples

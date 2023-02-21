@@ -6,7 +6,7 @@ status=published
 description=Dissecting why everybody keeps talking about microservices.
 ~~~~~~
 
-*tl;dr* Architecture is hard sometimes--people keep offering up some new idea that quickly becomes the mainstream "way to do it" without any context or nuance, and the industry, desperate to find ways to improve their architecture, snaps it up without hesitation. Microservices was the latest in the trend, and it's time we dissected the idea and got to the real root of what's going on.
+**tl;dr** Architecture is hard sometimes--people keep offering up some new idea that quickly becomes the mainstream "way to do it" without any context or nuance, and the industry, desperate to find ways to improve their architecture, snaps it up without hesitation. Microservices was the latest in the trend, and it's time we dissected the idea and got to the real root of what's going on.
 
 <!--more-->
 

@@ -6,7 +6,7 @@ status=published
 description=Management requires both a "battlefield" voice and an "academic" one.
 ~~~~~~
 
-*tl;dr* Managers and leaders are often told contradictory things when discussing how to interact with their teams, and those new to the role often mistake collaboration for abdication of authority.
+**tl;dr** Managers and leaders are often told contradictory things when discussing how to interact with their teams, and those new to the role often mistake collaboration for abdication of authority.
 
 <!--more-->
 
