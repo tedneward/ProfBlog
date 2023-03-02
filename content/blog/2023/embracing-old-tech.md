@@ -14,7 +14,7 @@ This particular post was inspired by Cory House's Tweet below:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I feel like <a href="https://twitter.com/nextjs?ref_src=twsrc%5Etfw">@nextjs</a> is in a weird spot at the moment. <br><br>I can’t recommend Next 12 because it’s “old” tech. You’ll want to convert to 13 as soon as it’s stable. <br><br>And, I can’t recommend Next 13 because it’s in Beta. <br><br>Thus, I can’t recommend Next at all until 13 is stable.</p>&mdash; Cory House (@housecor) <a href="https://twitter.com/housecor/status/1631136992422445056?ref_src=twsrc%5Etfw">March 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-... but to be fair to COry, this is hardly new. I saw the same thing happen when AngularJS became Angular, when C++ broke from C, and quite frankly it's the discussion every time Microsoft announces a new presentation technology (WinForms vs WPF vs MAUI vs oh hell I've lost track where we are now).
+... but to be fair to Cory, this is hardly new. I saw the same thing happen when AngularJS became Angular, when C++ broke from C, and quite frankly it's the discussion every time Microsoft announces a new presentation technology (WinForms vs WPF vs MAUI vs oh hell I've lost track where we are now).
 
 The conundrum is clear: *Do we actually want to create a new project using "old" tech?* And my response is equally clear: Of course you do.
 
@@ -36,9 +36,9 @@ First off, let's be really clear--anything that causes the reaction Cory describ
 
 Look at Python2 vs Python3, for example. Python3 has cleaned up several significant contradictions in the language that Python2 was stuck with, and frankly, despite all the hullablloo around it, it was a necessary shift. (And yes, there's been a fair amount of words written on that transition.)
 
-But in the long run, Python3's language model is much easier to understand for those changes, and overall it hasn't hurt Python3's adoption or use, *because nobody stopped using Python2*. (In fact, you can argue Python has the opposite problem.)
+But in the long run, Python3's language model is much easier to understand for those changes, and overall it hasn't hurt Python3's adoption or use, *because nobody stopped using Python2*. (In fact, you can argue Python has the opposite problem.) It's clear that people can, and have, continued to work with the old version of Python and been quite successful--in fact, it's not unreasonable to suggest that this has been true for any v.N-vs-v.N+1 debate, at least the ones that I'm aware of. (Yes, Virginia, there are new WinForms apps being built even today!)
 
-Why should Cory keep recommending and using Nest 12?
+So why should Cory keep recommending and using Nest 12?
 
 ### The New Version Isn't Guaranteed to Work
 Any time a tech is making a backwards-incompatible change, there's a strong chance (guarantee, really) that the new version is going to have bugs. Subtle bugs. Nasty bugs. Bugs that will only be found as hundreds/thousands/millions of users will find. There's a reason why my dad, the pilot, said "You never want to fly the model A of any airplane" and in our industry we said "Never use any Microsoft product until version 3".
@@ -68,12 +68,12 @@ This is silly--every project starts with technical debt, and it's my assertion t
 
 And in the words of eXtreme Programming and the agile movement that followed it, "embrace change".
 
-### A Use-Now, Upgrade-Later Strategy
+## A Use-Now, Upgrade-Later Strategy
 To Cory, I would say this: Go ahead and use Nest 12. Even if you end up having to rewrite a significant chunk of the code, it's a known tech debt that you capture, document, and even perhaps start some parallel development against betas of Nest 13 to make sure you're not coding/architecting yourself into a corner. But the show must go on, and so must the development, so use Nest 12. Maybe consider some abstractions to hide the pivot points that the 12-to-13 migration will require. Maybe you find that 13 is more stable than you thought and you can embrace it even before it's shipped in a stable form. Any way you slice it, you are moving forward, a lot of code will be built that *won't* be affected by the migration, and you will even be able to ship something before Nest 13 comes out.
 
 And if you find, during that parallel 13-based development track, that 13 isn't stable at all, and you want to wait until 14 or 15, you haven't crippled yourself by waiting.
 
-### But What About Alternatives?
+## But What About Alternatives?
 "Hey, you're forgetting that we don't have to use Nest! We could use...." Yes, you can, absolutely. But that takes the conversation into a different dimension: Should we use Nest 12 or should we use (some competitor)? That's an entirely different question to what Cory was tweeting originally (v.N vs v.N+1). It's a fair one, but changes the basis of the conversation.
 
 To be fair, it's not an unreasonable one--perhaps there's a close competitor that can do everything Nest 12 can do. In which case it's a near-guarantee that you won't even need to think about upgrading to Nest 13, which could very well be a win! Yay!
