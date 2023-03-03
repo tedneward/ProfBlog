@@ -38,17 +38,17 @@ Look at Python2 vs Python3, for example. Python3 has cleaned up several signific
 
 But in the long run, Python3's language model is much easier to understand for those changes, and overall it hasn't hurt Python3's adoption or use, *because nobody stopped using Python2*. (In fact, you can argue Python has the opposite problem.)
 
-Why should Cory keep recommending and using Nest 12?
+Why should Cory keep recommending and using Next 12?
 
 ### The New Version Isn't Guaranteed to Work
 Any time a tech is making a backwards-incompatible change, there's a strong chance (guarantee, really) that the new version is going to have bugs. Subtle bugs. Nasty bugs. Bugs that will only be found as hundreds/thousands/millions of users will find. There's a reason why my dad, the pilot, said "You never want to fly the model A of any airplane" and in our industry we said "Never use any Microsoft product until version 3".
 
-*Waiting for Nest 13 to be stable could be an unacceptable wait time.*
+*Waiting for Next 13 to be stable could be an unacceptable wait time.*
 
 ### Time Stands Still for No Woman (or Man)
 How long will you need to wait for the stable version to be ready? Will your customers/clients be willing to wait that long? Chances are good that putting a "hold" on the project's development until that threashold is crossed is an unacceptable delay. Hey, even if it's six months, you risk the budget allocated will go away, and let's not even imagine for a moment that you can have a dev team sitting on their hands all that time. They *will* get allocated to a different project, and that one will very likely not be willing to send them back when you're finally ready.
 
-And what's the cost of starting the project now with Nest 12? "We know we will be taking on technical debt--we'll have to rewrite parts of the code when the new version comes out."
+And what's the cost of starting the project now with Next 12? "We know we will be taking on technical debt--we'll have to rewrite parts of the code when the new version comes out."
 
 *You're always going to need to rewrite parts of the code. Get over it.*
 
@@ -62,20 +62,20 @@ Michael Feathers is quoted as saying that legacy code is any code which is untes
 Or, in other words, what's the technical debt for this particular release?
 
 ### Technical Debt is not Always Bad
-We developers have come to regard technical debt as universally bad--there are some who will be quick to point out that ANY amount of technical debt is bad and therefore to be avoided like the plague. This is, in many respects, the implicit heart of what Cory's tweeting about above: "I know that migrating from Nest 12 to Nest 13 will require change, which means you will begin your project with technical debt even from the first line of code. Therefore, I cannot in good conscience recommend a path that incurs technical debt."
+We developers have come to regard technical debt as universally bad--there are some who will be quick to point out that ANY amount of technical debt is bad and therefore to be avoided like the plague. This is, in many respects, the implicit heart of what Cory's tweeting about above: "I know that migrating from Next 12 to Next 13 will require change, which means you will begin your project with technical debt even from the first line of code. Therefore, I cannot in good conscience recommend a path that incurs technical debt."
 
 This is silly--every project starts with technical debt, and it's my assertion that you cannot build software without incurring technical debt. Some debt you won't discover until later in the project, but it's a fallacy to assume that any deployed software--even "Hello world!"--has no technical debt. There's always something.
 
 And in the words of eXtreme Programming and the agile movement that followed it, "embrace change".
 
 ### A Use-Now, Upgrade-Later Strategy
-To Cory, I would say this: Go ahead and use Nest 12. Even if you end up having to rewrite a significant chunk of the code, it's a known tech debt that you capture, document, and even perhaps start some parallel development against betas of Nest 13 to make sure you're not coding/architecting yourself into a corner. But the show must go on, and so must the development, so use Nest 12. Maybe consider some abstractions to hide the pivot points that the 12-to-13 migration will require. Maybe you find that 13 is more stable than you thought and you can embrace it even before it's shipped in a stable form. Any way you slice it, you are moving forward, a lot of code will be built that *won't* be affected by the migration, and you will even be able to ship something before Nest 13 comes out.
+To Cory, I would say this: Go ahead and use Next 12. Even if you end up having to rewrite a significant chunk of the code, it's a known tech debt that you capture, document, and even perhaps start some parallel development against betas of Next 13 to make sure you're not coding/architecting yourself into a corner. But the show must go on, and so must the development, so use Next 12. Maybe consider some abstractions to hide the pivot points that the 12-to-13 migration will require. Maybe you find that 13 is more stable than you thought and you can embrace it even before it's shipped in a stable form. Any way you slice it, you are moving forward, a lot of code will be built that *won't* be affected by the migration, and you will even be able to ship something before Next 13 comes out.
 
 And if you find, during that parallel 13-based development track, that 13 isn't stable at all, and you want to wait until 14 or 15, you haven't crippled yourself by waiting.
 
 ### But What About Alternatives?
-"Hey, you're forgetting that we don't have to use Nest! We could use...." Yes, you can, absolutely. But that takes the conversation into a different dimension: Should we use Nest 12 or should we use (some competitor)? That's an entirely different question to what Cory was tweeting originally (v.N vs v.N+1). It's a fair one, but changes the basis of the conversation.
+"Hey, you're forgetting that we don't have to use Next! We could use...." Yes, you can, absolutely. But that takes the conversation into a different dimension: Should we use Next 12 or should we use (some competitor)? That's an entirely different question to what Cory was tweeting originally (v.N vs v.N+1). It's a fair one, but changes the basis of the conversation.
 
-To be fair, it's not an unreasonable one--perhaps there's a close competitor that can do everything Nest 12 can do. In which case it's a near-guarantee that you won't even need to think about upgrading to Nest 13, which could very well be a win! Yay!
+To be fair, it's not an unreasonable one--perhaps there's a close competitor that can do everything Next 12 can do. In which case it's a near-guarantee that you won't even need to think about upgrading to Next 13, which could very well be a win! Yay!
 
 But to avoid using a thing at all because a new version of it is coming out soon... that's a mistake.
