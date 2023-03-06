@@ -19,7 +19,7 @@ This particular post was inspired by Cory House's Tweet below:
 The conundrum is clear: *Do we actually want to create a new project using "old" tech?* And my response is equally clear: Of course you do.
 
 ## The Fallacy of the New Tech
-A long time ago, I blogged about [the Fallacies of Enterprise Computing](http://blogs.newardassociates.com/2016/enterprise-computing-fallacies). The very first fallacy is this:
+A long time ago, I blogged about [the Fallacies of Enterprise Computing](http://blogs.newardassociates.com/blog/2016/enterprise-computing-fallacies.html). The very first fallacy is this:
 
 1. ***New technology is always better than old technology***
 
