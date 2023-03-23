@@ -10,7 +10,7 @@ It's the age-old question of our industry--do we buy something to take care of a
 
 <!--more-->
 
-This particular post, as is common, was inspired by a LikedIn post:
+This particular post, as is common, was inspired by a LinkedIn post:
 
 > At Tonic, we once tried to build our own integration engine. It looked simple enough. And it worked. The only problem was what we built lacked a UI. And our goal was to separate integration work from engineering work (can’t do that without a UI). To achieve that would have needed to rebuild the equivalent of MuleSoft or Coreppoint. After a year, I made the team do a formal evaluation of external options and we picked an integration engine and sunset our internal product. [post](https://www.linkedin.com/posts/borisglants_team-work-engineering-activity-7044374379052376064-t0Yu?utm_source=share&utm_medium=member_desktop)
 
