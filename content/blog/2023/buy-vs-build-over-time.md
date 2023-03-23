@@ -20,10 +20,11 @@ I know a lot of engineers will look at this and blame the author for having chos
 It seems like such a (relatively) easy choice: If we buy something, we don't have to build it. Vendors provide support, including bug fixes. This saves our engineering hours for the real problem we're trying to address. Plus, the purchased tool will almost-always be more polished and feature-rich than what we build. But buying something costs money! And if we build something, we can tailor it specifically to our needs, with no need for workarounds and weird adapters that turn an otherwise straightforward process into a Rube Goldberg machine. 
 
 So, to decide which is the "right" choice, we need only figure out:
-(*) if the vendor product has the features we're looking for, for at least the near- and short-term future,
-(*) if the vendor product is at the right price point,
-(*) if the vendor product will be supported (and how) for the length of time we need (in other words, is the vendor likely to go bankrupt),
-(*) and if the vendor product can integrate into the rest of our software development fabric (processes, tools, languages, databases, etc).
+
+* if the vendor product has the features we're looking for, for at least the near- and short-term future,
+* if the vendor product is at the right price point,
+* if the vendor product will be supported (and how) for the length of time we need (in other words, is the vendor likely to go bankrupt),
+* and if the vendor product can integrate into the rest of our software development fabric (processes, tools, languages, databases, etc).
 
 And yet, stories of having made the wrong decision are so, so common. Why?
 
