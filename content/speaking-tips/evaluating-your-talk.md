@@ -37,8 +37,7 @@ Evaluations are helpful, but they're definitely not the last word.
 ### Self-evaluation
 All that aside, though, it's nearly impossible for a speaker to *not* judge themselves. It's just too strong a desire, too deeply wired into the human psyche to not want to look in the mirror and say, "How'd I do?" I've been doing talks for twenty years, and I still do it, too, even though I don't always trust my own instincts. (I like to operate from Socrates' position of "All I know is that I know nothing", because then it forces me to look for evidence to confirm or deny my intuitions, rather than letting my intuitions quietly select the evidence that supports them.)
 
-So, in the spirit of trying to get a bit more objective about self-evaluation,
-here's a list of things to evaluate:
+So, in the spirit of trying to get a bit more objective about self-evaluation, here's a list of things to evaluate:
 
 * Timing. Did you go long? Short? Were you at the halfway point of your talk when the halfway point of the slot came and went?
 * Questions. Did you accurately predict what the audience questions would be?
@@ -67,23 +66,32 @@ Here's a working checklist for evaluating another speaker, by the way, if you do
 * Physical Delivery: Write down all the gestures the speaker used during this talk (Pointing to slide, pointing to audience, holding up hands to represent something abstract during an explanation, whatever; again, the goal is to see the variance)
 * Nervous Delivery: Write down all the gestures communicating "nervousness" or "anxiety" that the speaker used (jingling change or keys in pocket, for example)
 * Introduction:
+
    * How long did it last?
    * Did it set the tone for the rest of the talk?
    * Was it clear?
+
 * Body:
+
    * How long did it last?
    * What was the main vehicle for delivering the message? Statistics? Demos Persuasion? Quotes from relevant figures? Pictures?
    * Can you (the evaluator) recite the main body points from memory?
+
 * Content:
+
    * How many analogies did the speaker use to explain the content?
    * How many direct descriptions did the speaker use?
    * Was there any uncommon jargon used that wasn't explained/defined?
      ("Uncommon" here means it could've appeared in an IT manager's magazine/e-zine like ZDNet or GeekWire, without explanation attached.)
+
 * Conclusion:
+
    * Did it tie the body together back to the introduction?
    * Did the conclusion raise any new information?
    * Was the talk ended clearly? (Trailing off and mumbling is a horrible way to end a presentation; nobody knows if it's over or not.)
+
 * Body Language:
+
    * Did the speaker's eyes move around the room?
    * Did the speaker move across the stage periodically, particularly towards the edges, in order to make better connection with the "wings" of the audience?
    * How many times did the speaker speak to the slide? (As in, physically facing the slides while words were being said; if the speaker was quoting off the slide---and only part of the slide, mind you---for emphasis, that time doesn't count.)
