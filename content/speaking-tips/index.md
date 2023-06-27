@@ -10,6 +10,7 @@ For many years, I've quietly mentored a few speakers in the industry. As I slow 
 
 This is a collection of tips that I have written in the past as a way to help new speakers (and old) find their way more easily within the public technical speaking circles (conferences and the like).
 
+* [Bonda Fides Go Last](./bona-fides-go-last.html)
 * [There's a Conference That Wants You](./conference-that-wants-you.html)
 * [Critique Others](./critique-others.html)
 * [Don't Be Funny](./dont-be-funny.html)
