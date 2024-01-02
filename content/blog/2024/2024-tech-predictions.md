@@ -2,7 +2,7 @@ title=2024 Tech Predictions
 date=2024-1-1
 type=post
 tags=predictions
-status=draft
+status=published
 description=Technology and related predictions for 2024.
 
 ~~~~~~
