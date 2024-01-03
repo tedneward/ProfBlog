@@ -15,5 +15,6 @@ Since around 2012, I've been hanging up my keyboard (as an architect, developer,
 * ["The Value of Failure"](../blog/2016/the-value-of-failure.html)
 * ["When interviews fail"](../blog/2016/when-interviews-fail.html)
 * ["There is no such thing as 'best practices'"](../blog/2005/there-is-no-such-thing-as-best-practices-context-matters.html)
+* ["The power of teams"](../blog/2024/the-power-of-teams.html)
 
 The full collection of ["management" tags](/tags/management.html) has a few more.

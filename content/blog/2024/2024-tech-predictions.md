@@ -4,9 +4,7 @@ type=post
 tags=predictions
 status=published
 description=Technology and related predictions for 2024.
-
 ~~~~~~
-
 It's that time of the year again, when I make predictions for the upcoming year. As has become my tradition now for nigh-on a decade, I will first go back over last years' predictions, to see how well I called it (and keep me honest), then wax prophetic on what I think the new year has to offer us.
 
 <!--more-->
