@@ -12,6 +12,8 @@ My LinkedIn feed recently brought me a question posted about [an interview quest
 
 It's a decent engineering manager question. So....
 
+<!--more-->
+
 ***tl;dr*** I think the issue is an ROI calculation, based on short-term relief vs long-term relief. It's an immediate-cost vs long-term ROI analysis, in other words, but measured in the currency of time/effort, rather than money. (The capital expenditure here is way smaller than the operational cost, when you start adding up your teams' time.) The longer the window, the more the juniors make more sense.
 
 Now, let's dive deeper into why I think this.
