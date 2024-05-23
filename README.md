@@ -19,8 +19,15 @@ My professional blog, blogs.newardassociates.com
 
 * Language intro/dives
 
+    * Mint
+    * Jolie or Ballerina
+    * Red
+
 * Management questions
 
 * DevRel questions
 
 * Architecture
+
+    * Walking through a kata
+    * 
