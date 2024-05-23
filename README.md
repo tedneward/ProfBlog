@@ -23,8 +23,13 @@ My professional blog, blogs.newardassociates.com
     * Jolie or Ballerina
     * Red
     * Cell
-    * Esolangs
-        * 
+
+* Esolangs
+
+    * Cow
+    * Emojicode
+    * Folders
+    * dogescript
 
 * Management Topics
 
