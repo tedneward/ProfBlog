@@ -5,7 +5,8 @@ tags=management,research,development,teams
 status=published
 description=Why is it so many corporate "R&D" teams fail?
 ~~~~~~
-For many software developments, career success comes when they are placed on the "R&D" (research and development) team. It seems like a golden ticket kind of role: Spend time exploring new technology (which lots of developers enjoy doing), weighing in, offering insights, and just... it's like, all play, and no deadlines! And yet, strangely (or perhaps not), those teams never seem to last long--they go through one, maybe two iterations on something, and then the team is broken up and nothing replaces it for a few years until a new VP comes along and says, "Wait, who's tracking our future direction?" and forms one again.... Only to have it dismember again in a year or two. What gives?
+
+For many software developers, career success comes when they are placed on the "R&D" (research and development) team. It seems like a golden ticket kind of role: Spend time exploring new technology (which lots of developers enjoy doing), weighing in, offering insights, and just... it's like, all play, and no deadlines! And yet, strangely (or perhaps not), those teams never seem to last long--they go through one, maybe two iterations on something, and then the team is broken up and nothing replaces it for a few years until a new VP comes along and says, "Wait, who's tracking our future direction?" and forms one again.... Only to have it dismember again in a year or two. What gives?
 
 <!--more-->
 
