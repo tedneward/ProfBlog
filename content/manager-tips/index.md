@@ -18,9 +18,9 @@ Since around 2012, I've been hanging up my keyboard (as an architect, developer,
 * ["The power of teams"](../blog/2024/the-power-of-teams.html)
 * ["An Engineering Manager Challenge"](../blog/2024/engineering-manager-challenge.html)
 
-There's also a few "antipatterns" I've noticed companies make around managers, which I've collected here:
+There's also a few "manager antipatterns" I've noticed companies and managers fall prey to, which I've collected here:
 
-* ["The Smartest-Engineer Manager"](../blog/2024/smartest-engineer-manager.md)
+* ["The Smartest-Engineer Manager"](./smartest-engineer-manager.md)
 * The Tech-Lead Manager
 * The Project-Manager Manager
 * The Lateral-Move Manager
@@ -33,4 +33,4 @@ There's also a few "antipatterns" I've noticed companies make around managers, w
 * The Metric-Abuse Manager
 * The Documentation-Abuse Manager
 
-The full collection of ["management" tags](/tags/management.html) has a few more.
+The full collection of ["management" tags](/tags/management.html) has a few more posts.

@@ -11,10 +11,10 @@ There are four different kinds of R&D teams, each with very different actions an
 
 As a reminder, there are four kinds of R&D Teams:
 
-* the ***Scout team***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***Spy team***, exploring what competitors have built
-* the ***Library team***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***Practical Research team***, building novel solutions to the company's (and others') problems
+* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
+* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
+* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
 
 ### The Library Team
 
@@ -33,5 +33,14 @@ In contrast to the perception that an R&D team is always about creating somethin
 
 Thus, the Library team's execution falls into a variety of phases:
 
-* **Discovery.** The library team is searching for new 
-* **Innovation.**
+* **Discovery.** The library team is searching for new opportunities for reuse, by meeting and interacting with all of the development teams around them. Each time a team goes through a security review, architectural review, or any other sort of review, the library team (or a representative of) should be present to understand the architecture, discuss what options for security the library team can provide, and/or what features or infrastructure the product or service team is using or adopting. Each time a team releases something, the library team (or a representative of) should be present to understand what went into the release. In general, the library team should be on a constant hunt for things that could or should be reused across the organization.
+
+* **Research.** Part of this discovery process can come from looking at what sorts of things external vendors are offering, as well. If a mobile or UI control component pack offers some visual components that currently are missing (and requested), the library team can do the "buy vs build" feasibility analysis. If a new cloud service is available, the library team can examine it with the same eye. 
+
+* **Innovation.** The library team is not entirely dependent on "outsiders" to come up with things to do, however, as there's likely plenty of ideas or feature requests for the existing shared components, so work can continue on developing those components.
+
+* **Maintenance.** Naturally, as bug reports come in, the library team will be responsible for triage and prioritization. The library team will also need to determine its release schedule, and coordinate with its downstream dependents to make sure they're not breaking anyone with their changes. (For this reason, any module under the ownership of the library team should follow a strict semantic versioning scheme, and use existing infrastructure like NuGet, npm, Maven repos, and/or the Swift Packaging system to make their modules available internally).
+
+* **Reporting.** Lastly, the library team should be gathering up statistics on the usage of each of the modules/components they manage, and actively look for "dead modules" that can be removed from their watch and deleted.
+
+
