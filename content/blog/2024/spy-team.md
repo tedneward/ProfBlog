@@ -1,5 +1,5 @@
 title=The R-and-D Spy Team
-date=2024-06-08
+date=2024-06-12
 type=post
 tags=management,research,development,teams
 status=published

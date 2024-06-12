@@ -1,5 +1,5 @@
 title=The R-and-D Research Team
-date=2024-06-08
+date=2024-06-12
 type=post
 tags=management,research,development,teams
 status=published
@@ -49,4 +49,6 @@ Consider this story from the book [Art & Fear](http://www.amazon.com/dp/09614547
 
 As a practial research team, you need to put out *lots* of work, not just one "eureka" work.
 
-Are you looking for examples of practical R&D? Consider some of the ideas being put forth by [Microsoft Research](https://www.microsoft.com/en-us/research/), or [Oracle Labs](https://labs.oracle.com/pls/apex/r/labs/labs/projects). (For the record, MSR produced F#, and Oracle Labs is the group behind GraalVM.) IBM used to have a similar section, alphaWorks, which unfortunately got shut down a number of years ago due to IBM's inability to actually be successful. [Meta/Facebook](https://research.facebook.com/) has one, too. Does your company need to fund a multi-million (possibly -billion) dollar research group? Of course not. That's what companies with billions of dollars in their budget can afford to do. But, could a company of several hundreds in size put together a single team of 5 +/- 2 developers to iterate on ideas to make the company's technology a better return on investment?
+Are you looking for examples of practical R&D? Consider some of the ideas being put forth by [Microsoft Research](https://www.microsoft.com/en-us/research/), or [Oracle Labs](https://labs.oracle.com/pls/apex/r/labs/labs/projects). (For the record, MSR produced F#, and Oracle Labs is the group behind GraalVM.) IBM used to have a similar section, alphaWorks, which unfortunately got shut down a number of years ago due to IBM's inability to actually be successful. [Meta/Facebook](https://research.facebook.com/) has one, too. Does your company need to fund a multi-million (possibly -billion) dollar research group? Of course not. That's what companies with billions of dollars in their budget can afford to do. But a company of several hundreds in size can put together a single team of 5 +/- 2 developers to iterate on ideas to make the company's technology a better return on investment.
+
+Which brings up the last point: A practical research team needs to be extremely visible to the rest of the company in terms of the work they are doing and the research they are carrying out. Because a team of this nature is usually a "net negative" in terms of the company's financials (they draw a lot of money in and rarely generate any money back), socialiing the work and demonstrating the current iteration is crucial to demonstrating the value of the team. In addition, it's important for people to get their hands on what the research team is doing--putting alphas and betas out into the world (or at least into the world inside the company, if there's no interest in open-sourcing the efforts) is important both to the visibility of the team as well as a means of obtaining feedback around the ideas.
