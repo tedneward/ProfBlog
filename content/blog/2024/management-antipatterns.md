@@ -1,5 +1,5 @@
 title=Management Antipatterns
-date=2024-****TODO****
+date=2024-12-31
 type=post
 tags=management, antipatterns
 status=draft
