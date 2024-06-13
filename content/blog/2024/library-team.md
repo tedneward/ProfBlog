@@ -17,7 +17,7 @@ As a reminder, there are four kinds of R&D Teams:
 * the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
 
 ### The Library Team
-
+The Library team is the team given responsibility for managing reusable artifacts within the company--libraries, tools, frameworks, services (cloud or on-prem), whatever--because achieving actual reusability, it turns out, requires a degree of commitment of time and resources to maintaining and homogenizing those artifacts. Doing this work, at the same time a team is trying to manage a product release, ends up becoming a distraction to the product release cycle, particularly as the shared "thing" becomes more widely shared.
 
 **The Problem:** In any given company consisting of more than one development team operating in parallel, there comes a point when each team creates their own independent solution to a particular sliver of the domain or infrastructure. Once the duplication becomes known, concerns about the duplication became a topic of discussion, and the teams spend some (sometimes tiny, sometimes significant) time talking over the issue, in what sometimes turns into outright negotiations.
 

@@ -15,47 +15,21 @@ In my [last post](../2024/the-problem-with-rd-teams.md), I talked about some of 
 
 In brief, there are four kinds of R&D Teams:
 
-* the ***Scout team***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***Spy team***, exploring what competitors have built
-* the ***Library team***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***Practical Research team***, building novel solutions to the company's (and others') problems
+* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
+* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
+* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
 
-Let's address each of these in some level of detail.
+In each of those subsequent posts, I address each of these in some level of detail, but here's summaries for each:
 
 ### The Scout Team
 The Scout Team is what most corporate R&D teams go after: The hunt for new technology that will somehow provide the company with a competitive advantage over its competitors, despite the fact that the competitors are all themselves out there scouting the industry just like this team is. New programming languages, new databases, new architecture styles, new whatever-fill-in-the-blank, just so long as it is (a) new and (b) not yet mainstream, it's a candidate for the Scout Team's infinite desire to create prototypes that bear a remarkable resemblance to the demos that the new thing has on its website or in its documentation.
 
-**The Problem:** The Scout Team suffers from several intrinsic flaws:
-
-* *The Scout Team isn't always a great evaluator of technology.* Honestly, it often comes down to the team lead's personal preferences and/or opinions. Do we scout Dart/Flutter, or React Native? Do we scout MongoDB, or CouchDB? Do we scout Pulumi, or Terraform? Some teams will try to do an apples-to-apples comparison of two relatively-similar technologies, but usually this effort just leads to the realization that "the differences are marginal" and, unfortunately, not particularly compelling. Which then begs the never-asked question, What would happen if we just threw a dart against the dartboard and picked one at random and tried building our prototype in that?
-
-* *Any gained advantage is temporary.* Great, you've identified that you can build your mobile apps 5% faster using React Native. You must now engage in a deep coverup of epic counterespionage, because if your competitor gets wind of the fact that you're using this technology (and they will, if they watch your website's Careers page, which some competitors will do), they have every opportunity to follow in your footsteps and begin using it as well, which effectively negates your advantage and renders all the work the Scout Team effectively moot. Given the cost of the Scout Team against the time where you actually had the advantage, the ROI on the Scout Team's efforts generally isn't there, particularly when you could play "second mover" and watch your competitors' Careers page, instead.
-
-**Successful Execution:** If the Scout Team is to be successful, it must first begin with either a business problem to solve or a hypothesis it seeks to prove and disprove (yes, both). "We believe that we can produce customer-acceptable mobile applications in half the time if we use a cross-platform toolkit to build hte mobile app" is a reasonable hypothesis, because it leads to the natural question, "What does 'customer-acceptable' mean?" as well as "Well, how long does it take us to build a mobile app in both iOS and Android today?". Technology-centric folks (myself included) will feel more comfortable with formulating a hypothesis than a business problem, so either the team has to run its hypotheses past product owners or business analysts or even customers themselves before adopting one for scouting.
-
-Then, once the problem or the hypothesis has been adopted, the team should move into a series of phases:
-
-* *Discovery (1 to 5 days):* What's out there? This shouldn't take longer than a week, maximum. For some topics, it might even be just a day. Google to your hearts' content, and capture the results in some kind of table to be able to do the best (highly-ignorant, because you really are just getting started here) comparison. Keep in mind, you're not at a decision point yet, you're literally just comparing the options. No code is written yet.
-
-* *Discussion (2 hours):* Once the discovery is finished, do a quick conversation (in person or online) about the options. All the attendees are given the table, encouraged to bring their own opinions, and as soon as the meeting starts, take a vote on the top 3 to explore. (I prefer "$100-voting" schemes, where you get to "spend" a fictitious amount of money/votes on up to three options, and the results are tallied. It's flexible voting, and allows those with really strong opinions to make the strength of that opinion known.) What stand out as the top three choices, given the problem or hypothesis? Limit yourself to three. 
-    One will probably emerge as a majority favorite, another will be a lukewarm choice, and two others will be argued about extensively. Put a hard limit on this meeting, and if the team can't decide which one to explore as the third option, make the call to only use two--that'll usually coalesce agreement around a third (surprisingly quickly). If it doesn't, then clearly neither one has much momentum behind it within your team, so just do two.
-
-* *Exploration (1 week):* Now, depending on the size of the team, comes exploration, during which the thing is downloaded, installed, a few demos are built/explored, and initial conclusions are drawn. In order to avoid strong opinions coloring the analysis, however, make sure that whichever team member voted the strongest in favor of the technology is *not* given the technology to explore. That is to say, if Ted spent $50 on Flutter, Woody spent $25, and Scott spent $10, then Scott should be the one to explore Flutter. The reasoning here is simple--if Ted voted so strongly for Flutter, he runs a strong risk of being biased in favor of it, and will be less likely to spot the negative traits. Scott, however, feels less strong, and so will likely be more open-minded. (Yes, this system can be gamed if somebody really wants to try and game it, but honestly, if you can't trust your R&D team to be able to approximate some degree of unbiased investigation, then you probably have bigger problems.)
-    Keep in mind here, you're *not* building your prototype yet. You're literally just trying to get a sense for the "unboxing experience"--can we run demos right away? Are other dependencies involved? Do we have the right tools or infrastructure already, or would we need to pull down more in order to get even the simplest example up and running? This goes a long way to hint at what the overall developer experience will be.
-
-* *Prototype Decision (2 hours):* Once the team has had a little experience with each of the three options, it's time to decide which one to build the prototype in. The previous exploration step is essentially a preview for what comes next, but the team can't realistically build anything of substance if they're trying to do it across a large number of options, so reducing it down to one helps keep things focused. Meet with the team, with each of the three options presented, examples discussed, and make a decision out of the three.
-
-* *Prototype (1-3 months):* Now the time is right to build out the prototype, always with an eye towards the hypothesis or the problem. Don't just build a CRUD app--any tool can do that. Build something that has the difficulty characteristics that your business deals with. Got a mainframe you need to talk to? Figure out how that would work as part of the prototype. Complex workflow? Really convoluted price-calculation logic? All that has to be a part of the prototype, or it's not a successful prototype.
-
-* *Presentation (1 week):* Having spent the time building out the prototype, now the team needs to build out the presentation: Specifically, the questions answered, the issues addressed, the results, and so on. But keep in mind that at least *half* of this presentation would need to be forward-facing--that is to say, it needs to talk about what adoption would look like and how it would play out within the company. Which teams would adopt first? How would they go about adopting? What's the timeframe? What do the steps look like, going from zero to "adopted"? Without practical execution steps, your prototype is just a target, not a plan.
-
 ### The Library Team
-
+The Library team is the team given responsibility for managing reusable artifacts within the company--libraries, tools, frameworks, services (cloud or on-prem), whatever--because achieving actual reusability, it turns out, requires a degree of commitment of time and resources to maintaining and homogenizing those artifacts. Doing this work, at the same time a team is trying to manage a product release, ends up becoming a distraction to the product release cycle, particularly as the shared "thing" becomes more widely shared.
 
 ### The Spy Team
-
+The spy team's purpose is pretty much as its name implies: Take a strong look at what competitors and adjacents are doing in your industry, and how they do (or might) affect your company's activities. The spy team doesn't get industry press articles written about the things they are doing, but they do often adopt a technology quickly enough to make a difference without paying the cost of finding all the mistakes and wrong assumptions about it.
 
 ### The Practical Research Team
-
-
-
+The Research team (also more recently called "the innovation team" or the "disruption team" in more "hip" companies) is the one most people think about with respect to an R&D team. It's important to note, however, that the team cannot be just focused on research--like the Scout team, the Research team has to have a constant eye on what they build having a practical impact on the company that sponsors them. For that reason, I often make the conscious decision to put the word "practical" in front of the name, so that the emphasis is on practical research that will have a direct effect on the company's ability to execute.
