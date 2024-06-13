@@ -11,10 +11,10 @@ There are four different kinds of R&D teams, each with very different actions an
 
 As a reminder, there are four kinds of R&D Teams:
 
-* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
-* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
+* the [Scout team](./scout-team.md), exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the [Spy team](./spy-team.md), exploring what competitors have built
+* the [Library team](./library-team.md), building lowest-common-denominator libraries used (sometimes) within the company
+* the [Practical Research team](./research-team.md), building novel solutions to the company's (and others') problems
 
 ### The Scout Team
 The Scout Team is what most corporate R&D teams go after: The hunt for new technology that will somehow provide the company with a competitive advantage over its competitors, despite the fact that the competitors are all themselves out there scouting the industry just like this team is. New programming languages, new databases, new architecture styles, new whatever-fill-in-the-blank, just so long as it is (a) new and (b) not yet mainstream, it's a candidate for the Scout Team's infinite desire to create prototypes that bear a remarkable resemblance to the demos that the new thing has on its website or in its documentation.

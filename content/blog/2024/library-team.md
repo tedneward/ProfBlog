@@ -11,10 +11,10 @@ There are four different kinds of R&D teams, each with very different actions an
 
 As a reminder, there are four kinds of R&D Teams:
 
-* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
-* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
+* the [Scout team](./scout-team.md), exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the [Spy team](./spy-team.md), exploring what competitors have built
+* the [Library team](./library-team.md), building lowest-common-denominator libraries used (sometimes) within the company
+* the [Practical Research team](./research-team.md), building novel solutions to the company's (and others') problems
 
 ### The Library Team
 The Library team is the team given responsibility for managing reusable artifacts within the company--libraries, tools, frameworks, services (cloud or on-prem), whatever--because achieving actual reusability, it turns out, requires a degree of commitment of time and resources to maintaining and homogenizing those artifacts. Doing this work, at the same time a team is trying to manage a product release, ends up becoming a distraction to the product release cycle, particularly as the shared "thing" becomes more widely shared.

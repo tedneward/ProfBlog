@@ -11,10 +11,10 @@ There are four different kinds of R&D teams, each with very different actions an
 
 As a reminder, there are four kinds of R&D Teams:
 
-* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
-* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
+* the [Scout team](./scout-team.md), exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the [Spy team](./spy-team.md), exploring what competitors have built
+* the [Library team](./library-team.md), building lowest-common-denominator libraries used (sometimes) within the company
+* the [Practical Research team](./research-team.md), building novel solutions to the company's (and others') problems
 
 ### The (Practical) Research Team
 The Research team (also more recently called "the innovation team" or the "disruption team" in more "hip" companies) is the one most people think about with respect to an R&D team. It's important to note, however, that the team cannot be just focused on research--like the Scout team, the Research team has to have a constant eye on what they build having a practical impact on the company that sponsors them. For that reason, I often make the conscious decision to put the word "practical" in front of the name, so that the emphasis is on practical research that will have a direct effect on the company's ability to execute.

@@ -11,10 +11,10 @@ There are four different kinds of R&D teams, each with very different actions an
 
 As a reminder, there are four kinds of R&D Teams:
 
-* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
-* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
+* the [Scout team](./scout-team.md), exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the [Spy team](./spy-team.md), exploring what competitors have built
+* the [Library team](./library-team.md), building lowest-common-denominator libraries used (sometimes) within the company
+* the [Practical Research team](./research-team.md), building novel solutions to the company's (and others') problems
 
 ### The Spy Team
 The spy team's purpose is pretty much as its name implies: Take a strong look at what competitors and adjacents are doing in your industry, and how they do (or might) affect your company's activities. The spy team doesn't get industry press articles written about the things they are doing, but they do often adopt a technology quickly enough to make a difference without paying the cost of finding all the mistakes and wrong assumptions about it.

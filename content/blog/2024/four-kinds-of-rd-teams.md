@@ -15,10 +15,10 @@ In my [last post](../2024/the-problem-with-rd-teams.md), I talked about some of 
 
 In brief, there are four kinds of R&D Teams:
 
-* the ***[Scout team](./scout-team.md)***, exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
-* the ***[Spy team](./spy-team.md)***, exploring what competitors have built
-* the ***[Library team](./library-team.md)***, building lowest-common-denominator libraries used (sometimes) within the company
-* the ***[Practical Research team](./research-team.md)***, building novel solutions to the company's (and others') problems
+* the [Scout team](./scout-team.md), exploring what tech others in the industry have built (e.g., Flutter, SwiftUI, etc)
+* the [Spy team](./spy-team.md), exploring what competitors have built
+* the [Library team](./library-team.md), building lowest-common-denominator libraries used (sometimes) within the company
+* the [Practical Research team](./research-team.md), building novel solutions to the company's (and others') problems
 
 In each of those subsequent posts, I address each of these in some level of detail, but here's summaries for each:
 
