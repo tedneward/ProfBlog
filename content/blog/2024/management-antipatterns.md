@@ -15,7 +15,7 @@ Within each of these, I try to provide a barebones pattern form, but most import
 Note that, in order to post these more often than not, I'll be writing these up as separate posts and putting links to them in this post.
 
 * ["The Smartest-Engineer Manager"](../../manager-tips/smartest-engineer-manager.md): "Let's promote the smartest engineer on the team to manager"
-* ["The Tech-Lead Manager"](): "Let's just have a developer be a manager and a developer at the same time"
+* ["The Tech-Lead Manager"](../../manager-tips/tech-lead-manager.md): "Let's just have a developer be a manager and a developer at the same time"
 * ["The Project-Manager Manager"](): "Let's put the project manager in charge so they can crack the whip as necessary"
 * ["The Lateral-Move Manager"](): "Let's take a manager from one group and move them to run a team in a totally different area of the company"
 * ["The C-Buddy Manager"](): "Let's put a buddy of the CxO's in charge of the team"
