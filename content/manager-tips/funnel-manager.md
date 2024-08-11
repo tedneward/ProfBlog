@@ -16,9 +16,9 @@ Initially, the Funnel will be seen as the opposite of the Sphinx, sharing with t
 
 ***Consequences:*** 
 
-Slowly, the drama starts to wear away at team morale.  Then one day, the Funnel is chewed out by their boss. They come to the team meeting fuming and repeat the conversation verbatim. Everyone in the room squirms and wishes the Funnel would just not... share so much.
+Over time, the Funnel's repeated recitation of every conversation begins to grate at the team.
 
-* **Loss of team morale.** It is hard to focus on work when rumors of upset product managers are swirling around. 
+* **Loss of team morale.** It is hard to focus on work when rumors of upset product managers are swirling around. The team begins to wonder if their work is all going to waste, if there are going to be changes, or how this all squares away with all the other rumors they hear. Given that half (at least) of the things the Funnel passes down will turn out to be false or misunderstandings, it leaves the team wondering where and how the hammer will fall--and if they're hearing these things, what else is going on that they aren't hearing?
 
 * **Loss of trust from the team.** The team is only ever getting the Funnel's interpretation of events, so when the team interacts with other teams, they often discover that the Funnel isn't always telling "the truth, the whole truth, and nothing but the truth" about what happened. Sometimes this is because the Funnel simply didn't pick up on some nuance, but sometimes it's because the Funnel is slightly coloring the story to make themselves look better in the conversation.
 
@@ -35,7 +35,7 @@ Slowly, the drama starts to wear away at team morale.  Then one day, the Funnel 
 
 Stress is part of a leader’s role, but successful leaders learn to absorb the pressure and shield their team.
 
-* **Learn the distinction between venting and productive sharing.** The Funnel is often of the mindset that providing all this detail is simply engaging in transparency, when in fact much of it is just venting. Much of the time, the operative question is, "What would my team/team member *do* with this?" If the details require or suggest that the team actively change their activities in order to achieve higher productivity, then it may be worth sharing. If not, it's likely just the Funnel's need to vent.
+* **Learn the distinction between venting and guidance.** The Funnel is often of the mindset that providing all this detail is "being transparent", when in fact much of it is just venting. For any particular piece of conversation or statement, the operative question the Funnel must learn to ask themselves is, "What would my team/team member *do* with this?" If the details require or suggest that the team actively change their activities in order to achieve higher productivity, then it may be worth sharing. If not, it's likely just the Funnel's need to vent. And if it's not clear, the default should probably be to say nothing.
 
 * **Emotional regulation.** In some cases, the Funnel vents because they themselves just got out of the meeting and they haven't had time to fully process the details themselves. This is particularly exacerbated by the remote-friendly Zoom meetings, which can be lined up back-to-back-to-back-to-back... with zero downtime in between. If the Funnel cannot learn to "shut down" an emotional response after a contentious or stressful meeting, they may need to cancel the immediate-following meeting or meetings until they can "get their head straight". They may need some tips on how to calm down, and/or it may become useful or necessary to work with HR to investigate the company's mental health plans to give the Funnel a safe space in which to do that venting, so that they can have that opportunity without "polluting" their team.
 
