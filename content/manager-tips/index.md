@@ -33,4 +33,8 @@ There's also a few "manager antipatterns" I've noticed companies and managers fa
 * The Metric-Abuse Manager
 * The Documentation-Abuse Manager
 
+I also find a few management antipatterns in way too many companies:
+
+* [Decisions by Unanimous Consensus](./consensus.md)
+
 The full collection of ["management" tags](/tags/management.html) has a few more posts.

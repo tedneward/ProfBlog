@@ -6,7 +6,7 @@ status=published
 description=Many companies make the same sorts of mistakes with their managers, over and over again. If they were software designs, we'd call them antipatterns. One of them is to make your smartest engineer into a manager.
 ~~~~~~
 
-"Golly, Evelyn is so smart, she knows everything there is to know about Javascript and React, we need to reward her somehow. Lets make her the manager/VP/CTO and give her a title that mirrors the 'weight' that she brings to the company." Sadly, the Smartest-Engineer Manager antipattern is a trojan horse antipattern--it looks and feels like the right thing to do, but in the long run, it's really not.
+"Golly, Evelyn is so smart, she knows everything there is to know about Javascript and React, we need to reward her somehow. Lets make her the manager/VP/CTO and give her a title that mirrors the 'weight' that she brings to the company." Sadly, the Smartest-Engineer Manager antipattern is a trojan horse antipattern--it looks and feels like the right thing to do, but in the long run, it's really not. Evelyn is probably not really ready to have people report to her, and her people-centric mistakes over time come to outweigh her technology successes. Either Evelyn quits, or she is quietly shunted off into a different, hopefully individually-contributing, role.
 
 <!-- more -->
 

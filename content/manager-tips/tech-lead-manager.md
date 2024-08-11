@@ -10,9 +10,21 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 <!-- more -->
 
-***Context:***
+***Context:*** 
+
+Deadlock among teams is a frustrating thing. Because many companies often practice the anti-pattern of [unanimous consensus decision-making](./consensus.md), getting a team past the decision-making stage of its early design and architecture can often feel like one of Twelve Labors of Hercules.
+
+Then, in a flash of inspiration, an upper-level executive gets the idea that, in order to circumvent the problem, they can promote someone into a role of "Tech Lead", which will (in theory) allow that individual the opportunity to make decisions by *fiat*, utilizing the authority vested in the position to overrule the others and break the logjam.
 
 ***Consequences:***
+
+Once promoted, the Tech Lead often finds several second-order effects kick in:
+
+* **Resentment.** If the Tech Lead does, in fact, make use of their authority to make the decisions and break the logjam, it often breeds resentment from the other people in the group, particularly if the newly-minted Tech Lead does not have the people skills to offer some compromise in other areas (which can lead to some design-by-committee results). What's worse, if that newly-minted Tech Lead isn't particularly diplomatic, they may actually revel in their new-found authority, further hastening the buildup of resentment and growing dysfunction within the team.
+
+* **Poor management of the team.** If the Tech Lead was promoted in order to break the logjam, it's highly likely this individual wasn't on any kind of fast-track into a management role to begin with, and it is equally likely that they are not particularly "human-minded" and familiar with the roles and responsibilities of managing a team. The careers of the other team members are likely to suffer from neglect as the necessary support for growth from their manager is lacking and/or inferior.
+
+* **Poor decisions.** By promoting the Tech Lead, implicitly the company is weakening the future decisions of that Tech Lead from that point forward--because a manager has many responsibilities that take time away from the time to do research and experimentation in order to make solid technology decisions, the Tech Lead is now in the worst possible position, that of making decisions unilaterally while simultaneously having less and less time/energy to make sure their decisions are good (or at least defensible) ones.
 
 ***Variants:*** 
 

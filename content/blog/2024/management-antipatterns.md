@@ -16,14 +16,22 @@ Note that, in order to post these more often than not, I'll be writing these up 
 
 * ["The Smartest-Engineer Manager"](../../manager-tips/smartest-engineer-manager.md): "Let's promote the smartest engineer on the team to manager"
 * ["The Tech-Lead Manager"](../../manager-tips/tech-lead-manager.md): "Let's just have a developer be a manager and a developer at the same time"
-* ["The Project-Manager Manager"](): "Let's put the project manager in charge so they can crack the whip as necessary"
-* ["The Lateral-Move Manager"](): "Let's take a manager from one group and move them to run a team in a totally different area of the company"
-* ["The C-Buddy Manager"](): "Let's put a buddy of the CxO's in charge of the team"
-* ["The Laissez-Faire Manager"](): "I'm going to be the opposite of a micromanager, and leave them totally alone"
-* ["The Hammer Manager"](): "I only know how to use a hammer, so I'm going to hammer away with it"
-* ["The Pass-Through Manager"](): "I don't want to make any sort of decision, ever, so I'm going to pass this up the flagpole"
-* ["The Absentee Manager"](): "What manager?"
-* ["The Headless Chicken Manager"](): "OMG OMG OMG I don't know what to do OMG OMG OMG"
-* ["The Metric-Abuse Manager"](): "Well, we are a data-driven company, so I'm going to overindex on the data part of that."
-* ["The Documentation-Abuse Manager"](): "If it isn't in the spec, written down, or otherwise documented, it didn't or doesn't happen."
+* ["The Perfectionist Manager"]():
+* "The Project-Manager Manager": "Let's put the project manager in charge so they can crack the whip as necessary"
+* "The Lateral-Move Manager": "Let's take a manager from one group and move them to run a team in a totally different area of the company"
+* "The C-Buddy Manager": "Let's put a buddy of the CxO's in charge of the team"
+* "The Laissez-Faire Manager": "I'm going to be the opposite of a micromanager, and leave them totally alone"
+* "The Hammer Manager": "I only know how to use a hammer, so I'm going to hammer away with it"
+* "The Pass-Through Manager": "I don't want to make any sort of decision, ever, so I'm going to pass this up the flagpole"
+* "The Absentee Manager": "What manager?"
+* "The Headless Chicken Manager": "OMG OMG OMG I don't know what to do OMG OMG OMG"
+* "The Metric-Abuse Manager": "Well, we are a data-driven company, so I'm going to overindex on the data part of that."
+* "The Documentation-Abuse Manager": "If it isn't in the spec, written down, or otherwise documented, it didn't or doesn't happen."
 
+Not only are there manager-based antipatterns, though, there's also some collective management-culture antipatterns that I think are useful to call out:
+
+* ["Unanimous Consensus Decision-Making"](../../manager-tips/consensus.md): All decisions must be made by a group, which must be unanimous in their decision.
+* ["The Paranoia of Wrong"](../../manager-tips/paranoia-of-wrong.md): "Just remember, if you get it wrong, you could be fired."
+
+
+* ["The Bottleneck"]()
