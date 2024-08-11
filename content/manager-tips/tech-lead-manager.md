@@ -32,6 +32,6 @@ Once promoted, the Tech Lead often finds several second-order effects kick in:
 
 ***Mitigation:***
 
-Mitigating the Tech Lead manager's 
+
 
 
