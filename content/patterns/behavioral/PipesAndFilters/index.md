@@ -55,18 +55,28 @@ The *data sink* collects the results from the end of the pipeline. Two variants 
 A Pipes-and-Filters approach tends to lead to several consequences:
 
 * *No intermediate files necessary, but possible.* Computing results using separate programs is possible without pipes, by storing intermediate results in files. This approach clutters directories, and is error-prone if you have to set up your processing stages every time you run your system. In addition, it rules out incremental and parallel computation of results. Using Pipes and Filters removes the need for intermediate files, but allows you to investigate intermediate data by using a T-junction in your pipeline.
+
 * *Flexibility by filter exchange.* Filters have a simple interface that allows their easy exchange within a processing pipeline. Even if filter components call each other directly in a push or pull fashion, exchanging a filter component is still straightforward. In our compiler example a scanner generated with lex can easily be replaced by a more efficient hand-coded function yylex that performs the same task. Filter exchange is generally not possible at run-time due to incremental computation in the pipeline.
+
 * *Flexibility by recombination.* This major benefit, combined with the reusability of filter components, allows you to create new processing pipelines by rearranging filters or by adding new ones. A pipeline without a data source or sink can be embedded as a filter within a larger pipeline. You should aim to tune the system plafform or surrounding infrastructure to support this flexibility, such as is provided by the pipe mechanism and shells in UNIX.
+
 * *Reuse of filter components.* Support for recombination leads to easy reuse of filter components. Reuse is further enhanced if you implement each filter as an active component, while the underlying plafform and shell allow easy end-user construction of pipelines.
+
 * *Rapid prototyping of pipelines.* The preceding benefits make it easy to prototype a data-processing system from existing filters. After you have implemented the principal system function using a pipeline you can optimize it incrementally. You can do this, for example, by developing specific filters for time-critical processing stages, or by reimplementing the pipeline using more efficient pipe connections. Your prototype pipeline can however be the final system if it performs the required task adequately. Highly-flexible filters such as the UNIX tools sed and awk reinforce such a prototyping approach.
+
 * *Efficiency by parallel processing.* It is possible to start active filter components in parallel in a multiprocessor system or a network. If each filter in a pipeline consumes and produces data incrementally they can perform their functions in parallel.
+
 * *Sharing state information is expensive or inflxible.* If your processing stages need to share a large amount of global data, applying the Pipes and Filters pattern is either inefficient or does not provide the full benefits of the pattern. 
+
 * Efficiency gain by parallel processing is often an illusion. This is for several reasons:
+
     * The cost for transferring data between filters may be relatively high compared to the cost of the computation carried out by a single filter. This is especially true for small filter components or pipelines using network connections.
     * Some filters consume all their input before producing any output, either because the task, such as sorting, requires it or because the filter is badly coded, for example by not using incremental processing when the application allows it.
     * Context-switching between threads or processes is generally an expensive operation on a single-processor machine.
     * Synchronization of filters via pipes may stop and start filters often, especially when a pipe has only a small buffer.
+
 * *Data transformation overhead.* Using a single data type for all filter input and output to achieve highest flexibility results in data conversion overheads. Consider a system that performs numeric calculations and uses UNIX pipes. Such a system must convert ASCII characters to real numbers, and vice-versa, within each filter. A simple filter, such as one that adds two numbers, will spend most of its processing time doing format conversion.
+
 * *Error handling.* Error handling is the Achilles' heel of the Pipes and Filters pattern. You should at least define a common strategy for error reporting and use it throughout your system. A concrete error recovery or error-handling strategy depends on the task you need to solve. If your intended pipeline is used in a 'mission-critical' system and restarting the pipeline or ignoring errors is not possible, you should consider structuring your system using alternative architectures such as [Layers](../../structural/Layers/).
 
 ## Relationships

@@ -32,6 +32,8 @@ A [Chain of Responsibility](./ChainOfResponsibility/) provides even looser coupl
 
 The [Observer](./Observer/) pattern defines and maintains a dependency between objects. The classic example of Observer is in Smalltalk Model/View/Controller, where all views of the model are notified whenever the model's state changes; despite the same name, this is a different view of MVC than what the server-side Web frameworks tended to espouse (which was more of a Presentation-Abstraction-Controller, from POSA1), but client-side frameworks like Angular tend to come closer to traditional Observer behavior. Observers combined with a [Message-Passing Interface](../structural/MessagePassingInterface/) are sometimes referred to as "publish-subscribe" systems, though these are also very often used as [Chains of Responsibility](./ChainOfResponsibility/).
 
+Originally more of an architectural pattern, a [Service Locator](./ServiceLocator/) acts as something of a [Mediator](./Mediator/) in that it serves to connect a client to an implementation--in the macro sense, for a client to find a remote service to invoke, in the micro sense it might be more of a lookup to obtain another object or suite-of-objects (a [Strategy](./Strategy/), perhaps, or a [Chain of Responsibility](./ChainOfResponsibility/)) to carry out one or more actions.
+
 Other behavioral object patterns are concerned with encapsulating behavior in an object
 and delegating requests to it. 
 

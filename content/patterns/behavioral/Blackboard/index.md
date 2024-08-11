@@ -66,22 +66,24 @@ The blackboard component defines two procedures: `inspect` and `update`. Knowled
 
 * []
 
+If the Blackboard has its own declarative language associated with it, it often becomes a *Rules Engine* (below).
+
+## Relationships
+Blackboards can sometimes be built out of a [Pipes and Filters](../PipesAndFilters/) approach, wherein each knowledge source is represented by a component in the pipeline, and the "board" of data being examined is passed explicitly to each one in sequential order. This inhibits the ability to operate in parallel, but does simplify the implementation since we no longer have to worry about concurrency issues. Additionally, if the pipeline is arranged in a circular pipeline (a ring), then it's easy to make multiple passes without having to wonder if each knowledge source has had a chance to examine the data.
+
 ## Consequences
 A Blackboard approach tends to lead to several consequences:
 
 * *Experimentation.* In domains in which no closed approach exists and a complete search of the solution space is not feasible, the Blackboard pattern makes experimentation with different algorithms possible, and also allows different control heuristics to be tried.
 * *Support for changeability and maintainability.* The Blackboard supports changeability and maintainability because the individual knowledge sources, the control algorithm and the central data structure are strictly separated. However, all modules can communicate via the blackboard.
 * *Reusable knowledge sources.* Knowledge sources are independent specialists for certain tasks. A Blackboard helps in making them reusable. The prerequisites for reuse are that knowledge source and the underlying Blackboard system understand the same protocol and data, or are close enough in this respect not to rule out adaptors for protocol or data.
-* *Support for fault tolerance and robustness.* In a Blackboard all results are just hypotheses. Only those that are strongly supported by data and other hypotheses survive. This provides tolerance of noisy data and uncertain conclusions. 
-* *Di@culty of testing.* Since the computations of a Blackboard system do not follow a deterministic algorithm, its results are often not reproducible. In addition, wrong hypotheses are part of the solution process.
+* *Support for fault tolerance and robustness.* In a Blackboard all results are just hypotheses. Only those that are strongly supported by data and other hypotheses survive. This provides tolerance of noisy data and uncertain conclusions.
+* *Difficulty of testing.* Since the computations of a Blackboard system do not follow a deterministic algorithm, its results are often not reproducible. In addition, wrong hypotheses are part of the solution process.
 * *No good solution is guaranteed.* Usually Blackboard systems can solve only a certain percentage of their given tasks correctly.
 * *Difficulty of establishing a good control strategy.* The control strategy cannot be designed in a straightforward way, and requires an experimental approach.
 * *Low Emiency.* Blackboard systems suffer from computational overheads in rejecting wrong hypotheses. If no deterministk algorithm exists, however, low efficiency is the lesser of two evils when compared to no system at all.
 * *High development effort.* Most Blackboard systems take years to evolve. We attribute this to the ill-structured problem domains and extensive trial-and-error programming when defining vocabulary, control strategies and knowledge sources.
 * *No support for parallelism.* The Blackboard architecture does not prevent the use of a control strategy that exploits the potential parallelism of knowledge sources. It does not however provide for their parallel execution. Concurrent access to the central data on the blackboard must also be synchronized. 
-
-## Relationships
-Blackboards can sometimes be built out of a [Pipes and Filters](../PipesAndFilters/) approach, wherein each knowledge source is represented by a component in the pipeline, and the "board" of data being examined is passed explicitly to each one in sequential order. This inhibits the ability to operate in parallel, but does simplify the implementation since we no longer have to worry about concurrency issues. Additionally, if the pipeline is arranged in a circular pipeline (a ring), then it's easy to make multiple passes without having to wonder if each knowledge source has had a chance to examine the data.
 
 ## Variations
 A couple of different takes on Blackboard include:

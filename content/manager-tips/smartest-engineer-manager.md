@@ -1,8 +1,8 @@
 title=The Smartest-Engineer Manager
 date=2024-06-01
-type=post
+type=page
 tags=management, antipatterns
-status=draft
+status=published
 description=Many companies make the same sorts of mistakes with their managers, over and over again. If they were software designs, we'd call them antipatterns. One of them is to make your smartest engineer into a manager.
 ~~~~~~
 

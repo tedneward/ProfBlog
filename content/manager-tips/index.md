@@ -21,7 +21,7 @@ Since around 2012, I've been hanging up my keyboard (as an architect, developer,
 There's also a few "manager antipatterns" I've noticed companies and managers fall prey to, which I've collected here:
 
 * ["The Smartest-Engineer Manager"](./smartest-engineer-manager.md)
-* The Tech-Lead Manager
+* ["The Tech-Lead Manager"](./tech-lead-manager.md)
 * The Project-Manager Manager
 * The Lateral-Move Manager
 * The Laissez-Faire Manager

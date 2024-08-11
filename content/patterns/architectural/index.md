@@ -21,5 +21,7 @@ A [Pipes and Filters](../behavioral/PipesAndFilters/) architecture is most easil
 
 The [Microkernel](../structural/Microkernel/) architecture is popular among operating systems, where the smallest-possible core is defined as the OS kernel, and as much work as possible is deferred to components outside the kernel so as to minimize the "surface area" in the kernel and leave as much to be supplemental/replaceable as possible. Ironically, microkernel-based architecture among operating systems is less popular these days, mostly for performance reasons--the cost of crossing from kernel space to user space is high compared to keeping communication inside kernel space.
 
+A [Service Locator](../behavioral/ServiceLocator/) can be used to help reduce explicit knowledge/coupling of remote components; this is, in many respects, the entire point of the Domain Name Service (DNS) in networking, and several technology platforms make explicit use of Service Locators in their design (see, for example, JNDI or Active Directory in JavaEE and .NET, respectively).
+
 
 
