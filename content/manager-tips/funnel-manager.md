@@ -1,4 +1,4 @@
-title=The Funnel Manager
+title=Antipattern: The Funnel Manager
 date=2024-08-10
 type=page
 tags=management, antipatterns
@@ -27,9 +27,6 @@ Over time, the Funnel's repeated recitation of every conversation begins to grat
 * **Loss of trust from the Funnel's manager.** This loss of trust can easily extend upwards, too, as the Funnel's storytelling can include their 1:1s with their own boss, which, when those conversations surface up to that boss's peers, can land the boss in some hot water.
 
 * **Legal or ethical violations.** In the worst-case scenario, the Funnel can actually become a legal or ethical liability, sharing secrets that cannot be shared with the team until such time that it is permissible. This can be particularly dangerous in publicly-traded companies and around acquisitions, mergers, or spinoffs.
-
-***Variants:*** 
-
 
 ***Mitigation:*** 
 

@@ -35,4 +35,3 @@ Not only are there manager-based antipatterns, though, there's also some collect
 
 * ["Unanimous Consensus Decision-Making"](../../manager-tips/consensus.md): All decisions must be made by a group, which must be unanimous in their decision.
 * ["The Paranoia of Wrong"](../../manager-tips/paranoia-of-wrong.md): "Just remember, if you get it wrong, you could be fired."
-

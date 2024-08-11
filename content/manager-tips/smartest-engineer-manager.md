@@ -1,4 +1,4 @@
-title=The Smartest-Engineer Manager
+title=Antipattern: The Smartest-Engineer Manager
 date=2024-06-01
 type=page
 tags=management, antipatterns

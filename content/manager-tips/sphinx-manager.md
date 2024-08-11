@@ -24,9 +24,6 @@ The Sphinx of legend were guardians, immortal beings that prevented casual tresp
 
 * **Project quality suffers.** Engineers who can never trust that they will remain on the project long-term inevitably look to short-term solutions in order to make sure they have accomplished the task assigned to them. This often has the unfortunate side effect of creating technical debt within the project, far more than what might normally be expected.
 
-***Variants:*** 
-
-
 ***Mitigation:*** 
 
 The first signs of a Sphinx manager is when the employee survey comes back indicating an extremely low degree of psychological safety within the team; in the absence of surveys, acceleration of transfers out of the team and/or exit interviews indicating a lack of trust in the Sphinx's statements will signal the danger. To mitigate the Sphinx's impact, you must:

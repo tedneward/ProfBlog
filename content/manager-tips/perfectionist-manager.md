@@ -1,4 +1,4 @@
-title=The Perfectionist Manager
+title=Antipattern: The Perfectionist Manager
 date=2024-08-10
 type=page
 tags=management, antipatterns
@@ -21,9 +21,6 @@ The Perfectionist is often promoted entirely because of their "attention to deta
 * **Team morale (and composition) suffers.** The Perfectionist's inability to allow anything to go out without their fingerprints on it leads to deep distrust and frustration. Not only does the Perfectionist's need for involvement 
 
 * **Team member promotion and career growth suffers.** By trying to be a hero, the Perfectionist denies the team its own chance to shine, and for individual members of the team to see their own stock grow within the company.
-
-***Variants:*** 
-
 
 ***Mitigation:***
 
