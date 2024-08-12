@@ -21,3 +21,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the Project Manager.**
+
+**If you are the Project Manager.**
+
+**If the Project Manager works for you.**
