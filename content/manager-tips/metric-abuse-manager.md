@@ -21,3 +21,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the Metric-Abuser.**
+
+**If you are the Metric-Abuser.**
+
+**If the Metric-Abuser works for you.**

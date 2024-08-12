@@ -21,3 +21,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the Hammer.**
+
+**If you are the Hammer.**
+
+**If the Hammer works for you.**

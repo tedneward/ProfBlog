@@ -6,7 +6,7 @@ status=published
 description=Many companies make the same sorts of mistakes with their managers, over and over again. If they were software designs, we'd call them antipatterns. One of them is when the manager must run every decision past their manager.
 ~~~~~~
 
-"" 
+"Hey " 
 
 <!-- more -->
 
@@ -21,3 +21,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the Flagpole.**
+
+**If you are the Flagpole.**
+
+**If the Flagpole works for you.**

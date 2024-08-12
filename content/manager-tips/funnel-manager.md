@@ -12,7 +12,9 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Context:*** 
 
-Initially, the Funnel will be seen as the opposite of the Sphinx, sharing with the team rather than keeping everything bottled up, and the team will initially warm to it, finally feeling like they are getting the transparency and trust they deserve. "Finally! A manager who is willing to tell us what's going on upstairs." It’s the team against the world, and the Funnel is on the team’s side.
+It's important to note that there are two sorts of Funnel: the malicious kind, who pass any and all criticism down to their team yet retain all the credit and kudos, and the more neutral kind, who pass anything and everything in an effort towards transparency. The malicious kind are just bullies, and deserve their own treatment. (Actually they deserve to be catapulted into a volcano, but that's a different matter.) More importantly, the malicious ones are easier to spot and "manage out". The "transparent" Funnels, however, are harder to deal with, from all levels.
+
+Ironically, initially, the Funnel will be seen quite positively, as their efforts towards transparency leads the team to conclude that this is the opposite of the [Sphinx](./sphinx-manager.html), sharing with the team rather than keeping everything bottled up. The team will initially warm to it, finally feeling like they are getting the transparency and trust they deserve. "Yes! A manager who is willing to tell us what's going on upstairs." It’s the team against the world, and the Funnel is on the team’s side.
 
 ***Consequences:*** 
 
@@ -30,10 +32,24 @@ Over time, the Funnel's repeated recitation of every conversation begins to grat
 
 ***Mitigation:*** 
 
-Stress is part of a leader’s role, but successful leaders learn to absorb the pressure and shield their team.
+**If you work for the Funnel.** Whoo, boy. Sorry to hear it. Yes, initially that transparency felt great, particularly since for many this is the first chance they have to see what happens at the managerial level. It feels like a window into a new world, and in some cases the Funnel will build on that, creating a sense of shared conspiratorial comraderie. It can feel like bonding, emphasizing "us against the world", which can help grow the feeling of loyalty to the manager.
 
-* **Learn the distinction between venting and guidance.** The Funnel is often of the mindset that providing all this detail is "being transparent", when in fact much of it is just venting. For any particular piece of conversation or statement, the operative question the Funnel must learn to ask themselves is, "What would my team/team member *do* with this?" If the details require or suggest that the team actively change their activities in order to achieve higher productivity, then it may be worth sharing. If not, it's likely just the Funnel's need to vent. And if it's not clear, the default should probably be to say nothing.
+Once the shine wears off, however, and you begin to feel the pressures of "knowing too much", there's a couple of things you can do:
 
-* **Emotional regulation.** In some cases, the Funnel vents because they themselves just got out of the meeting and they haven't had time to fully process the details themselves. This is particularly exacerbated by the remote-friendly Zoom meetings, which can be lined up back-to-back-to-back-to-back... with zero downtime in between. If the Funnel cannot learn to "shut down" an emotional response after a contentious or stressful meeting, they may need to cancel the immediate-following meeting or meetings until they can "get their head straight". They may need some tips on how to calm down, and/or it may become useful or necessary to work with HR to investigate the company's mental health plans to give the Funnel a safe space in which to do that venting, so that they can have that opportunity without "polluting" their team.
+* **Call TMI.** Sometimes, the best thing to do is simply point out that the information being shared isn't useful and/or is causing you stress. Doing so may feel like taking a huge risk: you're literally asking your boss to tell you less about what's going on, and you question your wisdom in doing so. What happens if the boss doesn't tell me something I *should* know? One way to do this is to, literally, ask "What should I do with this? What do you want us to do?" as a subtle pushback against sharing information that isn't appropriate.
+
+* **Develop selective ignorance.** If the Funnel can't control their conversational instincts, you may just have to develop your own filters, and take everything the Funnel says as hearsay and rumor until you get validation elsewhere. It can be frustrating sometimes to have to work to second-guess and deliberately discount things your boss is telling you, but until the Funnel starts filtering themselves, you'll have to do some of it yourself. You may also need to reassure teammates who are panicking at the latest rumor, too.
+
+**If you are the Funnel.** Seriously, stop. You're stressing your team out with your conversational diarrhea, and it's not helping anyone, least of all you. Stress is part of a leader’s role, but successful leaders learn to absorb the pressure and shield their team.
+
+* **Learn the distinction between venting and guidance.** I get it, you're of the mindset that providing all this detail is "being transparent", but the truth is much of it is just venting. For any particular piece of conversation or statement, the operative question you must learn to ask yourself is, "What would my team/team member *do* with this?" If the details require or suggest that the team actively change their activities in order to achieve higher productivity, then it may be worth sharing. If not, it's likely just your need to vent. And if it's not clear, the default should probably be to say nothing.
+
+* **Emotional regulation.** In some cases, you may be venting because you just got out of the meeting and haven't had time to fully process the details. This is particularly exacerbated by the remote-friendly Zoom meetings, which can be lined up back-to-back-to-back-to-back... with zero downtime in between. But if you cannot learn to "shut down" an emotional response after a contentious or stressful meeting, you may need to develop the habit of canceling the immediate-following meeting or meetings until you can "get your head straight".
+
+**If the Funnel works for you.** Nothing like finding out that everything you've told somebody is being repeated verbatim elsewhere, right?
+
+* **Self-censor more.** If you're being transparent with the Funnel, you may be sending a subtle signal that this is how upper management behaves and is expected to behave. (You may even be acting like a Funnel yourself--time to self-assess!) Even if you're not, though, it's time to start thinking very deliberately about each 1:1 you have with the Funnel, and carefully screen what information you pass to the Funnel, at least until they've demonstrated that they have some better filters in place.
+
+* **Get help.** You may need to get the Funnel some tips on how to calm down, and/or it may become useful or necessary to work with HR to investigate the company's mental health plans to give the Funnel a safe space in which to do that venting, so that they can have that opportunity without "polluting" their team.
 
 The Funnel does not need to become the [Sphinx](./sphinx-manager.md); transparency with one's team is critical, but the Funnel must distinguish between ranting and productive sharing. 

@@ -21,3 +21,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the Lateral.**
+
+**If you are the Lateral.**
+
+**If the Lateral works for you.**

@@ -21,3 +21,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the L-F.**
+
+**If you are the L-F.**
+
+**If the L-F works for you.**

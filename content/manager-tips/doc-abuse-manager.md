@@ -21,3 +21,9 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Mitigation:*** 
 
+**If you work for the Doc-Abuser.**
+
+**If you are the Doc-Abuser.**
+
+**If the Doc-Abuser works for you.**
+
