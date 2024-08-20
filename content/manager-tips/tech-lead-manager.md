@@ -32,7 +32,7 @@ Once promoted, the Tech Lead often finds several second-order effects kick in:
 
 ***Mitigation:***
 
-**If you work for the Tech Lead.** 
+**If you work for the Tech Lead.** There's two ways to go about this: The technical approach, or the managerial approach. Either way, you're looking for things that you can volunteer to take off the Tech Lead's hands, so that they can concentrate on the other parts of their job. For example, if the Tech Lead needs to give a presentation to other teams on what your team is doing, you can volunteer to deliver that presentation for them. Or if the Tech Lead needs to be clearing out a few bugs in the system, you can offer to take that work on. Which response you get depends on where the Tech Lead wants to jump--do they want to be a technical IC, or do they want to do more management? Once you know that, it becomes easier for you as you take the things they don't want off their hands.
 
 **If you are the Tech Lead.** Do you want to stay? That's really the question. If you're like many technologists who suddenly found themselves in a position of authority, you're entirely unsure if you want to remain a manager. You've heard such horror stories, but gosh, the power to tell people what to do is awfully addictive sometimes, particularly when they just aren't as smart as you.... Do yourself a favor: If you're a manager because of the perks it gives *you*, instead of allowing you to be in a position where you can help your *team* get better as a whole, go back to IC work.
 
@@ -42,9 +42,11 @@ Once promoted, the Tech Lead often finds several second-order effects kick in:
 
 **If the Tech Lead works for you.** If you put the Tech Lead into this position, it's on you to make sure you support them and help them get out of it.
 
-* **Determine if they want to manage, or engineer.** Given that it's nigh-impossible to do both well, your first task is to determine which "way" they want to go. If they want to get back to IC work, then look for a suitable replacement to lead the team, and when that replacement is ready, slide them into place. However, you *cannot* simply demote the Tech Lead back to engineer--no one will want to take a lesser title, lower salary, and/or fewer career options! Most likely you'll need to create some kind of parallel-IC track (distinguished engineers, technical fellows, chief scientists, whatever), where an IC employee can be in a salary band comparable to your management structure, so that there's no loss of compensation, benefits, or prestige.
+* **Determine if they want to manage, or engineer.** Given that it's nigh-impossible to do both well, your first task is to determine which "way" they want to go. 
+    If they want to get back to IC work, then look for a suitable replacement to lead the team (succession planning), and when that replacement is ready, slide them into place. Given that the Tech Lead will be eager to get back to IC work, they'll likely be quick to embrace the plan. 
+    However, you *cannot* simply demote the Tech Lead back to the engineering role they had before--no one wants to take a lesser title, lower salary, and/or fewer career options! Most likely you'll need to create some kind of parallel-IC track (distinguished engineers, technical fellows, chief scientists, whatever), where an IC employee can be in a salary band comparable to your management structure, so that there's no loss of compensation, benefits, or prestige.
 
-* **Help with the management.** Assuming they want to remain as the manager, start providing some 
+* **Help with the management.** Assuming they want to remain as the manager, start providing some training, either by enrolling them in some formal management training classes or by giving them some informal guidance through your weekly 1:1s. One way to begin is to start working with your Tech Lead to determine who their likely successor is (succession planning), as this will put the Tech Lead in the dual role of student and teacher, allowing you to see how well they've ingested your lessons through the lens of how well they teach someone else. Be careful, though: The insecure Tech Lead will see the search for a successor as a sign that they've failed. You will need to show (very visibly) how you yourself are practicing succession planning. If you don't, your words will fall on disbelieving ears, and much of your credibility with your Tech Lead will be irrevocably lost.
 
 
 
