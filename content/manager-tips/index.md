@@ -20,6 +20,7 @@ Since around 2012, I've been hanging up my keyboard (as an architect, developer,
 
 I've found a few principles to be true across my various managerial positions. Some of these I've shamelessly borrowed/leveraged/stolen from other places I've worked or from people I've worked with/for, but some are all me. (You can probably figure out which ones are which if you really want to.)
 
+* ["There's No Such Thing as 'Best Practice'"; or, "Context Matters"](../blog/2005/there-is-no-such-thing-as-best-practices-context-matters.html)
 * ["Credibility is Currency"](./credibility-is-currency.html)
 * ["Good Fences Make Good Neighbors"](./good-fences-good-neighbors.html)
 * "Culture Eats Strategy for Breakfast" *(Peter Drucker's famous maxim still holds, almost a century later)*
