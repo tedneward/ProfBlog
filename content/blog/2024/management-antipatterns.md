@@ -1,4 +1,4 @@
-title=Management Antipatterns
+title=Manager Antipatterns
 date=2024-12-31
 type=post
 tags=management, antipatterns
@@ -6,7 +6,7 @@ status=draft
 description=Many companies make the same sorts of mistakes with their managers, over and over again. If they were software designs, we'd call them antipatterns.
 ~~~~~~
 
-Ever had a manager who was clearly smart, but had no idea how to manage? Or one of those managers who was "laterally promoted" over from a team that was radically different from what your team did? There's a whole host of mistakes that companies often fall prey to, and I thought it a good idea to collect them into one place, under the umbrella heading of "antipatterns". (Because "antipatterns" sounds better than "often-repeated mistakes that we really should have learned from so that we don't make them again, and yet...".)
+Ever had a manager who was clearly smart, but had no idea how to manage? Or one of those managers who was "laterally promoted" over from a team that was radically different from what your team did? There's a whole host of mistakes that companies often fall prey to with respect to those they have leading teams, and I thought it a good idea to collect them into one place, under the umbrella heading of "manager antipatterns". (Because "antipatterns" sounds better than "often-repeated mistakes that we really should have learned from so that we don't make them again, and yet...".)
 
 <!-- more -->
 
@@ -30,7 +30,3 @@ Note that, in order to post these more often than not, I'll be writing these up 
 * ["The Smartest-Engineer Manager"](../../manager-tips/smartest-engineer-manager.html): "Let's promote the smartest engineer on the team to manager"
 * ["The Sphinx Manager"](../../manager-tips/sphinx-manager.html): "Riddle me this...."
 * ["The Tech-Lead Manager"](../../manager-tips/tech-lead-manager.html): "Let's just have a developer be a manager and a developer at the same time"
-Not only are there manager-based antipatterns, though, there's also some collective management-culture antipatterns that I think are useful to call out:
-
-* ["Unanimous Consensus Decision-Making"](../../manager-tips/consensus.html): All decisions must be made by a group, which must be unanimous in their decision.
-* ["The Paranoia of Wrong"](../../manager-tips/paranoia-of-wrong.html): "Just remember, if you get it wrong, you could be fired."
