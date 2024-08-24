@@ -12,7 +12,8 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 ***Context:*** 
 
-In some scenarios, the 
+* **Decent.** The C-Buddy is often not a terrible person, nor are they deeply unqualified to run the team. Although there are certainly cases where the C-Buddy is, in fact, entirely incompetent, most of the time these folks are of similar skill level and stature as the CTO themselves, and while the litany of flaws in a CTO may be long, most incompetent CTOs don't last long.
+
 
 ***Consequences:*** 
 

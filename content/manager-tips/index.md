@@ -42,7 +42,6 @@ I also find a few management antipatterns to which too many companies fall victi
 
 * ["The Absentee Manager"](./absentee-manager.html): "What manager?"
 * ["The Bomb Manager"](./bomb-manager.html): "We need to toss it all and start over."
-* ["The C-Buddy Manager"](./c-buddy-manager.html): "Let's put a buddy of the CxO's in charge of the team"
 * ["The Documentation-Abuse Manager"](./doc-abuse-manager.html): "If it isn't in the spec, written down, or otherwise documented, it didn't or doesn't happen."
 * ["The Flagpole Manager"](./flagpole-manager.html): "I don't want to make any sort of decision, ever, so I'm going to pass this up the flagpole"
 * ["The Funnel Manager"](./funnel-manager.html): "Wait until you hear what my boss told me today!"
