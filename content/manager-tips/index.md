@@ -48,7 +48,7 @@ I also find a few management antipatterns to which too many companies fall victi
 <!-- * ["The Flagpole Manager"](./flagpole-manager.html): "I don't want to make any sort of decision, ever, so I'm going to pass this up the flagpole" -->
 * ["The Funnel Manager"](./funnel-manager.html): "Wait until you hear what my boss told me today!"
 * ["The Hammer Manager"](./hammer-manager.html): "I only know how to use a hammer, so I'm going to hammer away with it"
-<!-- * ["The Headless Chicken Manager"](./hlc-manager.html): "OMG OMG OMG I don't know what to do OMG OMG OMG" -->
+* ["The Headless Chicken Manager"](./hlc-manager.html): "OMG OMG OMG I don't know what to do OMG OMG OMG"
 * ["The Laissez-Faire Manager"](./laissez-faire-manager.html): "I'm going to be the opposite of a micromanager, and leave them totally alone"
 * ["The Lateral-Move Manager"](./lateral-move-manager.html): "Let's take a manager from one group and move them to run a team in a totally different area of the company"
 <!-- * ["The Metric-Abuse Manager"](./metric-abuse-manager.html): "Well, we are a data-driven company, so I'm going to overindex on the data part of that." -->
