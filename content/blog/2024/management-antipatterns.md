@@ -1,5 +1,5 @@
 title=Manager Antipatterns
-date=2024-12-31
+date=2024-8-29
 type=post
 tags=management, antipatterns
 status=published
