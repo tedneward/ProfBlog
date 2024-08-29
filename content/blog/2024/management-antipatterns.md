@@ -16,9 +16,10 @@ A sample:
 
 * ["The Absentee Manager"](../../manager-tips/absentee-manager.html): "What manager?"
 * ["The Bomb Manager"](../../manager-tips/bomb-manager.html): "We need to toss it all and start over."
+* ["The C-Buddy Manager"](../../manager-tips/c-buddy-manager.md): "Why yes, the CxO is my friend, and they asked me to take over this team."
 * ["The Funnel Manager"](../../manager-tips/funnel-manager.html): "Wait until you hear what my boss told me today!"
 * ["The Hammer Manager"](../../manager-tips/hammer-manager.html): "I only know how to use a hammer, so I'm going to hammer away with it"
-* ["The Headless Chicken Manager"](../../manager-tips/hlc-manager.html): "OMG OMG OMG I don't know what to do OMG OMG OMG"
+<!-- * ["The Headless Chicken Manager"](../../manager-tips/hlc-manager.html): "OMG OMG OMG I don't know what to do OMG OMG OMG" -->
 * ["The Laissez-Faire Manager"](../../manager-tips/laissez-faire-manager.html): "I'm going to be the opposite of a micromanager, and leave them totally alone"
 * ["The Lateral-Move Manager"](../../manager-tips/lateral-move-manager.html): "Let's take a manager from one group and move them to run a team in a totally different area of the company"
 * ["The Perfectionist Manager"](../../manager-tips/perfectionist-manager.html): "Hey, it's MY team, so the work isn't done until I think it's perfect."
