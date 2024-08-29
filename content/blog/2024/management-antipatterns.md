@@ -26,4 +26,4 @@ A sample:
 * ["The Sphinx Manager"](../../manager-tips/sphinx-manager.html): "Riddle me this...."
 * ["The Tech-Lead Manager"](../../manager-tips/tech-lead-manager.html): "Let's just have a developer be a manager and a developer at the same time"
 
-The full list is [here](../../manager-tips/index.md).
+The full list is [here](../../manager-tips/).
