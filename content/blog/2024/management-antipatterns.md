@@ -8,7 +8,7 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 Ever had a manager who was clearly smart, but had no idea how to manage? Or one of those managers who was "laterally promoted" over from a team that was radically different from what your team did? There's a whole host of mistakes that companies often fall prey to with respect to those they have leading teams, and I thought it a good idea to collect them into one place, under the umbrella heading of "manager antipatterns". (Because "antipatterns" sounds better than "often-repeated mistakes that we really should have learned from so that we don't make them again, and yet...".)
 
-<!-- more -->
+<!--more-->
 
 Within each of these, I try to provide a barebones pattern form, but most importantly, advice on how to rectify the situation, split into three different forks: when you work for that manager, when you have that manager reporting to you, and when you are that manager.
 
