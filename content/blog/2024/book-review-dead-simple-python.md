@@ -5,7 +5,7 @@ tags=book, python, book review
 status=published
 description=A review of the book.
 ~~~~~~
-No Starch Press sent me a copy of the book "Dead Simple Python", by Jason C McDonald, and I have to say, this is my new go-to book for book recommendations on learning Python.
+I bought a copy of the book "Dead Simple Python", by Jason C McDonald, and I have to say, this is my new go-to book for book recommendations on learning Python.
 
 <!--more-->
 
