@@ -1,4 +1,4 @@
-title=Book Review: The Nature of Code
+title=Book Review: Dead Simple Python
 date=2024-9-11
 type=post
 tags=book, python, book review
