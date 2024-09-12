@@ -1,5 +1,5 @@
 title=The Problem With Most R-and-D Teams
-date=2024-05-28
+date=2024-5-28
 type=post
 tags=management,research,development,teams
 status=published

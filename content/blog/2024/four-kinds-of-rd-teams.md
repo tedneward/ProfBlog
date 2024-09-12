@@ -1,5 +1,5 @@
 title=The Four Kinds of Research-and-Development Teams
-date=2024-06-01
+date=2024-6-1
 type=post
 tags=management,research,development,teams
 status=published

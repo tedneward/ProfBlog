@@ -1,5 +1,5 @@
 title=Book Review: The Nature of Code
-date=2024-09-11
+date=2024-9-11
 type=post
 tags=book, python, book review
 status=published
