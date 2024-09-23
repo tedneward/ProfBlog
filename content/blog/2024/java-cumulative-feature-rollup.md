@@ -17,21 +17,40 @@ Note that most JDK releases are a combination of new language features, new libr
     - Allow effectively-final vaiables to be used as resources in try-with-resources
     - Allow diamond with anonymous classes if inferrable
 
-- 222: [jshell](https://openjdk.org/jeps/222) (9) (VM)
-- 238: [Multi-Release JAR files](https://openjdk.org/jeps/238) (9) (VM)
-- 259: [Stack-Walking API](https://openjdk.org/jeps/259) (9) (Library/VM)
-- 261: [Module system](https://openjdk.org/jeps/261) (9)
-- 266: [More Concurrency Updates](https://openjdk.org/jeps/266) (9) (Library)
-- 286: [Local-Variable Type Inference](https://openjdk.org/jeps/286) (10)
-- 361: [Switch Expressions](https://openjdk.java.net/jeps/361) (14)
-- 378: [Text Blocks](https://openjdk.java.net/jeps/378) (15)
+- 222: [jshell](https://openjdk.org/jeps/222) (9) (VM): "Provide an interactive tool to evaluate declarations, statements, and expressions of the Java programming language, together with an API so that other applications can leverage this functionality."
+
+- 238: [Multi-Release JAR files](https://openjdk.org/jeps/238) (9) (VM): "Extend the JAR file format to allow multiple, Java-release-specific versions of class files to coexist in a single archive." In other words, an MRJAR can sport different versions of a class for different releases of Java.
+
+- 259: [Stack-Walking API](https://openjdk.org/jeps/259) (9) (Library/VM): "Define an efficient standard API for stack walking that allows easy filtering of, and lazy access to, the information in stack traces."
+
+- 261: [Module system](https://openjdk.org/jeps/261) (9): Hello darkness my old friend....
+
+- 266: [More Concurrency Updates](https://openjdk.org/jeps/266) (9) (Library): Some enhancements around publish-subscribe (`Flow` and friends), the `CompletableFuture` type and some other enhancements. Looks to be entirely library-centric.
+
+- 286: [Local-Variable Type Inference](https://openjdk.org/jeps/286) (10): Use `var` as a type placeholder in local variable declarations. (What they should've done back in Java7 when they went the other direction.)
+
+- 181: [Nest-Based Access Control](https://openjdk.org/jeps/181) (11): "Introduce nests, an access-control context that aligns with the existing notion of nested types in the Java programming language. Nests allow classes that are logically part of the same code entity, but which are compiled to distinct class files, to access each other's private members without the need for compilers to insert accessibility-broadening bridge methods." I'm guessing this now invalidates/supercedes the need for the synthesized methods I always used to use as an example for why it was useful to look at Java bytecode. *sigh*.... I mean, it's best to close the hole, but now I have to find a new demo.
+
+- 361: [Switch Expressions](https://openjdk.java.net/jeps/361) (14): "Extend switch so it can be used as either a statement or an expression, and so that both forms can use either traditional `case ... :` labels (with fall through) or new `case ... ->` labels (with no fall through), with a further new statement for yielding a value from a switch expression." Functional programming infiltrates the language once again.
+
+- 371: [Hidden Classes](https://openjdk.org/jeps/371) (15): "Introduce hidden classes, which are classes that cannot be used directly by the bytecode of other classes. Hidden classes are intended for use by frameworks that generate classes at run time and use them indirectly, via reflection. A hidden class may be defined as a member of an access control nest, and may be unloaded independently of other classes." Now that's interesting, never heard of that before....
+
+- 378: [Text Blocks](https://openjdk.java.net/jeps/378) (15): "A text block is a multi-line string literal that avoids the need for most escape sequences, automatically formats the string in a predictable way, and gives the developer control over the format when desired." Looks like it uses the triple-quote "heredoc" syntax popular in other languages.
+
 - 394: [Pattern Matching for instanceof](https://openjdk.java.net/jeps/394) (16)
+
 - 395: [Records](https://openjdk.java.net/jeps/395) (16)
+
 - 306: [Restore Always-Strict Floating-Point Semantics](https://openjdk.java.net/jeps/306) (17)
+
 - 409: [Sealed Classes](https://openjdk.java.net/jeps/409) (17)
+
 - 431: [Sequenced Collections](https://openjdk.java.net/jeps/431) (21) (Library)
+
 - 440: [Record Patterns](https://openjdk.java.net/jeps/440) (21)
+
 - 441: [Pattern Matching for switch](https://openjdk.java.net/jeps/441) (21)
+
 - 444: [Virtual Threads](https://openjdk.java.net/jeps/444) (21) (Library)
 
 ---
@@ -134,7 +153,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 298: Remove Demos and Samples
 - 299: Reorganize Documentation
 
-## [JDK 10](https://openjdk.org/projects/jdk10/)
+## [JDK 10](https://openjdk.org/projects/jdk/10/)
 
 - 286: Local-Variable Type Inference
 - 296: Consolidate the JDK Forest into a Single Repository
@@ -149,7 +168,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 319: Root Certificates
 - 322: Time-Based Release Versioning
 
-## [JDK 11](https://openjdk.org/projects/jdk11/) *LTS*
+## [JDK 11](https://openjdk.org/projects/jdk/11/) *LTS*
 
 - 181: Nest-Based Access Control
 - 309: Dynamic Class-File Constants
@@ -169,7 +188,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 335: Deprecate the Nashorn JavaScript Engine
 - 336: Deprecate the Pack200 Tools and API
 
-## [JDK 12](https://openjdk.org/projects/jdk12/)
+## [JDK 12](https://openjdk.org/projects/jdk/12/)
 
 - 189:	Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)
 - 230:	Microbenchmark Suite
@@ -180,7 +199,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 344:	Abortable Mixed Collections for G1
 - 346:	Promptly Return Unused Committed Memory from G1
 
-## [JDK 13](https://openjdk.org/projects/jdk13/)
+## [JDK 13](https://openjdk.org/projects/jdk/13/)
 
 - 350:	Dynamic CDS Archives
 - 351:	ZGC: Uncommit Unused Memory
@@ -188,7 +207,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 354:	Switch Expressions (Preview)
 - 355:	Text Blocks (Preview)
 
-## [JDK 14](https://openjdk.org/projects/jdk14/)
+## [JDK 14](https://openjdk.org/projects/jdk/14/)
 
 - 305:	Pattern Matching for instanceof (Preview)
 - 343:	Packaging Tool (Incubator)
@@ -207,7 +226,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 368:	Text Blocks (Second Preview)
 - 370:	Foreign-Memory Access API (Incubator)
 
-## [JDK 15](https://openjdk.org/projects/jdk15/)
+## [JDK 15](https://openjdk.org/projects/jdk/15/)
 
 - 339:	Edwards-Curve Digital Signature Algorithm (EdDSA)
 - 360:	Sealed Classes (Preview)
@@ -224,7 +243,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 384:	Records (Second Preview)
 - 385:	Deprecate RMI Activation for Removal
 
-## [JDK 16](https://openjdk.org/projects/jdk16/)
+## [JDK 16](https://openjdk.org/projects/jdk/16/)
 
 - 338:	Vector API (Incubator)
 - 347:	Enable C++14 Language Features
@@ -244,7 +263,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 396:	Strongly Encapsulate JDK Internals by Default
 - 397:	Sealed Classes (Second Preview)
 
-## [JDK 17](https://openjdk.org/projects/jdk17/) *LTS*
+## [JDK 17](https://openjdk.org/projects/jdk/17/) *LTS*
 
 - 306:	Restore Always-Strict Floating-Point Semantics
 - 356:	Enhanced Pseudo-Random Number Generators
@@ -261,7 +280,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 414:	Vector API (Second Incubator)
 - 415:	Context-Specific Deserialization Filters
 
-## [JDK 18](https://openjdk.org/projects/jdk18/)
+## [JDK 18](https://openjdk.org/projects/jdk/18/)
 
 - 400:	UTF-8 by Default
 - 408:	Simple Web Server
@@ -273,7 +292,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 420:	Pattern Matching for switch (Second Preview)
 - 421:	Deprecate Finalization for Removal
 
-## [JDK 19](https://openjdk.org/projects/jdk19/)
+## [JDK 19](https://openjdk.org/projects/jdk/19/)
 
 - 405:	Record Patterns (Preview)
 - 422:	Linux/RISC-V Port
@@ -283,7 +302,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 427:	Pattern Matching for switch (Third Preview)
 - 428:	Structured Concurrency (Incubator)
 
-## [JDK 20](https://openjdk.org/projects/jdk20/)
+## [JDK 20](https://openjdk.org/projects/jdk/20/)
 
 - 429:	Scoped Values (Incubator)
 - 432:	Record Patterns (Second Preview)
@@ -293,7 +312,7 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 437:	Structured Concurrency (Second Incubator)
 - 438:	Vector API (Fifth Incubator)
 
-## [JDK 21](https://openjdk.org/projects/jdk21/)
+## [JDK 21](https://openjdk.org/projects/jdk/21/)
 
 - 430:	String Templates (Preview)
 - 431:	Sequenced Collections
@@ -311,20 +330,35 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 452:	Key Encapsulation Mechanism API
 - 453:	Structured Concurrency (Preview)
 
-## [JDK 22](https://openjdk.org/projects/jdk22/)
+## [JDK 22](https://openjdk.org/projects/jdk/22/)
 
-- 423:	Region Pinning for G1
-- 447:	Statements before super(...) (Preview)
-- 454:	Foreign Function & Memory API
-- 456:	Unnamed Variables & Patterns
-- 457:	Class-File API (Preview)
-- 458:	Launch Multi-File Source-Code Programs
-- 459:	String Templates (Second Preview)
-- 460:	Vector API (Seventh Incubator)
-- 461:	Stream Gatherers (Preview)
-- 462:	Structured Concurrency (Second Preview)
-- 463:	Implicitly Declared Classes and Instance Main Methods (Second Preview)
-- 464:	Scoped Values (Second Preview)
+- 423: Region Pinning for G1
+- 447: Statements before super(...) (Preview)
+- 454: Foreign Function & Memory API
+- 456: Unnamed Variables & Patterns
+- 457: Class-File API (Preview)
+- 458: Launch Multi-File Source-Code Programs
+- 459: String Templates (Second Preview)
+- 460: Vector API (Seventh Incubator)
+- 461: Stream Gatherers (Preview)
+- 462: Structured Concurrency (Second Preview)
+- 463: Implicitly Declared Classes and Instance Main Methods (Second Preview)
+- 464: Scoped Values (Second Preview)
+
+## [JDK 23](https://openjdk.org/projects/jdk/23/)
+
+- 455: Primitive Types in Patterns, instanceof, and switch (Preview)
+- 466: Class-File API (Second Preview)
+- 467: Markdown Documentation Comments
+- 469: Vector API (Eighth Incubator)
+- 473: Stream Gatherers (Second Preview)
+- 471: Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal
+- 474: ZGC: Generational Mode by Default
+- 476: Module Import Declarations (Preview)
+- 477: Implicitly Declared Classes and Instance Main Methods (Third Preview)
+- 480: Structured Concurrency (Third Preview)
+- 481: Scoped Values (Third Preview)
+- 482: Flexible Constructor Bodies (Second Preview)
 
 ---
 
