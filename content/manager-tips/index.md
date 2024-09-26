@@ -18,12 +18,13 @@ Since around 2012, I've been hanging up my keyboard (as an architect, developer,
 * ["The power of teams"](../blog/2024/the-power-of-teams.html)
 * ["An Engineering Manager Challenge"](../blog/2024/engineering-manager-challenge.html)
 
-I've found a few principles to be true across my various managerial positions. Some of these I've shamelessly borrowed/leveraged/stolen from other places I've worked or from people I've worked with/for, but some are all me. (You can probably figure out which ones are which if you really want to.)
+I've found a few principles to be true across my various managerial positions. Some of these I've shamelessly borrowed/leveraged/stolen from other places I've worked or from people I've worked with/for, but some are all me. (You can probably figure out which ones are which if you really want to.) Rocket Mortgage had a bunch of these that they called "Isms", and I like the shorthand way of referring to them like that, so these are my "Isms":
 
 * ["There's No Such Thing as 'Best Practice'"; or, "Context Matters"](../blog/2005/there-is-no-such-thing-as-best-practices-context-matters.html)
 * ["Credibility is Currency"](./credibility-is-currency.html)
 * ["Good Fences Make Good Neighbors"](./good-fences-good-neighbors.html)
 * "Actions Speak Louder than Words"
+* "Some Decisions are Bets"
 * "Culture Eats Strategy for Breakfast" *(Peter Drucker's famous maxim still holds, almost a century later)*
 * "Culture Cannot be Managed, Only Exhibited" *(I think Drucker knew this intuitively, and didn't realize some people would think culture meant "posters in the break room")*
 * "No Battle Plan Survives First Contact (With the Enemy)"
