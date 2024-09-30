@@ -37,21 +37,21 @@ Note that most JDK releases are a combination of new language features, new libr
 
 - 378: [Text Blocks](https://openjdk.java.net/jeps/378) (15): "A text block is a multi-line string literal that avoids the need for most escape sequences, automatically formats the string in a predictable way, and gives the developer control over the format when desired." Looks like it uses the triple-quote "heredoc" syntax popular in other languages.
 
-- 394: [Pattern Matching for instanceof](https://openjdk.java.net/jeps/394) (16)
+- 394: [Pattern Matching for instanceof](https://openjdk.java.net/jeps/394) (16): 
 
-- 395: [Records](https://openjdk.java.net/jeps/395) (16)
+- 395: [Records](https://openjdk.java.net/jeps/395) (16): 
 
-- 306: [Restore Always-Strict Floating-Point Semantics](https://openjdk.java.net/jeps/306) (17)
+- 306: [Restore Always-Strict Floating-Point Semantics](https://openjdk.java.net/jeps/306) (17): 
 
-- 409: [Sealed Classes](https://openjdk.java.net/jeps/409) (17)
+- 409: [Sealed Classes](https://openjdk.java.net/jeps/409) (17): 
 
-- 431: [Sequenced Collections](https://openjdk.java.net/jeps/431) (21) (Library)
+- 431: [Sequenced Collections](https://openjdk.java.net/jeps/431) (21) (Library): 
 
-- 440: [Record Patterns](https://openjdk.java.net/jeps/440) (21)
+- 440: [Record Patterns](https://openjdk.java.net/jeps/440) (21): 
 
-- 441: [Pattern Matching for switch](https://openjdk.java.net/jeps/441) (21)
+- 441: [Pattern Matching for switch](https://openjdk.java.net/jeps/441) (21): 
 
-- 444: [Virtual Threads](https://openjdk.java.net/jeps/444) (21) (Library)
+- 444: [Virtual Threads](https://openjdk.java.net/jeps/444) (21) (Library): Fibers come to Java. Finally.
 
 ---
 
