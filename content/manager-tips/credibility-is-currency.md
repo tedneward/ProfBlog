@@ -1,4 +1,4 @@
-title=Credibility is Currency
+title=Ism: Credibility is Currency
 date=2024-08-10
 type=page
 tags=management, antipatterns
