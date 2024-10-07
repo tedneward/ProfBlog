@@ -25,7 +25,7 @@ I've found a few principles to be true across my various managerial positions. S
 * ["Good Fences Make Good Neighbors"](./good-fences-good-neighbors.html)
 * "Actions Speak Louder than Words"
 * "Culture Eats Strategy for Breakfast" *(Peter Drucker's famous maxim still holds, almost a century later)*
-* "Culture Cannot be Managed, Only Exhibited" *(I think Drucker knew this intuitively, and didn't realize some people would think culture meant "posters in the break room")*
+* "Culture Cannot be Managed, Hired, or Bought; Only Exhibited" *(I think Drucker knew this intuitively, and didn't realize some people would think culture meant "posters in the break room")*
 * "No Battle Plan Survives First Contact (With the Enemy)"
 * "Never Mistake Activity for Progress"
 * "Eat Your Own Dog Food" *(Microsoft, I think, coined this phrase back when they would force internal employees to use pre-release copies of Windows in order to get some real-world experience with it before it hit the streets)*
