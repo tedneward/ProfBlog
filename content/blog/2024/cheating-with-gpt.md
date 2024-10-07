@@ -1,5 +1,5 @@
 title=Cheating With Chat-GPT
-date=2024-02-01
+date=2024-2-1
 type=post
 tags=management,teams
 status=published

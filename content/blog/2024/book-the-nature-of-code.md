@@ -1,5 +1,5 @@
 title=Book Review: The Nature of Code
-date=2024-08-20
+date=2024-8-20
 type=post
 tags=book, javascript, book review
 status=published

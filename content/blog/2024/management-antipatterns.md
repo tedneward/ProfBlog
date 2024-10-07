@@ -8,7 +8,7 @@ description=Many companies make the same sorts of mistakes with their managers, 
 
 Ever had a manager who was clearly smart, but had no idea how to manage? Or one of those managers who was "laterally promoted" over from a team that was radically different from what your team did? There's a whole host of mistakes that companies often fall prey to with respect to those they have leading teams, and I thought it a good idea to collect them into one place, under the umbrella heading of "manager antipatterns". (Because "antipatterns" sounds better than "often-repeated mistakes that we really should have learned from so that we don't make them again, and yet...".)
 
-<!-- more -->
+<!--more-->
 
 Within each of these, I try to provide a barebones pattern form, but most importantly, advice on how to rectify the situation, split into three different forks: when you work for that manager, when you have that manager reporting to you, and when you are that manager.
 
@@ -16,7 +16,7 @@ A sample:
 
 * ["The Absentee Manager"](../../manager-tips/absentee-manager.html): "What manager?"
 * ["The Bomb Manager"](../../manager-tips/bomb-manager.html): "We need to toss it all and start over."
-* ["The C-Buddy Manager"](../../manager-tips/c-buddy-manager.md): "Why yes, the CxO is my friend, and they asked me to take over this team."
+* ["The C-Buddy Manager"](../../manager-tips/c-buddy-manager.html): "Why yes, the CxO is my friend, and they asked me to take over this team."
 * ["The Funnel Manager"](../../manager-tips/funnel-manager.html): "Wait until you hear what my boss told me today!"
 * ["The Hammer Manager"](../../manager-tips/hammer-manager.html): "I only know how to use a hammer, so I'm going to hammer away with it"
 * ["The Headless Chicken Manager"](../../manager-tips/hlc-manager.html): "OMG OMG OMG I don't know what to do OMG OMG OMG"

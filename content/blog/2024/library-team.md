@@ -1,5 +1,5 @@
 title=The R-and-D Library Team
-date=2024-06-12
+date=2024-6-12
 type=post
 tags=management,research,development,teams
 status=published

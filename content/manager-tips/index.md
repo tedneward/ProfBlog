@@ -18,12 +18,13 @@ Since around 2012, I've been hanging up my keyboard (as an architect, developer,
 * ["The power of teams"](../blog/2024/the-power-of-teams.html)
 * ["An Engineering Manager Challenge"](../blog/2024/engineering-manager-challenge.html)
 
-I've found a few principles to be true across my various managerial positions. Some of these I've shamelessly borrowed/leveraged/stolen from other places I've worked or from people I've worked with/for, but some are all me. (You can probably figure out which ones are which if you really want to.)
+I've found a few principles to be true across my various managerial positions. Some of these I've shamelessly borrowed/leveraged/stolen from other places I've worked or from people I've worked with/for, but some are all me. (You can probably figure out which ones are which if you really want to.) Rocket Mortgage had a bunch of these that they called "Isms", and I like the shorthand way of referring to them like that, so these are my "Isms":
 
 * ["There's No Such Thing as 'Best Practice'"; or, "Context Matters"](../blog/2005/there-is-no-such-thing-as-best-practices-context-matters.html)
 * ["Credibility is Currency"](./credibility-is-currency.html)
 * ["Good Fences Make Good Neighbors"](./good-fences-good-neighbors.html)
 * "Actions Speak Louder than Words"
+* ["Some Decisions are Bets"](./some-decisions-are-bets.html)
 * "Culture Eats Strategy for Breakfast" *(Peter Drucker's famous maxim still holds, almost a century later)*
 * "Culture Cannot be Managed, Hired, or Bought; Only Exhibited" *(I think Drucker knew this intuitively, and didn't realize some people would think culture meant "posters in the break room")*
 * "No Battle Plan Survives First Contact (With the Enemy)"
@@ -44,6 +45,7 @@ I also find a few management antipatterns to which too many companies fall victi
 * ["The Absentee Manager"](./absentee-manager.html): "What manager?"
 * ["The Bomb Manager"](./bomb-manager.html): "We need to toss it all and start over."
 * ["The C-Buddy Manager"](./c-buddy-manager.html): "Hey all, this is my buddy Tony, and he's going to be taking over the team as a favor to me."
+* ["The Flagpole Manager"](./flagpole-manager.html): "I don't want to make any sort of decision, ever, so I'm going to pass this up the flagpole"
 * ["The Funnel Manager"](./funnel-manager.html): "Wait until you hear what my boss told me today!"
 * ["The Hammer Manager"](./hammer-manager.html): "I only know how to use a hammer, so I'm going to hammer away with it"
 * ["The Headless Chicken Manager"](./hlc-manager.html): "OMG OMG OMG I don't know what to do OMG OMG OMG"
@@ -55,7 +57,6 @@ I also find a few management antipatterns to which too many companies fall victi
 * ["The Tech-Lead Manager"](./tech-lead-manager.html): "Let's just have a developer be a manager and a developer at the same time"
 <!-- 
 * ["The Documentation-Abuse Manager"](./doc-abuse-manager.html): "If it isn't in the spec, written down, or otherwise documented, it didn't or doesn't happen."
-* ["The Flagpole Manager"](./flagpole-manager.html): "I don't want to make any sort of decision, ever, so I'm going to pass this up the flagpole"
 * ["The Metric-Abuse Manager"](./metric-abuse-manager.html): "Well, we are a data-driven company, so I'm going to overindex on the data part of that." 
 * ["The Project-Manager Manager"](./pm-manager.html): "Let's put the project manager in charge so they can crack the whip as necessary"
   -->
