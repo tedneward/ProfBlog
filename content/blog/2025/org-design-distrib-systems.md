@@ -2,7 +2,7 @@ title=Distributed Systems and Organization Design
 date=2025-1-22
 type=post
 tags=management, engineering
-status=public
+status=published
 description=A thought experiment: At some fundamental levels, the nature of organizations is very similar to the nature of distributed systems.
 ~~~~~~
 
