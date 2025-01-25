@@ -84,15 +84,17 @@ And it's these relationships that typically define the "interesting" parts of wh
 ### The known universe
 As near as I can count, there's only a few data shapes, which I'll go over in separate posts:
 
-* Key-Value/Associative
-* Object
-* Tabular (row-oriented, column-oriented)
-* Relational
-* Hierarchical
-* Graph
+* [Key-Value/Associative](./the-shapes-of-data-associative.md)
+* [Object](./the-shapes-of-data-object.md)
+* [Tabular](./the-shapes-of-data-tabular.md) (row-oriented, column-oriented)
+* [Relational](./the-shapes-of-data-relational.md)
+* [Hierarchical](./the-shapes-of-data-hierarchical.md)
+* [Graph](./the-shapes-of-data-graph.md)
 
-There's often some variance between particular examples of each, but fundamentally, these appear (to me!) to be the high-level distinguishing models.
+There's often some variance between particular examples of each, but fundamentally, these appear (to me!) to be the high-level distinguishing models. (Of course, if more models make themselves appear, I'll add them to the list.)
 
 There's also a class of database products that try to embrace more than one of these shapes simultaneously, calling themselves "multi-model" databases. In my limited experience with them, I've found that they usually embrace one model at the heart of their internal operation, and then project other models on top of that singular, internal model. (Which usually means that in a head-to-head shootout with a database product that "natively" understands a shape, the "projected" shape multimodel database loses. Badly.)
 
 By the way, let's also make one thing very clear: How we represent these models in memory may look somewhat different from how they are serialized and stored to disk. For example, when I `new` up two objects in (pick-your-favorite-OO-language-here) and point them to each other, I don't see the pointer value of their location in memory because the language hides that from me (typically). If I were to store these two to disk, though, we'd need to (a) identify them and (b) put those identifiers someplace where they could be turned back into pointers later. The pointers are natively understood by the language (and, by extension, the database engine that we're talking about), so they're a "natural" part of the database's model/"shape".
+
+Along those same lines, it's also important to recognize that the shape of the data understood by the database is not always going to be entirely reflected in how the data is stored on disk; lots of databases do some very interesting things at the storage engine level in order to gain performance, and then "make things right" when they load data into memory for analysis or processing. (In other words, the magic behind highly-performant storage engines is out-of-scope for what I'm trying to discuss here!)
