@@ -1,5 +1,5 @@
 title=Reflections on an Involuntary Sabbatical
-date=2025-2-10
+date=2025-1-31
 type=post
 tags=career,business,devrel,interviewing,management
 status=published
