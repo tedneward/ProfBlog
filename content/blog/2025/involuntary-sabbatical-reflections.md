@@ -76,4 +76,4 @@ Rather than try to string a narrative out of this, I think it a little easier to
 
 I don't know if any of those help anyone, or if they just trigger an automatic "WTF are you talking about?" or what. This post was more for me than for anybody else anyway, so if you made all the way through to the end here, well, thanks for reading.
 
-***(NOTE: Edited again on 1 Feb 2025 to address a few questions Adam messaged me over LinkedIN that I realized I wanted to add here, and correct a few typos Ron was kind enough to point out.)**
+*(**NOTE**: Edited again on 1 Feb 2025 to address a few questions Adam messaged me over LinkedIN that I realized I wanted to add here, and correct a few typos Ron was kind enough to point out.)*
