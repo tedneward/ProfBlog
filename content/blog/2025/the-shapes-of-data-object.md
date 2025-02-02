@@ -126,4 +126,4 @@ A full list of object databases, apparently all of which remain in current use, 
 * db4o - Used to be an open-source product from a company of the same name, then Versant bought them, released one or two more versions, then abandoned it. Last source drop (2015) is available at [SourceForge](https://sourceforge.net/projects/db4o/), though there's some GitHub mirrors out there too.
 * [ObjectDB](https://www.objectdb.com/)
 
-Sadly, wandering through object-shaped datastore implementations is like walking through a graveyard in the middle of the night--so many reactions of the "Oh, man, I'm sad to see them gone" and "Oh, what might've been if only...." sort.
+*Sadly, wandering through object-shaped datastore implementations is like walking through a graveyard in the middle of the night--so many reactions of the "Oh, man, I'm sad to see them gone" and "Oh, what might've been if only...." sort.*
