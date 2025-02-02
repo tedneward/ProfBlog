@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<#if (content.description)??>${content.description}<#else>Placeholder</#if>">
     <meta name="author" content="Ted Neward">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="${content.tags}">
     <meta name="generator" content="JBake">
 
     <!-- Le styles -->
