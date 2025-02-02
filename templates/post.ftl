@@ -20,6 +20,4 @@
 	<a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>tags/${tag}.html">${tag}</a>&nbsp;&nbsp;
 	</#list>
 
-	<p><em>Last modified ${content.date?string("dd MMMM yyyy")}</em></p>	
-
 <#include "footer.ftl">
