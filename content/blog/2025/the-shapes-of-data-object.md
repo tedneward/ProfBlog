@@ -120,6 +120,8 @@ classDiagram
 
 > Thought Experiment: We often saw the desire in database systems for local code execution within the same node or process as the database server--in the RDBMS world we call them "stored procedures" and managed them through the database SQL interface--but the same concept never really took off within the OODBMS, where it would make actually much more sense. Some object query languages could invoke an object method as part of a query expression, but in general that didn't allow for object modification. It's intriguing to imagine what the overall experience of an OODBMS would be like if it could be a full object execution node, and not just data storage. Might even start resembling more of the old "distrubed objects" space, which is both a good thing and a bad thing....
 
+> Thought Experiment: Although unconventional, we've found in the hierarhical database world (namely, XML) that a query language (XPath) used against an in-memory collection of entities (an Infoset document, usually in a DOM) to be a powerful way to interact with only the dataset I'm interested in. Curiously, what would happen if we tried to apply a similar thought process to large in-memory object collections? Feels like it could be useful....
+
 ### Implementations
 A full list of object databases, apparently all of which remain in current use, can be found at https://db-engines.com/en/ranking/object+oriented+dbms . Note that this list does mix multi-model databases with object ones, which seems to be a common theme in a lot of lists like this.
 
