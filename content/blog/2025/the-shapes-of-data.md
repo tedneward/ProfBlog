@@ -1,5 +1,5 @@
 title=The Shapes of Data
-date=2025-1-27
+date=2025-2-1
 type=post
 tags=engineering, storage, database
 status=published
