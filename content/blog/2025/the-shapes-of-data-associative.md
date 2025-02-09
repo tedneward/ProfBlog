@@ -61,7 +61,11 @@ As one of the simplest "shapes" in the database world, the associative shape's e
     * IGrainWithGuidCompoundKey: Marker interface for grains with compound keys.
     * IGrainWithIntegerCompoundKey: Marker interface for grains with compound keys.
 
-Because of the specific key-based nature of the database operations, ***most associative stores are extremely fast, and often highly scalable***, since the likelihood of two separate processes operating on the same key are highly unlikely. Some databases will, in fact, trust the developer to manage concurrency entirely. This also suggests that the data stored in an associative system should be more or less independent of one another, since *modifying two key-value tuples at once may not have transactional semantics*. 
+Because of the specific key-based nature of the database operations, ***most associative stores are extremely fast, and often highly scalable***, since the likelihood of two separate processes operating on the same key are highly unlikely. Some databases will, in fact, trust the developer to manage concurrency entirely. This also suggests that the data stored in an associative system should be more or less independent of one another, since *modifying two key-value tuples at once may not have transactional semantics*.
+
+### Variant: Tupled data stores
+
+A variant of the associative data approach is that of the "tupled" data, such as an [Entity-value-attribute mode](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model) store, or a ["triplestore"](https://en.wikipedia.org/wiki/Triplestore), such as RDF triplets. Here, the association is a multi-part mesh of data elements, such as in RDF, which is "subject-predicate-object" (a la "Bob is 35" or "Bob knows Fred"), or more formally in the entity-attribute-value model, wherein an *entity* has an *attribute* that holds a *value* (such as "Bob-age-35" or "Bob-list(knows)-[Fred, Barney, Wilma]").
 
 ### Popular implementations [^1]
 
