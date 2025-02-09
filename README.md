@@ -3,6 +3,15 @@ My professional blog, blogs.newardassociates.com
 
 ### Topics:
 
+* Dandelions and Elephants https://docs.google.com/presentation/d/e/2PACX-1vTKTVekxSU_BxiwhTlGMOe_lwvv51JXqYaV24fe5rFkV0b2QV8H2KFwkTIv_IRl6lHkDsJVcjUak_d3/embed?pli=1&slide=id.g1c1abc4dcaa_0_220
+
+* Passion
+
+    * "Don't Let Passion Lead to Burnout" https://hbr.org/2023/05/dont-let-passion-lead-to-burnout-on-your-team
+    
+* JD Meier: https://jdmeier.com/strategic-content-types-at-microsoft/
+* JD Meier: https://jdmeier.com/what-is-high-performance-coaching/
+
 * Thinking about what innovation really means, from a tech perspective (OODA loop)
 
     * innovation means failing--at least once
@@ -20,9 +29,9 @@ My professional blog, blogs.newardassociates.com
 * Language intro/dives
 
     * Mint
-    * Jolie or Ballerina
     * Red
     * Cell
+    * Jolie
 
 * Esolangs
 
