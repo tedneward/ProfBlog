@@ -67,6 +67,52 @@ Because of the specific key-based nature of the database operations, ***most ass
 
 A variant of the associative data approach is that of the "tupled" data, such as an [Entity-value-attribute mode](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model) store, or a ["triplestore"](https://en.wikipedia.org/wiki/Triplestore), such as RDF triplets. Here, the association is a multi-part mesh of data elements, such as in RDF, which is "subject-predicate-object" (a la "Bob is 35" or "Bob knows Fred"), or more formally in the entity-attribute-value model, wherein an *entity* has an *attribute* that holds a *value* (such as "Bob-age-35" or "Bob-list(knows)-[Fred, Barney, Wilma]").
 
+The interesting thing about these "tupled data shapes" is that they are significantly flexible, since the metadata is inherent in the structure; a "Person", for example, would be an object consisting of three tuples or entity-attribute-value triplets, so that the "person" object would look something like:
+
+```
+ted-firstname-"Ted"
+ted-lastname-"Neward"
+ted-age-50
+```
+
+In some ways, this feels like a traditional object-field-value, but the inherent dynamic nature of the tuples means that not every "person"-shaped object must have the same set of attributes:
+
+```
+cher-name-"Cher"
+cher-age-"timeless"
+
+meghan-firstname-"Meghan"
+meghan-lastname-"Markle"
+meghan-title-"Princess"
+meghan-court-"England"
+```
+
+More importantly, each of these is (somewhat) independent of any others, we can add new tuples/triplets at any point, making this effectively a highly "dynamically-typed" way to think about the organization of data and objects. That said, thogh, it's still important to remember that these are not "objects", per se, but a list, essentially of tuples/triplets that, taken collectively, can be viewed as objects.
+
+Or, if desired, as tables:
+
+```
+1-firstname-"Ted"
+1-lastname-"Neward"
+1-age-50
+```
+
+... where we assume the "entity" in the entity-attribute-value tuple is a primary key value.
+
+The reason this feels like it falls under the associative data style is that we can map another tuple, like `person-primarykey-1`, which, so long as this tuple is unique to the associative store, we gain an interesting degree of flexibility. We can also imagine that tuple as parts of the key, as well, such that we can envision the data looking like the following:
+
+Key | Value
+--- | -----------------
+person / 1 / firstname | "Ted"
+person / 1 / lastname | "Neward"
+person / 1 / age | 50
+person / 2 / name | "Cher"
+person / 3 / firstname | "Meghan"
+person / 3 / lastname | "Markle"
+person / 3 / title | "Princess"
+
+... and so on. This can create some interesting flexibility in structure.
+
 ### Popular implementations [^1]
 
 In alphabetical order:
