@@ -38,6 +38,21 @@ The shape of hierarchical data is wrapped, not surprisingly, around the top-down
 
 * every node, with the exception of the root, has a parent, and may have children
 
-* 
+* in some hierarchical stores (notably XML), each node may have one or more name-value pairs further describing the node (XML calls these *attributes*)
+
+The hierarchical nature of the data, then, makes it an excellent choice for managing "top-down" kinds of systems, a la
+
+* company hierarchies
+* military organization
+* decision trees
+* biological taxonomies
+
+Ironically, though, some of the data systems that start out feeling hierarchical, like human genealogy charts (I mean, parents have children, the end, right?) actually turn out to not be strictly hierarchical, owing largely to the fact that marriages can be dissolved, spouses can die, children can marry their uncles, and even more bizarre behavior. (I invite anyone who thinks a genealogical tree can be best represented as a hierarchy to map out the English royalty of the 1500s through the 1900s in a nice, well-ordered, singly-rooted tree--just try to figure out who the root is, to start!)
+
+One thing that's interesting is that hierarchical data is actually one of the *oldest* ways to model information, which is partly why we have such an easy familiarity with it. We see hierarchies everywhere we turn in life, and as such it becomes an easy tool to reach for. Trying, however, to model a hierarchy in a relational database, as we often tried to do in the late 90s/early 00s, usually ended up in a massively complicated system, where much fo the complexity lay in navigating the hierarchy. This was partly why XML was viewed as such a godsend when it emerged as a data-centric tool in the early 00s. Pain points with XML led to the desire for a "simpler" approach, which led to JSON, which is just another hierarchy but with fewer options. (And it uses curly braces, which is more comforting to C++/C#/Java developers anyway.)
+
+
+
+
 
 
