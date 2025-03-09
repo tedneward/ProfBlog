@@ -1,5 +1,5 @@
 title=The Shapes of Data: Tabular
-date=2025-2-1
+date=2025-2-5
 type=post
 tags=engineering, storage, database
 status=published

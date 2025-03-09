@@ -2,7 +2,7 @@ title=The Shapes of Data: Hierarchical
 date=2025-2-2
 type=post
 tags=engineering, storage, database
-status=draft
+status=published
 description=Document data, more formally known as hierarchical data, is data which coalesces naturally into singular, mostly-standalone entities.
 ~~~~~~
 
