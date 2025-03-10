@@ -1,8 +1,8 @@
 title=Embrace Change (Not Perfection)
-date=2025-3-10
+date=2025-3-9
 type=post
 tags=management, engineering, design
-status=draft
+status=published
 description=While people debate the validity of "tech debt", others are asking, "What other sorts of 'debt' do we have in software development and delivery?"
 ~~~~~~
 
@@ -23,7 +23,7 @@ He then asked others to weigh in with their favorites, and the answers poured in
 
 Again, I encourage readers to go check out Scott's original post. It was fascinating how much of it just poured out in the comments, and the wide-ranging nature of the responses.
 
-Which got me thinking: Are these really "debts"?
+Which got me thinking: Are these really "debts"? Or, more to the point, are they bad?
 
 #### Debt: A Metaphor
 If we go back to the original definition of "tech debt", if I remember correctly, I first heard it from Mike Clark back on the NFJS tour in the late 200s, but [Wikipedia tells me](https://en.wikipedia.org/wiki/Technical_debt#:~:text=The%20concept%20of%20%E2%80%9Ctechnical%20debt,is%20like%20going%20into%20debt.) that Ward Cunningham first coined the term in 1992 as a metaphor to explain to his boss how making short-term decisions can boomerang and create problems over time, and therefore investment was needed to refactor the code. In particular, the point of the analogy was that "While technical debt can accelerate development in the short term, it may increase future costs and complexity if left unresolved." The official Wikipedia definition of "Technical debt", by the way, is this: "the implied cost of additional work in the future resulting from choosing an expedient solution over a more robust one."
