@@ -1,4 +1,4 @@
-title=Embrace Change (Not Perfection)
+title=Debts, Tech and Otherwise
 date=2025-3-9
 type=post
 tags=management, engineering, design
