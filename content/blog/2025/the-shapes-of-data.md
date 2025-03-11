@@ -86,7 +86,7 @@ As near as I can count, there's only a few data shapes, which I'll go over in se
 
 * [Associative](./the-shapes-of-data-associative.html), aka "key-value" ([Wikipedia]())
 * Graph ([Wikipedia](https://en.wikipedia.org/wiki/Graph_database))
-* Hierarchical, aka "document" (XML, JSON) (Wikipedia - [Hierarchical](https://en.wikipedia.org/wiki/Hierarchical_database_model), [XML](https://en.wikipedia.org/wiki/XML_database))
+* [Hierarchical](./the-shapes-of-data-hierarchical.html), aka "document" (XML, JSON) (Wikipedia - [Hierarchical](https://en.wikipedia.org/wiki/Hierarchical_database_model), [XML](https://en.wikipedia.org/wiki/XML_database))
 * [Object](./the-shapes-of-data-object.html) (OODBMS) ([Wikipedia](https://en.wikipedia.org/wiki/Object_database))
 * [Relational](./the-shapes-of-data-relational.html) (RDBMS) ([Wikipedia](https://en.wikipedia.org/wiki/Relational_database))
 * [Tabular](./the-shapes-of-data-tabular.html), aka "flat files" (CSV, TSV) ([Wikipedia](https://en.wikipedia.org/wiki/Flat-file_database))

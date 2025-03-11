@@ -1,5 +1,5 @@
 title=The Shapes of Data: Relational
-date=2025-2-1
+date=2025-2-4
 type=post
 tags=engineering, storage, database
 status=published

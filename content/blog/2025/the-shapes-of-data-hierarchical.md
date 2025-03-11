@@ -2,7 +2,7 @@ title=The Shapes of Data: Hierarchical
 date=2025-2-2
 type=post
 tags=engineering, storage, database
-status=draft
+status=published
 description=Document data, more formally known as hierarchical data, is data which coalesces naturally into singular, mostly-standalone entities.
 ~~~~~~
 
@@ -42,6 +42,132 @@ The shape of hierarchical data is wrapped, not surprisingly, around the top-down
 
 * data is typically stored as nodes in the tree, sometimes with "special" flags
 
+* in some hierarchical stores (notably XML), each node may have one or more name-value pairs further describing the node (XML calls these *attributes*)
+
+The hierarchical nature of the data, then, makes it an excellent choice for managing "top-down" kinds of systems, a la
+
+* company hierarchies
+* military organization
+* decision trees
+* biological taxonomies
+
+Ironically, though, some of the data systems that start out feeling hierarchical, like human genealogy charts (I mean, parents have children, the end, right?) actually turn out to not be strictly hierarchical, owing largely to the fact that marriages can be dissolved, spouses can die, children can marry their uncles, and even more bizarre behavior. (I invite anyone who thinks a genealogical tree can be best represented as a hierarchy to map out the English royalty of the 1500s through the 1900s in a nice, well-ordered, singly-rooted tree--just try to figure out who the root is, to start!)
+
+One thing that's interesting is that hierarchical data is actually one of the *oldest* ways to model information, which is partly why we have such an easy familiarity with it. We see hierarchies everywhere we turn in life, and as such it becomes an easy tool to reach for. Trying, however, to model a hierarchy in a relational database, as we often tried to do in the late 90s/early 00s, usually ended up in a massively complicated system, where much fo the complexity lay in navigating the hierarchy. This was partly why XML was viewed as such a godsend when it emerged as a data-centric tool in the early 00s. Pain points with XML led to the desire for a "simpler" approach, which led to JSON, which is just another hierarchy but with fewer options. (And it uses curly braces, which is more comforting to C++/C#/Java developers anyway.)
+
+One other important note about hierarchical systems is that they are *not* intrinsically object systems. It's a common mischaracterization, since we often see classes in hierarchies (particulary inheritance-based), and a node can have attributes, just like objects can have fields. However, in an object system we can have a reference to another object--any other object--within the system without regard for its relationship to this object. This allows us to create cyclic graphs (among other things) which are impossible to represent accurately in a strict hierarchy.
+
+For example, imagine the classic Person object:
+
+```
+class Person {
+    String firstName;
+    String lastName;
+    int age;
+}
+ted = new Person("Ted", "Neward", 50);
+```
+
+This is pretty straightforward, whether Java or C# or C++ (or some other object language). If we try to model this in a hierarchy, it seems to flow well:
+
+```
+<person>
+    <firstname>Ted</firstname>
+    <lastname>Neward</lastname>
+    <age>50</age>
+</person>
+
+{
+    "ted": {
+        "firstName": "Ted",
+        "lastName": "Neward",
+        "age": 50
+    }
+}
+```
+
+But when we represent the fact that Persons can get married, we encounter this object-relationship conundrum:
+
+```
+class Person {
+    String firstName;
+    String lastName;
+    int age;
+    Person spouse;
+}
+
+ted = new Person("Ted", "Neward", 50);
+charlotte = new Person("Charlotte", "Neward", 39);
+ted.spouse = charlotte;
+charlotte.spouse = ted;
+```
+
+We would get a graph that looks like:
+
+<pre class="mermaid">
+flowchart TB
+    ted[Ted]-->charlotte[Charlotte]
+    charlotte-->ted
+</pre>
+
+But the hierarchical model gets twisted--we have to have a single root, so naively we would think that maybe we nest the "spouse" Person inside of the Person that references it, but that runs into the basic fact that there's two Person objects, so which is the root object? Which of these two spouses is "on top", so to speak? XML is going to get stuck right there, but JSON stands up and says, "Aha! I'm not a problem, watch!":
+
+```
+{
+    "ted": {
+        "firstName": "Ted",
+        "lastName": "Neward",
+        "age": 50
+        "spouse": "charlotte"
+    },
+    "charlotte": {
+        "firstName": "Charlotte",
+        "lastName": "Neward",
+        "age": 39,
+        "spouse": "ted"
+    }
+}
+```
+
+... except that this is ducking the problem entirely, because JSON doesn't actually know about the relationship between these two objects--the "ted" and "charlotte" are essentially object identifiers (OIDs) that whomever or whatever is deserializing this JSON has to put bback together "by hand". This also means that the top-level of the JSON document becomes a flat namespace in which all of the Persons in the system are stored, with no intrinsic hierarchy to the data whatsoever. We can do the exact same thing with XML, by the way, if we chose to:
+
+```
+<objects>
+    <Person oid="ted">
+        <firstname>Ted</firstname>
+        <lastname>Neward</lastname>
+        <age>50</age>
+        <spouse reference="charlotte" />
+    </Person>
+    <Person oid="charlotte">
+        <firstname>Charlotte</firstname>
+        <lastname>Neward</lastname>
+        <age>39</age>
+        <spouse reference="ted" />
+    </Person>
+</objects>
+```
+
+For whatever it's worth, this is a large part of the reason why the original SOAP specification (v1.1) punted on the details of how to represent an object hierarchy, and deferred that work to XML Schema (XSD), which then... punted on how to represent an object hierarchy in favor of being able to validate XML/hierarchical data. This *object-hierarchical impedance mismatch* was a large part of why XML services were labeled as "too complicated" and "too messy" and got everybody excited about JSON, which... punts on capturing object references just like XML did. But now we don't care as much for some reason.
+
+Note that if Persons know their parents, things get pretty messy pretty fast:
+
+<pre class="mermaid">
+flowchart TB
+    ted[Ted]-->charlotte[Charlotte]
+    charlotte-->ted
+    ted-->kids[List]
+    charlotte-->kids
+    kids-->michael[Michael]
+    michael-->ted
+    michael-->charlotte
+    kids-->matthew[Matthew]
+    matthew-->ted
+    matthew-->charlotte
+</pre>
+
+Representing this in XML is going to be flat-out impossible without out-of-band OIDs, and the same is true essentially of JSON.
+
 We can see each of these points quite clearly in the XML Infoset Specification, but as an exploratory discussion, let's consider the following XML document:
 
 ```
@@ -68,7 +194,5 @@ Querying a hierarchical system historically was a matter of writing a bunch of n
 
 So, for example, an XPath of `/child::*` evaluates the "child" axis (which means "examine the current node's immediate child nodes"), and the "node test" of "*" (which means "accept anything"), yielding that singular "department" node. (Technically the "/" is itself a location path, meaning "take the root node", which is what forms the context of the subsequent "child::*" step.) This leads to a mental model that feels similar to filesystem directory paths; however, unlike on a filesystem, we can have multiple nodes returned as part of a query. Thus, `/descendant::*` query will return every node in the document, regardless of its location in the tree. If we then write `/descendant::*/name()`, we will ask every node in the tree for its name.
 
-
-
-
+Unfortunately, one of the biggest weaknesses with a hierarchical query capability is often not with the query language, but wtih the perception of those who use it--because they often see parallels between "filesystem hierarchy" and "data hierarchy", they implicitly assume that a language such as XPath yields only a single node at each "step" in the query resolution process, when in fact each resolution can be a collection; in other words, if filesystem shells supported this kind of behavior, we could do something like `ls -la /usr/lib/*/lib*.sa` and get back all of the files prefixed with `lib` and having an extension `sa` in any directory that is a child of `/usr/lib`. Frankly that's super-powerful, but it takes a moment to wrap one's mind around it sometimes.
 

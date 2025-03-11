@@ -1,5 +1,5 @@
 title=The Shapes of Data: Object
-date=2025-2-1
+date=2025-2-3
 type=post
 tags=engineering, storage, database
 status=published
