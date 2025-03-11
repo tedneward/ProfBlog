@@ -36,8 +36,39 @@ The shape of hierarchical data is wrapped, not surprisingly, around the top-down
 
 * there is one well-known and well-formed root that serves as the starting point for navigation
 
-* every node, with the exception of the root, has a parent, and may have children
+* every node, with the exception of the root, has a parent, and may have children; no other references, such as to siblings, are present
 
-* 
+* no cyclic references are allowed; in particular, no node may have a child node that is also its parent (or grandparent or great-grandparent or ...)
+
+* data is typically stored as nodes in the tree, sometimes with "special" flags
+
+We can see each of these points quite clearly in the XML Infoset Specification, but as an exploratory discussion, let's consider the following XML document:
+
+```
+<department name="Engineering">
+    <manager>
+        <employee id="1234">
+            <firstname>Fred</firstname>
+            <lastname>Flintstone</lastname>
+        </employee>
+    </manager>
+    <employee id="2345">
+        <firstname>Barney</firstname>
+        <lastname>Rubble</lastname>
+    </employee>
+</department>
+```
+
+We have a single root node, the `department` node. It has associated with it several children: two "element" nodes (one containing the "manager" node and one containing the "employee" node) and an "attribute" node ("name"). The Infoset is quite clear that these nodes aren't classified as "manager" or "employee", but as XML-typed nodes ("element", "attribute") which in turn have descriptors that convey the parts that we has humans recognize (an "element" has a "name" containing the text that appears between the angle brackets). The text "Fred" is itself in a "text" node, although technically these could be four sibling "text" nodes, each containing "F", "r", "e", and "d" respectively.
+
+As with the example, we often think about company organization/topology as a strictly-hierarchical arrangement, but this practice frequently falls down in the face of experience--companies will sometimes have co-CEOs, "matrix"ed teams, and even sometimes have employees reporting to more than one manager/department simultaneously.
+
+### Query capabilities
+Querying a hierarchical system historically was a matter of writing a bunch of navigational code by hand, maneuvering up and down the tree as desired, until the XPath (and later XQuery) specification(s) appeared, describing a query language that had at its core the foundational knowledge of traversing the hierarchy. XPath uses a fundamental concept of one or more "expressions", where each expression is evaluated to yield an object, which can be either an "atomic data value" (boolean, number, or string) or a "node-set" (a collection of non-duplicate nodes). Each expression's yield is then carried over into the subsequent expression as part of a stateful "context" which is then used to evaluate the next expression. These expressions, known as "location steps", are formed of an "axis", a "node test", and zero or more "predicates", which further restrict the path. 
+
+So, for example, an XPath of `/child::*` evaluates the "child" axis (which means "examine the current node's immediate child nodes"), and the "node test" of "*" (which means "accept anything"), yielding that singular "department" node. (Technically the "/" is itself a location path, meaning "take the root node", which is what forms the context of the subsequent "child::*" step.) This leads to a mental model that feels similar to filesystem directory paths; however, unlike on a filesystem, we can have multiple nodes returned as part of a query. Thus, `/descendant::*` query will return every node in the document, regardless of its location in the tree. If we then write `/descendant::*/name()`, we will ask every node in the tree for its name.
+
+
+
 
 
