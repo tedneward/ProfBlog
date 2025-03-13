@@ -1,8 +1,8 @@
 title=Embrace Change (Not Perfection)
-date=2025-1-31
+date=2025-3-13
 type=post
 tags=management, engineering, design
-status=draft
+status=published
 description=As software engineers, we understand that we can never get it right the first time in our projects. Yet we also spend an exceedingly long time thinking about how to take data in to treat it as perfect--why do we hold these two wildly different beliefs simultaneously?
 ~~~~~~
 
@@ -14,7 +14,7 @@ Consider, as an example, the classic TV trope (such a "King of the Hill" episode
 
 Setting aside the comedic value in such situations, from a software engineer's perspective, how is this not a deeply embarrassing indictment of our industry? Think about it--we will spend weeks or months on writing code to try and keep invalid or incorrect data out of the system, yet when it happens, we shrug it off. "That's a data problem, nothing wrong with *my* code," engineers have been wont to say (and hide behind) during post-mortem meetings--assuming, even, that such a meeting takes place after such an error occurs. (Spoiler alert: No such meetings ever take place.) That's like pilots gathering around a TV to watch a re-enactment of a all-hands-lost plane crash and giggling at the "comedy of errors" the cockpit crew is going through, proudly claiming, "That's never happened on *my* plane!".
 
-While we computer scientists might try to hide behind the idea that "Well, it's all human error somehow" (which is what the NTSB almost always cites in a plane crash, by the way), but the fact is we've spent little to no time owning the problem, and I think it's high time we should. 
+While we computer scientists might try to hide behind the idea that "Well, it's all human error somehow" (which is what the NTSB almost always cites in a plane crash, by the way), but the fact is we've spent little to no time owning the problem, and I think it's high time we should. (Keep in mind, in this post I don't really think I have solutions, but the first step to solving any problem is admitting that you have a problem!)
 
 It's not an easy problem to solve, and Lord knows it's a thankless issue that will never net anyone a Turing Award or Nobel Prize, but when's the last time you applauded when the airplane landed at the airport safely (or, even better, when the maintenance crew comes on board and delays the flight by three hours to replace a sensor in the cockpit)? Practicing these sorts of industrial discipline are never exciting or headline-generating, but when you total up the time and energy lost to chasing these kinds of gremlins, not to mention the potential downstream errors from the incorrect data (perhaps Hank's auto insurance policy goes up in cost, or even cancels altogether, because now the insurance company has him listed as a woman driver--because this is Texas, after all, and...), we really need to address this particular elephant in the room.
 
@@ -64,10 +64,12 @@ Given that we cannot prevent the error, we have to then embrace the idea of *ide
 
 We can do that in a variety of ways:
 
-* store everything in a single database (the "Master Database" Fallacy).
+* store everything in a single database (the "Master Database" Fallacy). There's a plethora of reasons why this doesn't work, some of it technical (limitations on scalability and performance) and some of it organizational (the pain incorporated when you have a single dependency across the entire organization). For these reasons (and more), most organizations find it untenable or unacceptable to take this path. (A great many more organizations still try to create a Master Database, though, and find this out the hard way.)
 
 * create a mechanism where a particular update can "override" any further updates to that datum (in other words, formalizing the "System of Record" approach). This starts to get into the business of "weighing" different facts against one another, where one fact may be given as "more true" (or perhaps, better stated, "more likely to be true") than others. Hank's assertion that he is male should be given more weight than an update coming from a data-entry clerk three departments over, particularly if Hank has a birth certificate handy. (Of course, if this is the system storing birth certificates, maybe we weight things to favor the original input of the nurse and parents, and thus do we start to run into the Gordian Knot of weighted facts--how we decide those weights is always subject to some deep and divisive debate.)
 
-* track and make visible to users where and how database updates occur (an "audit log" approach).
+* track and make visible to users where and how database updates occur (an "audit log" approach). This is partly embraced by the "Event Sourcing" approach to the storage of data, though we still run into limitations, since the data only knows what it knows local to itself--a given ES implementation doesn't track where or when or why the update occurred, only that it occurred.
+
+My gut tells me that there's way to factor some of this more deeply into the database implementations themselves, but I haven't spent enough time thinking about it yet to have anything concrete. That said, I'd love to get some feedback on the idea, and whether or not I'm missing something deeply fundamental here or the solution is staring us in the face.
 
 
