@@ -10,6 +10,11 @@ description=We often talk about teams working "remote" or "in office", but leavi
 
 <!--more-->
 
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 Over the last five years, we've seen a remarkable transition/cycle in "work", thanks to the COVID-19 pandemic.
 
 ### Everybody go home! Don't come back! (But keep working!)
@@ -97,3 +102,4 @@ quadrantChart
 The upshot? For those activities which are high-sync/high-fidelity, we probably want to be in the office together; for those which are low-sync/low-fidelity, we probably can (and want) to be WFH (or rather, "working from anywhere"). The other two (low-sync/high-fidelity and high-sync/low-fidelity)? Either they're one-offs, or they're just not a thing for us. 
 
 (*Caveat:* This is a first pass, thinking-out-loud sort of graph, so maybe it doesn't fit, but I've found it useful to think this way when thinking about this topic. Use as starting point for your own thinking, or discard it entirely, if you wish.)
+
