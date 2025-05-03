@@ -10,6 +10,11 @@ description=In which I offer up an analogy about object/relational mapping and t
 
 <!--more-->
 
+> NOTE: Translations that I'm aware of:
+> **8 November 2012**: A Bulgarian translation of this essay is <a href="http://openspacelands.com/vietnam-computer-science/">here</a>; thanks to Dimitar Teykiyski for the work.
+> **2 May 2025**: A Czech transation of this essay is [here](https://blog.zvestov.cz/software%20development/2025/04/29/vietnam-informatiky); much thanks to 
+Luboš Račanský for the heavy lifting on that one.
+
 *(2022 Note: This piece is now fifteen years old. I've been tempted a few times to trim the historical section down--that's one of the piece's most-frequent complaints--but in the interests of not having multiple copies of it floating around, I've kept it here. If you want to skip the history lesson, <a href="#tech">here</a> is a quick link to the technology bits. --TN)*
 
 No armed conflict in US history haunts the American military more than the Vietnam War, aka "Vietnam". So many divergent elements coalesced to create the most decisive turning point in modern American history that it defies any layman's attempt to tease them apart. And yet, the story of Vietnam is fundamentally a simple one: The United States began a military project with simple yet unclear and conflicting goals, and quickly became enmeshed in a quagmire that not only brought down two governments (one legally, one through force of arms), but also deeply scarred American military doctrine for the next four decades (at least).
@@ -229,8 +234,6 @@ Just as it's conceivable that the US could have achieved some measure of "succes
 [4] We could, perhaps, consider stored procedure languages like T-SQL or PL/SQL to be "relational" programming languages, but even then, it's extremely difficult to build a UI in PL/SQL.
 
 [5] In this case, I was measuring Java RMI method calls against local method calls. Similar results are pretty easily obtainable for SQL-based data access by measuring out-of-process calls against in-process calls using a database product that supports both, such as Cloudscape/Derby or HSQL (Hypersonic SQL).
-
-**Update (8 November 2012)**: A Bulgarian translation of this essay is <a href="http://openspacelands.com/vietnam-computer-science/">here</a>; thanks to Dimitar Teykiyski for the work.
 
 **Update (18 May 2021)**: Since I was in here to convert the original HTML into Markdown (for easier processing by my blog engine), I took a moment to do a little reformatting and few clarifying remarks.
 
