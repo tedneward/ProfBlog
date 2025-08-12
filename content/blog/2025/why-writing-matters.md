@@ -43,23 +43,23 @@ Those who can put forth prose in a manner that is clear, precise, and direct on 
 
 ## Endnotes
 
-[^1] Or, perhaps, it is better to say that ChatGPT couldn't really provide without prompting, which would then be unnecessary--the act of getting the prompt out of the standup participant's head and into words is literally the point of the standup, and ChatGPT's participation would at that point be rendered entirely unnecessary.
+[^1]: Or, perhaps, it is better to say that ChatGPT couldn't really provide without prompting, which would then be unnecessary--the act of getting the prompt out of the standup participant's head and into words is literally the point of the standup, and ChatGPT's participation would at that point be rendered entirely unnecessary.
 
-[^2] The S-Team is the senior-most leadership team at Amazon; basically, Jeff Bezos and his direct reports.
+[^2]: The S-Team is the senior-most leadership team at Amazon; basically, Jeff Bezos and his direct reports.
 
-[^3] *Working Backwards*, p. 80
+[^3]: *Working Backwards*, p. 80
 
-[^4] *Working Backwards*, p. 80
+[^4]: *Working Backwards*, p. 80
 
-[^5] *Working Backwards*, p. 81
+[^5]: *Working Backwards*, p. 81
 
-[^6] *Working Backwards*, p. 95
+[^6]: *Working Backwards*, p. 95
 
-[^7] In many fiction-writing workshops, when an author puts a particular piece up for review, the author is required to sit in the room with the reviewers, but is required to remain silent while the reviewers discuss. This allows the author to hear the discussion of her work first-hand, but does not allow the author the "crutch" of being able to explain what the readers "should have gotten". It is often simultaneously the most excrutiating and enlightening experiences an author can experience.
+[^7]: In many fiction-writing workshops, when an author puts a particular piece up for review, the author is required to sit in the room with the reviewers, but is required to remain silent while the reviewers discuss. This allows the author to hear the discussion of her work first-hand, but does not allow the author the "crutch" of being able to explain what the readers "should have gotten". It is often simultaneously the most excrutiating and enlightening experiences an author can experience.
 
-[^8] A few examples: "I have only made this letter longer because I have not had the time to make it shorter." -- Blaise Pascal (The Provincial Letters, Letter 16, 1657); "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." (Antoine de Saint-Exupéry, Airman's Odyssey)
+[^8]: A few examples: "I have only made this letter longer because I have not had the time to make it shorter." -- Blaise Pascal (The Provincial Letters, Letter 16, 1657); "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." (Antoine de Saint-Exupéry, Airman's Odyssey)
 
-[^9] Farnam Street blog, https://fs.blog/schopenhauer-dangers-clickbate/
+[^9]: Farnam Street blog, https://fs.blog/schopenhauer-dangers-clickbate/
 
 ## Bibliography
 
