@@ -1,7 +1,7 @@
 title=Book Review: Data Structures and Algorithms in JavaScript
 date=2024-10-7
 type=post
-tags=book, book native, ecmascript, native
+tags=book, book review, ecmascript, native
 status=published
 description=A review of the book.
 ~~~~~~
