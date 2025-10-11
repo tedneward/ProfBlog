@@ -1,5 +1,6 @@
 title=DevRel Activity Patterns... published
 date=2025-10-11
+type=post
 tags=management, devrel, book
 status=published
 description=The book is now a formal publication, finishing up two years of work.

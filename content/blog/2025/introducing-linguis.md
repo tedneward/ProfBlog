@@ -1,5 +1,6 @@
 title=Introducing Linguis
 date=2025-10-11
+type=post
 tags=engineering, language
 status=published
 description=In which I introduce the experimental language Linguis, a first attempt at thinking about polyglot language design.
