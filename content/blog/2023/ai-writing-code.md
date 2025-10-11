@@ -1,7 +1,7 @@
 title=AI-generated Applications
 date=2023-03-17
 type=post
-tags=industry, languages, databases, full-stack, architecture
+tags=industry, languages, database, full-stack, architecture
 status=published
 description=What the fact that ChatGPT can write code tells us.
 ~~~~~~

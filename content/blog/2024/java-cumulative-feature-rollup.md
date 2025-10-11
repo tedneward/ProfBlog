@@ -1,7 +1,7 @@
 title=A Java Language Cumulative Feature Rollup
 date=2024-8-28
 type=post
-tags=java, jvm, language
+tags=java, jvm, languages
 status=published
 description=Every listed new feature since Java8.
 ~~~~~~
@@ -190,145 +190,145 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 
 ## [JDK 12](https://openjdk.org/projects/jdk/12/)
 
-- 189:	Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)
-- 230:	Microbenchmark Suite
-- 325:	Switch Expressions (Preview)
-- 334:	JVM Constants API
-- 340:	One AArch64 Port, Not Two
-- 341:	Default CDS Archives
-- 344:	Abortable Mixed Collections for G1
-- 346:	Promptly Return Unused Committed Memory from G1
+- 189: Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)
+- 230: Microbenchmark Suite
+- 325: Switch Expressions (Preview)
+- 334: JVM Constants API
+- 340: One AArch64 Port, Not Two
+- 341: Default CDS Archives
+- 344: Abortable Mixed Collections for G1
+- 346: Promptly Return Unused Committed Memory from G1
 
 ## [JDK 13](https://openjdk.org/projects/jdk/13/)
 
-- 350:	Dynamic CDS Archives
-- 351:	ZGC: Uncommit Unused Memory
-- 353:	Reimplement the Legacy Socket API
-- 354:	Switch Expressions (Preview)
-- 355:	Text Blocks (Preview)
+- 350: Dynamic CDS Archives
+- 351: ZGC: Uncommit Unused Memory
+- 353: Reimplement the Legacy Socket API
+- 354: Switch Expressions (Preview)
+- 355: Text Blocks (Preview)
 
 ## [JDK 14](https://openjdk.org/projects/jdk/14/)
 
-- 305:	Pattern Matching for instanceof (Preview)
-- 343:	Packaging Tool (Incubator)
-- 345:	NUMA-Aware Memory Allocation for G1
-- 349:	JFR Event Streaming
-- 352:	Non-Volatile Mapped Byte Buffers
-- 358:	Helpful NullPointerExceptions
-- 359:	Records (Preview)
-- 361:	Switch Expressions (Standard)
-- 362:	Deprecate the Solaris and SPARC Ports
-- 363:	Remove the Concurrent Mark Sweep (CMS) Garbage Collector
-- 364:	ZGC on macOS
-- 365:	ZGC on Windows
-- 366:	Deprecate the ParallelScavenge + SerialOld GC Combination
-- 367:	Remove the Pack200 Tools and API
-- 368:	Text Blocks (Second Preview)
-- 370:	Foreign-Memory Access API (Incubator)
+- 305: Pattern Matching for instanceof (Preview)
+- 343: Packaging Tool (Incubator)
+- 345: NUMA-Aware Memory Allocation for G1
+- 349: JFR Event Streaming
+- 352: Non-Volatile Mapped Byte Buffers
+- 358: Helpful NullPointerExceptions
+- 359: Records (Preview)
+- 361: Switch Expressions (Standard)
+- 362: Deprecate the Solaris and SPARC Ports
+- 363: Remove the Concurrent Mark Sweep (CMS) Garbage Collector
+- 364: ZGC on macOS
+- 365: ZGC on Windows
+- 366: Deprecate the ParallelScavenge + SerialOld GC Combination
+- 367: Remove the Pack200 Tools and API
+- 368: Text Blocks (Second Preview)
+- 370: Foreign-Memory Access API (Incubator)
 
 ## [JDK 15](https://openjdk.org/projects/jdk/15/)
 
-- 339:	Edwards-Curve Digital Signature Algorithm (EdDSA)
-- 360:	Sealed Classes (Preview)
-- 371:	Hidden Classes
-- 372:	Remove the Nashorn JavaScript Engine
-- 373:	Reimplement the Legacy DatagramSocket API
-- 374:	Disable and Deprecate Biased Locking
-- 375:	Pattern Matching for instanceof (Second Preview)
-- 377:	ZGC: A Scalable Low-Latency Garbage Collector
-- 378:	Text Blocks
-- 379:	Shenandoah: A Low-Pause-Time Garbage Collector
-- 381:	Remove the Solaris and SPARC Ports
-- 383:	Foreign-Memory Access API (Second Incubator)
-- 384:	Records (Second Preview)
-- 385:	Deprecate RMI Activation for Removal
+- 339: Edwards-Curve Digital Signature Algorithm (EdDSA)
+- 360: Sealed Classes (Preview)
+- 371: Hidden Classes
+- 372: Remove the Nashorn JavaScript Engine
+- 373: Reimplement the Legacy DatagramSocket API
+- 374: Disable and Deprecate Biased Locking
+- 375: Pattern Matching for instanceof (Second Preview)
+- 377: ZGC: A Scalable Low-Latency Garbage Collector
+- 378: Text Blocks
+- 379: Shenandoah: A Low-Pause-Time Garbage Collector
+- 381: Remove the Solaris and SPARC Ports
+- 383: Foreign-Memory Access API (Second Incubator)
+- 384: Records (Second Preview)
+- 385: Deprecate RMI Activation for Removal
 
 ## [JDK 16](https://openjdk.org/projects/jdk/16/)
 
-- 338:	Vector API (Incubator)
-- 347:	Enable C++14 Language Features
-- 357:	Migrate from Mercurial to Git
-- 369:	Migrate to GitHub
-- 376:	ZGC: Concurrent Thread-Stack Processing
-- 380:	Unix-Domain Socket Channels
-- 386:	Alpine Linux Port
-- 387:	Elastic Metaspace
-- 388:	Windows/AArch64 Port
-- 389:	Foreign Linker API (Incubator)
-- 390:	Warnings for Value-Based Classes
-- 392:	Packaging Tool
-- 393:	Foreign-Memory Access API (Third Incubator)
-- 394:	Pattern Matching for instanceof
-- 395:	Records
-- 396:	Strongly Encapsulate JDK Internals by Default
-- 397:	Sealed Classes (Second Preview)
+- 338: Vector API (Incubator)
+- 347: Enable C++14 Language Features
+- 357: Migrate from Mercurial to Git
+- 369: Migrate to GitHub
+- 376: ZGC: Concurrent Thread-Stack Processing
+- 380: Unix-Domain Socket Channels
+- 386: Alpine Linux Port
+- 387: Elastic Metaspace
+- 388: Windows/AArch64 Port
+- 389: Foreign Linker API (Incubator)
+- 390: Warnings for Value-Based Classes
+- 392: Packaging Tool
+- 393: Foreign-Memory Access API (Third Incubator)
+- 394: Pattern Matching for instanceof
+- 395: Records
+- 396: Strongly Encapsulate JDK Internals by Default
+- 397: Sealed Classes (Second Preview)
 
 ## [JDK 17](https://openjdk.org/projects/jdk/17/) *LTS*
 
-- 306:	Restore Always-Strict Floating-Point Semantics
-- 356:	Enhanced Pseudo-Random Number Generators
-- 382:	New macOS Rendering Pipeline
-- 391:	macOS/AArch64 Port
-- 398:	Deprecate the Applet API for Removal
-- 403:	Strongly Encapsulate JDK Internals
-- 406:	Pattern Matching for switch (Preview)
-- 407:	Remove RMI Activation
-- 409:	Sealed Classes
-- 410:	Remove the Experimental AOT and JIT Compiler
-- 411:	Deprecate the Security Manager for Removal
-- 412:	Foreign Function & Memory API (Incubator)
-- 414:	Vector API (Second Incubator)
-- 415:	Context-Specific Deserialization Filters
+- 306: Restore Always-Strict Floating-Point Semantics
+- 356: Enhanced Pseudo-Random Number Generators
+- 382: New macOS Rendering Pipeline
+- 391: macOS/AArch64 Port
+- 398: Deprecate the Applet API for Removal
+- 403: Strongly Encapsulate JDK Internals
+- 406: Pattern Matching for switch (Preview)
+- 407: Remove RMI Activation
+- 409: Sealed Classes
+- 410: Remove the Experimental AOT and JIT Compiler
+- 411: Deprecate the Security Manager for Removal
+- 412: Foreign Function & Memory API (Incubator)
+- 414: Vector API (Second Incubator)
+- 415: Context-Specific Deserialization Filters
 
 ## [JDK 18](https://openjdk.org/projects/jdk/18/)
 
-- 400:	UTF-8 by Default
-- 408:	Simple Web Server
-- 413:	Code Snippets in Java API Documentation
-- 416:	Reimplement Core Reflection with Method Handles
-- 417:	Vector API (Third Incubator)
-- 418:	Internet-Address Resolution SPI
-- 419:	Foreign Function & Memory API (Second Incubator)
-- 420:	Pattern Matching for switch (Second Preview)
-- 421:	Deprecate Finalization for Removal
+- 400: UTF-8 by Default
+- 408: Simple Web Server
+- 413: Code Snippets in Java API Documentation
+- 416: Reimplement Core Reflection with Method Handles
+- 417: Vector API (Third Incubator)
+- 418: Internet-Address Resolution SPI
+- 419: Foreign Function & Memory API (Second Incubator)
+- 420: Pattern Matching for switch (Second Preview)
+- 421: Deprecate Finalization for Removal
 
 ## [JDK 19](https://openjdk.org/projects/jdk/19/)
 
-- 405:	Record Patterns (Preview)
-- 422:	Linux/RISC-V Port
-- 424:	Foreign Function & Memory API (Preview)
-- 425:	Virtual Threads (Preview)
-- 426:	Vector API (Fourth Incubator)
-- 427:	Pattern Matching for switch (Third Preview)
-- 428:	Structured Concurrency (Incubator)
+- 405: Record Patterns (Preview)
+- 422: Linux/RISC-V Port
+- 424: Foreign Function & Memory API (Preview)
+- 425: Virtual Threads (Preview)
+- 426: Vector API (Fourth Incubator)
+- 427: Pattern Matching for switch (Third Preview)
+- 428: Structured Concurrency (Incubator)
 
 ## [JDK 20](https://openjdk.org/projects/jdk/20/)
 
-- 429:	Scoped Values (Incubator)
-- 432:	Record Patterns (Second Preview)
-- 433:	Pattern Matching for switch (Fourth Preview)
-- 434:	Foreign Function & Memory API (Second Preview)
-- 436:	Virtual Threads (Second Preview)
-- 437:	Structured Concurrency (Second Incubator)
-- 438:	Vector API (Fifth Incubator)
+- 429: Scoped Values (Incubator)
+- 432: Record Patterns (Second Preview)
+- 433: Pattern Matching for switch (Fourth Preview)
+- 434: Foreign Function & Memory API (Second Preview)
+- 436: Virtual Threads (Second Preview)
+- 437: Structured Concurrency (Second Incubator)
+- 438: Vector API (Fifth Incubator)
 
 ## [JDK 21](https://openjdk.org/projects/jdk/21/)
 
-- 430:	String Templates (Preview)
-- 431:	Sequenced Collections
-- 439:	Generational ZGC
-- 440:	Record Patterns
-- 441:	Pattern Matching for switch
-- 442:	Foreign Function & Memory API (Third Preview)
-- 443:	Unnamed Patterns and Variables (Preview)
-- 444:	Virtual Threads
-- 445:	Unnamed Classes and Instance Main Methods (Preview)
-- 446:	Scoped Values (Preview)
-- 448:	Vector API (Sixth Incubator)
-- 449:	Deprecate the Windows 32-bit x86 Port for Removal
-- 451:	Prepare to Disallow the Dynamic Loading of Agents
-- 452:	Key Encapsulation Mechanism API
-- 453:	Structured Concurrency (Preview)
+- 430: String Templates (Preview)
+- 431: Sequenced Collections
+- 439: Generational ZGC
+- 440: Record Patterns
+- 441: Pattern Matching for switch
+- 442: Foreign Function & Memory API (Third Preview)
+- 443: Unnamed Patterns and Variables (Preview)
+- 444: Virtual Threads
+- 445: Unnamed Classes and Instance Main Methods (Preview)
+- 446: Scoped Values (Preview)
+- 448: Vector API (Sixth Incubator)
+- 449: Deprecate the Windows 32-bit x86 Port for Removal
+- 451: Prepare to Disallow the Dynamic Loading of Agents
+- 452: Key Encapsulation Mechanism API
+- 453: Structured Concurrency (Preview)
 
 ## [JDK 22](https://openjdk.org/projects/jdk/22/)
 
@@ -360,6 +360,54 @@ The *LTS*-marked releases are the Oracle Long-Term Support releases.
 - 481: Scoped Values (Third Preview)
 - 482: Flexible Constructor Bodies (Second Preview)
 
+## [JDK 24](https://openjdk.org/projects/jdk/24/)
+
+- 404: Generational Shenandoah (Experimental)
+- 450: Compact Object Headers (Experimental)
+- 472: Prepare to Restrict the Use of JNI
+- 475: Late Barrier Expansion for G1
+- 478: Key Derivation Function API (Preview)
+- 479: Remove the Windows 32-bit x86 Port
+- 483: Ahead-of-Time Class Loading & Linking
+- 484: Class-File API
+- 485: Stream Gatherers
+- 486: Permanently Disable the Security Manager
+- 487: Scoped Values (Fourth Preview)
+- 488: Primitive Types in Patterns, instanceof, and switch (Second Preview)
+- 489: Vector API (Ninth Incubator)
+- 490: ZGC: Remove the Non-Generational Mode
+- 491: Synchronize Virtual Threads without Pinning
+- 492: Flexible Constructor Bodies (Third Preview)
+- 493: Linking Run-Time Images without JMODs
+- 494: Module Import Declarations (Second Preview)
+- 495: Simple Source Files and Instance Main Methods (Fourth Preview)
+- 496: Quantum-Resistant Module-Lattice-Based Key Encapsulation Mechanism
+- 497: Quantum-Resistant Module-Lattice-Based Digital Signature Algorithm
+- 498: Warn upon Use of Memory-Access Methods in sun.misc.Unsafe
+- 499: Structured Concurrency (Fourth Preview)
+- 501: Deprecate the 32-bit x86 Port for Removal
+
+## [JDK 25](https://openjdk.org/projects/jdk/25/)
+
+- 470: PEM Encodings of Cryptographic Objects (Preview)
+- 502: Stable Values (Preview)
+- 503: Remove the 32-bit x86 Port
+- 505: Structured Concurrency (Fifth Preview)
+- 506: Scoped Values
+- 507: Primitive Types in Patterns, instanceof, and switch (Third Preview)
+- 508: Vector API (Tenth Incubator)
+- 509: JFR CPU-Time Profiling (Experimental)
+- 510: Key Derivation Function API
+- 511: Module Import Declarations
+- 512: Compact Source Files and Instance Main Methods
+- 513: Flexible Constructor Bodies
+- 514: Ahead-of-Time Command-Line Ergonomics
+- 515: Ahead-of-Time Method Profiling
+- 518: JFR Cooperative Sampling
+- 519: Compact Object Headers
+- 520: JFR Method Timing & Tracing
+- 521: Generational Shenandoah
+
 ---
 
 These are the "diffs" list given by the OpenJDK pages on each of the LTS release pages. In essence, these are rollups from one LTS release to the next.
@@ -368,160 +416,162 @@ These are the "diffs" list given by the OpenJDK pages on each of the LTS release
 
 ## Additions
 
-403: 	Strongly Encapsulate JDK Internals (17)
-390: 	Warnings for Value-Based Classes (16)
+403:  Strongly Encapsulate JDK Internals (17)
+390:  Warnings for Value-Based Classes (16)
 
 ### HotSpot JVM
-386: 	Alpine Linux Port (16)
-391: 	macOS/AArch64 Port (17)
-340: 	One AArch64 Port, Not Two (12)
-388: 	Windows/AArch64 Port (16)
+386:  Alpine Linux Port (16)
+391:  macOS/AArch64 Port (17)
+340:  One AArch64 Port, Not Two (12)
+388:  Windows/AArch64 Port (16)
 
 ### Flight Recorder
-349: 	JFR Event Streaming (14)
+349:  JFR Event Streaming (14)
 
 ### Garbage Collectors
-344: 	Abortable Mixed Collections for G1 (12)
-345: 	NUMA-Aware Memory Allocation for G1 (14)
-346: 	Promptly Return Unused Committed Memory from G1 (12)
-379: 	Shenandoah: A Low-Pause-Time Garbage Collector (15)
-377: 	ZGC: A Scalable Low-Latency Garbage Collector (15)
-376: 	ZGC: Concurrent Thread-Stack Processing (16)
+344:  Abortable Mixed Collections for G1 (12)
+345:  NUMA-Aware Memory Allocation for G1 (14)
+346:  Promptly Return Unused Committed Memory from G1 (12)
+379:  Shenandoah: A Low-Pause-Time Garbage Collector (15)
+377:  ZGC: A Scalable Low-Latency Garbage Collector (15)
+376:  ZGC: Concurrent Thread-Stack Processing (16)
 
 ### Run-Time System
-341: 	Default CDS Archives (12)
-350: 	Dynamic CDS Archives (13)
-387: 	Elastic Metaspace (16)
-358: 	Helpful NullPointerExceptions (14)
+341:  Default CDS Archives (12)
+350:  Dynamic CDS Archives (13)
+387:  Elastic Metaspace (16)
+358:  Helpful NullPointerExceptions (14)
 
 ### Language
-394: 	Pattern Matching for instanceof (16)
-395: 	Records (16)
-306: 	Restore Always-Strict Floating-Point Semantics (17)
-409: 	Sealed Classes (17)
-361: 	Switch Expressions (14)
-378: 	Text Blocks (15)
+394:  Pattern Matching for instanceof (16)
+395:  Records (16)
+306:  Restore Always-Strict Floating-Point Semantics (17)
+409:  Sealed Classes (17)
+361:  Switch Expressions (14)
+378:  Text Blocks (15)
 
 ### Libraries
 
 #### 2D Graphics
-382: 	New macOS Rendering Pipeline (17)
+382:  New macOS Rendering Pipeline (17)
 
 #### Cryptography
-339: 	Edwards-Curve Digital Signature Algorithm (EdDSA) (15)
+339:  Edwards-Curve Digital Signature Algorithm (EdDSA) (15)
 
 #### I/O
-352: 	Non-Volatile Mapped Byte Buffers (14)
-380: 	Unix-Domain Socket Channels (16)
+352:  Non-Volatile Mapped Byte Buffers (14)
+380:  Unix-Domain Socket Channels (16)
 
 #### Networking
-373: 	Reimplement the Legacy DatagramSocket API (15)
-353: 	Reimplement the Legacy Socket API (13)
+373:  Reimplement the Legacy DatagramSocket API (15)
+353:  Reimplement the Legacy Socket API (13)
 
 #### Reflection & Method Handles
-371: 	Hidden Classes (15)
-334: 	JVM Constants API (12)
+371:  Hidden Classes (15)
+334:  JVM Constants API (12)
 
 #### Serialization
-415: 	Context-Specific Deserialization Filters (17)
+415:  Context-Specific Deserialization Filters (17)
 
 #### Utilities
-356: 	Enhanced Pseudo-Random Number Generators (17)
+356:  Enhanced Pseudo-Random Number Generators (17)
 
 ### Tools
-392: 	Packaging Tool (16)
+392:  Packaging Tool (16)
 
 ## Preview & incubating
 
 ### Language
-406: 	Pattern Matching for switch (Preview) (17)
+406:  Pattern Matching for switch (Preview) (17)
 
 ### Libraries
-412: 	Foreign Function & Memory API (Incubator) (17)
-414: 	Vector API (Second Incubator) (17)
+412:  Foreign Function & Memory API (Incubator) (17)
+414:  Vector API (Second Incubator) (17)
 
 ## Deprecations
 
 ### HotSpot JVM
-374: 	Deprecate and Disable Biased Locking (15)
-366: 	Deprecate the ParallelScavenge + SerialOld GC Combination (14)
+374:  Deprecate and Disable Biased Locking (15)
+366:  Deprecate the ParallelScavenge + SerialOld GC Combination (14)
 
 ### Libraries
-398: 	Deprecate the Applet API for Removal (17)
-411: 	Deprecate the Security Manager for Removal (17)
+398:  Deprecate the Applet API for Removal (17)
+411:  Deprecate the Security Manager for Removal (17)
 
 ## Removals
 
 ### HotSpot JVM
-363: 	Remove the Concurrent Mark Sweep (CMS) Garbage Collector (14)
-410: 	Remove the Experimental AOT and JIT Compiler (17)
-381: 	Remove the Solaris and SPARC Ports (15)
+363:  Remove the Concurrent Mark Sweep (CMS) Garbage Collector (14)
+410:  Remove the Experimental AOT and JIT Compiler (17)
+381:  Remove the Solaris and SPARC Ports (15)
 
 ### Libraries
-407: 	Remove RMI Activation (17)
-372: 	Remove the Nashorn JavaScript Engine (15)
+407:  Remove RMI Activation (17)
+372:  Remove the Nashorn JavaScript Engine (15)
 
 ### Tools
-367: 	Remove the Pack200 Tools and API (14)
+367:  Remove the Pack200 Tools and API (14)
 
 # JDK 17 -> 21
 
 ## Additions
 
 ### HotSpot JVM
-422: 	Linux/RISC-V Port (19)
+422:  Linux/RISC-V Port (19)
 
 #### Garbage Collectors
-439: 	Generational ZGC (21)
+439:  Generational ZGC (21)
 
 #### Serviceability
-451: 	Prepare to Disallow the Dynamic Loading of Agents (21)
+451:  Prepare to Disallow the Dynamic Loading of Agents (21)
 
 ### Language
-441: 	Pattern Matching for switch (21)
-440: 	Record Patterns (21)
+441:  Pattern Matching for switch (21)
+440:  Record Patterns (21)
 
 ### Libraries
-444: 	Virtual Threads (21)
+444:  Virtual Threads (21)
 
 #### Collections
-431: 	Sequenced Collections (21)
+431:  Sequenced Collections (21)
 
 #### Cryptography
-452: 	Key Encapsulation Mechanism API (21)
+452:  Key Encapsulation Mechanism API (21)
 
 #### I/O
-400: 	UTF-8 by Default (18)
+400:  UTF-8 by Default (18)
 
 #### Networking
-418: 	Internet-Address Resolution SPI (18)
-408: 	Simple Web Server (18)
+418:  Internet-Address Resolution SPI (18)
+408:  Simple Web Server (18)
 
 #### Reflection & Method Handles
-416: 	Reimplement Core Reflection with Method Handles (18)
+416:  Reimplement Core Reflection with Method Handles (18)
 
 ### Tools
 
 #### JavaDoc
-413: 	Code Snippets in Java API Documentation (18)
+413:  Code Snippets in Java API Documentation (18)
 
 ## Preview & Incubating
 
 ### Language
-430: 	String Templates (Preview) (21)
-445: 	Unnamed Classes and Instance Main Methods (Preview) (21)
-443: 	Unnamed Patterns and Variables (Preview) (21)
+430:  String Templates (Preview) (21)
+445:  Unnamed Classes and Instance Main Methods (Preview) (21)
+443:  Unnamed Patterns and Variables (Preview) (21)
 
 ### Libraries
-442: 	Foreign Function & Memory API (Third Preview) (21)
-446: 	Scoped Values (Preview) (21)
-453: 	Structured Concurrency (Preview) (21)
-448: 	Vector API (Sixth Incubator) (21)
+442:  Foreign Function & Memory API (Third Preview) (21)
+446:  Scoped Values (Preview) (21)
+453:  Structured Concurrency (Preview) (21)
+448:  Vector API (Sixth Incubator) (21)
 
 ## Deprecations
 
 ### HotSpot JVM
-449: 	Deprecate the Windows 32-bit x86 Port for Removal (21)
+449:  Deprecate the Windows 32-bit x86 Port for Removal (21)
 
 ### Libraries
-421: 	Deprecate Finalization for Removal (18)
+421:  Deprecate Finalization for Removal (18)
+
+# JDK 21 -> 25
