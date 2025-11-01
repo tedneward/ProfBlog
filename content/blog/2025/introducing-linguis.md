@@ -52,3 +52,5 @@ Next steps at this point are to introduce the first parser (and the core interfa
 Naturally, if you feel like tossing in a hand, particularly if you want to take a crack at introducing a new syntax, it's a public repo for a reason. :-)
 
 But, otherwise, thanks for reading!
+
+**UPDATE 31 Oct 2025:** Linguis is getting closer to "done" for the US-English keyword set! Basic scalar types (booleans, ints, floating-point, strings) are in place, along with the core maths (+, -, *, /. %. ^) and comparison (==, !=, <, >, <=, =>) operators. I've also discarded my custom AST in favor of going straight to the Python AST objects--for the US-English parser, for example, the parse returns a Python `ast.Module` object suitable for compilation and execution. (Yes, compilation--Python is an interpreted language, but the method call to turn the source into an executable code object is called `compile`.) I'm working to add lists and function defintions/calls, fix some of the missing pieces (unary negation, the boolean operators, etc), and then pivot to implementing the second parser... Pig Latin!
