@@ -2,7 +2,7 @@ title=2026 Tech Predictions
 date=2026-1-1
 type=post
 tags=predictions
-status=draft
+status=published
 description=Technology and related predictions for 2026.
 ~~~~~~
 It's that time of the year again, when I make predictions for the upcoming year. As has become my tradition now for almost two decades, I will first go back over last years' predictions, to see how well I called it (and keep me honest), then wax prophetic on what I think the new year has to offer us.
