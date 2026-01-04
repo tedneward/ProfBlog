@@ -133,6 +133,7 @@ But if we look at the intent of the prediction, what I was really going after wa
 
 ## 2026 Predictions
 <div id="2026" />
+
 So now let's turn our head to 2026.
 
 As I do every year, each prediction comes with a probability factor (*p*) that ranges anywhere from 0.0 to 1.0, with most predictions appearing in the 0.3 to 0.8 range. This is a trick I picked up from my International Relations days, where political prediction briefings often came with a similar kind of probability as a way of offering a "confidence" factor. Anything higher than a 0.8 means "We're pretty damn sure", and anything less than 0.3 means "We're including it mostly out of completeness but we don't expect it."
@@ -211,7 +212,9 @@ If your business is built on software, there's a strong probability that your bi
 So if you're a software development shop, how do you cut the expenses of your software developers?
 
 * **You look for ways to make software development faster.** After all, faster means fewer hours means less cost (because cost = hourly rate x hours). We see it, everywhere along the way, in the way that new programming languages are marketed, new tools are sold, or new practices are introduced. They might vary in their message, but everywhere, somewhere, there's a prominent tagline about "greater productivity". Remember the 4GLs of the 90s?
+
 * **You look for ways to make software development cheaper.** "Hey, maybe if we go find software developers in countries with way lower standards of living, we can pay them less to do the same work." Alternatively, we also saw the rise of "coding bootcamps" that promised to take people with no coding background whatsoever and turn them into software developers in just twelve months--no, nine--no, *six*--no, no, you fools, ***overnight***. Naturally, it gave rise to [scams](https://www.jezebel.com/students-claim-a-west-virginia-nonprofit-promising-to-t-1834703462) and [lawsuits](https://www.nytimes.com/2019/05/12/us/mined-minds-west-virginia-coding.html).
+
 * **You look for ways to avoid software development entirely.** In macroeconomic terms, what substitute goods/services[^substitute] can we use to get what we need? In common parlance, this translates to "What if we use something that doesn't require software developers yet still builds software?"
 
 If some of you are old enough to remember CASE tools in the late 80s or the UML tools in the late 90s, those were both plays to avoid software development, though in retrospect it's easy to see how neither one really dodged the basic need, which is "You have to understand the problem deeply enough to be able to figure out how the software should work to solve it."
