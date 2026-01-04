@@ -77,9 +77,7 @@ My professional blog, blogs.newardassociates.com
 
 * DevRel Topics
 
-    * 
-
 * Architecture
 
     * Walking through a kata
-    * 
+
