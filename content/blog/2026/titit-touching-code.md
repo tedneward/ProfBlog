@@ -62,8 +62,6 @@ But it won't generate the code the same way given the same inputs, and that's de
 
 * Will we need the same number of developers (proportionally speaking) as we used three years ago? Probably not, but it's hard to say for sure. Going into and coming out of COVID was such a market-muddling event, it skewed lots of things in very extreme ways, making it a little unreasonable to draw as a "norm" to which we will return. That said, though, the Internet disruption of thirty years ago vastly accelerated the demand for developers, so that's a reasonable inference as well.
 
-----
-
 [^1]: I should mention, because it might be relevant, I chose Tic-Tac-Toe primarily because it should be something that agents can understand pretty quickly and easily, and so therefore I'm minimizing the variables involved in the experiment. Also, just for the record, as I have [documented elsewhere](/blog/2026/titit-local-ai), I prefer running local LLMs rather than cloud-hosted ones.
 
 [^2]: Something about how now the context window incorporates the failed effort and the LLM can learn from that and produce a better result.
