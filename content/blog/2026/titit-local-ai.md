@@ -81,6 +81,8 @@ But the crux of the situation is this:
 
 All of which will be safe-harbored by those who are thinking about local-first LLM-hosted stacks.
 
+**EDIT, 6 April 2026:** The recent [Anthropic ban on OpenClaw](https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban) is essentially shutting down the use of Claude subscriptions to run third-party harnesses like Open Claw; "Instead, if users want to use OpenClaw with Claude, they’ll have to use a “pay-as-you-go option” that will be billed separate from their Claude subscription." There's a fair number of reasons they might do this, but one is definitely cost. This is an interesting development, to say the least.
+
 #### The Security of Hermitude
 
 Actually there's a third (er, fourth?) possibility that can generate cash for the AI companies, one which most SaaS companies have proven is entirely too tempting to ignore: (d) We sell your data to the highest bidder.
