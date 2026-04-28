@@ -2,7 +2,7 @@ title=Things I Think I Think... Agents and (Visual) FoxPro
 date=2026-4-28
 type=post
 tags=thinking, disruption, ai, llm, coding agent, code
-status=draft
+status=published
 description=Mulling out loud (and defending) why I think coding agents are giving us benefits similar to that of FoxPro.
 ~~~~~~
 
