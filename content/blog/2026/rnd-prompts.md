@@ -3,7 +3,7 @@ date=2026-4-28
 type=post
 tags=thinking, ai, llm, coding agent, code
 status=published
-description=Mulling out loud (and defending) why I think coding agents are here to stay, just as IDEs came to be as well.
+description=Diving into a semi-scientific study of the impact had by specifying the "role" of an LLM model at the start of a prompt.
 ~~~~~~
 
 As part of diving into the whole "LLM" world of AI, I kept running across all these "prompt engineering best practices". One of those which persists to this day is that of identifying the "role" the LLM engine is to play in crafting its answer. The justification for it is that it helps the LLM decide what perspective to take and how much description (or what kind of description) to provide, and so on, but I've never yet run across anyone who could definitively explain why this matters, or spelunked just how fine-grained the role descriptor needed to be.
