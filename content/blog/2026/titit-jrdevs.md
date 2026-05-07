@@ -1,4 +1,4 @@
-title=Things I Think I Think... Disruption
+title=Things I Think I Think... about Junior Developers
 date=2026-5-6
 type=post
 tags=thinking, disruption, developer relations, ai, llm, coding agent, history
