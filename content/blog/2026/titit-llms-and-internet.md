@@ -6,7 +6,7 @@ status=published
 description=Mulling out loud (and defending) why I think the next few years are a new "Internet Era".
 ~~~~~~
 
-Unless you are not yet old enough to drink, or lived out in a shack above the treeline in a mountain range, you probably remember to some degree the "Internet Era". Also known as the "Dot-Com Era" (along with its closely-releassed sequel, the "Dot-Bomb Era"), it was a time when the Internet was new, the boundaries were untested, and everyone's credulity was pushed out to the utter limits.
+Unless you are not yet old enough to drink, or lived out in a shack above the treeline in a mountain range, you probably remember to some degree the "Internet Era". Also known as the "Dot-Com Era" (along with its closely-released sequel, the "Dot-Bomb Era"), it was a time when the Internet was new, the boundaries were untested, and everyone's credulity was pushed out to the utter limits.
 
 The reason I bring this up, of course, is that current thinking among AI critics holds that we are on the cusp of a "post-bubble" AI phase. That is to say, the "AI bubble" (which is a real thing, I hold that as axiomatic) is going to pop any day now, and when it does, all kinds of chaos and terribleness is unleashed. However, I draw different conclusions out of the "Dot-Com/Bomb" eras, mostly because (a) I already feel like I know the bubble is going to burst, so I don't have any real questions there, but (b) I want to know what's going to survive the silicon "pop" and what's not. And by "what" I mean "who"--which companies will survive the shift and which won't?
 
