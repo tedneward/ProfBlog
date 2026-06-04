@@ -6,7 +6,7 @@ status=published
 description=Continuing a study started by Chad Fowler about the "default language" of an LLM.
 ~~~~~~
 
-Chad Fowler did an interesting study and posted about it to LinkedIN, in which he asked the question, "" I thought, "What about local LLMs? Does that change the conversation at all?"
+Chad Fowler did an interesting study and posted about it to LinkedIN, in which he asked the question, "if I ask Claude / GPT / Gemini for "a script that..." or "a small web app for...", what am I going to get back?" I thought, "What about local LLMs? Does that change the conversation at all?"
 
 <!--more-->
 
