@@ -1,5 +1,5 @@
 title=Book Review: Architecting at Scale
-date=2025-11-24
+date=2026-11-24
 type=post
 tags=book, book review, software architecture
 status=published

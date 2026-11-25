@@ -1,5 +1,5 @@
 title=Book Review: Software Architecture Made Simple
-date=2025-11-24
+date=2026-11-24
 type=post
 tags=book, book review, software architecture, simplicity
 status=published

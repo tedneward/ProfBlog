@@ -6,11 +6,20 @@ status=draft
 description=Mulling out loud why I think defending Mr Huang's actions are wrong-headed and a reflection of certain peoples' blindness to the impact management has.
 ~~~~~~
 
-I'm seeing a great number of people on LinkedIN with titles of "CEO" or "Founder" or "Management Coach" recently posting there on how Mr Huang's ouster from NVIDIA is terrible--terrible either because the news was first broken by a leak/whistleblower, or because it's an affair, or because it's "bad for America", and so on. I worry that this is an indicator of a larger management failing in American management style: Anything can be forgiven if it generates a profit.
+Jensen Huang recently was forced to step down from his role as CEO at NVidia, and less than two weeks later was brought back by the intervention of none other than the President of the United States. He was greeted by cheering employees on his return, but this story carries with it so many red flags that openly question the mindset of his defenders and apologists.
 
 <!--more-->
 
-It seems without doubt by this point that several facts are entered into the category of "unquestionable" evidence: (a) Jensen Huang, the longtime CEO of NVIDIA, had at least three extramarital affairs, two of which were with fellow employees of NVIDIA who reported (either directly or indirectly) to him, (b) NVIDIA has been a major proponent of the "AI Boom" that has driven the Mangificient Seven (Alphabet (GOOGL / GOOG), Amazon (AMZN), Apple (AAPL), Meta Platforms (META), Microsoft (MSFT), Nvidia (NVDA), and Tesla (TSLA)) sky-high and, possibly, propped up an otherwise anemic economy, (c) Huang resigned (whether voluntarily or involuntarily remains yet to be seen) when the NVIDIA board met to determine his fate, and (d) there is no established successor waiting in the wings to take his place.
+It seems without doubt by this point that several facts are entered into the category of "unquestionable" evidence, along with context that makes this an interesting case:
+
+* NVidia has been a major proponent of the "AI Boom" that has driven the Mangificient Seven (Alphabet (GOOGL / GOOG), Amazon (AMZN), Apple (AAPL), Meta Platforms (META), Microsoft (MSFT), Nvidia (NVDA), and Tesla (TSLA)) stock prices sky-high and, possibly, propped up an otherwise anemic economy.
+* Jensen Huang had at least four extramarital affairs, two of which were with fellow employees of NVidia who reported (either directly or indirectly) to him.
+* One of those women is Alice Huang (unrelated!), who is suspected by several government agencies as being closely tied to a Chinese spy service. Her firm is at the center of a pipeline that saw NVidia chips smuggled into China, and into Chinese weapons, both of which are explicitly against both US law and foreign policy.
+* Jensen also engaged in several deals designed to artificially prop up the price and demand for NVidia's chips and boards, deals which seem primarily geared towards propping up the value of the stock [^1].
+* Jensen resigned when the NVIDIA board met to determine his fate.
+* Upon seeing/hearing that numerous inviduals both within and without NVidia were clamoring for his return, Jensen contacted the board about returning to the role, and was rejected.
+* Trump then contacted the board members directly, and shortly thereafter the board voted to reinstate him as CEO.
+* There was (and still remains!) no established successor waiting in the wings to take his place.
 
 This is a long one, because there's a lot to unpack here. Go refill your water bottle so you can hydrate along the way with me.
 
