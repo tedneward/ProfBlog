@@ -22,11 +22,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # Build and upload the site in one job...
+  build:
     runs-on: ubuntu-latest
     steps:
       # Get the build
@@ -52,8 +49,28 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          # Upload entire repository
           path: './build/jbake'
+
+  # ...then deploy in a separate job. Deploying in the same job races the
+  # artifact service: the freshly finalized artifact can be invisible to
+  # deploy-pages for several seconds (actions/deploy-pages#451).
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # If the first lookup missed the artifact, give the metadata time to
+      # propagate and try once more before failing the job.
+      - name: Wait for artifact metadata
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - name: Retry deploy to GitHub Pages
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
