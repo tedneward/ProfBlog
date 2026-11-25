@@ -35,9 +35,16 @@ jobs:
       # Set up GH Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      # Pin a JDK supported by Gradle 8.12 (JVM 8-23); the runner default (Java 25)
+      # causes "Unsupported class file major version 69" during build script compilation.
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
       # Set up Gradle
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v4
       # Kick it off
       - name: Build with Gradle
         run: ./gradlew bake
