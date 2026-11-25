@@ -2,7 +2,7 @@ title=Things I Think I Think... On Mr Huang and Self-Imposed Blindness
 date=2026-11-25
 type=post
 tags=thinking, management, industry, stock market
-status=draft
+status=published
 description=Mulling out loud why I think defending Mr Huang's actions are wrong-headed and a reflection of certain peoples' blindness to the impact management has.
 ~~~~~~
 
